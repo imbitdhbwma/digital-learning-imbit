@@ -80,7 +80,7 @@
 								createDD("Ordne dem Process Owner und Process Manager die jeweiligen Aufgaben und Verantwortlichkeiten zu", [ "Prozess-Ziele festlegen","Einhaltung von KPI's überwachen","Definition des Prozesses", "Operative Ressourcenplanung"], [ "Process Owner","Process Manager" ], [ 2, 2, 1, 3, 1, 1, 4, 3, 2, 4, 3, 4 ]);
 								createDD("Ordne die folgenden Prozesse ihren ITIL Bänden zu:", [ "Service Level Management", "IT Service Continuity", "Service Portfolio Management", "Service Asset & Configuration Management" , "Financial Management", "Demand Management", "Incident Management", "Release Management", "Capacity Management", "Request Fulfillment", "Change Management", "Access Management" ], [ "Service Strategy","Service Design", "Service Transition", "Service Operation" ], [ 3, 2 ]);
 								createDD("Ordne die folgenden Rahmenvereinbarungen ihren jeweiligen Vertragspartner zu:", [ "Service Level Agreement (SLA)", "Operation Level Agreement (OLA)", "Underpinning Contract (UP)"], [ "Interne Einheiten","Kunden", "Lieferanten" ], [ 2, 1, 3 ]);
-								createDD("Ordne die folgenden Attribute den Asset Management und dem Configuration Management zu", [ "Personalnummer", "Standort", "Prozessor", "Abschreibungsbetrag",  "Betriebssystem", "Netzwerkanbindung" "Kostenstelle", "IT-Service" ], [ "Asset Management","Schnittstelle", "Configuration Management" ], [ 1, 2, 3, 1, 3, 3, 1, 2 ]);
+								createDD("Ordne die folgenden Attribute den Asset Management und dem Configuration Management zu", [ "Personalnummer", "Standort", "Prozessor", "Abschreibungsbetrag",  "Betriebssystem", "Netzwerkanbindung", "Kostenstelle", "IT-Service" ], [ "Asset Management","Schnittstelle", "Configuration Management" ], [ 1, 2, 3, 1, 3, 3, 1, 2 ]);
 								
 						//Demo Lückentext Aufgabe mit 4 Attributen: Frage als String, Lückentext als Array mit leerem String "" für jede Lücke, Antworten als Array und Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
 						createTQ( "Release Management",
@@ -111,7 +111,7 @@
 								"Immediate Recovery", "Hot Standby" ], [ 2, 1, 4, 3]);
 								
 								createTL("Vokabeltest. Ordnen Sie die englischen Begriffe den deutschen Begriffen zu.", [ "TCO (Total Cost of Ownership)", "Incident Management", "CI (Configuration Item)","Warranty", "Utility", "Downtime" , "Single Point of Failure", "RfC (Request for Change)", "Incident Report", "Process Owner" ], 
-									[ "Zweckmäßigkeit ", "Ticketdatensatz","Störungsmanagement", "Gebrauchstauglichkeit" "Konfigurationsobjekt", "Ausfallzeit", "Prozessverantwortlicher","Gesamtbetriebskosten", "einzelne Fehlerstelle", "Veränderungsantrag"  ], [ 8,3,5,4,1,6,9,10,2,7 ]);
+									[ "Zweckmäßigkeit ", "Ticketdatensatz","Störungsmanagement", "Gebrauchstauglichkeit", "Konfigurationsobjekt", "Ausfallzeit", "Prozessverantwortlicher","Gesamtbetriebskosten", "einzelne Fehlerstelle", "Veränderungsantrag"  ], [ 8,3,5,4,1,6,9,10,2,7 ]);
 						
 
 						showTheQuestion(count);
@@ -123,15 +123,7 @@
 </head>
 <body>
 
-	<video
-		id="video_background"
-		autoplay
-		muted
-		loop>
-		<source
-			src="../../img/Background.mp4"
-			type="video/mp4">
-	</video>
+	<!-- <video id="video_background" autoplay muted loop><source src="../../img/Background.mp4" type="video/mp4"></video> -->
 
 
 	<div id="content">
