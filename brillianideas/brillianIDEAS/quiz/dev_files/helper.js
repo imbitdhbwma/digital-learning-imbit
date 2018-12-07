@@ -298,7 +298,7 @@ function createTL(frage, antworten, container, richtig) {
 		td2div.id = "question" + n + "_box" + i;
 		td2div.className = "dropTable";
 		td2div.addEventListener('drop', function() {
-			dropDD(event, this)
+			dropTL(event, this)
 		});
 		td2div.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -354,7 +354,7 @@ function createOD(frage, antworten, richtig) {
 		box.id = "question" + n + "_box" + i;
 		box.className = "dropOrder";
 		box.addEventListener('drop', function() {
-			dropDD(event, this)
+			dropOD(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
