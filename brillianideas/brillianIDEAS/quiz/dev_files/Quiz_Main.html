@@ -43,19 +43,8 @@
 	type="text/javascript"
 	src="../dev_files/helper.js"></script>
 <link
-<<<<<<< HEAD
-<<<<<<< HEAD
 	rel="stylesheet"
 	href="../../css/fonts.css" />
-=======
-	rel="stylesheet" href="../../css/fonts.css"/>
-	<!--href="https://fonts.googleapis.com/css?family=Caveat+Brush"	rel="stylesheet">-->
->>>>>>> changed Quiz_Main.html in quiz dev_files to implement the new font folder
-=======
-	rel="stylesheet"
-	href="../../css/fonts.css" />
-<!--href="https://fonts.googleapis.com/css?family=Caveat+Brush"	rel="stylesheet">-->
->>>>>>> Auswertung Lückentext ergänzt
 
 <script>
 	//***********************
@@ -63,22 +52,14 @@
 	var count = 1;
 	var score = 0;
 	//***********************
-
 	//***********************
 	//Hier bitte Werte eintragen!
-<<<<<<< HEAD
 	var anzahlFragen = 6;
 	var maxScore = 6;
-=======
-	var anzahlFragen = 4;
-	var maxScore = 15;
->>>>>>> Auswertung Lückentext ergänzt
 	//***********************
-
 	$(document)
 			.ready(
 					function() {
-
 						//Demo Multiple Choice Aufgabe mit drei Attributen: Frage als String, Antworten als Array und Lösungen als Array mit 1=richtig, 0=falsch
 						createMC("TEST?", [ "A", "B", "C" ], [ 1, 1, 0 ]);
 						//Demo Single Choice Aufgabe mit drei Attributen: Frage als String, Antworten als Array und Lösungen als Array mit 1=richtig, 0=falsch
@@ -102,7 +83,6 @@
 										"aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." ],
 								[ "Antwort1", "Antwort2", "Antwort3",
 										"Antwort4" ], [ 4, 3, 2, 1 ]);
-<<<<<<< HEAD
 						//Demo Frage zur Reihenfolge mit 3 Attributen: Frage als STring, Antworten als Array und Lösungen als Array. Die Angegebene Zahl entspricht der Position des jeweiligen Elements. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
 						createOD("Frage zur Reihenfolge", [ "Test1", "Test2",
 								"Test3" ], [ 1, 2, 3 ]);
@@ -110,12 +90,6 @@
 						createTL("Übersetzungsfrage", [ "Test1", "Test2",
 								"Test3" ], [ "Wort1", "Wort2", "Wort3" ], [ 3, 2,
 								1 ]);
-=======
-					
-					
-					
->>>>>>> Auswertung Lückentext ergänzt
-
 						showTheQuestion(count);
 					});
 </script>
@@ -123,18 +97,6 @@
 
 </head>
 <body>
-
-	<video
-		id="video_background"
-		autoplay
-		muted
-		loop>
-		<source
-			src="../../img/Background.mp4"
-			type="video/mp4">
-	</video>
-
-
 	<div id="content">
 
 		<div
