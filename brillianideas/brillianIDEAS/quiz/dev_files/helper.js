@@ -104,7 +104,6 @@ function createDD(frage, antworten, container, richtig) {
 
 	var questiondiv = createHeader(frage, n);
 	questiondiv.setAttribute("data-type", "dd");
-<<<<<<< HEAD
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "dd" + n + "_answers";
@@ -132,44 +131,6 @@ function createDD(frage, antworten, container, richtig) {
 	}
 
 	for (i = 0; i < container.length; i++) {
-<<<<<<< HEAD
-	    //fullBox
-	    var fullBox = document.createElement("div");
-	    fullBox.id = "question"+n+"_fullBox"+i;
-	    fullBox.className = "fullBox";
-
-	    //textBox
-        var textBox = document.createElement("div");
-        textBox.id = "question"+n+"_textBox"+i;
-        fullBox.appendChild(textBox);
-
-	    //p
-        var p = document.createElement("p");
-        p.className = "box_text";
-        var pText = document.createTextNode(container[i]);
-        p.appendChild(pText);
-        textBox.appendChild(p);
-=======
-
-	var answersDiv = document.createElement("div");
-	answersDiv.id = "dd" + n + "_answers";
-	questiondiv.appendChild(answersDiv);
-
-	var i;
-	for (i = 0; i < antworten.length; i++) {
-		var p = document.createElement("p");
-		p.id = "question" + n + "_answer" + i;
-		p.className = "drag";
-		p.draggable = "true";
-		p.setAttribute("ondragstart", "drag(event)");
-		var pText = document.createTextNode(antworten[i]);
-		p.appendChild(pText);
-		answersDiv.appendChild(p);
-	}
->>>>>>> Auswertung Lückentext ergänzt
-
-        //box
-=======
 		// fullBox
 		var fullBox = document.createElement("div");
 		fullBox.id = "question" + n + "_fullBox" + i;
@@ -188,7 +149,6 @@ function createDD(frage, antworten, container, richtig) {
 		textBox.appendChild(p);
 
 		// box
->>>>>>> d69d5383cd2c4f8422b01b6fcdafff6e84f2f09d
 		var box = document.createElement("div");
 		box.id = "question" + n + "_box" + i;
 		box.className = "drop";
@@ -338,7 +298,7 @@ function createTL(frage, antworten, container, richtig) {
 		td2div.id = "question" + n + "_box" + i;
 		td2div.className = "dropTable";
 		td2div.addEventListener('drop', function() {
-			dropTL(event, this)
+			dropDD(event, this)
 		});
 		td2div.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -394,7 +354,7 @@ function createOD(frage, antworten, richtig) {
 		box.id = "question" + n + "_box" + i;
 		box.className = "dropOrder";
 		box.addEventListener('drop', function() {
-			dropOD(event, this)
+			dropDD(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -467,10 +427,6 @@ function findQuestionNumber() {
  */
 function evaluate() {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Auswertung Lückentext ergänzt
 	// läuft durch alle Fragen
 	for (var i = 1; i <= anzahlFragen; i++) {
 
@@ -497,104 +453,6 @@ function evaluate() {
 				}
 			}
 		}
-<<<<<<< HEAD
-=======
-    for (var i = 1; i < anzahlFragen; i++) {
-
-        var question = document.getElementById("question" + i);
-        console.log(question);
-        if (question.getAttribute("data-type").localeCompare("mc") === 0 || question.getAttribute("data-type").localeCompare("sc") === 0) {
-            var childrenInput = $("#question" + i).find("input").toArray();
-            var richtig = richtigArray.shift();
-
-            var gibMirPunkte = true;
-            if (childrenInput !== null) {
-                for (var j = 0; j < childrenInput.length; j++) {
-                    var child = childrenInput[j];
-                    console.log(child);
-                    console.log(child.checked);
-                    console.log(richtig);
-                    if (!(child.checked && (richtig[j] === 1) || !child.checked && (richtig[j] === 0))) {
-                        gibMirPunkte = false;
-                    }
-                }
-                if (gibMirPunkte) {
-                    score++;
-                }
-            }
-        }
-        else if (question.getAttribute("data-type").localeCompare("dd") === 0) {
-            var draggables = $("#question" + i).find(".drag").toArray();
-            var gibMirPunkte=true;
-            var anzahlAntworten = draggables.length;
-            // var draggables = $(".drag").toArray();
-            console.log(draggables);
-            var richtig = richtigArray.shift();
-            //Use jQuery Object of Question for these operations
-            var question = $('#question'+i);
-            // var boxes = question.find("div").toArray();
-            var boxes = $("#question"+i).find(".drop").toArray();
-
-            for (var k = 0; k < draggables.length; k++) {
-                // var closest = draggables[k].closest("div");
-                var father = document.getElementById("question"+i+"_answer"+k).parentNode;
-                if (!father.isSameNode(boxes[richtig[k]-1])) {
-                    gibMirPunkte=false;
-                }
-
-            }
-
-            if (gibMirPunkte){
-                score++;
-            }
-
-            //set the variable question to be the DOM representation of the element again (instead of jQuery)
-            var question = document.getElementById("question" + i);
-        }
-
-        else if (question.getAttribute("data-type").localeCompare("tq") === 0) {
-
-            var richtig = richtigArray.shift();
-
-
-        }
-
-
-    }
-=======
->>>>>>> Auswertung Lückentext ergänzt
-
-		// Falls die Frage eine Drag&Drop Aufgabe ist wird dieser Teil
-		// durchlaufen.
-		else if (question.getAttribute("data-type").localeCompare("dd") === 0) {
-			var draggables = $("#question" + i).find(".drag").toArray();
-			var gibMirPunkte = true;
-			var anzahlAntworten = draggables.length;
-			var richtig = richtigArray.shift();
-			var question = $('#question' + i);
-			var boxes = $("#question" + i).find(".drop").toArray();
-
-			for (var k = 0; k < draggables.length; k++) {
-				var father = document.getElementById("question" + i + "_answer"
-						+ k).parentNode;
-				if (!father.isSameNode(boxes[richtig[k] - 1])) {
-					gibMirPunkte = false;
-				}
-
-			}
-
-			if (gibMirPunkte) {
-				score++;
-			}
-
-			// set the variable question to be the DOM representation of the
-			// element again (instead of jQuery)
-			var question = document.getElementById("question" + i);
-		}
-
-<<<<<<< HEAD
-function evaluateDD() {
->>>>>>> evaluation of singular choice quizzes does now work
 
 		// Falls die Frage eine Drag&Drop Aufgabe ist wird dieser Teil
 		// durchlaufen.
@@ -682,16 +540,10 @@ function evaluateDD() {
 		// Falls die Frage ein Lückentext ist wird dieser Teil durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("tq") === 0) {
 
-=======
-		// Falls die Frage ein Lückentext ist wird dieser Teil durchlaufen.
-		else if (question.getAttribute("data-type").localeCompare("tq") === 0) {
-
->>>>>>> Auswertung Lückentext ergänzt
 			var question = document.getElementById("question" + i);
 
 			// lade die Lösungen zu dieser Frage in richtig
 			var richtig = richtigArray.shift();
-<<<<<<< HEAD
 
 			// finde alle <p> Kinder der Frage
 			var antworten = $("#question" + i).find("p").toArray();
@@ -718,33 +570,6 @@ function evaluateDD() {
 
 		}
 
-=======
-
-			// finde alle <p> Kinder der Frage
-			var antworten = $("#question" + i).find("p").toArray();
-
-			var gibMirPunkte = true;
-			//durchlaufe alle Antworten. Die ersten beiden Einträge werden übersprungen, da sie keine Antworten sind.
-			for (var j = 2; j < antworten.length - 2; j++) {
-				var antworttext = antworten[j].textContent;
-				// finde das Feld in dem die Antwort stehen sollte
-				var Feldnummer = richtig[j - 2];
-				var feld = document.getElementById("question" + i + "_blanc"
-						+ Feldnummer);
-				var feldtext = feld.value;
-				// vergleiche ob der Feldtext mit dem Antworttext übereinstimmt
-				if (antworttext !== feldtext) {
-					gibMirPunkte = false;
-				}
-
-			}
-			if (gibMirPunkte) {
-				score++;
-			}
-
-		}
-
->>>>>>> Auswertung Lückentext ergänzt
 	}
 
 }
