@@ -117,13 +117,12 @@ a:visited {
 		rgba(0, 0, 0, 0.19);
 }
 
-<<<<<<< HEAD
-.button a{
+.button a {
 	color: #991b33;
-=======
+}
+
 .antwortenliste{
     float:left;
     list-style-type:none;
     margin-right:30px;
->>>>>>> d69d5383cd2c4f8422b01b6fcdafff6e84f2f09d
 }
