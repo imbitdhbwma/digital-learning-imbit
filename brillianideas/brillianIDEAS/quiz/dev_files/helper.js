@@ -122,36 +122,35 @@ function createDD(frage, antworten, container, richtig) {
 	}
 
 	for (i = 0; i < container.length; i++) {
-	    //fullBox
-	    var fullBox = document.createElement("div");
-	    fullBox.id = "question"+n+"_fullBox"+i;
-	    fullBox.className = "fullBox";
+		// fullBox
+		var fullBox = document.createElement("div");
+		fullBox.id = "question" + n + "_fullBox" + i;
+		fullBox.className = "fullBox";
 
-	    //textBox
-        var textBox = document.createElement("div");
-        textBox.id = "question"+n+"_textBox"+i;
-        fullBox.appendChild(textBox);
+		// textBox
+		var textBox = document.createElement("div");
+		textBox.id = "question" + n + "_textBox" + i;
+		fullBox.appendChild(textBox);
 
-	    //p
-        var p = document.createElement("p");
-        p.className = "box_text";
-        var pText = document.createTextNode(container[i]);
-        p.appendChild(pText);
-        textBox.appendChild(p);
+		// p
+		var p = document.createElement("p");
+		p.className = "box_text";
+		var pText = document.createTextNode(container[i]);
+		p.appendChild(pText);
+		textBox.appendChild(p);
 
-        //box
+		// box
 		var box = document.createElement("div");
 		box.id = "question" + n + "_box" + i;
 		box.className = "drop";
 		box.addEventListener('drop', function() {
-			drop(event, this)
+			dropDD(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
 		});
 
-
-        fullBox.appendChild(box);
+		fullBox.appendChild(box);
 		questiondiv.appendChild(fullBox);
 	}
 
@@ -190,7 +189,7 @@ function createTQ(frage, text, antworten, richtig) {
 	var j = 0;
 	for (i = 0; i < text.length; i++) {
 		if (text[i] !== "") {
-			var TQText = document.createTextNode(" "+text[i]+" ");
+			var TQText = document.createTextNode(" " + text[i] + " ");
 			TextP.appendChild(TQText);
 			TextP.className = "text";
 		} else {
@@ -263,35 +262,34 @@ function createTL(frage, antworten, container, richtig) {
 		answersDiv.appendChild(p);
 	}
 
-	var table=document.createElement("table");
-	table.id="question" + n + "_table";
+	var table = document.createElement("table");
+	table.id = "question" + n + "_table";
 	questiondiv.appendChild(table);
-	var tr1= document.createElement("tr");
+	var tr1 = document.createElement("tr");
 	table.appendChild(tr1);
-	var th1=document.createElement("th");
+	var th1 = document.createElement("th");
 	tr1.appendChild(th1);
-	var th1label=document.createTextNode("Deutsch");
+	var th1label = document.createTextNode("Deutsch");
 	th1.appendChild(th1label);
-	var th2=document.createElement("th");
+	var th2 = document.createElement("th");
 	tr1.appendChild(th2);
-	var th2label=document.createTextNode("Englisch");
+	var th2label = document.createTextNode("Englisch");
 	th2.appendChild(th2label);
-	
-	
+
 	for (i = 0; i < container.length; i++) {
 		var zeile = document.createElement("tr");
 		table.appendChild(zeile);
-		var td1=document.createElement("td");
+		var td1 = document.createElement("td");
 		zeile.appendChild(td1);
-		var tdtext=document.createTextNode(container[i]);
+		var tdtext = document.createTextNode(container[i]);
 		td1.appendChild(tdtext);
-		var td2=document.createElement("td");
+		var td2 = document.createElement("td");
 		zeile.appendChild(td2);
-		var td2div=document.createElement("div");
-		td2div.id="question" + n + "_box" + i;
-		td2div.className="dropTable";
+		var td2div = document.createElement("div");
+		td2div.id = "question" + n + "_box" + i;
+		td2div.className = "dropTable";
 		td2div.addEventListener('drop', function() {
-			drop(event, this)
+			dropTL(event, this)
 		});
 		td2div.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -313,8 +311,8 @@ function createTL(frage, antworten, container, richtig) {
  *            Antwortmöglichkeiten als Array aus Strings
  * 
  * @param richtig
- *           Lösung als Array angeben 
- *           Inhalt des Arrays ist die Angabe der Positionen jeder einzelnen Antwort als Integer
+ *            Lösung als Array angeben Inhalt des Arrays ist die Angabe der
+ *            Positionen jeder einzelnen Antwort als Integer
  * @returns ein <div> tag mit der Frage
  */
 function createOD(frage, antworten, richtig) {
@@ -347,14 +345,14 @@ function createOD(frage, antworten, richtig) {
 		box.id = "question" + n + "_box" + i;
 		box.className = "dropOrder";
 		box.addEventListener('drop', function() {
-			drop(event, this)
+			dropOD(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
 		});
 		var p = document.createElement("p");
 		p.className = "box_textOrder";
-		var text = document.createTextNode(i+1);
+		var text = document.createTextNode(i + 1);
 		p.appendChild(text);
 		box.appendChild(p);
 		questiondiv.appendChild(box);
@@ -474,7 +472,7 @@ function evaluate() {
 			// element again (instead of jQuery)
 			var question = document.getElementById("question" + i);
 		}
-		
+
 		// Falls die Frage eine Reihenfolgen-Aufgabe ist wird dieser Teil
 		// durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("od") === 0) {
@@ -617,9 +615,32 @@ function drag(ev) {
 	ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev, el) {
+function dropTL(ev, el) {
 	ev.preventDefault();
 
+	console.log("Kinder: " + el.childNodes.length);
+	if (el.childNodes.length === 0) {
+		// data ist die ID des Elements, das verschoben wird
+		var data = ev.dataTransfer.getData("text");
+
+		el.appendChild(document.getElementById(data));
+	}
+}
+
+function dropOD(ev, el) {
+	ev.preventDefault();
+
+	console.log("Kinder: " + el.childNodes.length);
+	if (el.childNodes.length === 1) {
+		// data ist die ID des Elements, das verschoben wird
+		var data = ev.dataTransfer.getData("text");
+
+		el.appendChild(document.getElementById(data));
+	}
+}
+
+function dropDD(ev, el) {
+	ev.preventDefault();
 
 	// data ist die ID des Elements, das verschoben wird
 	var data = ev.dataTransfer.getData("text");
