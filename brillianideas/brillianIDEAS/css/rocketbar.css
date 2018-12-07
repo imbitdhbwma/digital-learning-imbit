@@ -21,7 +21,7 @@ JS as there is no or not sufficient CSS only solution. */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows:auto;
-  grid-template-areas: "imbit digitallearning icm crm wiki interactive video impressum";
+  grid-template-areas: "wiki icm crm imbit digitallearning interactive video impressum";
   /* grid-column-gap: 2vw; */
 }
 

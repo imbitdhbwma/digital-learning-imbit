@@ -91,7 +91,7 @@
 						createSC("Mit welchem Schlüsselwort kann die Eindeutigkeit eines Wertes sichergestellt werden?", [ "CHECK", "UNIQUE", "ONLY" ],[ 0, 1, 0 ]);
 
 						//Frage 10
-						createMC("Bei welchen der folgenden Funktionen handelt es sich um Aggregatfunktionen?", [ "PLUS", "MINUS", "AVG", "COUNT", "MAX", "MIN", "SUM", "DIVIDE" ], [ 0, 0, 1, 1, 1, 1, 1, 1, 0 ]);
+						createMC("Bei welchen der folgenden Funktionen handelt es sich um Aggregatfunktionen?", [ "PLUS", "MINUS", "AVG", "COUNT", "MAX", "MIN", "SUM", "DIVIDE" ], [ 0, 0, 1, 1, 1, 1, 1, 0 ]);
 
 						//Frage 11
 						createMC("Alle Kundennamen (Vor- und Nachname) aus der Relation 'Kunde' sollen ausgegeben werden. Kein Kundenname soll doppelt ausgegeben werden.", [ "SELECT DISTINCT Vorname, Nachname; FROM Kunde;", "SELECT Vorname, Nachname FROM Kunde;", "SELECT ONE Name FROM Kunde;", "SELECT DISTINCT Vorname, Nachname FROM Kunde;" ], [ 0, 0, 0, 1 ]);
@@ -121,7 +121,7 @@
 						createOD("Bringe die Speichersysteme bezüglich Kosten/Byte und Geschwindigkeit (absteigend) sowie Zugriffszeit und Speicherkapazität (aufsteigend) in die richtige Reihenfolge.", [ "main memory", "register/cache", "magnetic disk", "optical disk", "magnetic tape", "flash memory" ], [2, 1, 4, 5, 6, 3 ]);
 						
 						//Frage 20
-						createMC("Wie werden Daten in den Hauptspeicher übertragen?", [ "Blockweise", "Seitenweise", "Je ein Datensatz" ], [ 1, 0, 0, ]);
+						createSC("Wie werden Daten in den Hauptspeicher übertragen?", [ "Blockweise", "Seitenweise", "Je ein Datensatz" ], [ 1, 0, 0, ]);
 						
 						//Frage 21
 						createMC("Welche Anomalien können auftreten?", [ "Löschanomalien", "Updateanomalien", "Einfügeanomalien", "Cascadeanomalien" ], [ 1, 1, 1, 0 ]);
@@ -136,7 +136,7 @@
 						createSC("Wann muss auf alle Fälle die Organisationsform 'Spanned' verwendet werden?", [ "bfr=100", "bfr=10", "bfr=1", "bfr=0" ],[ 0, 0, 0, 1 ]);
 
 						//Frage 25
-						createMC("Aus welchen Operationen setzt sich die Löschoperation bei B-Bäumen zusammen?", [ "Rotation", "Turn", "Merge", "Spin", "Delete", "Insert"], [ 1, 0, 1, 0, 0, , 0 ]);
+						createMC("Aus welchen Operationen setzt sich die Löschoperation bei B-Bäumen zusammen?", [ "Rotation", "Turn", "Merge", "Spin", "Delete", "Insert"], [ 1, 0, 1, 0, 0, 0 ]);
 
 						//Frage 26
 						createSC("Die Ordnung eines B-Baumes in einem Computersystem kann nicht beliebig erhöht werden, da ein Knoten einem Block/einer Seite entspricht und Blöcke in einem Computersystem durch eine feste Größe begrenzt sind.", [ "Wahr", "Falsch" ] , [ 1, 0 ]);
