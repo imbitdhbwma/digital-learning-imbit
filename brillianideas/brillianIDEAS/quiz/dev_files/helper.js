@@ -109,6 +109,9 @@ function createDD(frage, antworten, container, richtig) {
 	answersDiv.id = "dd" + n + "_answers";
 	questiondiv.appendChild(answersDiv);
 
+	var liste=document.createElement("ul");
+	answersDiv.appendChild(liste);
+	
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var p = document.createElement("p");
@@ -118,7 +121,13 @@ function createDD(frage, antworten, container, richtig) {
 		p.setAttribute("ondragstart", "drag(event)");
 		var pText = document.createTextNode(antworten[i]);
 		p.appendChild(pText);
-		answersDiv.appendChild(p);
+		
+		var listEintrag=document.createElement("li");
+		listEintrag.className="antwortenliste";
+		
+		listEintrag.appendChild(p);
+		liste.appendChild(listEintrag);
+//		answersDiv.appendChild(p);
 	}
 
 	for (i = 0; i < container.length; i++) {
