@@ -144,7 +144,7 @@ function createDD(frage, antworten, container, richtig) {
 		box.id = "question" + n + "_box" + i;
 		box.className = "drop";
 		box.addEventListener('drop', function() {
-			drop(event)
+			drop(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -291,7 +291,7 @@ function createTL(frage, antworten, container, richtig) {
 		td2div.id="question" + n + "_box" + i;
 		td2div.className="dropTable";
 		td2div.addEventListener('drop', function() {
-			drop(event)
+			drop(event, this)
 		});
 		td2div.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -347,7 +347,7 @@ function createOD(frage, antworten, richtig) {
 		box.id = "question" + n + "_box" + i;
 		box.className = "dropOrder";
 		box.addEventListener('drop', function() {
-			drop(event)
+			drop(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
@@ -617,12 +617,12 @@ function drag(ev) {
 	ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev) {
+function drop(ev, el) {
 	ev.preventDefault();
 
 
 	// data ist die ID des Elements, das verschoben wird
 	var data = ev.dataTransfer.getData("text");
 
-	ev.target.appendChild(document.getElementById(data));
+	el.appendChild(document.getElementById(data));
 }
