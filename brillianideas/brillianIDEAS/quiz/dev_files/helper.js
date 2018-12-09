@@ -70,6 +70,7 @@ function createSC(frage, antworten, richtig) {
 		questionlabel.appendChild(questionlabeltext);
 		var questionlabelinput = document.createElement("input");
 		questionlabelinput.type = "radio";
+		questionlabelinput.name = "question_" + n + "radio";
 		questionlabelinput.id = "question" + n + "_answer" + i;
 		questionlabel.appendChild(questionlabelinput);
 		var questionlabelspan = document.createElement("span");
@@ -109,9 +110,9 @@ function createDD(frage, antworten, container, richtig) {
 	answersDiv.id = "dd" + n + "_answers";
 	questiondiv.appendChild(answersDiv);
 
-	var liste=document.createElement("ul");
+	var liste = document.createElement("ul");
 	answersDiv.appendChild(liste);
-	
+
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var p = document.createElement("p");
@@ -121,13 +122,13 @@ function createDD(frage, antworten, container, richtig) {
 		p.setAttribute("ondragstart", "drag(event)");
 		var pText = document.createTextNode(antworten[i]);
 		p.appendChild(pText);
-		
-		var listEintrag=document.createElement("li");
-		listEintrag.className="antwortenliste";
-		
+
+		var listEintrag = document.createElement("li");
+		listEintrag.className = "antwortenliste";
+
 		listEintrag.appendChild(p);
 		liste.appendChild(listEintrag);
-//		answersDiv.appendChild(p);
+		// answersDiv.appendChild(p);
 	}
 
 	for (i = 0; i < container.length; i++) {
