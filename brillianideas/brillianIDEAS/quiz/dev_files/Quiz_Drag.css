@@ -48,8 +48,9 @@
 }
 .titel{
     text-align: center;
+    color: #991b33;
     margin: 0px 0px 0px 0px;
     width: 300px; /*box breite anpassen, müssen übereinstimmen*/
-    background-color: black;
+    background-color: white;
 
 }
