@@ -165,8 +165,15 @@ bottom: 2vw;
 	top: 5vw;
 }
 
+.cursorb{
+	top: 0vw;
+}
+
 .ludoblau{
 	top: 35vh;
+}
+.ludoblauz{
+	top: 25vh;
 }
 
 .joystick{
@@ -573,10 +580,10 @@ bottom: 2vw;
     z-index:1;
 }
 
-#octo_arm_rechts_untenIT{
+#octo_arm_rechts_unten_IT{
 	position: absolute;
 	bottom: 0;
-	right: -20%;
+	right: -25%;
 	width: 40vw;
 	height: 30vh;
     z-index:1;
