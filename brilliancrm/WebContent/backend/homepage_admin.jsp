@@ -94,7 +94,7 @@
 										out.println("</td><td>");
 										out.println(row.get(2));
 										out.println("</td><td>");
-										out.println("<form action=\"" + application.getContextPath()
+										out.println("<form action=\"" + "http://brillianideas.com:8080/brillianCRM"
 												+ "/DeleteProfessor\" method=\"post\"><input class=\"deleteProfessor\" type=\"submit\" "
 												+ "value=\"Delete\" hidden=\"hidden\"/><a class=\"easyui-linkbutton\" onclick=\"$(this).parent().parent().find('.deleteProfessor').trigger('click');\">Delete</a><input type=\"text\" name=\"delete_professor\" value=\""
 												+ row.get(2) + "\" style=\"display:none\"/></form>");
