@@ -108,7 +108,7 @@ function createDD(frage, antworten, container, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antworten";
-	answersDiv.className = "draganddrop";
+//	answersDiv.className = "draganddrop";
 	questiondiv.appendChild(answersDiv);
 
 	var i;
@@ -126,7 +126,7 @@ function createDD(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	boxenDiv.className = "draganddrop";
+//	boxenDiv.className = "draganddrop";
 	questiondiv.appendChild(boxenDiv);
 
 	for (i = 0; i < container.length; i++) {
@@ -310,7 +310,7 @@ function createTL(frage, antworten, container, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antworten";
-	answersDiv.className = "draganddrop";
+//	answersDiv.className = "draganddrop";
 	questiondiv.appendChild(answersDiv);
 
 	var i;
@@ -328,7 +328,7 @@ function createTL(frage, antworten, container, richtig) {
 	
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	boxenDiv.className = "draganddrop";
+//	boxenDiv.className = "draganddrop";
 	questiondiv.appendChild(boxenDiv);
 	
 
