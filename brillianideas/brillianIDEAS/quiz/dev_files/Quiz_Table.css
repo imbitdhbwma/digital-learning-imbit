@@ -4,7 +4,7 @@
     /*border: 1px solid #aaaaaa;*/
     float: left;
 
-    background: #eee;
+    background: #591220;
     border: solid #991B33;
     border-radius: 10px;
 }
@@ -24,6 +24,6 @@ td {
 }
 
 table, th, td {
-	border: 3px solid black;
+	/* border: 3px solid black; */
 	
 }

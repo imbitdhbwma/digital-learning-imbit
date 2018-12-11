@@ -387,49 +387,106 @@ function createTL(frage, antworten, container, richtig) {
  */
 function createOD(frage, antworten, richtig) {
 
-	richtigArray.push(richtig);
+    richtigArray.push(richtig);
 
-	var n = findQuestionNumber();
+    var n = findQuestionNumber();
 
-	var questiondiv = createHeader(frage, n);
-	questiondiv.setAttribute("data-type", "od");
+    var questiondiv = createHeader(frage, n);
+    questiondiv.setAttribute("data-type", "od");
 
-	var answersDiv = document.createElement("div");
-	answersDiv.id = "od" + n + "_answers";
-	questiondiv.appendChild(answersDiv);
+    var answersDiv = document.createElement("div");
+    answersDiv.id = "antwortenOD";
+    answersDiv.className = "orderQuiz";
+    questiondiv.appendChild(answersDiv);
 
-	var i;
-	for (i = 0; i < antworten.length; i++) {
-		var p = document.createElement("p");
-		p.id = "question" + n + "_answer" + i;
-		p.className = "dragOrder";
-		p.draggable = "true";
-		p.setAttribute("ondragstart", "drag(event)");
-		var pText = document.createTextNode(antworten[i]);
-		p.appendChild(pText);
-		answersDiv.appendChild(p);
-	}
+    var i;
+    for (i = 0; i < antworten.length; i++) {
+        var p = document.createElement("p");
+        p.id = "question" + n + "_answer" + i;
+        p.className = "dragOD";
+        p.draggable = "true";
+        p.setAttribute("ondragstart", "drag(event)");
+        var pText = document.createTextNode(antworten[i]);
+        p.appendChild(pText);
 
-	for (i = 0; i < antworten.length; i++) {
-		var box = document.createElement("div");
-		box.id = "question" + n + "_box" + i;
-		box.className = "dropOrder";
-		box.addEventListener('drop', function() {
-			dropOD(event, this)
-		});
-		box.addEventListener('dragover', function() {
-			allowDrop(event)
-		});
-		var p = document.createElement("p");
-		p.className = "box_textOrder";
-		var text = document.createTextNode(i + 1);
-		p.appendChild(text);
-		box.appendChild(p);
-		questiondiv.appendChild(box);
-	}
+        answersDiv.appendChild(p);
+    }
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
+    var boxenDiv = document.createElement("div");
+    boxenDiv.id = "boxenOD";
+    boxenDiv.className = "orderQuiz";
+    questiondiv.appendChild(boxenDiv);
+
+    for (i = 0; i < antworten.length; i++) {
+        var box = document.createElement("div");
+        box.id = "question" + n + "_Box" + i;
+        box.className = "dropboxOD";
+        box.addEventListener('drop', function() {
+            dropOD(event, this)
+        });
+        box.addEventListener('dragover', function() {
+            allowDrop(event)
+        });
+
+        var boxTitel=document.createElement("p");
+        boxTitel.className="titelOD";
+        var titelText=document.createTextNode(i+1);
+        boxTitel.appendChild(titelText);
+
+        box.appendChild(boxTitel);
+
+        boxenDiv.appendChild(box);
+    }
+
+    var contentdiv = document.getElementById("content");
+    contentdiv.append(questiondiv);
+
+
+
+    //
+	// richtigArray.push(richtig);
+    //
+	// var n = findQuestionNumber();
+    //
+	// var questiondiv = createHeader(frage, n);
+	// questiondiv.setAttribute("data-type", "od");
+    //
+	// var answersDiv = document.createElement("div");
+	// answersDiv.id = "od" + n + "_answers";
+	// questiondiv.appendChild(answersDiv);
+    //
+	// var i;
+	// for (i = 0; i < antworten.length; i++) {
+	// 	var p = document.createElement("p");
+	// 	p.id = "question" + n + "_answer" + i;
+	// 	p.className = "dragOrder";
+	// 	p.draggable = "true";
+	// 	p.setAttribute("ondragstart", "drag(event)");
+	// 	var pText = document.createTextNode(antworten[i]);
+	// 	p.appendChild(pText);
+	// 	answersDiv.appendChild(p);
+	// }
+    //
+	// for (i = 0; i < antworten.length; i++) {
+	// 	var box = document.createElement("div");
+	// 	box.id = "question" + n + "_box" + i;
+	// 	box.className = "dropOrder";
+	// 	box.addEventListener('drop', function() {
+	// 		dropOD(event, this)
+	// 	});
+	// 	box.addEventListener('dragover', function() {
+	// 		allowDrop(event)
+	// 	});
+	// 	var p = document.createElement("p");
+	// 	p.className = "box_textOrder";
+	// 	var text = document.createTextNode(i + 1);
+	// 	p.appendChild(text);
+	// 	box.appendChild(p);
+	// 	questiondiv.appendChild(box);
+	// }
+    //
+	// var contentdiv = document.getElementById("content");
+	// contentdiv.append(questiondiv);
 
 }
 /**

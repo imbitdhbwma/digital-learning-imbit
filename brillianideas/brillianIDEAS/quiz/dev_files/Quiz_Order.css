@@ -1,41 +1,56 @@
-.dropOrder {
-	width: 20%;
-	height: 40px;
-	/*border: 1px solid #aaaaaa;*/
-	float: none;
-	padding: 0px 20px 0px 0px;
-	margin: 6px;
-	background: #eee;
-	border: 3px solid #991B33;
-	border-radius: 10px;
+/* CSS for both boxes around answers and drop boxes */
+.orderQuiz{
+	font-size: 30px;
+	border: blue solid 2px;
 
 }
+/* Draggable answers */
 
-.dragOrder {
-	/* border: solid red 2px;*/
-	width:10%;
-	height:1%;
+.dragOD{
+	margin: 5px 0px 5px 0px;
+	padding: 0px 15px 0px 15px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
 }
 
-#answers {
-	/* border: solid green 3px;*/
-	margin-bottom: 3%;
-	float: left;
-	padding: 0px 20px 20px 20px;
-	width: 100px;
-	margin-right: 3%;
+#antwortenOD{
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	position: absolute;
 }
 
-
-.box_textOrder {
+/* drop box*/
+#boxenOD{
+	display: block;
+	position: absolute;
+	right: 4.5%;
+	min-height: 5%;
+	max-width: 54%;
+	width: 59%;
+	min-width: 20%;
+}
+.dropboxOD{
+	display: block;
+	float: right;
+	margin: 5px 10px 5px 10px;
+	padding: 0px 0px 35px 0px;
+	border: 5px solid white;
+	min-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	max-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	min-height: 75px;
 	color: white;
-	width:15%;
-	margin-top: 0px;
 	background-color: #591220;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.titelOD{
+	text-align: center;
 	margin: 0px 0px 0px 0px;
-	padding-left: 10px;	
-	height:100%;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
-	border-bottom: #991B33 solid 3px;
+	width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	background-color: black;
+
 }
