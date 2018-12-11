@@ -16,7 +16,7 @@
 #antworten {
 	display: flex;
 	flex-direction: column;
-	max-width: 40%;
+	max-width: 35%;
 	position: absolute;
 }
 
@@ -24,10 +24,9 @@
 #boxen {
 	display: block;
 	position: absolute;
-	right: 4.5%;
+	right: 5%;
 	min-height: 5%;
 	max-width: 54%;
-	width: 59%;
 	min-width: 20%;
 	
 }
