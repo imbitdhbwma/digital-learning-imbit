@@ -107,11 +107,9 @@ function createDD(frage, antworten, container, richtig) {
 	questiondiv.setAttribute("data-type", "dd");
 
 	var answersDiv = document.createElement("div");
-	answersDiv.id = "dd" + n + "_answers";
+	answersDiv.id = "antworten";
+	answersDiv.className = "draganddrop";
 	questiondiv.appendChild(answersDiv);
-
-	var liste = document.createElement("ul");
-	answersDiv.appendChild(liste);
 
 	var i;
 	for (i = 0; i < antworten.length; i++) {
@@ -123,51 +121,40 @@ function createDD(frage, antworten, container, richtig) {
 		var pText = document.createTextNode(antworten[i]);
 		p.appendChild(pText);
 
-		var listEintrag = document.createElement("li");
-		listEintrag.className = "antwortenliste";
-
-		listEintrag.appendChild(p);
-		liste.appendChild(listEintrag);
-		// answersDiv.appendChild(p);
+		answersDiv.appendChild(p);
 	}
 
+	var boxenDiv = document.createElement("div");
+	boxenDiv.id = "boxen";
+	boxenDiv.className = "draganddrop";
+	questiondiv.appendChild(boxenDiv);
+
 	for (i = 0; i < container.length; i++) {
-		// fullBox
-		var fullBox = document.createElement("div");
-		fullBox.id = "question" + n + "_fullBox" + i;
-		fullBox.className = "fullBox";
-
-		// textBox
-		var textBox = document.createElement("div");
-		textBox.id = "question" + n + "_textBox" + i;
-		fullBox.appendChild(textBox);
-
-		// p
-		var p = document.createElement("p");
-		p.className = "box_text";
-		var pText = document.createTextNode(container[i]);
-		p.appendChild(pText);
-		textBox.appendChild(p);
-
-		// box
 		var box = document.createElement("div");
-		box.id = "question" + n + "_box" + i;
-		box.className = "drop";
+		box.id = "question" + n + "_Box" + i;
+		box.className = "dropbox";
 		box.addEventListener('drop', function() {
 			dropDD(event, this)
 		});
 		box.addEventListener('dragover', function() {
 			allowDrop(event)
 		});
-
-		fullBox.appendChild(box);
-		questiondiv.appendChild(fullBox);
+		
+		var boxTitel=document.createElement("p");
+		boxTitel.className="titel";
+		var titelText=document.createTextNode(container[i]);
+		boxTitel.appendChild(titelText);
+		
+		box.appendChild(boxTitel);
+		
+		boxenDiv.appendChild(box);
 	}
 
 	var contentdiv = document.getElementById("content");
 	contentdiv.append(questiondiv);
 
 }
+
 /**
  * Eine Lückentext Frage anlegen
  * 
@@ -373,13 +360,13 @@ function createOD(frage, antworten, richtig) {
 
 }
 /**
- * Erstellt den Header einer Frage und den div für die Antwortmöglichkeiten
+ * Erstellt den div der Frage und fügt den Header mit dem Fragentext ein.
  * 
  * @param frage
  *            Text der Frage als String
  * @param n
  *            Nummer der zu erstellenden Frage
- * @returns div für die Antwortmöglichkeiten
+ * @returns div der Frage
  */
 function createHeader(frage, n) {
 
@@ -459,11 +446,13 @@ function evaluate() {
 		// durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("dd") === 0) {
 			var draggables = $("#question" + i).find(".drag").toArray();
+			console.log("anzahl antworten: "+draggables.length);
 			var gibMirPunkte = true;
 			var anzahlAntworten = draggables.length;
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
-			var boxes = $("#question" + i).find(".drop").toArray();
+			var boxes = $("#question" + i).find(".dropbox").toArray();
+			console.log("anzahl boxen: "+boxes.length);
 
 			for (var k = 0; k < draggables.length; k++) {
 				var father = document.getElementById("question" + i + "_answer"
