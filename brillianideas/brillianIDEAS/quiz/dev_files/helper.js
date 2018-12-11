@@ -605,12 +605,12 @@ function evaluate() {
 		// Falls die Frage eine Reihenfolgen-Aufgabe ist wird dieser Teil
 		// durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("od") === 0) {
-			var draggables = $("#question" + i).find(".dragOrder").toArray();
+			var draggables = $("#question" + i).find(".dragOD").toArray();
 			var gibMirPunkte = true;
 			var anzahlAntworten = draggables.length;
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
-			var boxes = $("#question" + i).find(".dropOrder").toArray();
+			var boxes = $("#question" + i).find(".dropboxOD").toArray();
 
 			for (var k = 0; k < draggables.length; k++) {
 				var father = document.getElementById("question" + i + "_answer"
