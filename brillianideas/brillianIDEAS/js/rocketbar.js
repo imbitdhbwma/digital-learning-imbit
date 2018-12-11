@@ -17,14 +17,14 @@
 	 * @param {Integer} speed: Dauer der toggle-Animation (in millisecs)
 */
 function expstickybar(usersetting){
-	var setting=jQuery.extend({position:'bottom', peekamount:30, revealtype:'mouseover', speed:200}, usersetting)
-	var thisbar=this
-	var cssfixedsupport=!document.all || document.all && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //check for CSS fixed support
+	var setting=jQuery.extend({position:'bottom', peekamount:30, revealtype:'mouseover', speed:200}, usersetting);
+	var thisbar=this;
+	var cssfixedsupport=!document.all || document.all && document.compatMode=="CSS1Compat" && window.XMLHttpRequest; //check for CSS fixed support
 	if (!cssfixedsupport || window.opera)
-		return
+		return;
 	$(function(){
 		if (setting.externalcontent){
-			thisbar.$ajaxstickydiv=$('<div id="ajaxstickydiv_'+setting.id+'"></div>').appendTo(document.body) //create blank div to house sticky bar DIV
+			thisbar.$ajaxstickydiv=$('<div id="ajaxstickydiv_'+setting.id+'"></div>').appendTo(document.body); //create blank div to house sticky bar DIV
 			thisbar.loadcontent(setting)
 			}
 		else
@@ -36,11 +36,11 @@ function expstickybar(usersetting){
 expstickybar.prototype={
 
 	loadcontent:function(setting){
-		var thisbar=this
+		var thisbar=this;
 		$.ajax({
 			url: setting.externalcontent
 		}).done(function(content){
-			thisbar.$ajaxstickydiv.html(content)
+			thisbar.$ajaxstickydiv.html(content);
 			thisbar.init(setting)
 		})
 
@@ -71,7 +71,7 @@ expstickybar.prototype={
 	},
 	
 	toggle:function(){
-		var state=(this.currentstate=="show")? "hide" : "show"
+		var state=(this.currentstate=="show")? "hide" : "show";
 		this.showhide(state, true)
 	},
 
@@ -117,7 +117,7 @@ expstickybar.prototype={
 			}
  		});
 	}
-}
+};
 
 
 var mystickybar=new expstickybar({

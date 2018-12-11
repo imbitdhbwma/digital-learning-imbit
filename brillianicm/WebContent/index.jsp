@@ -265,7 +265,7 @@ body {
 						</div>
 					</div>
 				</div>
-			</a> <a href="${pageContext.request.contextPath}/Main">
+			</a> <a href="http://brillianideas.com:8080/brillianICM/Main">
 				<div class="col-md-2 col-sm-3 ">
 					<div class="card">
 						<div class="card-image">

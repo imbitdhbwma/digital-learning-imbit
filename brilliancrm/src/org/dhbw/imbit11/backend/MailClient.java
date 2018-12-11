@@ -1,15 +1,11 @@
 package org.dhbw.imbit11.backend;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.NoSuchProviderException;
-import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.AddressException;
