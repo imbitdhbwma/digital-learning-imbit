@@ -1,7 +1,7 @@
 /* CSS for both boxes around answers and drop boxes */
 .orderQuiz{
 	font-size: 30px;
-	border: blue solid 2px;
+	/*border: blue solid 2px;*/
 
 }
 /* Draggable answers */
@@ -24,7 +24,7 @@
 
 /* drop box*/
 #boxenOD{
-	display: block;
+
 	position: absolute;
 	right: 4.5%;
 	min-height: 5%;
@@ -33,9 +33,9 @@
 	min-width: 20%;
 }
 .dropboxOD{
-	display: block;
-	float: right;
-	margin: 5px 10px 5px 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0px 5px 400px;
 	padding: 0px 0px 35px 0px;
 	border: 5px solid white;
 	min-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
