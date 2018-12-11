@@ -46,6 +46,7 @@
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	border-radius: 10px;
 }
 
 .titel {
@@ -54,6 +55,5 @@
 	margin: 0px 0px 0px 0px;
 	width: 300px; /*box breite anpassen, müssen übereinstimmen*/
 	background-color: white;
-	border-radius: 10px;
 	text-shadow: none;
 }
