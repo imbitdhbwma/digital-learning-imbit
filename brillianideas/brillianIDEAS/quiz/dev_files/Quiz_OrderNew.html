@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<link
+	rel="shortcut icon"
+	href="../../img/favicon.ico"
+	type="image/x-icon">
+<meta charset="UTF-8">
+<title>Demo Quiz</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/main.css" />
+
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_checkbox.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Drag.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Radiobutton.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Text.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Table.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Order.css" />
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	type="text/javascript"
+	src="../dev_files/helper.js"></script>
+<link
+	rel="stylesheet"
+	href="../../css/fonts.css" />
+
+<script>
+	function allowDrop(ev) {
+		ev.preventDefault();
+	}
+
+	function drag(ev) {
+		ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+	function drop(ev) {
+		ev.preventDefault();
+		var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+	}
+</script>
+
+
+</head>
+<body>
+	<div id="content">
+
+		<div
+			id="gz"
+			class="questionclass">
+			<p id="supergeil"></p>
+		</div>
+
+	</div>
+	<div id="next_button_div">
+		<button
+			style="vertical-align: middle"
+			class="button"
+			type="button">
+			<a
+				href="#"
+				id="next_button"
+				onclick="nextButtonClick()">Weiter</a>
+		</button>
+	</div>
+
+	<div id="back_button_div">
+		<button
+			style="vertical-align: middle"
+			class="button"
+			type="button">
+			<a
+				href="#"
+				id="back_button"
+				onclick="backButtonClick()">Zurück</a>
+		</button>
+	</div>
+
+	<!-- Order New -->
+	<div
+		class="questionclass"
+		id="question5"
+		data-type="od"
+		style="">
+		<div class="header">
+			<p class="question">Frage zur Reihenfolge</p>
+		</div>
+		<div
+			id="antworten"
+			class="draganddrop">
+			<p
+				id="question5_answer0"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test1</p>
+			<p
+				id="question5_answer1"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test2</p>
+			<p
+				id="question5_answer2"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test3</p>
+		</div>
+		<div
+			id="boxen"
+			class="draganddrop">
+			<div
+				id="question5_box0"
+				class="dropOrder"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">1</p>
+			</div>
+			<div
+				id="question5_box1"
+				class="dropOrder"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">2</p>
+			</div>
+			<div
+				id="question5_box2"
+				class="dropOrder"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">3</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
