@@ -6,7 +6,7 @@
 	href="../../img/favicon.ico"
 	type="image/x-icon">
 <meta charset="UTF-8">
-<title>ComSys Quiz</title>
+<title>ComSys</title>
 <link
 	rel="stylesheet"
 	type="text/css"
@@ -64,10 +64,18 @@
 					function() {
 
 						//Frage 1
-						createDD("Was beschreibt verbindungslose und verbindungsorientierte Kommunikation?", 
-							[ "Verbindung vor Kommunikation", "Keine Empfangsbestätgung", "Bytestrom in Segmenten", "Keine Verbindung vor Kommunikation", "Neue Übertragung bei Fehler", "Unabhängige Nachrichtenübertragung", "Datenstrom reguliert"], 
-							[ "Verbindungsorientiert","Verbindungslos" ], 
-							[ 1, 2, 1, 2, 1, 2, 1]);
+						createDD(
+								"Was beschreibt verbindungslose und verbindungsorientierte Kommunikation?",
+								[ "Verbindung vor Kommunikation",
+										"Keine Empfangsbestätgung",
+										"Bytestrom in Segmenten",
+										"Keine Verbindung vor Kommunikation",
+										"Neue Übertragung bei Fehler",
+										"Unabhängige Nachrichtenübertragung",
+										"Datenstrom reguliert" ], [
+										"Verbindungsorientiert",
+										"Verbindungslos" ], [ 1, 2, 1, 2, 1, 2,
+										1 ]);
 						//Frage 2
 						createTQ(
 								"Was ist der Unterschied zwischen einem leitungsvermittelndem und einem paketvermittelndem Netz?",
@@ -79,22 +87,45 @@
 										". Beim leitungsvermittelnden Netz sind",
 										"",
 										"Pfade möglich, parallele Kommunikation ist",
-										"",
-										"." ],
-								[ "unmöglich", "dynamische", "exklusive", "möglich"], 
-								[ 4, 1, 3, 2 ]);						
+										"", "." ], [ "unmöglich", "dynamische",
+										"exklusive", "möglich" ],
+								[ 4, 1, 3, 2 ]);
 						//Frage 3
-						createDD("Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 1)", 
-							[ "Routing der Datenpakete", "Physische Schicht", "Segmentierung der Pakete in Frames", "Netzwerk-Schicht", "Hinzufügen von Prüfsummen", "Umwandlung der Bits in Signal", "Data Link", "physikalische Übertragung", "Funktionen für Anwendung"], 
-							[ "1. Schicht","2. Schicht", "3. Schicht" ], 
-							[ 3, 1, 2, 3, 2, 1, 2, 1]);
+						createDD(
+								"Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 1)",
+								[ "Routing der Datenpakete",
+										"Physische Schicht",
+										"Segmentierung der Pakete in Frames",
+										"Netzwerk-Schicht",
+										"Hinzufügen von Prüfsummen",
+										"Umwandlung der Bits in Signal",
+										"Data Link",
+										"physikalische Übertragung",
+										"Funktionen für Anwendung" ], [
+										"1. Schicht", "2. Schicht",
+										"3. Schicht" ], [ 3, 1, 2, 3, 2, 1, 2,
+										1 ]);
 						//Frage 4
-						createDD("Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 2)", 
-							[ "Kommunikation", "Umwandlung in unabhängiges Format", "Transport", "Dateneingabe und -Ausgabe", "Steuerung der Verbindung", "Anwendung", "Zuordnung der Datenpakete", "Darstellung", ""], 
-							[ "4. Schicht","5. Schicht", "6. Schicht", "7. Schicht" ], 
-							[ 2, 3, 1, 4, 2, 4, 1, 3, 4]);
+						createDD(
+								"Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 2)",
+								[ "Kommunikation",
+										"Umwandlung in unabhängiges Format",
+										"Transport",
+										"Dateneingabe und -Ausgabe",
+										"Steuerung der Verbindung",
+										"Anwendung",
+										"Zuordnung der Datenpakete",
+										"Darstellung", "" ], [ "4. Schicht",
+										"5. Schicht", "6. Schicht",
+										"7. Schicht" ], [ 2, 3, 1, 4, 2, 4, 1,
+										3, 4 ]);
 						//Frage 5
-						createSC("Was versteht man unter Datenkapselung im ISO-/OSI-Modell?", [ "Die zu versendenden Daten werden vor dem Zugriff von außen geschützt.", "Die zu versendenden Daten werden mit Informationen ergänzt.", "Die zu versendenden Daten werden vom Stromkreis getrennt." ],
+						createSC(
+								"Was versteht man unter Datenkapselung im ISO-/OSI-Modell?",
+								[
+										"Die zu versendenden Daten werden vor dem Zugriff von außen geschützt.",
+										"Die zu versendenden Daten werden mit Informationen ergänzt.",
+										"Die zu versendenden Daten werden vom Stromkreis getrennt." ],
 								[ 0, 1, 0 ]);
 						//Frage 6
 						createTQ(
@@ -105,31 +136,68 @@
 										". Die",
 										"",
 										"Topologie beschreibt, wie die Komponenten miteinander",
-										"",
-										"." ],
-								[ "kommunizieren", "verbunden sind", "logische"], 
-								[ 3, 1, 2 ]);							
+										"", "." ], [ "kommunizieren",
+										"verbunden sind", "logische" ], [ 3, 1,
+										2 ]);
 						//Frage 7
-						createSC("Was ist ein Socket im Kontext von Kommunikationssystemen?", [ "Ein logischer Endpunkt einer Verbindung.", "Ein semantischer Knoten in einer Verbindung.", "Ein Steckplatz für Computerprozessoren." ],
+						createSC(
+								"Was ist ein Socket im Kontext von Kommunikationssystemen?",
+								[
+										"Ein logischer Endpunkt einer Verbindung.",
+										"Ein semantischer Knoten in einer Verbindung.",
+										"Ein Steckplatz für Computerprozessoren." ],
 								[ 1, 0, 0 ]);
 						//Frage 8
-						createSC("Multiplexing und Demultiplexing beschreiben welchen Vorgang?", [ "Das Verstärken von Leitungssignalen in einem kabelgebundenen Netzwerk.", "Das Verschlüsseln und Entschlüsseln von Daten in einem Heimnetzwerk.", "Das Packen und Entpacken von Daten verschiedener Sockets." ],
+						createSC(
+								"Multiplexing und Demultiplexing beschreiben welchen Vorgang?",
+								[
+										"Das Verstärken von Leitungssignalen in einem kabelgebundenen Netzwerk.",
+										"Das Verschlüsseln und Entschlüsseln von Daten in einem Heimnetzwerk.",
+										"Das Packen und Entpacken von Daten verschiedener Sockets." ],
 								[ 0, 0, 1 ]);
 						//Frage 9
-						createSC("Was trifft auf das Netzwerkprotokoll UDP zu?", [ "UDP baut vor dem Senden der Daten eine Verbindung auf und hat eine Fehlerkontrolle.", "UDP ist verbindungslos und hat keine Fehlerkontrolle." ],
+						createSC(
+								"Was trifft auf das Netzwerkprotokoll UDP zu?",
+								[
+										"UDP baut vor dem Senden der Daten eine Verbindung auf und hat eine Fehlerkontrolle.",
+										"UDP ist verbindungslos und hat keine Fehlerkontrolle." ],
 								[ 0, 1 ]);
 						//Frage 10
-						createMC("Welche Aussagen treffen auf ein Netzwerk in Ringstruktur zu?", 
-							[ "Alle Teilnehmer werden an einen zentralen Knoten angeschlossen", "Bei Ausfall eines Knotens sind sämtliche Kommunikationswege unterbrochen", "Jeder Teilnehmer ist nur mit seinem linken und rechten Partner verbunden", "Bei Ausfall der Zentrale sind sämtliche Kommunikationswege unterbrochen", "Es gibt keine Zentrale und keine Knoten", "Bei Ausfall einer Station bleibt die Kommunikation der anderen Stationen erhalten", "Alle Stationen sind Knoten, es gibt keinen zentralen Knoten", "Die Verbindung aller Teilnehmer erfolgt über einen gemeinsamen seperaten Übertragungsweg" ], 
-							[ 0, 1, 1, 0, 0, 0, 0, 1, 0 ]);
+						createMC(
+								"Welche Aussagen treffen auf ein Netzwerk in Ringstruktur zu?",
+								[
+										"Alle Teilnehmer werden an einen zentralen Knoten angeschlossen",
+										"Bei Ausfall eines Knotens sind sämtliche Kommunikationswege unterbrochen",
+										"Jeder Teilnehmer ist nur mit seinem linken und rechten Partner verbunden",
+										"Bei Ausfall der Zentrale sind sämtliche Kommunikationswege unterbrochen",
+										"Es gibt keine Zentrale und keine Knoten",
+										"Bei Ausfall einer Station bleibt die Kommunikation der anderen Stationen erhalten",
+										"Alle Stationen sind Knoten, es gibt keinen zentralen Knoten",
+										"Die Verbindung aller Teilnehmer erfolgt über einen gemeinsamen seperaten Übertragungsweg" ],
+								[ 0, 1, 1, 0, 0, 0, 0, 1, 0 ]);
 						//Frage 11
-						createSC("Was ist ein Datagramm?", [ "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die den Verlauf eines Datenpakets beschreibt.", "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die zwischen zwei Endpunkten verschickt wird.", "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die die Sicherheit eines Datenpakets beschreibt." ],
+						createSC(
+								"Was ist ein Datagramm?",
+								[
+										"Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die den Verlauf eines Datenpakets beschreibt.",
+										"Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die zwischen zwei Endpunkten verschickt wird.",
+										"Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die die Sicherheit eines Datenpakets beschreibt." ],
 								[ 0, 1, 0 ]);
 						//Frage 12
-						createSC("Was beschreibt die IP-Fragmentierung?", [ "Die Aufteilung eines Datagramms auf mehrere Blöcke, falls die Gesamtlänge größer als die Maximum Transmission Unit der Netzwerkschnittstelle ist.", "Die Vertauschung von Blöcken in Datagrammen, die durch Speicherung in den Netzwerkschnittstellen hervorgerufen wird.", "Die Aufteilung eines Datagramms auf mehrere Blöcke bei der Speicherung der Daten beim ISP." ],
+						createSC(
+								"Was beschreibt die IP-Fragmentierung?",
+								[
+										"Die Aufteilung eines Datagramms auf mehrere Blöcke, falls die Gesamtlänge größer als die Maximum Transmission Unit der Netzwerkschnittstelle ist.",
+										"Die Vertauschung von Blöcken in Datagrammen, die durch Speicherung in den Netzwerkschnittstellen hervorgerufen wird.",
+										"Die Aufteilung eines Datagramms auf mehrere Blöcke bei der Speicherung der Daten beim ISP." ],
 								[ 1, 0, 0 ]);
 						//Frage 13
-						createSC("Wozu dient DHCP?", [ "DHCP (Dual Hyper Core Protocol) ermöglicht die Zuweisung von Prozessorkernen in Routern.", "DHCP (Dipper Host Calculation Protocoll) ermöglicht die genaue Berechnung von IP-Adressen im Internet.", "DHCP (Dynamic Host Configuration Protocol) ermöglicht die Zuweisung der Netzwerkkonfiguration an Clients durch einen Server." ],
+						createSC(
+								"Wozu dient DHCP?",
+								[
+										"DHCP (Dual Hyper Core Protocol) ermöglicht die Zuweisung von Prozessorkernen in Routern.",
+										"DHCP (Dipper Host Calculation Protocoll) ermöglicht die genaue Berechnung von IP-Adressen im Internet.",
+										"DHCP (Dynamic Host Configuration Protocol) ermöglicht die Zuweisung der Netzwerkkonfiguration an Clients durch einen Server." ],
 								[ 0, 0, 1 ]);
 						//Frage 14
 						createTQ(
@@ -146,13 +214,24 @@
 										"mit der Original-Ressource zu involvieren. Befindet sich die gesuchte Ressource im Zwischenspeicher (",
 										"",
 										"), wird sie von dort aus übertragen. Ist die Ressource nicht dort, wird sie zuerst vom Original-Server geladen und dann übertragen." ],
-								[ "Cache", "Clients", "Proxy", "Server", "Browser" ], 
-								[ 5, 3, 1, 4, 2 ]);
+								[ "Cache", "Clients", "Proxy", "Server",
+										"Browser" ], [ 5, 3, 1, 4, 2 ]);
 						//Frage 15
-						createTL("Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu.", [ "Communication Protocol", "Application", "Session", "Physical Layer", "Checksum", "Data Encapsulation", "Topology", "Network Layer", "Connection", "Fragmentation" ], 
-							[ "Sitzung", "Prüfsumme", "Kommunikationsprotokoll", "Fragmentierung", "Verbindung", "Datenkapselung", "Anwendung", "Vermittlungsschicht", "Topologie", "Bitübertragungsschicht" ], 
-							[ 3, 7,	1, 10, 2, 6, 9, 8, 5, 4]);
-						
+						createTL(
+								"Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu.",
+								[ "Communication Protocol", "Application",
+										"Session", "Physical Layer",
+										"Checksum", "Data Encapsulation",
+										"Topology", "Network Layer",
+										"Connection", "Fragmentation" ], [
+										"Sitzung", "Prüfsumme",
+										"Kommunikationsprotokoll",
+										"Fragmentierung", "Verbindung",
+										"Datenkapselung", "Anwendung",
+										"Vermittlungsschicht", "Topologie",
+										"Bitübertragungsschicht" ], [ 3, 7, 1,
+										10, 2, 6, 9, 8, 5, 4 ]);
+
 						showTheQuestion(count);
 					});
 </script>

@@ -45,7 +45,6 @@
 <link
 	rel="stylesheet"
 	href="../../css/fonts.css" />
-<!--href="https://fonts.googleapis.com/css?family=Caveat+Brush"	rel="stylesheet">-->
 
 <script>
 	//***********************
@@ -60,10 +59,20 @@
 	var maxScore = 15;
 	//***********************
 
-$(document)
+	$(document)
 			.ready(
 					function() {
-						createMC("Welche Merkmale treffen auf das externe Rechnungswesen zu?", [ "Frei von gesetzlichen Vorschriften", "Vergangenheitsbezogen", "An gesetzliche Vorschriften gebunden", "Freie Gestaltung", "Aufgaben: Dokumentation, Rechenschaftslegung, Information, Kontrolle", "Zukunftsbezogen", "Aufgaben: Kostenrechnung, Planungsrechnung" ], [ 0, 1, 1, 0, 1, 0, 0 ]);
+						createMC(
+								"Welche Merkmale treffen auf das externe Rechnungswesen zu?",
+								[
+										"Frei von gesetzlichen Vorschriften",
+										"Vergangenheitsbezogen",
+										"An gesetzliche Vorschriften gebunden",
+										"Freie Gestaltung",
+										"Aufgaben: Dokumentation, Rechenschaftslegung, Information, Kontrolle",
+										"Zukunftsbezogen",
+										"Aufgaben: Kostenrechnung, Planungsrechnung" ],
+								[ 0, 1, 1, 0, 1, 0, 0 ]);
 						createTQ(
 								"Bilanz und GuV",
 								[
@@ -78,12 +87,19 @@ $(document)
 										"erfasst",
 										"",
 										"innerhalb eines Geschäftsjahres, daher sind",
-										"",
-										"relevant."],
-								[ "Stromgrößen", "Gewinn- und Verlustrechnung", "Bilanz", "Aufwendungen und Erträge", "Aktiva und Passiva",
-										"Bestandsgrößen" ], [ 6, 4, 1, 5, 2, 3 ]);
-						createDD("Ordne folgende Positionen der jeweiligen Bilanzseite zu!", [ "Forderungen", "Rückstellungen", "Maschinen", "Gezeichnetes Kapital", "Grundstücke", "Darlehen", "Kapitalrücklagen", "Gebäude", "Gewinnrücklagen", "Fuhrpark" ], [ "Aktiva",
-								"Passiva" ], [ 1, 2, 1, 2, 1, 2, 2, 1, 2, 1 ]);
+										"", "relevant." ],
+								[ "Stromgrößen", "Gewinn- und Verlustrechnung",
+										"Bilanz", "Aufwendungen und Erträge",
+										"Aktiva und Passiva", "Bestandsgrößen" ],
+								[ 6, 4, 1, 5, 2, 3 ]);
+						createDD(
+								"Ordne folgende Positionen der jeweiligen Bilanzseite zu!",
+								[ "Forderungen", "Rückstellungen", "Maschinen",
+										"Gezeichnetes Kapital", "Grundstücke",
+										"Darlehen", "Kapitalrücklagen",
+										"Gebäude", "Gewinnrücklagen",
+										"Fuhrpark" ], [ "Aktiva", "Passiva" ],
+								[ 1, 2, 1, 2, 1, 2, 2, 1, 2, 1 ]);
 						createTQ(
 								"Geschäftsvorfälle",
 								[
@@ -96,35 +112,64 @@ $(document)
 										"(z.B. Kauf von Rostoffen in bar) oder",
 										"",
 										"(z.B. Tilgung eines Kontokorrentkredits durch Aufnahme eines Darlehens). Eine Erfolgsbuchung kann das Eigenkapital entweder erhöhen \(",
-										"",
-										"\) oder mindern\ (",
-										"",
-										"\)."],
-								[ "Aktivtausch", "Aufwendung", "Bilanzverkürzung", "Ertrag", "Bilanzverlängerung",
-										"Passivtausch" ], [ 3, 6, 2, 5, 1, 4 ]);
-						createMC("Welche der folgenden Geschäftsvorfälle sind erfolgswirksam?", [ "Rohstoffeinkauf in bar", "Zahlung einer Verbindlichkeit", "Verkauf von eigenen Erzeugnissen auf Ziel", "Aufnahme eines Darlehens", "Rohstoffe gehen in die Produktion", "Maschine wird abgeschrieben", "Miete für Lagerhalle wird bezahlt", "Darlehenszinsen werden gezahlt" ], [ 0, 0, 1, 0, 1, 1, 1, 1 ]);
-						createSC("Was gehört nicht zu einem Jahresabschluss nach HGB?", [ "Bilanz", "Lagebericht", "Anhang (bei Kapitalgesellschaften)", "Gewinn – und Verlustrechnung" ],
-								[ 0, 1, 0, 0 ]);
-						createDD("Kapitalgesellschaft oder Personengesellschaft?", [ "KGaA", "KG", "OHG", "AG", "GmbH", "GbR" ], [ "Kapitalgesellschaft",
-								"Personengesellschaft" ], [ 1, 2, 2, 1, 1, 2 ]);
-						createTQ(
-								"Buchungstechnik",
+										"", "\) oder mindern\ (", "", "\)." ],
+								[ "Aktivtausch", "Aufwendung",
+										"Bilanzverkürzung", "Ertrag",
+										"Bilanzverlängerung", "Passivtausch" ],
+								[ 3, 6, 2, 5, 1, 4 ]);
+						createMC(
+								"Welche der folgenden Geschäftsvorfälle sind erfolgswirksam?",
 								[
-										"Bei Konten auf der Aktivseite werden",
-										"",
-										"und",
-										"",
-										"gebucht. Auf der Passivseite werden",
-										"",
-										"und",
-										"",
-										"gebucht." ],
-								[ "Zugänge im Haben", "Abgänge im Haben", "Zugänge im Soll",
-										"Abgänge im Soll" ], [ 3, 2, 1, 4 ]);
-						createSC("Welche Komponente zählt nicht zu den Anschaffungskosten nach §255 HGB?", [ "Anschaffungspreis", "Umsatzsteuer", "Anschaffungsnebenkosten", "Nachträgliche Anschaffungskosten", "Anschaffungspreisminderungen", "Vertriebskosten / Sondereinzelkosten des Vertriebs" ],
+										"Rohstoffeinkauf in bar",
+										"Zahlung einer Verbindlichkeit",
+										"Verkauf von eigenen Erzeugnissen auf Ziel",
+										"Aufnahme eines Darlehens",
+										"Rohstoffe gehen in die Produktion",
+										"Maschine wird abgeschrieben",
+										"Miete für Lagerhalle wird bezahlt",
+										"Darlehenszinsen werden gezahlt" ], [
+										0, 0, 1, 0, 1, 1, 1, 1 ]);
+						createSC(
+								"Was gehört nicht zu einem Jahresabschluss nach HGB?",
+								[ "Bilanz", "Lagebericht",
+										"Anhang (bei Kapitalgesellschaften)",
+										"Gewinn – und Verlustrechnung" ], [ 0,
+										1, 0, 0 ]);
+						createDD(
+								"Kapitalgesellschaft oder Personengesellschaft?",
+								[ "KGaA", "KG", "OHG", "AG", "GmbH", "GbR" ], [
+										"Kapitalgesellschaft",
+										"Personengesellschaft" ], [ 1, 2, 2, 1,
+										1, 2 ]);
+						createTQ("Buchungstechnik", [
+								"Bei Konten auf der Aktivseite werden", "",
+								"und", "",
+								"gebucht. Auf der Passivseite werden", "",
+								"und", "", "gebucht." ], [ "Zugänge im Haben",
+								"Abgänge im Haben", "Zugänge im Soll",
+								"Abgänge im Soll" ], [ 3, 2, 1, 4 ]);
+						createSC(
+								"Welche Komponente zählt nicht zu den Anschaffungskosten nach §255 HGB?",
+								[ "Anschaffungspreis", "Umsatzsteuer",
+										"Anschaffungsnebenkosten",
+										"Nachträgliche Anschaffungskosten",
+										"Anschaffungspreisminderungen",
+										"Vertriebskosten / Sondereinzelkosten des Vertriebs" ],
 								[ 0, 1, 0, 0, 0, 0 ]);
-						createDD("Aktivierungspflicht, -wahlrecht oder –verbot?", [ "Sondereinzelkosten der Fertigung", "Material- und Fertigungsgemeinkosten", "Fertigungseinzelkosten", "Fremdkapitalkosten (bedingt)", "Forschungskosten", "Aufwendungen für soziale Einrichtungen", "Leerkosten (Kosten der Unterbeschäftigung)", "Materialeinzelkosten", "Allgemeine Verwaltungskosten" ], [ "Pflicht",
-								"Wahlrecht", "Verbot" ], [ 1, 1, 1, 2, 3, 2, 3, 1, 2 ]);
+						createDD(
+								"Aktivierungspflicht, -wahlrecht oder –verbot?",
+								[
+										"Sondereinzelkosten der Fertigung",
+										"Material- und Fertigungsgemeinkosten",
+										"Fertigungseinzelkosten",
+										"Fremdkapitalkosten (bedingt)",
+										"Forschungskosten",
+										"Aufwendungen für soziale Einrichtungen",
+										"Leerkosten (Kosten der Unterbeschäftigung)",
+										"Materialeinzelkosten",
+										"Allgemeine Verwaltungskosten" ], [
+										"Pflicht", "Wahlrecht", "Verbot" ], [
+										1, 1, 1, 2, 3, 2, 3, 1, 2 ]);
 						createTQ(
 								"Bewertung in der Bilanz",
 								[
@@ -135,17 +180,49 @@ $(document)
 										"und das gemilderte für das",
 										"",
 										". Für Wertkorrekturen auf der Passivseite gilt hingegen das",
-										"",
-										"." ],
-								[ "Umlaufvermögen", "Höchstwertprinzip", "Niederstwertprinzip",
-										"Anlagevermögen" ], [ 2, 4, 1, 3 ]);
-						createMC("Welche Komponenten umfasst ein Konzernabschluss?", [ "Konzernlagebericht", "Konzernbilanz", "Konzerngewinn- und verlustrechnung", "Eigenkapitalspiegel", "Konzernanhang", "Kapitalflussrechnung", "Konzernsegmentbericht" ], [ 0, 1, 1, 1, 1, 1, 0 ]);
-						createMC("Welche Aussagen über HGB und IFRS sind korrekt?", [ "Für Vorräte gilt nach HGB das strenge Niederstwertprinzip (Abschreibungspflicht), während unter IFRS nur dann abgeschrieben werden muss, wenn die Erzeugnisse nicht mit Gewinn verkauft werden können.", "Sowohl unter HGB als auch unter IFRS dürfen Kosten der allgemeinen Verwaltung und der Aufwendungen für soziale Einrichtungen in die Herstellungskosten miteinberechnet werden.", "Das LiFo-Verfahren ist unter HGB zulässig, nicht aber unter IFRS.", "Nach einer außerplanmäßigen Abschreibung darf bei einer Wertaufholung unter HGB über die fortgeführten Anschaffungskosten zugeschrieben werden, unter IFRS nicht.", "Fremdkapitalkosten müssen unter IFRS in die Herstellungskosten miteinberechnet werden, während unter HGB ein Wahlrecht besteht." ], [ 1, 0, 1, 0, 1 ]);
-						createDD("Ordne folgende Kennzahlen richtig zu!", [ "Gewinn / durchschnittliches EK", "Fremdkapital / Gesamtkapital", "Fremdkapital / Eigenkapital",
-								"Jahresergebnis / Umsatzerlöse", "Jahresergebnis / durchschnittliches Gesamtkapital" ], [ "Verschuldungsgrad", "EK-Rentabilität", "ROI", "Fremdkapitalquote", "Umsatzrentabilität" ], [ 2, 4, 1, 5, 3 ]);
+										"", "." ],
+								[ "Umlaufvermögen", "Höchstwertprinzip",
+										"Niederstwertprinzip", "Anlagevermögen" ],
+								[ 2, 4, 1, 3 ]);
+						createMC(
+								"Welche Komponenten umfasst ein Konzernabschluss?",
+								[ "Konzernlagebericht", "Konzernbilanz",
+										"Konzerngewinn- und verlustrechnung",
+										"Eigenkapitalspiegel", "Konzernanhang",
+										"Kapitalflussrechnung",
+										"Konzernsegmentbericht" ], [ 0, 1, 1,
+										1, 1, 1, 0 ]);
+						createMC(
+								"Welche Aussagen über HGB und IFRS sind korrekt?",
+								[
+										"Für Vorräte gilt nach HGB das strenge Niederstwertprinzip (Abschreibungspflicht), während unter IFRS nur dann abgeschrieben werden muss, wenn die Erzeugnisse nicht mit Gewinn verkauft werden können.",
+										"Sowohl unter HGB als auch unter IFRS dürfen Kosten der allgemeinen Verwaltung und der Aufwendungen für soziale Einrichtungen in die Herstellungskosten miteinberechnet werden.",
+										"Das LiFo-Verfahren ist unter HGB zulässig, nicht aber unter IFRS.",
+										"Nach einer außerplanmäßigen Abschreibung darf bei einer Wertaufholung unter HGB über die fortgeführten Anschaffungskosten zugeschrieben werden, unter IFRS nicht.",
+										"Fremdkapitalkosten müssen unter IFRS in die Herstellungskosten miteinberechnet werden, während unter HGB ein Wahlrecht besteht." ],
+								[ 1, 0, 1, 0, 1 ]);
+						createDD(
+								"Ordne folgende Kennzahlen richtig zu!",
+								[ "Gewinn / durchschnittliches EK",
+										"Fremdkapital / Gesamtkapital",
+										"Fremdkapital / Eigenkapital",
+										"Jahresergebnis / Umsatzerlöse",
+										"Jahresergebnis / durchschnittliches Gesamtkapital" ],
+								[ "Verschuldungsgrad", "EK-Rentabilität",
+										"ROI", "Fremdkapitalquote",
+										"Umsatzrentabilität" ],
+								[ 2, 4, 1, 5, 3 ]);
 						createTL("Übersetzungsfrage", [ "debt",
-								"cashflow statement", "current assets", "balance sheet", "expense", "equity", "fixed assets", "income statement", "balance sheet total", "revenue" ], [ "Bilanz", "GuV", "Kapitalflussrechnung", "Anlagevermögen", "Umlaufvermögen", "Ertrag", "Aufwendung", "Eigenkapital", "Fremdkapital", "Bilanzsumme" ], [9, 3, 5, 1, 7, 8, 4, 2, 10, 6 ]);
-						
+								"cashflow statement", "current assets",
+								"balance sheet", "expense", "equity",
+								"fixed assets", "income statement",
+								"balance sheet total", "revenue" ], [ "Bilanz",
+								"GuV", "Kapitalflussrechnung",
+								"Anlagevermögen", "Umlaufvermögen", "Ertrag",
+								"Aufwendung", "Eigenkapital", "Fremdkapital",
+								"Bilanzsumme" ], [ 9, 3, 5, 1, 7, 8, 4, 2, 10,
+								6 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -153,10 +230,7 @@ $(document)
 
 </head>
 <body>
-
 	<!-- <video id="video_background" autoplay muted loop><source src="../../img/Background.mp4" type="video/mp4"></video> -->
-
-
 	<div id="content">
 
 		<div
