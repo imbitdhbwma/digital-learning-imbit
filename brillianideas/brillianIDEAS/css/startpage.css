@@ -1,3 +1,5 @@
+
+
 <<<<<<< HEAD
 @font-face {
 
@@ -26,6 +28,7 @@ html {
 	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
+	background-image: url("img/background.gif");
 }
 
 body {
