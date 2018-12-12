@@ -15,6 +15,11 @@
 	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
 		<source src="../img/Background.mp4" type="video/mp4">
 	</video>
+
+	<link rel="stylesheet" href="../css/rocketbar.css">
+	<link rel="stylesheet" type="text/css" href="../css/rocketbar.css">
+	<script src="../js/rocketbar.js"></script>
+    <script src="../js/navigation.js"></script>
 	
 	<style>
 		html {width: 180%;}
@@ -276,4 +281,91 @@
 <div>
 	<b>Dezember 2018, WIMBIT16B im Rahmen des <a href=http://www.brillianideas.com/ target=_blank>brillian<span style="font-size: 16.371px">IDEAS</span></a> IT-Projektes</b>
 </div>
+
+<!--launchbar-->
+<div
+id="launchbar"
+class="launchbar">
+
+<div
+	id="rocketbar"
+	class="rocketbar">
+	<!-- see comments in rocketbar.css -->
+	<div class="imbit">
+		<img
+			id="tentacle_img_small_launchbar"
+			class="img"
+			src="../img/launchbar_tentakel_u10.png"
+			onclick="showRocketbar()"> <img
+			src="../img/IMBIT.png"
+			class="icon"
+			alt="IMBIT Homepage"
+			onclick="openTab('../index.html#imbit');">
+	</div>
+	<div class="digitallearning">
+		<img
+			src="../img/digitalesLernen.png"
+			class="icon"
+			alt="digitales Lernen"
+			onclick="openTab('../index.html#digitalLearning');">
+	</div>
+	<div class="icm">
+		<a
+			target="_blank"
+			href="http://www.brillianicm.com"><img
+			src="../img/brillianicm.png"
+			class="icon"
+			alt="brillianICM"></a>
+	</div>
+	<div class="crm">
+		<a
+			target="_blank"
+			href="http://www.brilliancrm.com"><img
+			src="../img/brilliancrm.png"
+			class="icon"
+			alt="brillianCRM"></a>
+	</div>
+	<div class="wiki">
+		<a
+			target="_blank"
+			href="http://wiki.brillianideas.com"><img
+			src="../img/wiki.png"
+			class="icon"
+			alt="Cloud Wiki"></a>
+	</div>
+	<div class="interactive">
+		<img
+			src="../img/quiz.png"
+			class="icon"
+			alt="Quizzes"
+			onmouseover="this.src='../img/quiz_alt.png';"
+			onmouseout="this.src='../img/quiz.png';"
+			onclick="window.open('../content/octopus.html','_self')">
+	</div>
+	<div class="video">
+		<img
+			src="../img/newContent.png"
+			class="icon"
+			alt="New Content"
+			onclick="window.open('../LernvideosBWL.html','_self')">
+	</div>
+	<div class="impressum">
+		<img
+			src="../img/impressum.png"
+			class="icon"
+			alt="Impressum"
+			onclick="window.open('../content/impressum.html','_self')">
+	</div>
+</div>
+</div>
 </body>
+
+<script type="text/javascript">
+	function showRocketbar() {
+		console.log("1");
+		// document.getElementById("rocketbar").setAttribute("style", "transform: translateY(10%);");
+		document.getElementById("rocketbar").classList.toggle("open");
+	}
+</script>
+
+</html>

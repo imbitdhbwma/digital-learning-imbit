@@ -86,7 +86,7 @@
 									out.println("</big></td><td>");
 									//send email invitation button
 
-									out.println("<form action=\"" + application.getContextPath()
+									out.println("<form action=\"" + "http://brillianideas.com:8080/brillianCRM"
 											+ "/SendRegistrationLink\" method=\"get\"><input style=\"display:none\" id=\"invitationbutton"
 											+ i + "\" type=\"submit\" "
 											+ "value=\"Send email invitation\"/><a class= \"easyui-linkbutton\" onclick=\"$('#invitationbutton"
@@ -94,14 +94,14 @@
 									out.println("<input type=\"text\" name=\"link\" value=\"" + groups.get(i).get(2)
 											+ "\" style=\"display:none\"/></form></td><td>");
 									//delete group without members button
-									out.println("<td><form action=\"" + application.getContextPath() + "/DeleteGroup\" method=\"post\">"
+									out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianCRM" + "/DeleteGroup\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"deleteGroupButton" + i
 											+ "\" type=\"submit\" value=\"Delete Group\"/> <a class= \"easyui-linkbutton\" onclick=checker("
 											+ i + ",\"" + groups.get(i).get(1) + "\")>delete group</a>"
 											+ "<input type=\"text\" name=\"group_id\" value=\"" + groups.get(i).get(0)
 											+ "\" style=\"display:none\"/>" + "</form></td><td>");
 									//delete group with all members button
-									out.println("<td><form action=\"" + application.getContextPath()
+									out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianCRM"
 											+ "/DeleteGroupMembers\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"deleteGroupMembersButton" + i
 											+ "\" type=\"submit\" value=\"Delete Group Members\"/> <a class= \"easyui-linkbutton\" onclick=checker("
@@ -109,7 +109,7 @@
 											+ "<input type=\"text\" name=\"group_id\" value=\"" + groups.get(i).get(0)
 											+ "\" style=\"display:none\"/>" + "</form></td><td>");
 									//set progress dropdown and button with set TCQ progress
-									out.println("<form action=\"" + application.getContextPath() + "/SetUserProgress\" method=\"post\">"
+									out.println("<form action=\"" + "http://brillianideas.com:8080/brillianCRM" + "/SetUserProgress\" method=\"post\">"
 											+ "<input type=\"text\" name=\"group_id\" value=\"" + groups.get(i).get(0)
 											+ "\" style=\"display:none\"/>"
 											+ "<input type=\"text\" name=\"cost\" value=\"71\" style=\"display:none\"/>"
@@ -162,7 +162,11 @@
 											a++;
 											if (groups.get(i).get(1).equals(row.get(5))) {
 												out.println("<tr><td>");
-												out.println("<form action=\"" + application.getContextPath()
+												out.println("<form action=\""
+												 
+// 												+ application.getContextPath()
+												+ "http://brillianideas.com:8080/brillianCRM"
+												
 														+ "/DeleteUser\" method=\"post\"><input style=\"display:none\" id=\"deleteUserButton"
 														+ a + "\" type=\"submit\" "
 														+ "value=\"Delete User\"/><a class= \"easyui-linkbutton\" onclick=\"$('#deleteUserButton"
@@ -170,7 +174,7 @@
 												out.println("<input type=\"text\" name=\"delete_email\" value=\"" + row.get(6)
 														+ "\" style=\"display:none\"/></form>");
 												out.println("</td><td>");
-												out.println("<form action=\"" + application.getContextPath()
+												out.println("<form action=\"" + "http://brillianideas.com:8080/brillianCRM"
 														+ "/ResetUserProgress\" method=\"post\"><input style=\"display:none\" id=\"resetUserProgressButton"
 														+ a + "\" type=\"submit\" "
 														+ "value=\"Reset User\"/><a class= \"easyui-linkbutton\" onclick=\"$('#resetUserProgressButton"

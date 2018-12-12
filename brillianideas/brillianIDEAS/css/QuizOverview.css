@@ -165,8 +165,15 @@ bottom: 2vw;
 	top: 5vw;
 }
 
+.cursorb{
+	top: 0vw;
+}
+
 .ludoblau{
 	top: 35vh;
+}
+.ludoblauz{
+	top: 25vh;
 }
 
 .joystick{
@@ -174,12 +181,11 @@ bottom: 2vw;
 }
 
 .herzkoenig{
-		position: absolute;
+	position: absolute;
 	top: 20%;
 	left: 40%;
 	max-width: 100%;
 	max-height: 60%;
-}
 }
 
 .karodame{
@@ -264,7 +270,8 @@ bottom: 2vw;
     font-size: 28px;
     color:black;
     position: absolute;
-    z-index: 2;
+	z-index: 2;
+	text-shadow: 1px 1px 1px white;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -274,6 +281,7 @@ bottom: 2vw;
 
 /* Tooltip rechts unten */
 .tooltip .tooltiptext_ru {
+	/* text-shadow: 1px 1px 1px white; */
    visibility: hidden;
     top: 40%;
     left: 30%;
@@ -291,6 +299,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .steine:hover .tooltiptext_ru {
@@ -298,6 +307,7 @@ bottom: 2vw;
 	color: #000;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .wuerfel:hover .tooltiptext_ru {
@@ -305,6 +315,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .schach:hover .tooltiptext_ru {
@@ -312,6 +323,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .rubikscube:hover .tooltiptext_ru {
@@ -319,6 +331,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .puzzle:hover .tooltiptext_ru {
@@ -326,6 +339,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .kreuzkoenig:hover .tooltiptext_red {
@@ -333,13 +347,15 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .karodame:hover .tooltiptext_red {
 	visibility: visible;
-	color: #black;
+	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 
@@ -348,6 +364,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .mario:hover .tooltiptext_ru {
@@ -355,6 +372,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .pacman:hover .tooltiptext_ru {
@@ -362,6 +380,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 
@@ -370,6 +389,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .controller:hover .tooltiptext_ru {
@@ -377,6 +397,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 
@@ -385,6 +406,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .gameboyhover:hover .tooltiptext_ru {
@@ -392,6 +414,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .cursor:hover .tooltiptext_whitebg {
@@ -407,6 +430,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 .ludoblau:hover .tooltiptext_ru {
@@ -414,6 +438,7 @@ bottom: 2vw;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 
@@ -493,8 +518,8 @@ bottom: 2vw;
     color:black;
     position: absolute;
     z-index: 3;
-	background-color: linear-gradient(90deg, #1fb7b7, #000);
-	border: 3px solid #fff;
+	background-color: rgba(255, 255, 255, .5); /* linear-gradient(90deg, #1fb7b7, #000) */
+	/* border: 3px solid #fff; */
 	border-radius: 20px;
 	line-height: 3vw;
 }
@@ -509,8 +534,8 @@ bottom: 2vw;
     color:black;
     position: absolute;
     z-index: 3;
-	background-color: #35bebb;
-	border: 3px solid #fff;
+	background-color: rgba(255, 255, 255, .5); /*#35bebb;*/
+	/* border: 3px solid #fff; */
 	border-radius: 20px;
 	line-height: 3vw;
 }
@@ -555,10 +580,10 @@ bottom: 2vw;
     z-index:1;
 }
 
-#octo_arm_rechts_untenIT{
+#octo_arm_rechts_unten_IT{
 	position: absolute;
 	bottom: 0;
-	right: -20%;
+	right: -25%;
 	width: 40vw;
 	height: 30vh;
     z-index:1;

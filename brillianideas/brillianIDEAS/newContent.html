@@ -64,7 +64,7 @@
       <a target="_blank" href="http://wiki.brillianideas.com"><img src="img/wiki.png" class="icon" alt="Cloud Wiki"></a>
     </div>
     <div class="interactive">
-      <img src="img/newContent.png" class="icon" alt="New Content" onclick="window.open('newContent.html','_self')">
+      <img src="img/newContent.png" class="icon" alt="New Content" onclick="window.open('LernvideosBWL.html','_self')">
     </div>
     <div class="impressum">
       <img src="img/impressum.png" class="icon" alt="Impressum" onclick="window.open('http://brillianideas.com/content/impressum.html','_self')">
@@ -77,27 +77,27 @@
 <script type="text/javascript">
 // function for loading modals
 
-  var id_modal = '';
-  function showmodal(id) {
-    id_modal = id+'_content';
-    document.getElementById(id_modal).style.display = "inline-block";
-  }
+//   var id_modal = '';
+//   function showmodal(id) {
+//     id_modal = id+'_content';
+//     document.getElementById(id_modal).style.display = "inline-block";
+//   }
 
-  // When the user clicks on <span> (x), close the modal
- function hideModalFromSpan() {
-      document.getElementById(id_modal).style.display = "none";
-  };
+//   // When the user clicks on <span> (x), close the modal
+//  function hideModalFromSpan() {
+//       document.getElementById(id_modal).style.display = "none";
+//   };
 
-  // When the user clicks anywhere outside of the modal, close it
-  function hideModalFromClick(e) {
-    var e = window.event; //get the event which is triggered right now in the window
+//   // When the user clicks anywhere outside of the modal, close it
+//   function hideModalFromClick(e) {
+//     var e = window.event; //get the event which is triggered right now in the window
 
-    //e.target.id -> get the id of the object which triggered event e
-    //close the modal if this id == id_modal (everything outside the modal itself)
-    if (id_modal == e.target.id) {
-      document.getElementById(id_modal).style.display =   "none";
-    }
-  };
+//     //e.target.id -> get the id of the object which triggered event e
+//     //close the modal if this id == id_modal (everything outside the modal itself)
+//     if (id_modal == e.target.id) {
+//       document.getElementById(id_modal).style.display =   "none";
+//     }
+//   };
 
   function showRocketbar() {
     console.log("1");

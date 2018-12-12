@@ -1,56 +1,76 @@
 /* beides */
-.draganddrop{
-    font-size: 30px;
-   /* border: blue solid 2px;*/
-
+.draganddrop {
+	font-size: 30px;
+	border: blue solid 2px;
 }
 /*drag */
+.drag {
+	margin: 5px 0px 5px 0px;
+	padding: 0px 15px 0px 15px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
-.drag{
-    margin: 5px 0px 5px 0px;
-    padding: 0px 15px 0px 15px;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow:ellipsis;}
-
-#antworten{
-    display: flex;
-    flex-direction: column;
-    max-width: 40%;
-    position: absolute;
+#antworten {
+	display: flex;
+	flex-direction: column;
+	max-width: 35%;
+	position: absolute;
 }
 
 /* drop box*/
-#boxen{
-    display: block;
-    position: absolute;
-    right: 4.5%;
-    min-height: 5%;
-    max-width: 54%;
-    width: 59%;
-    min-width: 20%;
+#boxen {
+	display: block;
+	position: absolute;
+	right: 5%;
+	min-height: 5%;
+	max-width: 54%;
+	min-width: 20%;
+	
 }
-.dropbox{
-    display: block;
-    float: right;
-    margin: 5px 10px 5px 10px;
-    padding: 0px 0px 35px 0px;
-    border: 5px solid white;
-    min-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
-    max-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
-    min-height: 75px;
-    color: white;
-    background-color: #591220;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow:ellipsis;
-}
-.titel{
-    text-align: center;
-    color: #991b33;
-    margin: 0px 0px 0px 0px;
-    width: 300px; /*box breite anpassen, müssen übereinstimmen*/
-    background-color: white;
 
+.dropbox {
+	display: block;
+	float: right;
+	margin: 5px 10px 5px 10px;
+	padding: 0px 0px 35px 0px;
+	border: 5px solid white;
+	min-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	max-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	min-height: 75px;
+	color: white;
+	background-color: #591220;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 10px;
+}
+
+.titel {
+	text-align: center;
+	color: #991b33;
+	margin: 0px 0px 0px 0px;
+	width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	background-color: white;
+	text-shadow: none;
+}
+
+/* Order Fragentyp */
+
+p.box_textOrder {
+	background-color: white;
+	color: #991b33;
+	text-shadow: none;
+	border: 5px solid white;
+	border-radius: 10px;
+	padding: 3px 3px 0px 3px;
+}
+
+p.box_textOrder p {
+	background-color: #591220;
+	color: white;
+	text-shadow: none;
+	padding: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }

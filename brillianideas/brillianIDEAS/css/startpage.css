@@ -20,7 +20,7 @@
 }
 =======
 
->>>>>>> Addet suport for local google fonts
+>>>>>>> Added support for local google fonts
 
 html {
 	box-sizing: border-box;
@@ -83,6 +83,7 @@ body {
 	right: -1vw;
 	width: initial;
 	max-width: 75vw;
+	z-index:-2;
 }
 #arrowRight{
 	top: 50vh;
@@ -105,7 +106,7 @@ body {
 	background-color: rgba(255, 255, 255, 0);
 	top: 0px;
 	left: 0px;
-	z-index: 3;
+	z-index: -20;
 	overflow-x: scroll;
 	overflow-x: hidden;
 }

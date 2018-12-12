@@ -31,7 +31,7 @@ ueberschrift {
 }
 
 .sterntentakel {
-	display: flex;
+	display: none; /*war flex, führte zu doppelter tentakel*/
 	height: 20vw;
 	margin-top: -22vh;
 }
@@ -63,7 +63,7 @@ ueberschrift {
 	font-size: 2em;
 	padding: 12px;
 	color: #f1f1f1;
-	background: #none;
+	background: none;
 	border-radius: 7px;
 	text-decoration: none;
 	margin: 17vw;
@@ -75,7 +75,7 @@ ueberschrift {
 	font-size: 2em;
 	padding: 5px;
 	color: #f1f1f1;
-	background: #none;
+	background: none;
 	border-radius: 7px;
 	text-decoration: none;
 	border: 6px solid #f1f1f1;

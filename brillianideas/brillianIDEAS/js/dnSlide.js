@@ -157,7 +157,7 @@
 				
 				
 				if(_this_.VideoID%5==2){
-					window.location = "http://www.brillianideas.com/content/dnSlide-master/dev/WkmVideo.html";			//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+					window.location = "http://www.brillianideas.com/content/WkmVideo.html";			//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
 				
 				
