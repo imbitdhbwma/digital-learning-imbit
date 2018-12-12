@@ -1270,7 +1270,7 @@ var currentNumberOfDragAndDropElements = 0; // zählt die Anzahl der Elemente de
 				'<div class="backToQuizOverview">Zurück zur Spieleübersicht</div>');
 
 		$('.backToQuizOverview').click(function() {
-			window.location.href = "newContent.html";
+			window.location.href = "LernvideosBWL.html";
 		});
 
 
