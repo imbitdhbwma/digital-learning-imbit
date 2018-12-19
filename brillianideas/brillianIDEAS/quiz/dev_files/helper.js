@@ -108,7 +108,6 @@ function createDD(frage, antworten, container, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antworten";
-	// answersDiv.className = "draganddrop";
 	questiondiv.appendChild(answersDiv);
 
 	var i;
@@ -126,7 +125,6 @@ function createDD(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	// boxenDiv.className = "draganddrop";
 	questiondiv.appendChild(boxenDiv);
 
 	for (i = 0; i < container.length; i++) {
@@ -220,71 +218,6 @@ function createTQ(frage, text, antworten, richtig) {
 
 }
 
-// function createTL(frage, antworten, container, richtig) {
-//
-// richtigArray.push(richtig);
-//
-// var n = findQuestionNumber();
-//
-// var questiondiv = createHeader(frage, n);
-// questiondiv.setAttribute("data-type", "tl");
-//
-// var answersDiv = document.createElement("div");
-// answersDiv.id = "tl" + n + "_answers";
-// questiondiv.appendChild(answersDiv);
-//
-// var i;
-// for (i = 0; i < antworten.length; i++) {
-// var p = document.createElement("p");
-// p.id = "question" + n + "_answer" + i;
-// p.className = "drag";
-// p.draggable = "true";
-// p.setAttribute("ondragstart", "drag(event)");
-// var pText = document.createTextNode(antworten[i]);
-// p.appendChild(pText);
-// answersDiv.appendChild(p);
-// }
-//
-// var table = document.createElement("table");
-// table.id = "question" + n + "_table";
-// questiondiv.appendChild(table);
-// var tr1 = document.createElement("tr");
-// table.appendChild(tr1);
-// var th1 = document.createElement("th");
-// tr1.appendChild(th1);
-// var th1label = document.createTextNode("Deutsch");
-// th1.appendChild(th1label);
-// var th2 = document.createElement("th");
-// tr1.appendChild(th2);
-// var th2label = document.createTextNode("Englisch");
-// th2.appendChild(th2label);
-//
-// for (i = 0; i < container.length; i++) {
-// var zeile = document.createElement("tr");
-// table.appendChild(zeile);
-// var td1 = document.createElement("td");
-// zeile.appendChild(td1);
-// var tdtext = document.createTextNode(container[i]);
-// td1.appendChild(tdtext);
-// var td2 = document.createElement("td");
-// zeile.appendChild(td2);
-// var td2div = document.createElement("div");
-// td2div.id = "question" + n + "_box" + i;
-// td2div.className = "dropTable";
-// td2div.addEventListener('drop', function() {
-// dropTL(event, this)
-// });
-// td2div.addEventListener('dragover', function() {
-// allowDrop(event)
-// });
-// td2.appendChild(td2div);
-// table.appendChild(zeile);
-// }
-// var contentdiv = document.getElementById("content");
-// contentdiv.append(questiondiv);
-//
-// }
-
 /**
  * Eine Übersetzungsfrage anlegen
  * 
@@ -310,7 +243,6 @@ function createTL(frage, antworten, container, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antworten";
-	// answersDiv.className = "draganddrop";
 	questiondiv.appendChild(answersDiv);
 
 	var i;
@@ -328,7 +260,6 @@ function createTL(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	// boxenDiv.className = "draganddrop";
 	questiondiv.appendChild(boxenDiv);
 
 	var table = document.createElement("table");
@@ -395,7 +326,6 @@ function createOD(frage, antworten, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antwortenOD";
-	// answersDiv.className = "orderQuiz";
 	questiondiv.appendChild(answersDiv);
 
 	var i;
@@ -413,7 +343,6 @@ function createOD(frage, antworten, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxenOD";
-	// boxenDiv.className = "orderQuiz";
 	questiondiv.appendChild(boxenDiv);
 
 	for (i = 0; i < antworten.length; i++) {
@@ -438,51 +367,6 @@ function createOD(frage, antworten, richtig) {
 
 	var contentdiv = document.getElementById("content");
 	contentdiv.append(questiondiv);
-
-	//
-	// richtigArray.push(richtig);
-	//
-	// var n = findQuestionNumber();
-	//
-	// var questiondiv = createHeader(frage, n);
-	// questiondiv.setAttribute("data-type", "od");
-	//
-	// var answersDiv = document.createElement("div");
-	// answersDiv.id = "od" + n + "_answers";
-	// questiondiv.appendChild(answersDiv);
-	//
-	// var i;
-	// for (i = 0; i < antworten.length; i++) {
-	// var p = document.createElement("p");
-	// p.id = "question" + n + "_answer" + i;
-	// p.className = "dragOrder";
-	// p.draggable = "true";
-	// p.setAttribute("ondragstart", "drag(event)");
-	// var pText = document.createTextNode(antworten[i]);
-	// p.appendChild(pText);
-	// answersDiv.appendChild(p);
-	// }
-	//
-	// for (i = 0; i < antworten.length; i++) {
-	// var box = document.createElement("div");
-	// box.id = "question" + n + "_box" + i;
-	// box.className = "dropOrder";
-	// box.addEventListener('drop', function() {
-	// dropOD(event, this)
-	// });
-	// box.addEventListener('dragover', function() {
-	// allowDrop(event)
-	// });
-	// var p = document.createElement("p");
-	// p.className = "box_textOrder";
-	// var text = document.createTextNode(i + 1);
-	// p.appendChild(text);
-	// box.appendChild(p);
-	// questiondiv.appendChild(box);
-	// }
-	//
-	// var contentdiv = document.getElementById("content");
-	// contentdiv.append(questiondiv);
 
 }
 /**
@@ -726,7 +610,7 @@ function showTheQuestion(count) {
 		$('#gz').show();
 
 		$('#supergeil').html(
-				"Gratuliere! Sie haben " + score + " von " + maxScore
+				"Gratuliere! Du hast " + score + " von " + maxScore
 						+ " Punkten!");
 	}
 }

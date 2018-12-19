@@ -60,12 +60,12 @@
 	var maxScore = 15;
 	//***********************
 
-	
 	$(document)
 			.ready(
 					function() {
 
-						createTQ("Investition und Finanzierung",
+						createTQ(
+								"Investition und Finanzierung",
 								[
 										"Eine Investition beginnt in der Regel mit einer",
 										"",
@@ -74,18 +74,53 @@
 										"beginnt. Außerdem befasst sich die Investition mit der",
 										"",
 										", die Finanzierung hingegen mit der",
-										"",
-										"." ],
-								[ "Mittelherkunft", "Einzahlung", "Auszahlung",
+										"", "." ], [ "Mittelherkunft",
+										"Einzahlung", "Auszahlung",
 										"Mittelverwendung" ], [ 4, 2, 1, 3 ]);
-						createDD("Investition oder Finanzierung?", [ "Kauf einer neuen Maschine", "Aufnahme einer zweiten Hypothek", "Emission von jungen Aktien", "Kauf von Unternehmensanleihen", "Durchführen einer Kapitalerhöhung", "Einbehalten von Unternehmensgewinnen", "Erweiterung des Fuhrparks", "Mitarbeiter werden geschult" ], [ "Investition",
-								"Finanzierung" ], [ 1, 2, 2, 1, 2, 2, 1, 1 ]);
-						createDD("Eigenfinanzierung oder Fremdfinanzierung?", [ "Abschreibung", "Unternehmensanleihe", "Rückstellungen", "Kredit/Darlehen", "Einlagen von Gesellschaftern", "Desinvestition", "Factoring", "Einbehalten von Gewinnen", "Leasing", "Gesellschafter-/ Schuldscheindarlehen" ], [ "Eigenfinanzierung",
-								"Fremdfinanzierung" ], [ 1, 2, 2, 2, 1, 1, 2, 1, 2, 2 ]);
-						createDD("Innenfinanzierung oder Außenfinanzierung?", [ "Abschreibung", "Unternehmensanleihe", "Rückstellungen", "Kredit/Darlehen", "Einlagen von Gesellschaftern", "Desinvestition", "Factoring", "Einbehalten von Gewinnen", "Leasing", "Gesellschafter-/ Schuldscheindarlehen" ], [ "Innenfinanzierung",
-								"Außenfinanzierung" ], [ 1, 2, 1, 2, 1, 1, 2, 1, 2, 2 ]);
-						createMC("Welche der folgenden Aussagen sind korrekt?", [ "Unternehmensanleihen gehören sowohl zur Eigenfinanzierung als auch zur Außenfinanzierung.", "Rückstellungen gehören sowohl zur Fremdfinanzierung als auch zur Innenfinanzierung.", "Einbehaltene Gewinne gehören sowohl zur Eigenfinanzierung als auch zur Innenfinanzierung.", "Desinvestitionen gehören sowohl zur Fremdfinanzierung als auch zur Außenfinanzierung." ], [ 0, 1, 1, 0 ]);
-						createSC("Welche der folgenden Aussagen über den Leverage-Effekt ist korrekt?", [ "Eine Erhöhung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite kleiner als der Fremdkapitalzins ist.", "Eine Senkung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite kleiner als der Fremdkapitalzins ist.", "Eine Erhöhung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite größer als der Fremdkapitalzins ist.", "Eine Senkung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite größer als der Fremdkapitalzins ist." ],
+						createDD("Investition oder Finanzierung?", [
+								"Kauf einer neuen Maschine",
+								"Aufnahme einer zweiten Hypothek",
+								"Emission von jungen Aktien",
+								"Kauf von Unternehmensanleihen",
+								"Durchführen einer Kapitalerhöhung",
+								"Einbehalten von Unternehmensgewinnen",
+								"Erweiterung des Fuhrparks",
+								"Mitarbeiter werden geschult" ], [
+								"Investition", "Finanzierung" ], [ 1, 2, 2, 1,
+								2, 2, 1, 1 ]);
+						createDD("Eigenfinanzierung oder Fremdfinanzierung?", [
+								"Abschreibung", "Unternehmensanleihe",
+								"Rückstellungen", "Kredit/Darlehen",
+								"Einlagen von Gesellschaftern",
+								"Desinvestition", "Factoring",
+								"Einbehalten von Gewinnen", "Leasing",
+								"Gesellschafter-/ Schuldscheindarlehen" ], [
+								"Eigenfinanzierung", "Fremdfinanzierung" ], [
+								1, 2, 2, 2, 1, 1, 2, 1, 2, 2 ]);
+						createDD("Innenfinanzierung oder Außenfinanzierung?", [
+								"Abschreibung", "Unternehmensanleihe",
+								"Rückstellungen", "Kredit/Darlehen",
+								"Einlagen von Gesellschaftern",
+								"Desinvestition", "Factoring",
+								"Einbehalten von Gewinnen", "Leasing",
+								"Gesellschafter-/ Schuldscheindarlehen" ], [
+								"Innenfinanzierung", "Außenfinanzierung" ], [
+								1, 2, 1, 2, 1, 1, 2, 1, 2, 2 ]);
+						createMC(
+								"Welche der folgenden Aussagen sind korrekt?",
+								[
+										"Unternehmensanleihen gehören sowohl zur Eigenfinanzierung als auch zur Außenfinanzierung.",
+										"Rückstellungen gehören sowohl zur Fremdfinanzierung als auch zur Innenfinanzierung.",
+										"Einbehaltene Gewinne gehören sowohl zur Eigenfinanzierung als auch zur Innenfinanzierung.",
+										"Desinvestitionen gehören sowohl zur Fremdfinanzierung als auch zur Außenfinanzierung." ],
+								[ 0, 1, 1, 0 ]);
+						createSC(
+								"Welche der folgenden Aussagen über den Leverage-Effekt ist korrekt?",
+								[
+										"Eine Erhöhung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite kleiner als der Fremdkapitalzins ist.",
+										"Eine Senkung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite kleiner als der Fremdkapitalzins ist.",
+										"Eine Erhöhung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite größer als der Fremdkapitalzins ist.",
+										"Eine Senkung des Verschuldungsgrades führt zu einer höheren Eigenkapitalrendite, wenn die Gesamtkapitalrendite größer als der Fremdkapitalzins ist." ],
 								[ 0, 0, 1, 0 ]);
 						createTQ(
 								"Industrieanleihe",
@@ -95,12 +130,11 @@
 										"genannt, erhält der Inhaber regelmäßig",
 										"",
 										". Am Ende der Laufzeit erfolgt zusätzlich ",
-										"",
-										". Dabei beeinflusst",
-										"",
+										"", ". Dabei beeinflusst", "",
 										"des Emittenten sowohl den Zins als auch den Kurs der Industrieanleihe." ],
-								[ "die Bonität", "Corporate Bond", "die Tilgung",
-										"Zinsenzahlungen" ], [ 4, 1, 3, 2 ]);
+								[ "die Bonität", "Corporate Bond",
+										"die Tilgung", "Zinsenzahlungen" ], [
+										4, 1, 3, 2 ]);
 						createTQ(
 								"Null-Kupon-Anleihen",
 								[
@@ -111,10 +145,9 @@
 										", sondern nur",
 										"",
 										". Der Kurs einer Null-Kupon-Anleihe unterliegt dem",
-										"",
-										"." ],
-								[ "am Ende der Laufzeit", "Zero Bond",
-										"während der Laufzeit", "Zinsänderungsrisiko" ], [ 3, 1, 2, 4 ]);
+										"", "." ], [ "am Ende der Laufzeit",
+										"Zero Bond", "während der Laufzeit",
+										"Zinsänderungsrisiko" ], [ 3, 1, 2, 4 ]);
 						createTQ(
 								"Genussschein",
 								[
@@ -123,9 +156,8 @@
 										". Der Inhaber hat beispielsweise einen Anspruch auf Beteiligung am",
 										"",
 										"oder am Liquidationserlös. Gewöhnlich werden Genussscheine wie Fremdkapital behandelt, wodurch sich",
-										"",
-										"für den Emittenten ergeben." ],
-								[ "Hybridkapital", "Steuervorteile",
+										"", "für den Emittenten ergeben." ], [
+										"Hybridkapital", "Steuervorteile",
 										"Reingewinn" ], [ 1, 3, 2 ]);
 						createTQ(
 								"Wandelschuldverschreibung",
@@ -137,23 +169,18 @@
 										". Der Inhaber hat jedoch zusätzlich ein",
 										"",
 										", das heißt er darf die Schuldverschreibung in",
-										"",
-										"umtauschen." ],
-								[ "Wandlungsrecht", "Convertible Bond", "Aktien",
-										"Industrieanleihe" ], [ 3, 1, 4, 2 ]);
+										"", "umtauschen." ], [
+										"Wandlungsrecht", "Convertible Bond",
+										"Aktien", "Industrieanleihe" ], [ 3, 1,
+										4, 2 ]);
 						createTQ(
 								"Optionsschuldverschreibung",
 								[
 										"Ein Optionsschein beinhaltet das Recht, einen bestimmten",
-										"",
-										"zu einem festgelegten",
-										"",
-										"entweder zu kaufen (",
-										"",
-										") oder zu verkaufen (",
-										"",
-										")." ],
-								[ "Call", "Basispreis", "Put",
+										"", "zu einem festgelegten", "",
+										"entweder zu kaufen (", "",
+										") oder zu verkaufen (", "", ")." ], [
+										"Call", "Basispreis", "Put",
 										"Basiswert" ], [ 3, 2, 4, 1 ]);
 						createTQ(
 								"Leasing",
@@ -161,25 +188,18 @@
 										"Unter Leasing versteht man die entgeltliche",
 										"",
 										"eines Leasingobjekts. Ein Vorteil des Leasings besteht in der geringen",
-										"",
-										": Während die",
-										"",
-										"(capex) sinken, steigen die",
-										"",
-										"(opex)." ],
-								[ "Investitionsausgaben", "Nutzungsüberlassung", "Betriebsausgaben",
-										"Kapitalbindung" ], [ 3, 1, 4, 2 ]);
+										"", ": Während die", "",
+										"(capex) sinken, steigen die", "",
+										"(opex)." ], [ "Investitionsausgaben",
+										"Nutzungsüberlassung",
+										"Betriebsausgaben", "Kapitalbindung" ],
+								[ 3, 1, 4, 2 ]);
 						createTQ(
 								"Factoring",
-								[
-										"Unter Factoring versteht man einen",
-										"",
-										". Dabei verkauft der",
-										"",
-										"seine Forderung an den",
-										"",
-										"und sendet dem ",
-										"",
+								[ "Unter Factoring versteht man einen", "",
+										". Dabei verkauft der", "",
+										"seine Forderung an den", "",
+										"und sendet dem ", "",
 										"eine Rechnung, der diese gegenüber dem Factor begleicht. " ],
 								[ "Factor", "Factoringkunde", "Abnehmer",
 										"Forderungsankauf" ], [ 3, 2, 4, 1 ]);
@@ -191,17 +211,24 @@
 										"durch mehrere Internetnutzer, daher auch",
 										"",
 										"genannt. Hierzu wird beispielsweise über eine spezielle",
-										"",
-										"zu einer",
-										"",
-										"aufgerufen." ],
-								[ "Schwarmfinanzierung", "Plattform", "Finanzierung",
-										"Beteiligung" ], [ 2, 3, 1, 4 ]);
-						createTL("Übersetzungsfrage", [ "stock", "external financing", "bond", "equity financing", "interest rate", "financial planning", "internal financing", "warrant", "yield to maturity", "debt financing" ], [ "Anleihe", "Rendite bis Fälligkeit", "Aktie", "Zinssatz", "Innenfinanzierung", "Außenfinanzierung", "Eigenfinanzierung", "Fremdfinanzierung", "Optionsschein", "Finanzplanung" ], [ 3, 6, 1, 7, 4, 10, 5, 9, 2, 8 ]);
+										"", "zu einer", "", "aufgerufen." ], [
+										"Schwarmfinanzierung", "Plattform",
+										"Finanzierung", "Beteiligung" ], [ 2,
+										3, 1, 4 ]);
+						createTL("Übersetzungsfrage", [ "stock",
+								"external financing", "bond",
+								"equity financing", "interest rate",
+								"financial planning", "internal financing",
+								"warrant", "yield to maturity",
+								"debt financing" ], [ "Anleihe",
+								"Rendite bis Fälligkeit", "Aktie", "Zinssatz",
+								"Innenfinanzierung", "Außenfinanzierung",
+								"Eigenfinanzierung", "Fremdfinanzierung",
+								"Optionsschein", "Finanzplanung" ], [ 3, 6, 1,
+								7, 4, 10, 5, 9, 2, 8 ]);
 
 						showTheQuestion(count);
 					});
-					
 </script>
 
 
@@ -217,6 +244,10 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Dank deiner Hilfe hat die IMBIT-Krake nun
+				ausreichend finanzielle Mittel zur Verfügung, um ihre Investitionen
+				zu tätigen.</p>
+
 		</div>
 
 	</div>

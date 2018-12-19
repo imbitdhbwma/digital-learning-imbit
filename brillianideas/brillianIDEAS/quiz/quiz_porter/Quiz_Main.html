@@ -64,35 +64,108 @@
 					function() {
 
 						// Frage 1
-						createMC("Aus welchen elementaren Bausteinen besteht die Value Chain?", [ "Gewinnspanne", "Primäraktivitäten","Geschäftsprozesse", "sekundäre Aktivitäten", "Strategie- Beratung" ], [ 1, 1, 0,1,0 ]);
-						
+						createMC(
+								"Aus welchen elementaren Bausteinen besteht die Value Chain?",
+								[ "Gewinnspanne", "Primäraktivitäten",
+										"Geschäftsprozesse",
+										"sekundäre Aktivitäten",
+										"Strategie- Beratung" ], [ 1, 1, 0, 1,
+										0 ]);
+
 						// Frage 2
-						createDD("Ordne zu!", [ "Einkauf und Beschaffung", "Produktion", "Personalwirtschaft", "Marketing und Vertrieb", "Kundenservice" ], ["Customer Realtionship Management ", "Procurement ","Production Planning", "HR", "Sales and Distribution" ], [2,3,4,5,1]);
-						
+						createDD("Ordne zu!", [ "Einkauf und Beschaffung",
+								"Produktion", "Personalwirtschaft",
+								"Marketing und Vertrieb", "Kundenservice" ], [
+								"Customer Realtionship Management ",
+								"Procurement ", "Production Planning", "HR",
+								"Sales and Distribution" ], [ 2, 3, 4, 5, 1 ]);
+
 						// Frage 3
-						createDD("Sind die Aktivitäten primär oder sekundär?", [ "Eingangslogistik", "Beschaffung", "Ausgangslogistik", "Technologieentwicklung", " Marketing und Beschaffung", "Personalwirtschaft", "Produktion", "Unternehmensinfrastruktur", "Kundendienst" ], [ "Primäre Aktivitäten","Sekundäre Aktivitäten" ], [1,2,1,2,1,2,1,2,1]);
-						
+						createDD("Sind die Aktivitäten primär oder sekundär?",
+								[ "Eingangslogistik", "Beschaffung",
+										"Ausgangslogistik",
+										"Technologieentwicklung",
+										" Marketing und Beschaffung",
+										"Personalwirtschaft", "Produktion",
+										"Unternehmensinfrastruktur",
+										"Kundendienst" ], [
+										"Primäre Aktivitäten",
+										"Sekundäre Aktivitäten" ], [ 1, 2, 1,
+										2, 1, 2, 1, 2, 1 ]);
+
 						// Frage 4
-						createSC("Sind die folgenden Aussagen wahr?", [ "Es gibt keinen Unterschied zwischen sekundären und primären Aktivitäten. ", "Primäraktivitäten sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Sekundäre Aktivitäten sind Tätigkeiten, die für die Ausübung der primären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung", "Sekundäre Aktivitäten  sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Primäre Aktivitäten sind Tätigkeiten, die für die Ausübung der sekundären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung." ],[ 0, 1, 0 ]);
-						
+						createSC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Es gibt keinen Unterschied zwischen sekundären und primären Aktivitäten. ",
+										"Primäraktivitäten sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Sekundäre Aktivitäten sind Tätigkeiten, die für die Ausübung der primären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung",
+										"Sekundäre Aktivitäten  sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Primäre Aktivitäten sind Tätigkeiten, die für die Ausübung der sekundären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung." ],
+								[ 0, 1, 0 ]);
+
 						// Frage 5
-						createMC("Sind die folgenden Aussagen wahr?", [ "Die Value Chain von Michale Porter stellt die Stufen der Produktion als eine geordnete Reihung von Tätigkeiten dar.", "Die Wertschöpfungskette besteht aus primären Aktivitäten wie beispielsweise der Personalwirtschaft und sekundären Aktivitäten wie beispielsweise Marketing und Vertrieb.", "Die Portersche Value Chain setzt sich aus den einzelnen Wertaktivitäten und der Gewinnspanne zusammen. Wertaktivitäten sind Tätigkeiten, die zur Herstellung eines Produktes oder einer Dienstleistung erbracht werden. Die Gewinnspanne ist der Unterschied zwischen dem Ertrag, den dieses Produkt erbringt, und den eingesetzten Ressourcen." ], [ 1, 0, 1 ]);
-						
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Die Value Chain von Michale Porter stellt die Stufen der Produktion als eine geordnete Reihung von Tätigkeiten dar.",
+										"Die Wertschöpfungskette besteht aus primären Aktivitäten wie beispielsweise der Personalwirtschaft und sekundären Aktivitäten wie beispielsweise Marketing und Vertrieb.",
+										"Die Portersche Value Chain setzt sich aus den einzelnen Wertaktivitäten und der Gewinnspanne zusammen. Wertaktivitäten sind Tätigkeiten, die zur Herstellung eines Produktes oder einer Dienstleistung erbracht werden. Die Gewinnspanne ist der Unterschied zwischen dem Ertrag, den dieses Produkt erbringt, und den eingesetzten Ressourcen." ],
+								[ 1, 0, 1 ]);
+
 						// Frage 6
-						createMC("Aus welchen fünf Kräften besteht das Five Forces Model von Michael Porter? ", [ "Zulieferer", "Marketing", "Vertrieb", "Kunden", "After- Sales Service", "Ersatzprodukte", "Export und Import", "Potenzielle Mitbewerber", "Mitbewerber Rivalität" ], [ 1, 0, 0,1,0,1,0,1,1 ]);
-						
+						createMC(
+								"Aus welchen fünf Kräften besteht das Five Forces Model von Michael Porter? ",
+								[ "Zulieferer", "Marketing", "Vertrieb",
+										"Kunden", "After- Sales Service",
+										"Ersatzprodukte", "Export und Import",
+										"Potenzielle Mitbewerber",
+										"Mitbewerber Rivalität" ], [ 1, 0, 0,
+										1, 0, 1, 0, 1, 1 ]);
+
 						// Frage 7
-						createDD("Ordne zu!", [ "Bedrohung durch Substitutionsprodukte", "Bedrohung durch neue Anbieter ", "Verhandlungsstärke der Lieferanten", "Verhandlungsstärke der Abnehmer", "Rivalität unter den bestehenden Wettbewerbern" ], [ "Zulieferer","Ersatzprodukte", "Kunden", "Mitbewerber Rivalität", "Potenzielle Mitbewerber" ], [2,5,1,3,4]);
-						
+						createDD(
+								"Ordne zu!",
+								[ "Bedrohung durch Substitutionsprodukte",
+										"Bedrohung durch neue Anbieter ",
+										"Verhandlungsstärke der Lieferanten",
+										"Verhandlungsstärke der Abnehmer",
+										"Rivalität unter den bestehenden Wettbewerbern" ],
+								[ "Zulieferer", "Ersatzprodukte", "Kunden",
+										"Mitbewerber Rivalität",
+										"Potenzielle Mitbewerber" ], [ 2, 5, 1,
+										3, 4 ]);
+
 						// Frage 8
-						createDD("Ordne zu!", [ "Ein Frucht- und Kräuterlieferant eines Bionadeherstellers könnte damit drohen, die Rohstoffe selbst zu einer Limonade zu verarbeiten.", "Siruphersteller: Mittels Sirup lässt sich Leitungswasser zu einem geschmackhaltigen Erfrischungsgetränk aufwerten, welches ein Substitut für Softdrinks darstellt.", "Ein Großabnehmer könnte die Softdrink Preise in gewisser Weise drücken, und damit drohen anstelle von Softdrink-Automaten, frischgepresste Säfte auszuschenken.", "Coca Cola hat einen sehr großen Bekanntheitsgrad und befindet sich im Kühlschrank vieler Kunden. Um als Mitbewerber in den Markt einzutreten sind erhöhte Werbekosten nötig, um das eigene Produkt dem Kunden schmackhaft zu machen.", "Die Rivalität in dem deutschen Getränkemarkt ist groß. Die Gesellschaft altert und ein großes Marktwachstum ist nicht erkennbar. Es sind einige „Bigplayer“ wie bspw. CocaCola  am Markt vertreten welche über eine hohe Kundenloyalität und hohe Werbebudgets verfügen." ], [ "Zulieferer","Ersatzprodukte", "Kunden", "Potenzielle Mitbewerber", "Mitbewerber Rivalität" ], [1,2,3,4,5]);
-						
+						createDD(
+								"Ordne zu!",
+								[
+										"Ein Frucht- und Kräuterlieferant eines Bionadeherstellers könnte damit drohen, die Rohstoffe selbst zu einer Limonade zu verarbeiten.",
+										"Siruphersteller: Mittels Sirup lässt sich Leitungswasser zu einem geschmackhaltigen Erfrischungsgetränk aufwerten, welches ein Substitut für Softdrinks darstellt.",
+										"Ein Großabnehmer könnte die Softdrink Preise in gewisser Weise drücken, und damit drohen anstelle von Softdrink-Automaten, frischgepresste Säfte auszuschenken.",
+										"Coca Cola hat einen sehr großen Bekanntheitsgrad und befindet sich im Kühlschrank vieler Kunden. Um als Mitbewerber in den Markt einzutreten sind erhöhte Werbekosten nötig, um das eigene Produkt dem Kunden schmackhaft zu machen.",
+										"Die Rivalität in dem deutschen Getränkemarkt ist groß. Die Gesellschaft altert und ein großes Marktwachstum ist nicht erkennbar. Es sind einige „Bigplayer“ wie bspw. CocaCola  am Markt vertreten welche über eine hohe Kundenloyalität und hohe Werbebudgets verfügen." ],
+								[ "Zulieferer", "Ersatzprodukte", "Kunden",
+										"Potenzielle Mitbewerber",
+										"Mitbewerber Rivalität" ], [ 1, 2, 3,
+										4, 5 ]);
+
 						// Frage 9
-						createMC("Sind die folgenden Aussagen wahr?", [ "Das Five Forces Modell basiert darauf, dass die Attraktivität einer Branche durch die Ausprägung der fünf wesentlichen Wettbewerbskräfte bestimmt wird. ", "Je geringer die Bedrohung der Five Forces ist, desto unattraktiver ist die betrachtete Branche und desto schwieriger ist es, einen nachhaltigen Wettbewerbsvorteil zu erzielen.", "Die Five Forces werden nie für die gesamte Branche betrachtet.", "Unternehmen sollten eher versuchen, in einer Branche mit attraktiver Branchenstruktur tätig zu sein und eine verteidigungsfähige Position in ihrer Branche aufzubauen, also eine Position in der die fünf Wettbewerbskräfte eine möglichst wenig bedrohliche Ausprägung aufweisen. " ], [1, 0, 0, 1 ]);
-						
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Das Five Forces Modell basiert darauf, dass die Attraktivität einer Branche durch die Ausprägung der fünf wesentlichen Wettbewerbskräfte bestimmt wird. ",
+										"Je geringer die Bedrohung der Five Forces ist, desto unattraktiver ist die betrachtete Branche und desto schwieriger ist es, einen nachhaltigen Wettbewerbsvorteil zu erzielen.",
+										"Die Five Forces werden nie für die gesamte Branche betrachtet.",
+										"Unternehmen sollten eher versuchen, in einer Branche mit attraktiver Branchenstruktur tätig zu sein und eine verteidigungsfähige Position in ihrer Branche aufzubauen, also eine Position in der die fünf Wettbewerbskräfte eine möglichst wenig bedrohliche Ausprägung aufweisen. " ],
+								[ 1, 0, 0, 1 ]);
+
 						// Frage 10 
-						createDD("Ordne zu!", [ "Einzigartigkeit","Gesamtmarkt", "Teilmarkt", "Kostenvorsprung" ], [ "Wettbewerbsbreite","Strategischer Vorteil" ], [2,1,1,2]);
-						
+						createDD("Ordne zu!",
+								[ "Einzigartigkeit", "Gesamtmarkt",
+										"Teilmarkt", "Kostenvorsprung" ], [
+										"Wettbewerbsbreite",
+										"Strategischer Vorteil" ],
+								[ 2, 1, 1, 2 ]);
+
 						// Frage 11 
 						createTQ(
 								"Fülle den Lückentext aus!",
@@ -106,21 +179,68 @@
 										"auf maximale Effizienz , welche mit einer Kostenführerschaft im Markt mit einhergeht. Darüber hinaus zeigt das Modell von Porter die Möglichkeit auf, sich anhand von Differenzierung oder ",
 										"",
 										"in einem Nischenmarkt zu positionieren und sich so dem breiten Wettbewerb im Gesamtmarkt zu entziehen." ],
-								[ "Teilmarkt", "Positionierungsmöglichkeiten", "Kostenführerschaft",
-										"Fokussierung" ], [2,1,4,3]);
-						
+								[ "Teilmarkt", "Positionierungsmöglichkeiten",
+										"Kostenführerschaft", "Fokussierung" ],
+								[ 2, 1, 4, 3 ]);
+
 						// Frage 12
-						createDD("Ordne zu! ", [ "Konstant hohe Qualität", "Permanente Innovationen", "Größenvorteile","Kostenvorteile durch Beschränkung auf ein Segment", "Standortvorteile", "Automatiserung", "Zeitvorteile","Flexibilität" ], [ "Differenzierungvorteile","Nischenvorteile", "Kostenvorteile"], [1,1,3,2,1,3,3,2]);
-						
+						createDD(
+								"Ordne zu! ",
+								[
+										"Konstant hohe Qualität",
+										"Permanente Innovationen",
+										"Größenvorteile",
+										"Kostenvorteile durch Beschränkung auf ein Segment",
+										"Standortvorteile", "Automatiserung",
+										"Zeitvorteile", "Flexibilität" ], [
+										"Differenzierungvorteile",
+										"Nischenvorteile", "Kostenvorteile" ],
+								[ 1, 1, 3, 2, 1, 3, 3, 2 ]);
+
 						// Frage 13
-						createMC("Sind die folgenden Aussagen wahr?", [ "Die Wettbewerbsstrategie nach Porter gehört zu den Basisstrategien der Unternehmensentwicklung und definiert wie sich ein Unternehmen gegenüber dem Wettbewerb positioniert. ", "Bei der Strategie der Kostenführerschaft wird angestrebt, der Anbieter auf dem Markt mit dem höchsten Preis zu sein oder zu werden. ", "Bei der Strategie der Differenzierung soll laut Porter ein Leistungsvorteil erarbeitet werden. Die Produkte oder Dienstleistungen sollen  fast identische Eigenschaften aufweisen.", "Das Hauptaugenmerk der Wettbewerbsstrategien nach Porter richtet sich dabei auf die Wettbewerber. Ziel ist eine gefestigte Branchenposition. " ], [ 1, 0, 0,1 ]);
-						
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Die Wettbewerbsstrategie nach Porter gehört zu den Basisstrategien der Unternehmensentwicklung und definiert wie sich ein Unternehmen gegenüber dem Wettbewerb positioniert. ",
+										"Bei der Strategie der Kostenführerschaft wird angestrebt, der Anbieter auf dem Markt mit dem höchsten Preis zu sein oder zu werden. ",
+										"Bei der Strategie der Differenzierung soll laut Porter ein Leistungsvorteil erarbeitet werden. Die Produkte oder Dienstleistungen sollen  fast identische Eigenschaften aufweisen.",
+										"Das Hauptaugenmerk der Wettbewerbsstrategien nach Porter richtet sich dabei auf die Wettbewerber. Ziel ist eine gefestigte Branchenposition. " ],
+								[ 1, 0, 0, 1 ]);
+
 						// Frage 14
-						createDD("Ordne zu!", [ "Unternehmen können einen entscheidenden Konkurrenzvorteil durch minimal gehaltene Kostenstrukturen erreichen.", "In dieser Strategie ist es möglich die Produkte günstiger anzubieten als die Konkurrenz.", "Produkte und die Servicedienstleistungen sind bei der Strategie gekennzeichnet durch eine klare Unique Selling Position, die sich deutlich vom bestehenden Angebot am Markt differenzieren.", "Strategie kann mit verschiedenen Taktiken umgesetzt werden wie bspw. durch besondere Produkteigenschaften oder Preisführerschaft.", "Unternehmen positioniert innerhalb eines spezifischen Teil- oder Nischenmarktes.", "Konkurrenzvorteil entsteht durch Avisierung eines engen Marktsegments mit genau definierter Zielgruppe." ], [ "Kostenführerschaft","Differenzierung", "Fokussierung" ], [1,1,2,2,3,3]);
-						
+						createDD(
+								"Ordne zu!",
+								[
+										"Unternehmen können einen entscheidenden Konkurrenzvorteil durch minimal gehaltene Kostenstrukturen erreichen.",
+										"In dieser Strategie ist es möglich die Produkte günstiger anzubieten als die Konkurrenz.",
+										"Produkte und die Servicedienstleistungen sind bei der Strategie gekennzeichnet durch eine klare Unique Selling Position, die sich deutlich vom bestehenden Angebot am Markt differenzieren.",
+										"Strategie kann mit verschiedenen Taktiken umgesetzt werden wie bspw. durch besondere Produkteigenschaften oder Preisführerschaft.",
+										"Unternehmen positioniert innerhalb eines spezifischen Teil- oder Nischenmarktes.",
+										"Konkurrenzvorteil entsteht durch Avisierung eines engen Marktsegments mit genau definierter Zielgruppe." ],
+								[ "Kostenführerschaft", "Differenzierung",
+										"Fokussierung" ], [ 1, 1, 2, 2, 3, 3 ]);
+
 						// Frage 15 
-						createTL("Ordne den Begriffen jeweils ihre passende Übersetzung zu.", [ "intensity of competitive rivalry", "threat of entry","threat of substitutes", "bargaining power", "outbound logistic", "inbound logistic", "margin", "niche benefits", "cost leadership", "competitive strategy" ], [ "Bedrohung durch neue Ersatzprodukte", "Bedrohung durch neue Anbieter", "Ausgangslogistik", "Eingangslogistik", "Nischenvorteile", "Kostenführerschaft", "Wettbewerbsstrategie", "Gewinnspanne", "Verhandlungsstärke" , "brancheninterner Wettbewerb" ], [ 10,2,1,9,3,4,8,5,6,7  ]);
-						
+						createTL(
+								"Ordne den Begriffen jeweils ihre passende Übersetzung zu.",
+								[ "intensity of competitive rivalry",
+										"threat of entry",
+										"threat of substitutes",
+										"bargaining power",
+										"outbound logistic",
+										"inbound logistic", "margin",
+										"niche benefits", "cost leadership",
+										"competitive strategy" ], [
+										"Bedrohung durch neue Ersatzprodukte",
+										"Bedrohung durch neue Anbieter",
+										"Ausgangslogistik", "Eingangslogistik",
+										"Nischenvorteile",
+										"Kostenführerschaft",
+										"Wettbewerbsstrategie", "Gewinnspanne",
+										"Verhandlungsstärke",
+										"brancheninterner Wettbewerb" ], [ 10,
+										2, 1, 9, 3, 4, 8, 5, 6, 7 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -138,6 +258,8 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Super, Michael Porter wäre stolz auf dich!</p>
+
 		</div>
 
 	</div>

@@ -45,7 +45,7 @@
 <link
 	rel="stylesheet"
 	href="../../css/fonts.css" />
-	
+
 <script>
 	//***********************
 	//Diese Werte nicht verändern!
@@ -62,79 +62,156 @@
 	$(document)
 			.ready(
 					function() {
-					
-					//Frage 1
-							createMC("Was kennzeichnet Investitionen?", [ "Langfristigkeit", "Kurzfristigkeit", "Mehrere Kapitalgeber", "Interdependenz", "Keine Kapitalbindung", "Hohe Kapitalbindung" ], [ 1, 0, 0, 1, 0, 1 ]);
-						
+
+						//Frage 1
+						createMC("Was kennzeichnet Investitionen?",
+								[ "Langfristigkeit", "Kurzfristigkeit",
+										"Mehrere Kapitalgeber",
+										"Interdependenz",
+										"Keine Kapitalbindung",
+										"Hohe Kapitalbindung" ], [ 1, 0, 0, 1,
+										0, 1 ]);
+
 						//Frage 2
-							createSC("Investitionsrechnungen orientieren sich immer an monetären Zielen.", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-									
+						createSC(
+								"Investitionsrechnungen orientieren sich immer an monetären Zielen.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 3
-							createSC("Wie ist eine Investition definiert?", [ "Eine betriebliche Tätigkeit, die zu unterschiedlichen Zeitpunkten t Aus- und Einzahlungen verursacht, wobei dieser Vorgang immer mit einer Auszahlung beginnt", "Mittel- bis langfristige Überlassung von Anlagengegenständen gegen Zahlung eines Nutzungsentgelts", "Ein Wertpapier eigener Art", "Zahlungsreihe, die in der Regel mit einer Einzahlung beginnt" ],
-									[ 1, 0, 0, 0 ]);
-						
+						createSC(
+								"Wie ist eine Investition definiert?",
+								[
+										"Eine betriebliche Tätigkeit, die zu unterschiedlichen Zeitpunkten t Aus- und Einzahlungen verursacht, wobei dieser Vorgang immer mit einer Auszahlung beginnt",
+										"Mittel- bis langfristige Überlassung von Anlagengegenständen gegen Zahlung eines Nutzungsentgelts",
+										"Ein Wertpapier eigener Art",
+										"Zahlungsreihe, die in der Regel mit einer Einzahlung beginnt" ],
+								[ 1, 0, 0, 0 ]);
+
 						// Frage 4
-							createDD("Um welche Investitionsart handelt es sich? Ziehe alle Elemente in das richtige Feld.", [ "Erwerb von Wertpapieren", "Kauf einer neuen Maschine", "Schulungen", "Marketing Maßnahmen" ], [ "Spekulative Finanzinvestition",
-									"Immaterielle Sachinvestition", "Materielle Sachinvestition" ], [ 1, 3, 2, 2 ]);
-									
+						createDD(
+								"Um welche Investitionsart handelt es sich? Ziehe alle Elemente in das richtige Feld.",
+								[ "Erwerb von Wertpapieren",
+										"Kauf einer neuen Maschine",
+										"Schulungen", "Marketing Maßnahmen" ],
+								[ "Spekulative Finanzinvestition",
+										"Immaterielle Sachinvestition",
+										"Materielle Sachinvestition" ], [ 1, 3,
+										2, 2 ]);
+
 						//Frage 5
-							createSC("Um welchen Investitionsanlass handelt es sich beim Ersatz von Arbeitskräften durch eine neue Maschine?", [ "Ersatzinvestition-identischer Ersatz", "Ersatzinvestition-Rationalisierungsinvestition", "Erweiterungsinvestition", "Einrichtungsinvestition" ],
-									[ 0, 1, 0, 0 ]);
-						
+						createSC(
+								"Um welchen Investitionsanlass handelt es sich beim Ersatz von Arbeitskräften durch eine neue Maschine?",
+								[
+										"Ersatzinvestition-identischer Ersatz",
+										"Ersatzinvestition-Rationalisierungsinvestition",
+										"Erweiterungsinvestition",
+										"Einrichtungsinvestition" ], [ 0, 1, 0,
+										0 ]);
+
 						// Frage 6
-							createMC("Welche Vorteile hat die Kostenvergleichsrechnung?", [ "Einfache Anwendung", "Sagt aus, ob die Investition rentabel ist", "Berücksichtigt Qualitätsunterschiede", "Anwendbar bei Alternativenvergleich" ], [ 1, 0, 0, 1 ]);
-						
-						
+						createMC(
+								"Welche Vorteile hat die Kostenvergleichsrechnung?",
+								[
+										"Einfache Anwendung",
+										"Sagt aus, ob die Investition rentabel ist",
+										"Berücksichtigt Qualitätsunterschiede",
+										"Anwendbar bei Alternativenvergleich" ],
+								[ 1, 0, 0, 1 ]);
+
 						//Frage 7
-							createSC("Bei der Kostenvergleichsrechnung sind die Kapitalkosten und Betriebskosten zu berücksichtigen.", [ "Wahr", "Falsch" ], [ 1, 0 ]);
-						
+						createSC(
+								"Bei der Kostenvergleichsrechnung sind die Kapitalkosten und Betriebskosten zu berücksichtigen.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 8
-							createMC("Welche Vorteile hat die Gewinnvergleichsrechnung?", [ "Einfache Anwendung", "Einbeziehung des Erlöses einer Investition", "Berücksichtigt Qualitätsunterschiede", "Unproblematisch bei unterschiedlichen Nutzungsdauern" ], [ 1, 1, 0, 0 ]);
-								
-						
+						createMC(
+								"Welche Vorteile hat die Gewinnvergleichsrechnung?",
+								[
+										"Einfache Anwendung",
+										"Einbeziehung des Erlöses einer Investition",
+										"Berücksichtigt Qualitätsunterschiede",
+										"Unproblematisch bei unterschiedlichen Nutzungsdauern" ],
+								[ 1, 1, 0, 0 ]);
+
 						//Frage 9 
-							createTQ(
-									"Rentabilitätsrechnung und Amortisationsrechnung.",
-									[
-											"Die",
-											"",
-											"macht eine Aussage über",
-											"",
-											"des eingesetzten",
-											"",
-											". Die",
-											"",
-											"ergänzt die anderen statischen Verfahren um eine", 
-											"", "."
-											, ],
-									[  "Amortisationsrechnung", "Verzinsung", "Kapital", "Rentabilitätsrechnung", "Risikobetrachtung" 
-											 ], [ 4, 2, 3, 1, 5]);
-						
-						
+						createTQ(
+								"Rentabilitätsrechnung und Amortisationsrechnung.",
+								[
+										"Die",
+										"",
+										"macht eine Aussage über",
+										"",
+										"des eingesetzten",
+										"",
+										". Die",
+										"",
+										"ergänzt die anderen statischen Verfahren um eine",
+										"", ".", ], [ "Amortisationsrechnung",
+										"Verzinsung", "Kapital",
+										"Rentabilitätsrechnung",
+										"Risikobetrachtung" ],
+								[ 4, 2, 3, 1, 5 ]);
+
 						//Frage 10
-							createSC("Welche Menge muss mindestens abgesetzt werden, damit keine Verluste erzielt werden?", [ "Keine", "Break-Even-Menge", "Maximale Produktionsmenge", "Minimale Produktionsmenge" ],
-									[ 0, 1, 0, 0 ]);
-						
+						createSC(
+								"Welche Menge muss mindestens abgesetzt werden, damit keine Verluste erzielt werden?",
+								[ "Keine", "Break-Even-Menge",
+										"Maximale Produktionsmenge",
+										"Minimale Produktionsmenge" ], [ 0, 1,
+										0, 0 ]);
+
 						//Frage 11
-							createSC("Der Gewinn bei Break-Even-Menge ist größer 0.", [ "Wahr", "Falsch" ],
-									[ 0, 1 ]);
-						
+						createSC(
+								"Der Gewinn bei Break-Even-Menge ist größer 0.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
+
 						//Frage 12
-							createSC("Bei den dynamischen Investitionsrechnungen werden mehrere Perioden betrachtet.", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Bei den dynamischen Investitionsrechnungen werden mehrere Perioden betrachtet.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 13						
-							createSC("Wie ist der Kapitalwert definiert?", [ "Positive Differenz aus Erträgen und Aufwendungen", "Gewinn nach Abzug von Steuern", "Kennziffer der dynamischen Investitionsrechnung - Summe der Barwerte einer Investition", "Summe der materiellen und immateriellen Güter eines Unternehmens" ],
-									[ 0, 0, 1, 0 ]);
+						createSC(
+								"Wie ist der Kapitalwert definiert?",
+								[
+										"Positive Differenz aus Erträgen und Aufwendungen",
+										"Gewinn nach Abzug von Steuern",
+										"Kennziffer der dynamischen Investitionsrechnung - Summe der Barwerte einer Investition",
+										"Summe der materiellen und immateriellen Güter eines Unternehmens" ],
+								[ 0, 0, 1, 0 ]);
 						//Frage 14
-							createDD("Handelt es sich um ein statisches oder dynamisches Investitionsrechenverfahren? Ziehe alle Elemente in das richtige Feld.", [ "Kostenvergleichsrechnung", "Dynamische Amortisationsdauer", "Gewinnvergleichsrechnung", "Annuitätenmethode", "Kapitalwertmethode", "Rentabilitätsrechnung", "Amortisationsrechnung", "Interner Zinsfuß" ], [ "Statische",
-									"Dynamische" ], [ 1, 2, 1, 2, 2, 1, 1, 2 ]);
-						
+						createDD(
+								"Handelt es sich um ein statisches oder dynamisches Investitionsrechenverfahren? Ziehe alle Elemente in das richtige Feld.",
+								[ "Kostenvergleichsrechnung",
+										"Dynamische Amortisationsdauer",
+										"Gewinnvergleichsrechnung",
+										"Annuitätenmethode",
+										"Kapitalwertmethode",
+										"Rentabilitätsrechnung",
+										"Amortisationsrechnung",
+										"Interner Zinsfuß" ], [ "Statische",
+										"Dynamische" ], [ 1, 2, 1, 2, 2, 1, 1,
+										2 ]);
+
 						//Frage 15 - Englisch und Deutsch	
-					createTL("Übersetzungsfrage", [ "residual value", "net present value method", "internal rate of return method", "comparative profit method", "payback method", "comparative cost method","average return method", "imputed interest", "acquisition costs", "imputed depreciation" ], [ "Kapitalwertmethode", "Interne Zinsfußmethode",
-									"Restwert", "Kostenvergleichsrechnung", "Gewinnvergleichsrechnung", "Rentabilitätsvergleichung", "Amortisationsvergleichsrechnung", "Anschaffungskosten", "Kalkulatorische Abschreibungen", "Kalkulatorische Zinsen" ], [ 3, 1, 2, 5, 7, 4, 6, 10, 8, 9]);
-						
+						createTL("Übersetzungsfrage", [ "residual value",
+								"net present value method",
+								"internal rate of return method",
+								"comparative profit method", "payback method",
+								"comparative cost method",
+								"average return method", "imputed interest",
+								"acquisition costs", "imputed depreciation" ],
+								[ "Kapitalwertmethode",
+										"Interne Zinsfußmethode", "Restwert",
+										"Kostenvergleichsrechnung",
+										"Gewinnvergleichsrechnung",
+										"Rentabilitätsvergleichung",
+										"Amortisationsvergleichsrechnung",
+										"Anschaffungskosten",
+										"Kalkulatorische Abschreibungen",
+										"Kalkulatorische Zinsen" ], [ 3, 1, 2,
+										5, 7, 4, 6, 10, 8, 9 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -152,6 +229,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Dank deiner Hilfe hat die IMBIT-Krake tolle
+				Investitionsentscheidungen getroffen. Du hast es ihr toll erklärt!</p>
+
 		</div>
 
 	</div>

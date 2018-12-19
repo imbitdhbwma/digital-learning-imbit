@@ -62,11 +62,17 @@
 	$(document)
 			.ready(
 					function() {
- 								// Frage 1
- 								createDD("Ordne zu!", [ "Finanzbuchhaltung", "Lohn- und Gehaltsabrechnung", "Textverarbeitung", "Grafik", "Datenbank", "Tabellenkalkulation", "Budgetrechnung"], [ "Persönliche Anwendung","Kommerzielle Anwendung" ], [2,2,1,1,1,1,2]);
- 							
- 								//Frage 2 
- 								createTQ(
+						// Frage 1
+						createDD("Ordne zu!", [ "Finanzbuchhaltung",
+								"Lohn- und Gehaltsabrechnung",
+								"Textverarbeitung", "Grafik", "Datenbank",
+								"Tabellenkalkulation", "Budgetrechnung" ], [
+								"Persönliche Anwendung",
+								"Kommerzielle Anwendung" ], [ 2, 2, 1, 1, 1, 1,
+								2 ]);
+
+						//Frage 2 
+						createTQ(
 								"Fülle den Lückentext aus!",
 								[
 										"Die Fähigkeit von SW-Systemen auch unter außergewöhnlichen Bedingungen zu funktionieren fasst man unter dem Qualitätskriterum der ",
@@ -76,46 +82,123 @@
 										" umfasst die Einfachheit mit der die Benutzung von SW-Systemen, ihre Bedienung, das Bereitstellen von Eingabedaten, die Auswertung der Ergebnisse und das Wiederaufsetzen nach Bedienfehlern erlernt werden kann. Das Kriterium der",
 										"",
 										" befasst sich mit der Eigenschaft, dass SW-Komponenten ganz oder teilweise in neuen Anwendungen eingesetzt und integriert werden können. Die Leichtigkeit mit der SW-Produkte an Spezifikationsänderungen angepasst werden können, werden dem Kriterium der  ",
-										"",
-										"zugeordnet." ],
-								[ "Benutzerfreundlichkeit", "Robustheit", "Erweiterbarkeit",
-										"Verifizierbarkeit" ], [2,1,4,3]);
- 								
- 								
- 								// Frage 3 
- 								createOD("Stelle die Phasen der Softwareentwicklung dar!", [ "Implementierung", "Planung", "Validierung", "Installation", "Definition","Entwurf" ], [ 4,1,5,6,2,3 ]);
- 								
- 								// Frage 4
- 								createMC("Sind die folgenden Aussagen wahr?", [ "Programmierung bzw. Codierung sind Bestandteil der Implementierung.", "Abnahme, Einführung, Schulung, und das Rollout werden der Installation zugeordnet.", "Die Erstellung des Lastenhefts und die Prüfung auf Durchführbarkeit werden der Definitionsphase zugeordnet.", "Die Anforderungsanalyse, das Pflichtenheft und die Projektplanung sind Bestandteil der Definitionsphase.", "Die Entwurfsphase besteht aus den Systemtests und Integrationstests." ], [ 1, 1, 0,1,0 ]);
- 								
- 								// Frage 5
- 								createDD("Ordne zu!", [ "Phasenmodell", "Wasserfallmodell", "Extreme Programmierung", "V-Modell", "Rational Unified Process", "SCRUM" ], [ "Klassisches Vorgehensmodell","Modernes Vorgehensmodell", "Agiles Vorgehensmodell" ], [1,1,3,2,2,3]);
- 								
- 								// Frage 6
- 								createMC("Sind die folgenden Aussagen wahr?", [ "Die Gliederung des Pflichtenhefts entspricht der Grundgliederung des Lastenhefts (= Verfeinerung). ", "Das Lastenheft ist ein verfeinertes Pflichtenheft.", "Das Pflichtenheft enthält eine Zusammenfassung aller fachlichen Anforderungen, die das zu entwickelnde Software-Produkt aus der Sicht des Auftraggebers/Kunden erfüllen muss. ", "Insbesondere werden in einem Lastenheft alle nicht-formalisierbaren Anforderungen aufgeführt und ̈Entwicklungsprioritäten aus auftraggebersicht festgelegt. ", "Generell beschreibt das Pflichtenheft eher das „WAS“ anstatt das „WIE“." ], [ 1, 0, 1,0,1 ]);
-						
-								// Frage 7
-								createDD("Die allgemeinen Eigenschaften eines Pflichtenhefts lassen sich insgesamt in sechs Kategorien untergliedern. Ordne zu!", [ "Standardisiertes, gegliedertes Schema; meistens: textuell.", "Auftraggeber, Auftragnehmer, Projektleiter, Systemanalytiker,Software-Entwickler etc.", "Detaillierte verbale Beschreibung.", "Zeitlich direkt nach der  Planungsphase.", "Fachlicher Funktions-, Daten- und Leistungsumfang sowie die Qualitätsanforderungen." ], [ "Form","Zeitpunkt", "Auftraggeber", "Inhalt", "Sprache" ], [1,3,5,2,4]);
-						
-								// Frage 8
-								createMC("Sind die folgenden Aussagen wahr?", [ "Ein Use Case beschreibt in der Fachsprache der Anwendung einen typischen Arbeitsablauf.", "Ein Use Case besteht immer nur aus einer Aufgabe, welche von mehreren Akteuren durchgeführt werden, um ein Ziel zu erreichen bzw. ein messbares Ergebnis zu erzielen. ", "Use Case ist Teil eines Geschäftsprozesses, der die Benutzerinteraktion mit dem Software-System beschreibt.", "Ziel des Use Cases ist die Aufnahme des IST – Zustandes (Arbeitsablauf ohne das zukünftige System) und die Aufnahme des SOLL- Zustandes (Arbeitsablauf mit Unterstützung des zukünftigen Systems)." , "Beschreibung erfolgt immer in HTLM und das ist der Standard. " ], [ 1, 0, 1,1,0 ]);
-						
-								// Frage 9
-								createDD("Ordne zu!", [ "Verzweigung von Hauptprozess A in Prozess B", "Ist Prozess B beendet, Zurückkehren nach Prozess A", "Modellierung selbständiger Unterprozesse", "Wiederverwendung in anderen Geschäftsprozessen", "Analog Unterprogramm in Programmiersprachen ", " Verlagerung komplexer Sonderfälle in Erweiterungsprozess " ], [ "Extend Beziehung","Include Beziehung" ], [1,1,2,2,2,1]);
-						
-								// Frage 10
-								createMC("Sind die folgenden Aussagen über UML wahr?", [ "Es existieren verschiedene Diagrammtypen (Statisches vs. dynamisches Modell). ", "Es ist programmiersprachenabhängig.", "Alle Softwaresysteme sind mit Hilfe von UML darstellbar." ], [ 1, 0, 1 ]);
-						
-								// Frage 11
-								createDD("Ordne zu!", [ "Sie beschreiben das Verhalten von Objekten und sind zuständig für Änderungen oder Abfrage des Zustandes eines Objektes.", "Beschreiben Dinge, Personen oder Begriffe der realen Welt (sog. Entitäten) mit ihren Attributinstanzen.", "Beschreiben Gruppen von Objekten mit ihren gemeinsamen Attributen und Operationen." ], [ "Methoden","Klassen", "Objekte" ], [1,3,2]);
-						
-								// Frage 12
-								createMC("Sind die folgenden Aussagen wahr?", [ "Die Reihenfolge der Objekte im Sequenzdiagramm spielt keine Rolle (möglichst übersichtlich).", "Sequenzdiagramme veranschaulichen Interaktionen zwischen Objekten im zeitlichen Verlauf.", "Sequenzdiagramm und Klassendiagramm eines Objektmodells müssen stets unterschiedlich sein.", "Das Kommunikationsdiagramm ist eine Alternative zum Objektdiagramm.", "Ein Aktivitätsdiagramm ist eine Sonderform des Zustandsdiagramms.", "Ein Kommunikationsdiagramm hebt die Verbindungen zwischen Objekten hervor." ], [ 1, 1, 0,0,1,1 ]);
-						
-								// Frage 13
-								createTQ(
+										"", "zugeordnet." ],
+								[ "Benutzerfreundlichkeit", "Robustheit",
+										"Erweiterbarkeit", "Verifizierbarkeit" ],
+								[ 2, 1, 4, 3 ]);
+
+						// Frage 3 
+						createOD(
+								"Stelle die Phasen der Softwareentwicklung dar!",
+								[ "Implementierung", "Planung", "Validierung",
+										"Installation", "Definition", "Entwurf" ],
+								[ 4, 1, 5, 6, 2, 3 ]);
+
+						// Frage 4
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Programmierung bzw. Codierung sind Bestandteil der Implementierung.",
+										"Abnahme, Einführung, Schulung, und das Rollout werden der Installation zugeordnet.",
+										"Die Erstellung des Lastenhefts und die Prüfung auf Durchführbarkeit werden der Definitionsphase zugeordnet.",
+										"Die Anforderungsanalyse, das Pflichtenheft und die Projektplanung sind Bestandteil der Definitionsphase.",
+										"Die Entwurfsphase besteht aus den Systemtests und Integrationstests." ],
+								[ 1, 1, 0, 1, 0 ]);
+
+						// Frage 5
+						createDD("Ordne zu!",
+								[ "Phasenmodell", "Wasserfallmodell",
+										"Extreme Programmierung", "V-Modell",
+										"Rational Unified Process", "SCRUM" ],
+								[ "Klassisches Vorgehensmodell",
+										"Modernes Vorgehensmodell",
+										"Agiles Vorgehensmodell" ], [ 1, 1, 3,
+										2, 2, 3 ]);
+
+						// Frage 6
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Die Gliederung des Pflichtenhefts entspricht der Grundgliederung des Lastenhefts (= Verfeinerung). ",
+										"Das Lastenheft ist ein verfeinertes Pflichtenheft.",
+										"Das Pflichtenheft enthält eine Zusammenfassung aller fachlichen Anforderungen, die das zu entwickelnde Software-Produkt aus der Sicht des Auftraggebers/Kunden erfüllen muss. ",
+										"Insbesondere werden in einem Lastenheft alle nicht-formalisierbaren Anforderungen aufgeführt und ̈Entwicklungsprioritäten aus auftraggebersicht festgelegt. ",
+										"Generell beschreibt das Pflichtenheft eher das „WAS“ anstatt das „WIE“." ],
+								[ 1, 0, 1, 0, 1 ]);
+
+						// Frage 7
+						createDD(
+								"Die allgemeinen Eigenschaften eines Pflichtenhefts lassen sich insgesamt in sechs Kategorien untergliedern. Ordne zu!",
+								[
+										"Standardisiertes, gegliedertes Schema; meistens: textuell.",
+										"Auftraggeber, Auftragnehmer, Projektleiter, Systemanalytiker,Software-Entwickler etc.",
+										"Detaillierte verbale Beschreibung.",
+										"Zeitlich direkt nach der  Planungsphase.",
+										"Fachlicher Funktions-, Daten- und Leistungsumfang sowie die Qualitätsanforderungen." ],
+								[ "Form", "Zeitpunkt", "Auftraggeber",
+										"Inhalt", "Sprache" ],
+								[ 1, 3, 5, 2, 4 ]);
+
+						// Frage 8
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Ein Use Case beschreibt in der Fachsprache der Anwendung einen typischen Arbeitsablauf.",
+										"Ein Use Case besteht immer nur aus einer Aufgabe, welche von mehreren Akteuren durchgeführt werden, um ein Ziel zu erreichen bzw. ein messbares Ergebnis zu erzielen. ",
+										"Use Case ist Teil eines Geschäftsprozesses, der die Benutzerinteraktion mit dem Software-System beschreibt.",
+										"Ziel des Use Cases ist die Aufnahme des IST – Zustandes (Arbeitsablauf ohne das zukünftige System) und die Aufnahme des SOLL- Zustandes (Arbeitsablauf mit Unterstützung des zukünftigen Systems).",
+										"Beschreibung erfolgt immer in HTLM und das ist der Standard. " ],
+								[ 1, 0, 1, 1, 0 ]);
+
+						// Frage 9
+						createDD(
+								"Ordne zu!",
+								[
+										"Verzweigung von Hauptprozess A in Prozess B",
+										"Ist Prozess B beendet, Zurückkehren nach Prozess A",
+										"Modellierung selbständiger Unterprozesse",
+										"Wiederverwendung in anderen Geschäftsprozessen",
+										"Analog Unterprogramm in Programmiersprachen ",
+										" Verlagerung komplexer Sonderfälle in Erweiterungsprozess " ],
+								[ "Extend Beziehung", "Include Beziehung" ], [
+										1, 1, 2, 2, 2, 1 ]);
+
+						// Frage 10
+						createMC(
+								"Sind die folgenden Aussagen über UML wahr?",
+								[
+										"Es existieren verschiedene Diagrammtypen (Statisches vs. dynamisches Modell). ",
+										"Es ist programmiersprachenabhängig.",
+										"Alle Softwaresysteme sind mit Hilfe von UML darstellbar." ],
+								[ 1, 0, 1 ]);
+
+						// Frage 11
+						createDD(
+								"Ordne zu!",
+								[
+										"Sie beschreiben das Verhalten von Objekten und sind zuständig für Änderungen oder Abfrage des Zustandes eines Objektes.",
+										"Beschreiben Dinge, Personen oder Begriffe der realen Welt (sog. Entitäten) mit ihren Attributinstanzen.",
+										"Beschreiben Gruppen von Objekten mit ihren gemeinsamen Attributen und Operationen." ],
+								[ "Methoden", "Klassen", "Objekte" ],
+								[ 1, 3, 2 ]);
+
+						// Frage 12
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Die Reihenfolge der Objekte im Sequenzdiagramm spielt keine Rolle (möglichst übersichtlich).",
+										"Sequenzdiagramme veranschaulichen Interaktionen zwischen Objekten im zeitlichen Verlauf.",
+										"Sequenzdiagramm und Klassendiagramm eines Objektmodells müssen stets unterschiedlich sein.",
+										"Das Kommunikationsdiagramm ist eine Alternative zum Objektdiagramm.",
+										"Ein Aktivitätsdiagramm ist eine Sonderform des Zustandsdiagramms.",
+										"Ein Kommunikationsdiagramm hebt die Verbindungen zwischen Objekten hervor." ],
+								[ 1, 1, 0, 0, 1, 1 ]);
+
+						// Frage 13
+						createTQ(
 								"Fülle den Lückentext aus!",
-								[		"Das", 
+								[
+										"Das",
 										"",
 										"dient zur Ablaufbeschreibung eines Systems.Dieses Diagramm dient zur Beschreibung zeitlicher Abläufe bei der Interaktion zwischen ausgewählten Objekten. Es handelt sich hierbei um ein ",
 										"",
@@ -124,16 +207,37 @@
 										"sind Attributwerte außerhalb des Objekts nicht sichtbar. Ein Merkmal des ",
 										"",
 										"ist, dass eine Klasse Attribute und Operationen ihrer Objekte definiert." ],
-								[ "Sequenzdiagramm", "Aktivitätsdiagramm", "Klassendiagramms",
-										"Objektdiagramm" ], [2,1,4,3]);
-								
-									// Frage 14
-									createMC("Sind die folgenden Aussagen wahr?", [ "Die Komposition ist eine starke Form der Aggregation.", "Das Teilobjekt ist zu einem Zeitpunkt mehreren Aggregatobjekten zugeordnet.", "Ein Teilobjekt kann mehreren Aggregatobjekten zugeordnet werden." ], [ 1, 0, 1 ]);
-						
-								
-									// Frage 15
-									createTL("Ordne den Begriffen jeweils ihre passende Übersetzung zu.", [ "aggregation","requirement analysis", "application software","robustness", "specification book", "process models", "sequence diagramm","komposition", "commercial Application", "extensibility" ], [ "Erweiterbarkeit", "Pflichtenheft", "Kommerzielle Anwendung","Vorgehensmodelle", "Anwendungssoftware", "Anforderungsanalyse", "Robustheit", "Komposition", "Sequenzdiagramm", "Aggregation" ], [ 10,6, 5,7,2,4,9,8,3,1]);
-						
+								[ "Sequenzdiagramm", "Aktivitätsdiagramm",
+										"Klassendiagramms", "Objektdiagramm" ],
+								[ 2, 1, 4, 3 ]);
+
+						// Frage 14
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Die Komposition ist eine starke Form der Aggregation.",
+										"Das Teilobjekt ist zu einem Zeitpunkt mehreren Aggregatobjekten zugeordnet.",
+										"Ein Teilobjekt kann mehreren Aggregatobjekten zugeordnet werden." ],
+								[ 1, 0, 1 ]);
+
+						// Frage 15
+						createTL(
+								"Ordne den Begriffen jeweils ihre passende Übersetzung zu.",
+								[ "aggregation", "requirement analysis",
+										"application software", "robustness",
+										"specification book", "process models",
+										"sequence diagramm", "komposition",
+										"commercial Application",
+										"extensibility" ], [ "Erweiterbarkeit",
+										"Pflichtenheft",
+										"Kommerzielle Anwendung",
+										"Vorgehensmodelle",
+										"Anwendungssoftware",
+										"Anforderungsanalyse", "Robustheit",
+										"Komposition", "Sequenzdiagramm",
+										"Aggregation" ], [ 10, 6, 5, 7, 2, 4,
+										9, 8, 3, 1 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -150,6 +254,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Dank deiner Hilfe kann die IMBIT-Krake nun wieder
+				klar und strukturiert denken, denn Ordnung ist das halbe Leben!</p>
+
 		</div>
 
 	</div>

@@ -62,76 +62,135 @@
 	$(document)
 			.ready(
 					function() {
-					
+
 						//Frage 1
-							createMC("Welche Stufen bzw. Systeme der Vollkostenrechnung unterscheidet man?", [ "Teilkostenrechnung", "Kostenartenrechnung", "Kostenträgerrechnung", "Plankostenrechnung", "Kostenstellenrechnung", "Prozesskostenrechnung" ], [ 0, 1, 1, 0, 1, 0 ]);
-						
+						createMC(
+								"Welche Stufen bzw. Systeme der Vollkostenrechnung unterscheidet man?",
+								[ "Teilkostenrechnung", "Kostenartenrechnung",
+										"Kostenträgerrechnung",
+										"Plankostenrechnung",
+										"Kostenstellenrechnung",
+										"Prozesskostenrechnung" ], [ 0, 1, 1,
+										0, 1, 0 ]);
+
 						//Frage 2
-							createSC("Alle Aufwendungen und Erträge sind gleichzeitig auch Kosten und Leistungen.", [ "Wahr", "Falsch" ],
-									[ 0, 1 ]);
-									
+						createSC(
+								"Alle Aufwendungen und Erträge sind gleichzeitig auch Kosten und Leistungen.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
+
 						//Frage 3
-							createDD("Kostenarten nach Art der verbrauchten Produktionsfaktoren. Ziehe alle Elemente in das richtige Feld.", [ "Gehälter", "kalkulatorische Zinsen", "Rohstoffe", "Vorprodukte", "Abschreibungen auf Sachanlagen", "Handelswaren", "Sozialabgaben", "Fremdinstandhaltung von Anlagen", "Löhne", "Betriebsstoffe" ], [ "Materialkosten",
-									"Personalkosten", "Betriebsmittelkosten", "Kapitalkosten" ], [ 2, 4, 1, 1, 3, 1, 2, 3, 2, 1 ]);
-						
+						createDD(
+								"Kostenarten nach Art der verbrauchten Produktionsfaktoren. Ziehe alle Elemente in das richtige Feld.",
+								[ "Gehälter", "kalkulatorische Zinsen",
+										"Rohstoffe", "Vorprodukte",
+										"Abschreibungen auf Sachanlagen",
+										"Handelswaren", "Sozialabgaben",
+										"Fremdinstandhaltung von Anlagen",
+										"Löhne", "Betriebsstoffe" ],
+								[ "Materialkosten", "Personalkosten",
+										"Betriebsmittelkosten", "Kapitalkosten" ],
+								[ 2, 4, 1, 1, 3, 1, 2, 3, 2, 1 ]);
+
 						// Frage 4
-							createMC("Man unterscheidet 2 Arten von Kalkulationssätzen. Welche?", [ "Hilfskostenstellen", "Maschinenstundensätze", "Zuschlagssätze", "Technologieentwicklung", "Verteilungsschlüssel", "Eingangsrechnungen" ], [ 0, 1, 1, 0, 0, 0 ]);
-						
+						createMC(
+								"Man unterscheidet 2 Arten von Kalkulationssätzen. Welche?",
+								[ "Hilfskostenstellen",
+										"Maschinenstundensätze",
+										"Zuschlagssätze",
+										"Technologieentwicklung",
+										"Verteilungsschlüssel",
+										"Eingangsrechnungen" ], [ 0, 1, 1, 0,
+										0, 0 ]);
+
 						//Frage 5
-							createSC("Um marktorientierte Entscheidungen auf Teilkostenbasis zu treffen, gliedert man die Kosten in fixe und variable Kosten. ", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Um marktorientierte Entscheidungen auf Teilkostenbasis zu treffen, gliedert man die Kosten in fixe und variable Kosten. ",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						// Frage 6
-							createSC("Der Betriebsabrechnungsbogen (BAB) ist das zentrale Informationsinstrument der Kostenstellenrechnung ", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Der Betriebsabrechnungsbogen (BAB) ist das zentrale Informationsinstrument der Kostenstellenrechnung ",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 7
-							createSC("Die kurzfristige Preisuntergrenze deckt: ", [ "fixe Kosten", "variable Kosten" ],
-									[ 0, 1 ]);
-						
+						createSC("Die kurzfristige Preisuntergrenze deckt: ", [
+								"fixe Kosten", "variable Kosten" ], [ 0, 1 ]);
+
 						//Frage 8
-							createSC("Ein Auftrag kann auch ein Kostenträger sein. ", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Ein Auftrag kann auch ein Kostenträger sein. ",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 9 
-							createDD("Fallbeispiel - IT Unternehmen. Ziehe alle Elemente in das richtige Feld.", [ "Serverkosten", "Energiekosten", "Personal", "Abschreibung", "Wartung", "Vertrieb", "Projekt", "Prozess", "IT Service" ], [ "Kostenarten",
-									"Kostenstellen", "Kostenträger" ], [ 1, 1, 1, 1, 2, 2, 3, 3, 3 ]);
-						
+						createDD(
+								"Fallbeispiel - IT Unternehmen. Ziehe alle Elemente in das richtige Feld.",
+								[ "Serverkosten", "Energiekosten", "Personal",
+										"Abschreibung", "Wartung", "Vertrieb",
+										"Projekt", "Prozess", "IT Service" ], [
+										"Kostenarten", "Kostenstellen",
+										"Kostenträger" ], [ 1, 1, 1, 1, 2, 2,
+										3, 3, 3 ]);
+
 						//Frage 10 
-							createTQ(
-									"Einzel- und Gemeinkosten.",
-									[
-											"Die",
-											"",
-											"können dem Kostenträger direkt und unmittelbar zugeordnet werden. Während die",
-											"",
-											"dem Kostenträger nicht direkt und unmittelbar zugeordnet werden können."
-											, ],
-									[  "Einzelkosten", "Gemeinkosten",
-											 ], [ 1, 2]);
-						
-						
+						createTQ(
+								"Einzel- und Gemeinkosten.",
+								[
+										"Die",
+										"",
+										"können dem Kostenträger direkt und unmittelbar zugeordnet werden. Während die",
+										"",
+										"dem Kostenträger nicht direkt und unmittelbar zugeordnet werden können.", ],
+								[ "Einzelkosten", "Gemeinkosten", ], [ 1, 2 ]);
+
 						//Frage 11
-							createSC("Wie berechnet man die Herstellkosten?", [ "Materialkosten + Fertigungskosten", "Materialkosten + Verwaltungskosten", "Fertigungskosten + Verwaltungskosten", "Verwaltungskosten + Vertriebskosten" ],
-									[ 1, 0, 0, 0 ]);
-						
+						createSC("Wie berechnet man die Herstellkosten?", [
+								"Materialkosten + Fertigungskosten",
+								"Materialkosten + Verwaltungskosten",
+								"Fertigungskosten + Verwaltungskosten",
+								"Verwaltungskosten + Vertriebskosten" ], [ 1,
+								0, 0, 0 ]);
+
 						//Frage 12
-							createSC("In KLR müssen bestimmte Aufwendungen und Erträge aus der Fibu noch korrigiert oder ergänzt werden. Diese Korrekturen bzw. Ergänzungen erfolgen durch kalkulatorische Kosten.", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
-						
+						createSC(
+								"In KLR müssen bestimmte Aufwendungen und Erträge aus der Fibu noch korrigiert oder ergänzt werden. Diese Korrekturen bzw. Ergänzungen erfolgen durch kalkulatorische Kosten.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 13
-							createMC("Welche Merkmale treffen auf das interne Rechnungswesen zu?", [ "An gesetzlichen Vorschriften gebunden", "Vergangenheitsbezogen", "Aufgaben: Dokumentation, Rechenschaftslegung, Information, Kontrolle", "Kann frei gestaltet werden", "Aufgaben: innerbetriebliche Planung, Steuerung, Kontrolle", "Zeitnah" ], [ 0, 0, 0, 1, 1, 1 ]);
-						
+						createMC(
+								"Welche Merkmale treffen auf das interne Rechnungswesen zu?",
+								[
+										"An gesetzlichen Vorschriften gebunden",
+										"Vergangenheitsbezogen",
+										"Aufgaben: Dokumentation, Rechenschaftslegung, Information, Kontrolle",
+										"Kann frei gestaltet werden",
+										"Aufgaben: innerbetriebliche Planung, Steuerung, Kontrolle",
+										"Zeitnah" ], [ 0, 0, 0, 1, 1, 1 ]);
+
 						//Frage 14
-							createSC("Würde die Hallenbeleuchtung eines Unternehmens zu Einzel- oder Gemeinkosten gehören?", [ "Einzelkosten", "Gemeinkosten" ],
-									[ 0, 1 ]);
-						
+						createSC(
+								"Würde die Hallenbeleuchtung eines Unternehmens zu Einzel- oder Gemeinkosten gehören?",
+								[ "Einzelkosten", "Gemeinkosten" ], [ 0, 1 ]);
+
 						//Frage 15 - Englisch und Deutsch	
 
-							createTL("Übersetzungsfrage", [ "cost centre", "cost unit", "material overheads", "cost type","absorption costing", "direct material costs","marginal costing", "cost allocation sheet", "production overheads", "direct labour costs" ], [ "Vollkostenrechnung", "Teilkostenrechnung",
-								"Kostenart", "Kostenstelle", "Kostenträger", "Materialeinzelkosten", "Materialgemeinkosten", "Fertigungseinzelkosten", "Fertigungsgemeinkosten", "Betriebsabrechnungsbogen" ], [ 5, 7,
-								4, 1, 2, 6, 3, 10, 9, 8 ]);
+						createTL("Übersetzungsfrage",
+								[ "cost centre", "cost unit",
+										"material overheads", "cost type",
+										"absorption costing",
+										"direct material costs",
+										"marginal costing",
+										"cost allocation sheet",
+										"production overheads",
+										"direct labour costs" ], [
+										"Vollkostenrechnung",
+										"Teilkostenrechnung", "Kostenart",
+										"Kostenstelle", "Kostenträger",
+										"Materialeinzelkosten",
+										"Materialgemeinkosten",
+										"Fertigungseinzelkosten",
+										"Fertigungsgemeinkosten",
+										"Betriebsabrechnungsbogen" ], [ 5, 7,
+										4, 1, 2, 6, 3, 10, 9, 8 ]);
 
 						showTheQuestion(count);
 					});
@@ -150,6 +209,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Die IMBIT-Krake weiß jetzt, was sie bezahlen muss!
+				Gut gemacht!</p>
+
 		</div>
 
 	</div>

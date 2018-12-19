@@ -4,9 +4,6 @@ body {
 	font-family: Caveat Brush;
 	color: white;
 	margin: 0px;
-
-
-
 	background-color: #991b33;
 }
 
@@ -65,8 +62,8 @@ a:visited {
 	text-shadow: 1px 1px #991B33;
 }
 
-.questionclass{
-	font-size:2.5em;
+.questionclass {
+	font-size: 2.5em;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -102,6 +99,11 @@ a:visited {
 	text-shadow: 1px 1px 1px white;
 }
 
+#outro {
+	font-size: 1em;
+	text-shadow: 1px 1px 1px white;
+}
+
 .button {
 	border-radius: 10px;
 	background-color: white;
@@ -124,8 +126,8 @@ a:visited {
 	color: #991b33;
 }
 
-.antwortenliste{
-    float:left;
-    list-style-type:none;
-    margin-right:30px;
+.antwortenliste {
+	float: left;
+	list-style-type: none;
+	margin-right: 30px;
 }

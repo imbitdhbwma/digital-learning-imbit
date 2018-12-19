@@ -64,74 +64,121 @@
 					function() {
 
 						//Frage 1
-							createMC("Wähle die Anforderungen an Unternehmen, die heutzutage entscheidend sind.", [ "Schnelligkeit", "Dokumentation", "Hohe Preise", "Plankostenrechnung", "Flexibilität", "Produktorientierung" ], [ 1, 0, 0, 0, 1, 0 ]);
-						
+						createMC(
+								"Wähle die Anforderungen an Unternehmen, die heutzutage entscheidend sind.",
+								[ "Schnelligkeit", "Dokumentation",
+										"Hohe Preise", "Plankostenrechnung",
+										"Flexibilität", "Produktorientierung" ],
+								[ 1, 0, 0, 0, 1, 0 ]);
+
 						//Frage 2
-							createSC("Der Schwerpunkt von Geschäftsprozessmanagement liegt an der technischen Umsetzung. Die Analyse und Optimierung sind nicht von großer Bedeutung.", [ "Wahr", "Falsch" ],
-									[ 0, 1 ]);
-									
+						createSC(
+								"Der Schwerpunkt von Geschäftsprozessmanagement liegt an der technischen Umsetzung. Die Analyse und Optimierung sind nicht von großer Bedeutung.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
+
 						//Frage 3
-							createDD("Ebenen der Prozessbetrachtung und denen Fokus. Ziehe alle Elemente in das richtige Feld.", [ "Modellierung", "Analyse", "Darstellung", "Technische Umsetzung", "Optimierung" ], [ "Fokus:Dokumentation", "Fokus:Gestaltung", "Fokus:Implementierung"
-									 ], [ 2, 2, 1, 3, 2 ]);
-						
+						createDD(
+								"Ebenen der Prozessbetrachtung und denen Fokus. Ziehe alle Elemente in das richtige Feld.",
+								[ "Modellierung", "Analyse", "Darstellung",
+										"Technische Umsetzung", "Optimierung" ],
+								[ "Fokus:Dokumentation", "Fokus:Gestaltung",
+										"Fokus:Implementierung" ], [ 2, 2, 1,
+										3, 2 ]);
+
 						// Frage 4
-							createMC("Wie ist ein Prozess definiert?", [ "Ein Rahmenkonzept zur Gestaltung der betrieblichen Abläufe ", "Ein Vergleich von Mitarbeitern", "Eine Abfolge von Transaktionen","Eine Abfolge von Aktivitäten und Zuständen" ], [ 0, 0, 0, 1 ]);
-						
+						createMC(
+								"Wie ist ein Prozess definiert?",
+								[
+										"Ein Rahmenkonzept zur Gestaltung der betrieblichen Abläufe ",
+										"Ein Vergleich von Mitarbeitern",
+										"Eine Abfolge von Transaktionen",
+										"Eine Abfolge von Aktivitäten und Zuständen" ],
+								[ 0, 0, 0, 1 ]);
+
 						//Frage 5
-							createSC("Im Geschäftsprozessmanagement gilt der Grundsatz: Strategie vor Methodik vor Werkzeug. ", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Im Geschäftsprozessmanagement gilt der Grundsatz: Strategie vor Methodik vor Werkzeug. ",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						// Frage 6
-							createSC("Geschäftsprozessmanagement beinhaltet Ansätze wie Business Process Reengineering oder Continuos Improvement. ", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Geschäftsprozessmanagement beinhaltet Ansätze wie Business Process Reengineering oder Continuos Improvement. ",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 7
-							createSC("Analyse eines Geschäftsprozesses. Ist eine Prozesskostenanalyse eine Methode oder eine Kenngröße?", [ "Methode", "Kenngröße" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Analyse eines Geschäftsprozesses. Ist eine Prozesskostenanalyse eine Methode oder eine Kenngröße?",
+								[ "Methode", "Kenngröße" ], [ 1, 0 ]);
+
 						//Frage 8
-							createSC("Ein Workflow kann als Abfolge von Transaktionen zwischen Objekten angesehen werden.", [ "Wahr", "Falsch" ],
-									[ 1, 0 ]);
-						
+						createSC(
+								"Ein Workflow kann als Abfolge von Transaktionen zwischen Objekten angesehen werden.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 9 
-							createDD("Analyse der Geschäftsprozesse - handelt es sich um eine Methode oder eine Kenngröße? Ziehe alle Elemente in das richtige Feld.", [ "Ergebnisqualität", "Prozessqualität", "Prozessbenchmarking", "Prozesskosten", "Prozesskostenanalyse", "Prozesszeitanalyse", "Transportzeiten" ], [ "Methoden",
-									"Kenngrößen" ], [ 2, 2, 1, 2, 1, 1, 2 ]);
-						
+						createDD(
+								"Analyse der Geschäftsprozesse - handelt es sich um eine Methode oder eine Kenngröße? Ziehe alle Elemente in das richtige Feld.",
+								[ "Ergebnisqualität", "Prozessqualität",
+										"Prozessbenchmarking", "Prozesskosten",
+										"Prozesskostenanalyse",
+										"Prozesszeitanalyse", "Transportzeiten" ],
+								[ "Methoden", "Kenngrößen" ], [ 2, 2, 1, 2, 1,
+										1, 2 ]);
+
 						//Frage 10 
-							createTQ(
-									"Geschäftsprozesse und Dokumente.",
-									[
-											"Ein",
-											"",
-											"ist eine Einheit von Informationen, die in einem DV-System als Datei oder als Bestandteil einer Datei vorliegt. Ein",
-											"",
-											"ist eine zielgerichtete, zeitlich-logische Abfolge von Aufgaben, die arbeitsteilig von mehreren Organisationen oder Organisationseinheiten unter Nutzung von  Informations- und Kommunikationstechnologien ausgeführt werden können."
-											, ],
-									[ "Geschäftsprozess", "Dokument",
-											 ], [ 2, 1]);
-						
-						
+						createTQ(
+								"Geschäftsprozesse und Dokumente.",
+								[
+										"Ein",
+										"",
+										"ist eine Einheit von Informationen, die in einem DV-System als Datei oder als Bestandteil einer Datei vorliegt. Ein",
+										"",
+										"ist eine zielgerichtete, zeitlich-logische Abfolge von Aufgaben, die arbeitsteilig von mehreren Organisationen oder Organisationseinheiten unter Nutzung von  Informations- und Kommunikationstechnologien ausgeführt werden können.", ],
+								[ "Geschäftsprozess", "Dokument", ], [ 2, 1 ]);
+
 						//Frage 11
-							createSC("Wie ist Compliance definiert?", [ "Einheit von Informationen", "Vergleich von Geschäftsprozessen", "Einhaltung von Richtlinien und Gesetzen in einem Unternehmen", "Systematische Aufzeichnung von Geschäftsvorfällen" ],
-									[ 0, 0, 1, 0 ]);
-						
+						createSC(
+								"Wie ist Compliance definiert?",
+								[
+										"Einheit von Informationen",
+										"Vergleich von Geschäftsprozessen",
+										"Einhaltung von Richtlinien und Gesetzen in einem Unternehmen",
+										"Systematische Aufzeichnung von Geschäftsvorfällen" ],
+								[ 0, 0, 1, 0 ]);
+
 						//Frage 12
-							createSC("Grundlegende Recherchemethoden. Welches Standardverfahren gibt es in DMS?", [ "Direktes Retrieval", "Indirektes Retrieval" ],
-									[ 1, 0 ]);
-						
-						
+						createSC(
+								"Grundlegende Recherchemethoden. Welches Standardverfahren gibt es in DMS?",
+								[ "Direktes Retrieval", "Indirektes Retrieval" ],
+								[ 1, 0 ]);
+
 						//Frage 13
-							createMC("Wähle die Zielstellungen des Workflow-Managements.", [ "Versionierung", "Kontrolle", "Qualitätssicherung", "Höhere Produktivität" ], [ 0, 0, 1, 1 ]);
-						
+						createMC(
+								"Wähle die Zielstellungen des Workflow-Managements.",
+								[ "Versionierung", "Kontrolle",
+										"Qualitätssicherung",
+										"Höhere Produktivität" ],
+								[ 0, 0, 1, 1 ]);
+
 						//Frage 14
-							createSC("Welche Erfassungsvarianten bei Papierdokumenten bzgl. des Arbeitsablaufs gibt es? ", [ "Hochladen und herunterladen", "Frühes und spätes Scannen" ],
-									[ 0, 1 ]);
-						
+						createSC(
+								"Welche Erfassungsvarianten bei Papierdokumenten bzgl. des Arbeitsablaufs gibt es? ",
+								[ "Hochladen und herunterladen",
+										"Frühes und spätes Scannen" ], [ 0, 1 ]);
+
 						//Frage 15 
-							createTL("Übersetzungsfrage", [ "storage location", "business process", "research", "key figures", "process reengineering", "automatic processing", "workflow", "transactions", "optimization", "quality assurance" ], [ "Geschäftsprozess", "Recherche",
-									"Kennzahlen", "Ablageort", "Qualitätssicherung", "Transaktionen", "Optimierung", "Arbeitsablauf", "Automatische Verarbeitung", "Prozesserneuerung" ], [ 4, 1, 2, 3, 10, 9, 8, 6, 7, 5]);
-			
-					
+						createTL("Übersetzungsfrage", [ "storage location",
+								"business process", "research", "key figures",
+								"process reengineering",
+								"automatic processing", "workflow",
+								"transactions", "optimization",
+								"quality assurance" ], [ "Geschäftsprozess",
+								"Recherche", "Kennzahlen", "Ablageort",
+								"Qualitätssicherung", "Transaktionen",
+								"Optimierung", "Arbeitsablauf",
+								"Automatische Verarbeitung",
+								"Prozesserneuerung" ], [ 4, 1, 2, 3, 10, 9, 8,
+								6, 7, 5 ]);
 
 						showTheQuestion(count);
 					});
@@ -150,6 +197,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Die IMBIT-Krake weiß jetzt, welche Prozesse
+				optimiert werden müssen! Danke!</p>
+
 		</div>
 
 	</div>

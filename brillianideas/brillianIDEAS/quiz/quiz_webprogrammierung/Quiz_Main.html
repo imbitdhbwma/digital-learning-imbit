@@ -45,8 +45,8 @@
 <link
 	rel="stylesheet"
 	href="../../css/fonts.css" />
-	
-	
+
+
 <script>
 	//***********************
 	//Diese Werte nicht verändern!
@@ -64,36 +64,95 @@
 			.ready(
 					function() {
 
-					createSC("Für was steht die Abkürzung HTML?", [ "Hyper Text Markup Language", " Hyperlinks and Text Markup Language", "Home Tool Markup Language" ],
-								[ 1, 0, 0 ]);
-					createSC("Jede Webseite basiert auf HTML, man kann auch von einer HTML-Seite sprechen.", [ "Richtig", "Falsch"],[ 1, 0]);
-					createSC("HTML beschreibt...", [ "Wie der Inhalt einer Seite dargestellt/formatiert werden soll.", "Die Struktur und den Inhalt einer Seite.", "Wie eine Webseite erreicht werden kann." ],[ 0, 1, 0 ]);
-					createSC("Was ist der korrekte HTML Code um einen Hyperlink zu erstellen?", [ "<a>http://www.brillianideas.com</a>",
-"<a name=\"http://www.brillianideas.com\">brillianIDEAS.com</a>",
- "<a url=\"http://www.brillianideas.com\">brillianIDEAS.com</a>",
- "<a href=\"http://www.brillianideas.com\">brillianIDEAS</a>"],[ 0, 0, 0, 1 ]);
-					createMC("Wie wird ein HTML-Kommentar geöffnet und geschlossen?", [ "mit <// geöffnet", "mit /* geöffnet", "mit <-- geöffnet","mit > geschlossen", "mit */ geschlossen","mit --> geschlossen" ], [ 0, 0, 1, 0, 0, 1 ]);
-					createSC("Für was steht die Abkürzung CSS?", [ "Colorful Style Sheets", "Creative Style Sheets", "Cascading Style Sheets","Computer Style Sheets" ],
-								[ 0, 0, 1, 0 ]);
-					createSC("CSS beschreibt...", [ "Die Struktur einer Webseite.", "Wie der Inhalt einer Seite dargestellt/formatiert werden soll.", "Den Inhalt einer Webseite.","Die Browserkompatibilität einer Webseite." ],
+						createSC("Für was steht die Abkürzung HTML?", [
+								"Hyper Text Markup Language",
+								" Hyperlinks and Text Markup Language",
+								"Home Tool Markup Language" ], [ 1, 0, 0 ]);
+						createSC(
+								"Jede Webseite basiert auf HTML, man kann auch von einer HTML-Seite sprechen.",
+								[ "Richtig", "Falsch" ], [ 1, 0 ]);
+						createSC(
+								"HTML beschreibt...",
+								[
+										"Wie der Inhalt einer Seite dargestellt/formatiert werden soll.",
+										"Die Struktur und den Inhalt einer Seite.",
+										"Wie eine Webseite erreicht werden kann." ],
+								[ 0, 1, 0 ]);
+						createSC(
+								"Was ist der korrekte HTML Code um einen Hyperlink zu erstellen?",
+								[
+										"<a>http://www.brillianideas.com</a>",
+										"<a name=\"http://www.brillianideas.com\">brillianIDEAS.com</a>",
+										"<a url=\"http://www.brillianideas.com\">brillianIDEAS.com</a>",
+										"<a href=\"http://www.brillianideas.com\">brillianIDEAS</a>" ],
+								[ 0, 0, 0, 1 ]);
+						createMC(
+								"Wie wird ein HTML-Kommentar geöffnet und geschlossen?",
+								[ "mit <// geöffnet", "mit /* geöffnet",
+										"mit <-- geöffnet","mit > geschlossen",
+										"mit */ geschlossen",
+										"mit --> geschlossen" ], [ 0, 0, 1, 0,
+										0, 1 ]);
+						createSC("Für was steht die Abkürzung CSS?", [
+								"Colorful Style Sheets",
+								"Creative Style Sheets",
+								"Cascading Style Sheets",
+								"Computer Style Sheets" ], [ 0, 0, 1, 0 ]);
+						createSC(
+								"CSS beschreibt...",
+								[
+										"Die Struktur einer Webseite.",
+										"Wie der Inhalt einer Seite dargestellt/formatiert werden soll.",
+										"Den Inhalt einer Webseite.",
+										"Die Browserkompatibilität einer Webseite." ],
 								[ 0, 1, 0, 0 ]);
-					createSC("An welcher Stelle eines HTML-Dokuments kann man ein externes CSS Style Sheet integrieren?", [ "<body>", "<head>", "überall","am Ende des Dokuments" ],
-								[  0, 1, 0, 0 ]);
-					createSC("Wie ist das korrekte HTML um ein Texteingabefeld zu erstellen?", [ "<input type=\"textfield\">", "<textfield>", "<textinput type=\"text\">","<input type=\"text\">" ],
+						createSC(
+								"An welcher Stelle eines HTML-Dokuments kann man ein externes CSS Style Sheet integrieren?",
+								[ "<body>", "<head>", "überall",
+										"am Ende des Dokuments" ],
+								[ 0, 1, 0, 0 ]);
+						createSC(
+								"Wie ist das korrekte HTML um ein Texteingabefeld zu erstellen?",
+								[ "<input type=\"textfield\">", "<textfield>",
+										"<textinput type=\"text\">",
+										"<input type=\"text\">" ],
 								[ 0, 0, 0, 1 ]);
-					createSC("Wie kommentiert man in einem CSS-Dokument?", [ "// this is a comment //", "*this is a comment", "// this is a comment","/* this is a comment */" ],
-								[ 0, 0, 0, 1 ]);
-					createSC("Wie ist eine CSS-Regel aufgebaut?", [ "Selektor, Deklaration, Eigenschaft, Wert", "Selektor, Eigenschaft, Wert", "Variable, Wert","Selektor, Variable, Deklaration, Eigenschaft, Wert" ],
+						createSC("Wie kommentiert man in einem CSS-Dokument?",
+								[ "// this is a comment //",
+										"*this is a comment",
+										"// this is a comment",
+										"/* this is a comment */" ], [ 0, 0, 0,
+										1 ]);
+						createSC(
+								"Wie ist eine CSS-Regel aufgebaut?",
+								[ "Selektor, Deklaration, Eigenschaft, Wert",
+										"Selektor, Eigenschaft, Wert",
+										"Variable, Wert",
+										"Selektor, Variable, Deklaration, Eigenschaft, Wert" ],
 								[ 1, 0, 0, 0 ]);
-					createSC("Beachtet JavaScript Groß- und Kleinschreibung?", [ "Ja", "Nein"],[ 1, 0]);	
-					createSC("Mit welchem HTML-Element starten wir JavaScript?", [ "<javascript>", "<js>","<scripting>","<script>"],[ 0, 0,0,1]);
-					createSC("JavaScript verwendet \"loose typing\". Was bedeutet das?", [ "Variablennamen müssen nicht konkret deklariert werden.", "verwendete Datentypen müssen nicht konkret deklariert werden.","Toleranz bei Rechtschreibfehlern"],[ 0, 1,0]);		
+						createSC(
+								"Beachtet JavaScript Groß- und Kleinschreibung?",
+								[ "Ja", "Nein" ], [ 1, 0 ]);
+						createSC(
+								"Mit welchem HTML-Element starten wir JavaScript?",
+								[ "<javascript>", "<js>", "<scripting>",
+										"<script>" ], [ 0, 0, 0, 1 ]);
+						createSC(
+								"JavaScript verwendet \"loose typing\". Was bedeutet das?",
+								[
+										"Variablennamen müssen nicht konkret deklariert werden.",
+										"verwendete Datentypen müssen nicht konkret deklariert werden.",
+										"Toleranz bei Rechtschreibfehlern" ], [
+										0, 1, 0 ]);
 						//Demo Übersetzungsfrage mit 4 Attributen: Frage als String, Antworten als Array, zu übersetzende Begriffe als Array und Lösung als Array.
-						createTL("Übersetzungsfrage", [ "array","class", "frame",
-								"form", "width", "heigth","link","background","color", "function" ], 
-								[ "Feld", "Formular", "Browserfenster", "H�he", "Breite", 
-								"Funktion","Klasse","Verkn�pfung","Hintergrund","Farbe" ], [ 1,7,3,2,5,4,8,9,10,6]);
-								
+						createTL("Übersetzungsfrage", [ "array", "class",
+								"frame", "form", "width", "heigth", "link",
+								"background", "color", "function" ], [ "Feld",
+								"Formular", "Browserfenster", "H�he", "Breite",
+								"Funktion", "Klasse", "Verkn�pfung",
+								"Hintergrund", "Farbe" ], [ 1, 7, 3, 2, 5, 4,
+								8, 9, 10, 6 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -111,6 +170,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Super, dem Internetauftritt steht nichts mehr im
+				Weg!</p>
+
 		</div>
 
 	</div>
