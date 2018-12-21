@@ -18,14 +18,14 @@
 <link rel="stylesheet" type="text/css" href="../css/digitallearning.css">
 
 <!-- Old jQuery for jQuery Mobile Support -->
-<!-- <script src="../js/jquery.min.js"></script> -->
+<!-- <script src="../js/jquery.min.js"></script> --> <!-- Dieses script löst den doppelten Hintergrund aus. Ist aber auch für Mobile Safari notwendig. -->
 <script src="../js/velocity.min.js"></script>
 <!-- Custom jQuery Mobile - Touch Only -->
 <script src="../js/jquery.mobile.custom.min.js"></script>
 <script src="../js/jquery.waitforimages.js"></script>
 <script src="../js/rocketbar.js"></script>
 <script src="../js/navigation.js"></script>
-<!-- <script type="text/javascript" src="../js/einstellung.js"></script> -->
+<script type="text/javascript" src="../js/einstellung.js"></script>
 
 <!-- digitalLearning - Files -->
 <!-- <script src="../js/makeGrid.js"></script> -->
@@ -119,14 +119,14 @@
 					src="../img/IMBIT.png"
 					class="icon"
 					alt="IMBIT Homepage"
-					onclick="openTab('../#imbit');">
+					onclick="window.open('http://brillianideas.com', '_self');">
 			</div>
 			<div class="digitallearning">
 				<img
 					src="../img/digitalesLernen.png"
 					class="icon"
 					alt="digitales Lernen"
-					onclick="openTab('../#digitalLearning');">
+					onclick="window.open('http://brillianideas.com/#digitalLearning', '_self');">
 			</div>
 			<div class="icm">
 				<a
