@@ -1,3 +1,4 @@
+// hier werden alle Lösungen gespeichert. Der x-te Eintrag ist immer ein Array der Lösungen der x-ten Frage
 var richtigArray = [];
 /**
  * eine Multiple Choice Frage anlegen
