@@ -7,8 +7,7 @@ var richtigArray = [];
  * @param antworten
  *            Antworten als Array aus Strings
  * @param richtig
- *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein
- *            Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
+ *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
  * @returns ein <div> tag mit der Frage
  */
 function createMC(frage, antworten, richtig) {
@@ -21,6 +20,7 @@ function createMC(frage, antworten, richtig) {
 
 	questiondiv.setAttribute("data-type", "mc");
 
+	// erstelle alle Antwortmöglichkeiten jeweils mit Checkbox und hänge sie direkt in den div der Frage
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var questionlabel = document.createElement("label");
@@ -49,8 +49,7 @@ function createMC(frage, antworten, richtig) {
  * @param antworten
  *            Antworten als Array aus Strings
  * @param richtig
- *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein
- *            Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
+ *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
  * @returns ein <div> tag mit der Frage
  */
 function createSC(frage, antworten, richtig) {
@@ -62,6 +61,7 @@ function createSC(frage, antworten, richtig) {
 	var questiondiv = createHeader(frage, n);
 	questiondiv.setAttribute("data-type", "sc");
 
+	// erstelle alle Antwortmöglichkeiten jeweils mit Radiobutton und hänge sie direkt in den div der Frage
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var questionlabel = document.createElement("label");
@@ -93,8 +93,7 @@ function createSC(frage, antworten, richtig) {
  * @param container
  *            Container in die gedropt werden soll als Array aus Strings
  * @param richtig
- *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und
- *            der eingetragene Wert dem erwarteten Feld
+ *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
  * @returns ein <div> tag mit der Frage
  */
 function createDD(frage, antworten, container, richtig) {
@@ -110,6 +109,7 @@ function createDD(frage, antworten, container, richtig) {
 	answersDiv.id = "antworten";
 	questiondiv.appendChild(answersDiv);
 
+	// Erstelle alle Antworten als draggable <p> und hänge sie jeweils in den Antworten div
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var p = document.createElement("p");
@@ -127,6 +127,7 @@ function createDD(frage, antworten, container, richtig) {
 	boxenDiv.id = "boxen";
 	questiondiv.appendChild(boxenDiv);
 
+	// Erstelle die Boxen jeweils mit Überschrift und hänge sie in den boxen div
 	for (i = 0; i < container.length; i++) {
 		var box = document.createElement("div");
 		box.id = "question" + n + "_Box" + i;
@@ -159,13 +160,11 @@ function createDD(frage, antworten, container, richtig) {
  * @param frage
  *            Frage als String
  * @param text
- *            Text mit Lücken als Array aus Strings wobei ein leerer String ""
- *            eine Lücke darstellt
+ *            Text mit Lücken als Array aus Strings wobei ein leerer String "" eine Lücke darstellt
  * @param antworten
  *            Antwortmöglichkeiten als Array aus Strings
  * @param richtig
- *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und
- *            der eingetragene Wert dem erwarteten Feld
+ *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
  * @returns ein <div> tag mit der Frage
  */
 function createTQ(frage, text, antworten, richtig) {
@@ -180,6 +179,7 @@ function createTQ(frage, text, antworten, richtig) {
 	var TextP = document.createElement("p");
 	TextP.id = "question" + n + "text";
 
+	// Erstelle den Lückentext, indem jeder leere String durch ein Eingabefeld ersetzt wird.
 	var i;
 	var j = 0;
 	for (i = 0; i < text.length; i++) {
@@ -201,6 +201,7 @@ function createTQ(frage, text, antworten, richtig) {
 
 	var answersdiv = document.createElement("div");
 
+	// Erstelle alle Antwortmöglichkeiten
 	for (i = 0; i < antworten.length; i++) {
 
 		var answerP = document.createElement("p");
@@ -228,8 +229,7 @@ function createTQ(frage, text, antworten, richtig) {
  * @param container
  *            Container in die gedropt werden soll als Array aus Strings
  * @param richtig
- *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und
- *            der eingetragene Wert dem erwarteten Feld
+ *            Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
  * @returns ein <div> tag mit der Frage
  */
 function createTL(frage, antworten, container, richtig) {
@@ -245,6 +245,7 @@ function createTL(frage, antworten, container, richtig) {
 	answersDiv.id = "antworten";
 	questiondiv.appendChild(answersDiv);
 
+	// Erstelle alle Antwortmöglichkeiten als draggable <p>
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var p = document.createElement("p");
@@ -262,6 +263,7 @@ function createTL(frage, antworten, container, richtig) {
 	boxenDiv.id = "boxen";
 	questiondiv.appendChild(boxenDiv);
 
+	// Erstelle die Tabelle mit Überschriften
 	var table = document.createElement("table");
 	table.id = "question" + n + "_table";
 	boxenDiv.appendChild(table);
@@ -276,6 +278,7 @@ function createTL(frage, antworten, container, richtig) {
 	var th2label = document.createTextNode("Englisch");
 	th2.appendChild(th2label);
 
+	// Ergänze die Tabelle um jeweils eine Zeile mit dem deutschen Wort und einem Feld in welches gedropt werden kann.
 	for (i = 0; i < container.length; i++) {
 		var zeile = document.createElement("tr");
 		table.appendChild(zeile);
@@ -311,8 +314,7 @@ function createTL(frage, antworten, container, richtig) {
  *            Antwortmöglichkeiten als Array aus Strings
  * 
  * @param richtig
- *            Lösung als Array angeben Inhalt des Arrays ist die Angabe der
- *            Positionen jeder einzelnen Antwort als Integer
+ *            Lösung als Array angeben Inhalt des Arrays ist die Angabe der Positionen jeder einzelnen Antwort als Integer
  * @returns ein <div> tag mit der Frage
  */
 function createOD(frage, antworten, richtig) {
@@ -328,6 +330,7 @@ function createOD(frage, antworten, richtig) {
 	answersDiv.id = "antwortenOD";
 	questiondiv.appendChild(answersDiv);
 
+	// Erstelle alle Antworten als draggable <p>
 	var i;
 	for (i = 0; i < antworten.length; i++) {
 		var p = document.createElement("p");
@@ -345,6 +348,7 @@ function createOD(frage, antworten, richtig) {
 	boxenDiv.id = "boxenOD";
 	questiondiv.appendChild(boxenDiv);
 
+	// Erstelle eine reihe leerer boxen und nummeriere sie.
 	for (i = 0; i < antworten.length; i++) {
 		var box = document.createElement("div");
 		box.id = "question" + n + "_Box" + i;
@@ -384,7 +388,6 @@ function createHeader(frage, n) {
 	questiondiv1.className = "questionclass";
 	questiondiv1.id = "question" + n;
 
-	// Erster Header
 	var headerdiv1 = document.createElement("div");
 	headerdiv1.className = "header";
 	questiondiv1.appendChild(headerdiv1);
@@ -419,8 +422,7 @@ function findQuestionNumber() {
 }
 
 /**
- * Wertet die gegebenen Antworten aus und setzt score auf den entsprechenden
- * Wert.
+ * Wertet die gegebenen Antworten aus und setzt score auf den entsprechenden Wert.
  * 
  */
 function evaluate() {
@@ -430,14 +432,14 @@ function evaluate() {
 
 		var question = document.getElementById("question" + i);
 
-		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser
-		// Teil durchlaufen.
+		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser Teil durchlaufen.
 		if (question.getAttribute("data-type").localeCompare("mc") === 0
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
 			var childrenInput = $("#question" + i).find("input").toArray();
 			var richtig = richtigArray.shift();
 
 			var gibMirPunkte = true;
+			// Durchläuft alle Kinder (=Antwortmöglichkeiten), prüft ob sie geklickt wurden und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			if (childrenInput !== null) {
 				for (var j = 0; j < childrenInput.length; j++) {
 					var child = childrenInput[j];
@@ -452,8 +454,7 @@ function evaluate() {
 			}
 		}
 
-		// Falls die Frage eine Drag&Drop Aufgabe ist wird dieser Teil
-		// durchlaufen.
+		// Falls die Frage eine Drag&Drop Aufgabe ist wird dieser Teil durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("dd") === 0) {
 			var draggables = $("#question" + i).find(".drag").toArray();
 			var gibMirPunkte = true;
@@ -462,6 +463,7 @@ function evaluate() {
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".dropbox").toArray();
 
+			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
 				var father = document.getElementById("question" + i + "_answer"
 						+ k).parentNode;
@@ -475,13 +477,11 @@ function evaluate() {
 				score++;
 			}
 
-			// set the variable question to be the DOM representation of the
-			// element again (instead of jQuery)
+			// set the variable question to be the DOM representation of the element again (instead of jQuery)
 			var question = document.getElementById("question" + i);
 		}
 
-		// Falls die Frage eine Reihenfolgen-Aufgabe ist wird dieser Teil
-		// durchlaufen.
+		// Falls die Frage eine Reihenfolgen-Aufgabe ist wird dieser Teil durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("od") === 0) {
 			var draggables = $("#question" + i).find(".dragOD").toArray();
 			var gibMirPunkte = true;
@@ -491,6 +491,7 @@ function evaluate() {
 			var boxes = $("#question" + i).find(".box_textOrder").toArray();
 			console.log("anzahl der boxen: " + boxes.length);
 
+			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
 				var father = document.getElementById("question" + i + "_answer"
 						+ k).parentNode;
@@ -504,12 +505,10 @@ function evaluate() {
 				score++;
 			}
 
-			// set the variable question to be the DOM representation of the
-			// element again (instead of jQuery)
+			// set the variable question to be the DOM representation of the element again (instead of jQuery)
 			var question = document.getElementById("question" + i);
 		}
-		// Falls die Frage eine Vokabel Aufgabe ist wird dieser Teil
-		// durchlaufen.
+		// Falls die Frage eine Vokabel Aufgabe ist wird dieser Teil durchlaufen.
 		else if (question.getAttribute("data-type").localeCompare("tl") === 0) {
 			var draggables = $("#question" + i).find(".drag").toArray();
 			var gibMirPunkte = true;
@@ -518,6 +517,7 @@ function evaluate() {
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".dropTable").toArray();
 
+			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
 				var father = document.getElementById("question" + i + "_answer"
 						+ k).parentNode;
@@ -531,8 +531,7 @@ function evaluate() {
 				score++;
 			}
 
-			// set the variable question to be the DOM representation of the
-			// element again (instead of jQuery)
+			// set the variable question to be the DOM representation of the element again (instead of jQuery)
 			var question = document.getElementById("question" + i);
 		}
 
@@ -548,8 +547,7 @@ function evaluate() {
 			var antworten = $("#question" + i).find("p").toArray();
 
 			var gibMirPunkte = true;
-			// durchlaufe alle Antworten. Die ersten beiden Einträge werden
-			// übersprungen, da sie keine Antworten sind.
+			// durchlaufe alle Antworten. Die ersten beiden Einträge werden übersprungen, da sie keine Antworten sind.
 			for (var j = 2; j < antworten.length; j++) {
 				var antworttext = antworten[j].textContent;
 				// finde das Feld in dem die Antwort stehen sollte
@@ -574,8 +572,7 @@ function evaluate() {
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
-// the divs containing the questions are shown/hidden accordingly. To add
-// questions, you have to create
+// All the questions are hidden except the next question
 function nextButtonClick() {
 	count++;
 	showTheQuestion(count);
@@ -588,12 +585,10 @@ function backButtonClick() {
 	showTheQuestion(count);
 }
 
-// This function shows the question on the screen that the user has to answer
-// next
+// This function shows the question on the screen that the user has to answer next
 function showTheQuestion(count) {
 
-	// Hides all the questions. The show() function of the questions has to be
-	// called again to make them visible
+	// Hides all the questions. The show() function of the questions has to be called again to make them visible
 	$(".questionclass").hide();
 
 	$('#question' + count).show();
@@ -635,9 +630,7 @@ function dropTL(ev, el) {
 	}
 }
 
-// Dropmethode für Reihenfolgen, lässt genau eine Antwort pro Feld zu,
-// berücksichtigt dabei dass immer bereits ein Text (die Zahl) im Feld vorhanden
-// ist
+// Dropmethode für Reihenfolgen, lässt genau eine Antwort pro Feld zu, berücksichtigt dabei dass immer bereits ein Text (die Zahl) im Feld vorhanden ist
 function dropOD(ev, el) {
 	ev.preventDefault();
 
