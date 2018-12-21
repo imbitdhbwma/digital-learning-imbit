@@ -589,6 +589,15 @@ bottom: 2vw;
     z-index:1;
 }
 
+#octo_arm_rechts_unten_WI{
+	position: absolute;
+	bottom: 0;
+	right: -20%;
+	width: 40vw;
+	height: 30vh;
+    z-index:1;
+}
+
 
 #octo_kopf_bwl {
     position: absolute;
