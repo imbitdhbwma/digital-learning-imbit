@@ -61,23 +61,27 @@
 			.ready(
 					function() {
 						// Frage 1 Mikroökonomie (Single Choice)
-						createSC("Was ist der primäre Gegenstand der Mikroökonomie?", 
-								[	"Die Abstimmung der individuellen Pläne, insbesondere durch Preisbildung, auf den Produkt- und Faktormärkten.",
-									"Die Untersuchung des wirtschaftlichen Haushaltes einzelner Unternehmen",
-									"Preisbildung in Abhängigkeit der Produktqualität"], 
-									[ 1, 0, 0 ]);
-						
+						createSC(
+								"Was ist der primäre Gegenstand der Mikroökonomie?",
+								[
+										"Die Abstimmung der individuellen Pläne, insbesondere durch Preisbildung, auf den Produkt- und Faktormärkten.",
+										"Die Untersuchung des wirtschaftlichen Haushaltes einzelner Unternehmen",
+										"Preisbildung in Abhängigkeit der Produktqualität" ],
+								[ 1, 0, 0 ]);
+
 						// Frage 2 Mikroökonomie (Multiple Choice)
-						createMC("Wovon hängt nach geläufigen Hypothesen die von einem Haushalt nachgefragte Menge eines beliebigen Gutes pro Zeiteinheit ab?", 
-								[	"Vom Preis des Gutes",
-									"Vom Preis anderer Güter",
-									"Vom Einkommen",
-									"Von der Bedürfnisstruktur",
-									"Vom Vermögen des Haushaltes"], 
-									[ 1, 1, 1, 1, 1 ]);
-						
+						createMC(
+								"Wovon hängt nach geläufigen Hypothesen die von einem Haushalt nachgefragte Menge eines beliebigen Gutes pro Zeiteinheit ab?",
+								[ "Vom Preis des Gutes",
+										"Vom Preis anderer Güter",
+										"Vom Einkommen",
+										"Von der Bedürfnisstruktur",
+										"Vom Vermögen des Haushaltes" ], [ 1,
+										1, 1, 1, 1 ]);
+
 						// Frage 3 Mikroökonomie (Lückentext)
-						createTQ("In welcher Weise geht man bei der Analyse von Konsumgütermärkten vor?",
+						createTQ(
+								"In welcher Weise geht man bei der Analyse von Konsumgütermärkten vor?",
 								[
 										"Am Beginn steht eine Analyse der individuellen ",
 										"",
@@ -86,38 +90,45 @@
 										", die jeweils für einen Markt zusammengefasst werden. Mit Hilfe von ",
 										"",
 										"und -angebot lassen sich Verlauf und Ergebnis der ",
-										"",
-										" beschreiben und erklären." ],
-								
-								[ "Unternehmensangebots", "Preisbildungsprozesse", "Haushaltsnachfrage",
-								  "Marktnachfrage" ], 
-									[ 3, 1, 4, 2 ]);
-						
+										"", " beschreiben und erklären." ],
+
+								[ "Unternehmensangebots",
+										"Preisbildungsprozesse",
+										"Haushaltsnachfrage", "Marktnachfrage" ],
+								[ 3, 1, 4, 2 ]);
+
 						// Frage 4 Mikroökonomie (Single Choice)
-						createSC("Warum können die individuellen Nachfragekurven der Haushalte für ein Gut unterschiedlich sein, obwohl ihre Einkommen und Vermögen sowie die Preise der anderen Güter gleich sind?", 
-								[	"Weil das Gut in verschiedenen Zeitintervallen in untrschiedlichen Mengen produziert wird",
-									"Die individuellen Nachfragkurven können nicht verschieden sein.",
-									"Weil ihre Bedürfnisse meist verschieden sind."], 
-									[ 0, 0, 1 ]);
-						
+						createSC(
+								"Warum können die individuellen Nachfragekurven der Haushalte für ein Gut unterschiedlich sein, obwohl ihre Einkommen und Vermögen sowie die Preise der anderen Güter gleich sind?",
+								[
+										"Weil das Gut in verschiedenen Zeitintervallen in untrschiedlichen Mengen produziert wird",
+										"Die individuellen Nachfragkurven können nicht verschieden sein.",
+										"Weil ihre Bedürfnisse meist verschieden sind." ],
+								[ 0, 0, 1 ]);
+
 						// Frage 5 Mikroökonomie (Multiple Choice)
-						createMC("Welche Einflussfaktoren sind -abgesehen von denen der individuellen Nachfrage- bei der Marktnachfrage zusätzlich von Bedeutung?", 
-								[	"Die Verteilung der Einkommen",
-									"Die Verteilung der Vermögen",
-									"Die größe der anbietenden Unternehmen",
-									"Die Zahl der ein bestimmtes Gut Nachfragenden Haushalte"], 
-									[ 1, 1, 0, 1 ]);
+						createMC(
+								"Welche Einflussfaktoren sind -abgesehen von denen der individuellen Nachfrage- bei der Marktnachfrage zusätzlich von Bedeutung?",
+								[
+										"Die Verteilung der Einkommen",
+										"Die Verteilung der Vermögen",
+										"Die größe der anbietenden Unternehmen",
+										"Die Zahl der ein bestimmtes Gut Nachfragenden Haushalte" ],
+								[ 1, 1, 0, 1 ]);
 
 						// Frage 6 Mikroökonomie (Multiple Choice)
-						createMC("Eine Marktangebotskurve verschiebt sich ceteris paribus nach links, wenn:", 
-								[	"die Preise der Produktionsfaktoren fallen;",
-									"die Preise anderer Güter steigen;",
-									"technische Fortschritte realisiert werden;",
-									"Anbieter ausscheiden",
-									"die Anbieter größere Stückgewinne als bisher erzielen wollen."], 
-									[ 0, 1, 0, 1, 1 ]);
+						createMC(
+								"Eine Marktangebotskurve verschiebt sich ceteris paribus nach links, wenn:",
+								[
+										"die Preise der Produktionsfaktoren fallen;",
+										"die Preise anderer Güter steigen;",
+										"technische Fortschritte realisiert werden;",
+										"Anbieter ausscheiden",
+										"die Anbieter größere Stückgewinne als bisher erzielen wollen." ],
+								[ 0, 1, 0, 1, 1 ]);
 						//Frage 7 Mikroökonomie (Lückentext)
-						createTQ("Gleichgewichtsanalyse",
+						createTQ(
+								"Gleichgewichtsanalyse",
 								[
 										"Unter Gleichgewicht versteht man einen Zustand, bei dem die ",
 										"",
@@ -128,50 +139,59 @@
 										", so haben ",
 										"",
 										" und Anbieter keinen Grund mehr, ihr Verhalten zu ändern. Der Markt ist sozusagen geräumt." ],
-								[ "Nachfrage-", "Wirtschaftssubjekte", "Angebotsüberschuss",
-										"Nachfrager" ], 
-									[ 2, 1, 3, 4 ]);
-						
+								[ "Nachfrage-", "Wirtschaftssubjekte",
+										"Angebotsüberschuss", "Nachfrager" ], [
+										2, 1, 3, 4 ]);
+
 						// Frage 8 Mikroökonomie (Single Choice)
-						createSC("Welches ist die wichtigste Prämisse des Cobweb-Theorems?", 
-								[	"Das Angebot reagiert nicht auf Änderungen des Marktpreises.",
-									"Das Angebot reagiert ohne Zeitverzögerung auf Änderungen des Marktpreises.",
-									"Das Angebot reagiert zeitverzögert auf Änderungen des Marktpreises."], 
-									[ 0, 0, 1 ]);
-						
+						createSC(
+								"Welches ist die wichtigste Prämisse des Cobweb-Theorems?",
+								[
+										"Das Angebot reagiert nicht auf Änderungen des Marktpreises.",
+										"Das Angebot reagiert ohne Zeitverzögerung auf Änderungen des Marktpreises.",
+										"Das Angebot reagiert zeitverzögert auf Änderungen des Marktpreises." ],
+								[ 0, 0, 1 ]);
+
 						// Frage 9 Mikroökonomie (Single Choice)
-						createSC("Was drückt die Nachfrageelastizität (Preiselastizität der Nachfrage) aus?", 
-								[	"Die Nachfrageelastizität ist ein Änderungsmaß der nachgefragten Menge in Bezug auf die angebotene Menge.",
-									"Die Nachfrageelastizität ist ein Änderungsmaß der nachgefragten Menge in Bezug auf den Preis",
-									"Die Nachfragenelastizitäz ist ein Änderungsmaß der angetotenen Menge in Bezug auf die Nachfrage."], 
-									[0 , 1, 0 ]);
-						
+						createSC(
+								"Was drückt die Nachfrageelastizität (Preiselastizität der Nachfrage) aus?",
+								[
+										"Die Nachfrageelastizität ist ein Änderungsmaß der nachgefragten Menge in Bezug auf die angebotene Menge.",
+										"Die Nachfrageelastizität ist ein Änderungsmaß der nachgefragten Menge in Bezug auf den Preis",
+										"Die Nachfragenelastizitäz ist ein Änderungsmaß der angetotenen Menge in Bezug auf die Nachfrage." ],
+								[ 0, 1, 0 ]);
+
 						// Frage 10 Mikroökonomie (Lückentext)
-						createTQ("Was versteht man unter indirekter Preiselastizität der Nachfrage (Kreuzelastizität)?",
+						createTQ(
+								"Was versteht man unter indirekter Preiselastizität der Nachfrage (Kreuzelastizität)?",
 								[
 										"Im Gegensatz zu den ",
 										"",
 										" eines Gutes (direkte Elastizität) werden",
 										"",
-										" eines Gutes und Mängenänderung eines zweiten Gutes in Beziehung gesetzt (Kreuzelastizität)."],
-								[ "Preisänderungen","Preis-Mengen-Beziehungen" ], 
-									[ 2, 1]);
-						
+										" eines Gutes und Mängenänderung eines zweiten Gutes in Beziehung gesetzt (Kreuzelastizität)." ],
+								[ "Preisänderungen", "Preis-Mengen-Beziehungen" ],
+								[ 2, 1 ]);
+
 						//Frage  11 Mikroökonomie (Drag&Drop)
-						createDD("Bedürfnisse: Ordne die Begriffe den richtigen Feldern zu.", 
-								[ "Hunger", "Auto fahren wollen", "Bildung", "Tanzen" ], 
-								[ "Existenzbedürfnisse", "Wirtschaftliche Bedürfnisse", "Kulturelle Bedürfnisse", "Sonstige Bedürfnisse" ], 
-									[ 1, 2, 3, 4]);
-						
+						createDD(
+								"Bedürfnisse: Ordne die Begriffe den richtigen Feldern zu.",
+								[ "Hunger", "Auto fahren wollen", "Bildung",
+										"Tanzen" ], [ "Existenzbedürfnisse",
+										"Wirtschaftliche Bedürfnisse",
+										"Kulturelle Bedürfnisse",
+										"Sonstige Bedürfnisse" ],
+								[ 1, 2, 3, 4 ]);
+
 						//Frage 12 Mikroökonomie (Single Choice)
-						createSC("Wie berechnet man die Wachstumsrate?", 
-								["Neuer Wert : Alter Wert", 
-								 "(Alter Wert + Veränderung) : Alter Wert", 
-								 "Veränderung : Alter Wert" ],
-									[ 0, 0, 1 ]);
-						
+						createSC("Wie berechnet man die Wachstumsrate?", [
+								"Neuer Wert : Alter Wert",
+								"(Alter Wert + Veränderung) : Alter Wert",
+								"Veränderung : Alter Wert" ], [ 0, 0, 1 ]);
+
 						//Frage 13 Mikroökonomie (Lückentext)
-						createTQ("Preisbildung auf dem Gütermarkt (Polypol)",
+						createTQ(
+								"Preisbildung auf dem Gütermarkt (Polypol)",
 								[
 										"Herrscht ein ",
 										"",
@@ -182,73 +202,95 @@
 										", d.h. die Unternehmen werden die Preise so lange ",
 										"",
 										", so lange sie ihre Produkte zu einem höheren Preis als gplant verkaufen können." ],
-								[ "erhöhen", "Nachfrageüberschuss", "Überangebot",
-										"Gleichgewichtspreis" ], 
-									[ 3, 4, 2, 1 ]);
+								[ "erhöhen", "Nachfrageüberschuss",
+										"Überangebot", "Gleichgewichtspreis" ],
+								[ 3, 4, 2, 1 ]);
 						//Frage 14 (Drag & Drop)
-						createDD("Zeitanalyse: Ordne die Beschreibungen den richtigen Feldern zu.", [ "Alles auf einen Zeitpunkt bezogen.", "Vergleich zweier Gleichgewichtszustände", "Wirtschaftsablauf in der Zeit", "Veränderungen der funktionalen Beziehungen werden berücksichtigt" ], [ "evaluatorische",
-								"statische", "komperativ-statische", "dynamische" ], [ 2, 3, 4, 1]);
-						
+						createDD(
+								"Zeitanalyse: Ordne die Beschreibungen den richtigen Feldern zu.",
+								[
+										"Alles auf einen Zeitpunkt bezogen.",
+										"Vergleich zweier Gleichgewichtszustände",
+										"Wirtschaftsablauf in der Zeit",
+										"Veränderungen der funktionalen Beziehungen werden berücksichtigt" ],
+								[ "evaluatorische", "statische",
+										"komperativ-statische", "dynamische" ],
+								[ 2, 3, 4, 1 ]);
+
 						//Frage 15 Mikroökonomie (Übersetzungsfrage)
-						createTL("Übersetzungsfrage", [ "growth rate", "growth factor", "gross domestic product", "inflation rate", "economic goods", "marginal costs", "marginal utility", "producer Surpulus", "consumer surpulus", "price elasticity" ],
-									["Brutto-Inlands-Produkt", "Wachstumsrate", "Wachstumsfaktor", "Grenzkosten", "Inflationsrate", "Grenznutzen", "Produzentenrente", "Preiselastizität", "Konsumentenrente", "Wirtschaftliche Güter" ], 
-									[ 2, 3, 1, 5, 10, 4, 7, 6, 9, 8 ]);
-						
+						createTL("Übersetzungsfrage", [ "growth rate",
+								"growth factor", "gross domestic product",
+								"inflation rate", "economic goods",
+								"marginal costs", "marginal utility",
+								"producer Surpulus", "consumer surpulus",
+								"price elasticity" ], [
+								"Brutto-Inlands-Produkt", "Wachstumsrate",
+								"Wachstumsfaktor", "Grenzkosten",
+								"Inflationsrate", "Grenznutzen",
+								"Produzentenrente", "Preiselastizität",
+								"Konsumentenrente", "Wirtschaftliche Güter" ],
+								[ 2, 3, 1, 5, 10, 4, 7, 6, 9, 8 ]);
+
 						// Frage 1 Makroökonomie (Begriffe Zuordnen)
-						createDD("Ordne die Erklärungen den richtigen Begriffen zu", 
-								[ "Ein System von Definitionen gesamtwirtschaftlicher Größen und deren empirische Darstellung",
-							      "Die Empirische darstellung dieser Größen", 
-							      "Ein System von Definitionen gesamtwirtschaftlicher Größen" ], 
-								
-							    [ "Volkswirtschaftliche Gesamtrechnung (VGR)", 
-								  "Kreislaufanalyse", 
-							      "VGR im Staatlichen Sinn"  ], 
+						createDD(
+								"Ordne die Erklärungen den richtigen Begriffen zu",
+								[
+										"Ein System von Definitionen gesamtwirtschaftlicher Größen und deren empirische Darstellung",
+										"Die Empirische darstellung dieser Größen",
+										"Ein System von Definitionen gesamtwirtschaftlicher Größen" ],
+
+								[ "Volkswirtschaftliche Gesamtrechnung (VGR)",
+										"Kreislaufanalyse",
+										"VGR im Staatlichen Sinn" ],
 								[ 1, 2, 2 ]);
-						
+
 						//Frage 2 Makroökonomie (Multiple Choice)
-						createMC("Aufgabe der Volkswirtschaftlichen Gesamtrechnung ist es,", 
-									[ "die Rechnungslegung der Unternehmen eines Landes zu Vereinheitlichen;", 
-									  "das Ausgabegebaren des Staates im jeweils vorangegangenen Rechnungsjahr offenzulegen;", 
-									  "die in einem Land durch die Wirtschaftstätigkeit während einer Periode neu geschaffenen Werte zu erfassen;",
-									  "das sogennannte Volkseinkommen und Sozialprodukt auszuweisen;",
-									  "den in einem Land in jedem Zeitpunkt vorhandenen Bestand ökonomischer Werte zu ermitteln"], 
+						createMC(
+								"Aufgabe der Volkswirtschaftlichen Gesamtrechnung ist es,",
+								[
+										"die Rechnungslegung der Unternehmen eines Landes zu Vereinheitlichen;",
+										"das Ausgabegebaren des Staates im jeweils vorangegangenen Rechnungsjahr offenzulegen;",
+										"die in einem Land durch die Wirtschaftstätigkeit während einer Periode neu geschaffenen Werte zu erfassen;",
+										"das sogennannte Volkseinkommen und Sozialprodukt auszuweisen;",
+										"den in einem Land in jedem Zeitpunkt vorhandenen Bestand ökonomischer Werte zu ermitteln" ],
 								[ 0, 0, 1, 1, 0 ]);
-						
+
 						// Frage 3 Makroökonomie (Lückentext)
-						createTQ("Wodurch unterscheiden sich Volkswirtschaftliche Gesamtrechnung und Volksvermögensrechenung?",
+						createTQ(
+								"Wodurch unterscheiden sich Volkswirtschaftliche Gesamtrechnung und Volksvermögensrechenung?",
 								[
 										"Die Volksvermögensrechnung weist den in einem bestimmten Zeitpunkt vorhandenen ",
 										"",
 										"eines Landes aus, die Volkswirtschaftliche Gesamtrechnung den ",
-										"",
-										"einer Periode." ],
-								[  "Wertzuwachs", "Wertbestand" ], [ 2, 1,]);
-						
+										"", "einer Periode." ], [
+										"Wertzuwachs", "Wertbestand" ],
+								[ 2, 1, ]);
+
 						// Frage 4 Makroökonomie (Multiple Choice)
-						createMC("Nach welchen Wirtschaftsbereichen werden die Beiträge zum Bruttoinlandsprodukt in der Regel statistisch aufgeteilt?", 
-									[ "Land- und Forstwirtschaft", 
-									  "Tourismus und Gastronomie", 
-									  "Warenproduzierendes Gewerbe",
-									  "Handel und Verkehr",
-									  "Dienstleistungsbereiche, Staat"], 
-								[ 1, 0, 1, 1, 1 ]);
-						
+						createMC(
+								"Nach welchen Wirtschaftsbereichen werden die Beiträge zum Bruttoinlandsprodukt in der Regel statistisch aufgeteilt?",
+								[ "Land- und Forstwirtschaft",
+										"Tourismus und Gastronomie",
+										"Warenproduzierendes Gewerbe",
+										"Handel und Verkehr",
+										"Dienstleistungsbereiche, Staat" ], [
+										1, 0, 1, 1, 1 ]);
+
 						// Frage 5 Makroökonomie (Single Choice)
-						createSC("Wie nennt man den Anteil der Unselbstständigeneinkommen am Volkseinkommen? ", 
-								[ "Profitquote", 
-								  "Lohnquote", 
-								  "Gehaltsquote" ],
+						createSC(
+								"Wie nennt man den Anteil der Unselbstständigeneinkommen am Volkseinkommen? ",
+								[ "Profitquote", "Lohnquote", "Gehaltsquote" ],
 								[ 0, 1, 0 ]);
-						
+
 						// Frage 6 Makroökonomie (Single Choice)
-						createSC("Wie nennt man den Anteil der Einkommmen aus Unternehmertätigkeiten und Vermögen am Volkseinkommen? ", 
-								[ "Profitquote", 
-								  "Lohnquote", 
-								  "Gehaltsquote" ],
+						createSC(
+								"Wie nennt man den Anteil der Einkommmen aus Unternehmertätigkeiten und Vermögen am Volkseinkommen? ",
+								[ "Profitquote", "Lohnquote", "Gehaltsquote" ],
 								[ 1, 0, 0 ]);
-						
+
 						// Frage 7 Makroökonomie (Lückentext)
-						createTQ("Was gilt generell als Staatseinkommen?",
+						createTQ(
+								"Was gilt generell als Staatseinkommen?",
 								[
 										"Die Aufendungen des Staates für zivile und militärische Leistungen. Da diese Leistungen der ",
 										"",
@@ -259,86 +301,98 @@
 										", sondern nur indirekt über den zur ",
 										"",
 										"erforderlichen Aufwand an Personal- und Sachmitteln erfasst." ],
-								[ "Leistungserstellung", "Leistngsentgelte", "Allgemeinheit",
-								  "Entgelt" ], 
-										[ 3, 4, 2, 1]);
-						
+								[ "Leistungserstellung", "Leistngsentgelte",
+										"Allgemeinheit", "Entgelt" ], [ 3, 4,
+										2, 1 ]);
+
 						// Frage 8 Makroökonomie (Single Choice)
-						createSC("In welchem Zusammenhang stehen Brutto-, Netto- und Ersatzinvestition?", 
-								[ "Bruttoinvestition = Nettoinvestition + Ersatzinvestition", 
-								  "Nettoinvestition = Bruttoinvestition + Ersatzinvestition", 
-								  "Bruttoinvestition = nettoinvestition - Ersatzinvestition" ],
+						createSC(
+								"In welchem Zusammenhang stehen Brutto-, Netto- und Ersatzinvestition?",
+								[
+										"Bruttoinvestition = Nettoinvestition + Ersatzinvestition",
+										"Nettoinvestition = Bruttoinvestition + Ersatzinvestition",
+										"Bruttoinvestition = nettoinvestition - Ersatzinvestition" ],
 								[ 1, 0, 0 ]);
-						
+
 						// Frage 9 Makroökonomie (Drag & Drop)
-						createDD("Institutionen des Sektor Staat: Ordne die Begriffe richtig zu.", 
-								[ "Arbeitsämter",
-							      "Lastenausgleichfonds", 
-							      "Stifung Warentests",
-							      "Gemeindeverbände" ], 
-								
-							    [ "Gebietskörperschaften", 
-								  "öffentliche Anstalten", 
-							      "Vermögen",
-							      "Zweckverbände"], 
-								[ 4, 1, 2, 3 ]);
+						createDD(
+								"Institutionen des Sektor Staat: Ordne die Begriffe richtig zu.",
+								[ "Arbeitsämter", "Lastenausgleichfonds",
+										"Stifung Warentests",
+										"Gemeindeverbände" ],
+
+								[ "Gebietskörperschaften",
+										"öffentliche Anstalten", "Vermögen",
+										"Zweckverbände" ], [ 4, 1, 2, 3 ]);
 
 						// Frage 10 Makroökonomie (Multiple Choice)
-						createMC("Woraus besteht der Sektor Private Haushalte?", 
-									[ "Private Ein- und Mehrpersonenhaushalte", 
-									  "Anstalthaushalte", 
-									  "Private Institutionen ohne Erwerbscharakter",
-									  "Private Institutionen mit Erwerbscharakter",
-									  "Zweckverbände"], 
-								[ 1, 1, 1, 0, 0 ]);
-						
+						createMC(
+								"Woraus besteht der Sektor Private Haushalte?",
+								[
+										"Private Ein- und Mehrpersonenhaushalte",
+										"Anstalthaushalte",
+										"Private Institutionen ohne Erwerbscharakter",
+										"Private Institutionen mit Erwerbscharakter",
+										"Zweckverbände" ], [ 1, 1, 1, 0, 0 ]);
+
 						// Frage 11 Makroökonomie (Multiple Choice)
-						createMC("Wie lauten die beiden Ausgangsfragen der KEYNESschen Analyse?", 
-									[ "Wie läßt sich das Volkseinkommen am besten berechnen?",
-									  "Wie läßt sich das Volkseinkommen bei gesamtwirtschaftlichem Gleichgewicht bestimmen?", 
-									  "Wie ändert sich das Volkseinkommen nach einer autonomen Ausgabenänderung?", 
-									  "Wie ändert sich das Volkseinkommen nach einer autonomen Einkommensänderung?",
-									  "Warum berechnet man das Volkseinkommen?"], 
+						createMC(
+								"Wie lauten die beiden Ausgangsfragen der KEYNESschen Analyse?",
+								[
+										"Wie läßt sich das Volkseinkommen am besten berechnen?",
+										"Wie läßt sich das Volkseinkommen bei gesamtwirtschaftlichem Gleichgewicht bestimmen?",
+										"Wie ändert sich das Volkseinkommen nach einer autonomen Ausgabenänderung?",
+										"Wie ändert sich das Volkseinkommen nach einer autonomen Einkommensänderung?",
+										"Warum berechnet man das Volkseinkommen?" ],
 								[ 0, 1, 1, 0, 0 ]);
-						
+
 						// Frage 12 Makroökonomie (Multiple Choice)
-						createMC("Diese beiden Fragen lassen sich  methodisch gesehen nur beantworten", 
-									[ "im Rahmen der Volkswirtschaftlichen Gesamtrechnung",
-									  "durch eine noch umfassendere Ex-post-Analyse", 
-									  "durch eine Ex-ante-Analyse unter Verwendung des begrifflichen Instrumentariums der VGR", 
-									  "weder dur eine Ex-post- noch durch eine Ex-ante-Analyse, sondern nur rein intuitiv",
-									  "sowohl in einem Ex-ante-Grundmodell als auch im Rahmen eines erwiterten Hypothesensystems"], 
+						createMC(
+								"Diese beiden Fragen lassen sich  methodisch gesehen nur beantworten",
+								[
+										"im Rahmen der Volkswirtschaftlichen Gesamtrechnung",
+										"durch eine noch umfassendere Ex-post-Analyse",
+										"durch eine Ex-ante-Analyse unter Verwendung des begrifflichen Instrumentariums der VGR",
+										"weder dur eine Ex-post- noch durch eine Ex-ante-Analyse, sondern nur rein intuitiv",
+										"sowohl in einem Ex-ante-Grundmodell als auch im Rahmen eines erwiterten Hypothesensystems" ],
 								[ 0, 0, 1, 0, 1 ]);
-						
+
 						// Frage 13 Makroökonomie (Lückentext)
-						createTQ( "Warum ist die Ex-post-Analyse nicht geeignet, die genannten Ausgangsfragen zu beantworten?",
+						createTQ(
+								"Warum ist die Ex-post-Analyse nicht geeignet, die genannten Ausgangsfragen zu beantworten?",
 								[
 										"Die Ex-post-Analyse vermag nur ",
 										"",
 										"Beziehungen zwischen den makroökonomischen Größen zu klären und Ihre Werte in der Vergangenheit zu ermitteln, während Informationen über",
 										"",
 										" Abhängigkeiten erwartet werden. Solche Informationen können nur Aussagen über das Verhalten der ",
-										"",
-										" Entscheidungsträger und dessen ",
-										"",
-										" Ergebnisse liefern (Hypothesen)" ],
-								[ "faktische", "einzelwirschaftlichen", "definitorische",
-										"makroökonomisch relevante" ], 
-								[ 3, 1, 2, 4 ]);
-						
+										"", " Entscheidungsträger und dessen ",
+										"", " Ergebnisse liefern (Hypothesen)" ],
+								[ "faktische", "einzelwirschaftlichen",
+										"definitorische",
+										"makroökonomisch relevante" ], [ 3, 1,
+										2, 4 ]);
+
 						// Frage 14 Makroökonomie (Multiple Choice)
-						createMC("Der dritte KEYNES-Fall ist dadurch gekennzeichnet, daß die folgenden Größen zu hoch sind um ein Vollbeschäftigungsgleichgewicht zuzulassen.", 
-									[ "das Nominallohnniveau",
-									  "das Preisniveau", 
-									  "das Reallohnniveau"], 
-									  "das Zinsniveau",
-								[ 1, 1, 0, 1 ]);
-						
+						createMC(
+								"Der dritte KEYNES-Fall ist dadurch gekennzeichnet, daß die folgenden Größen zu hoch sind um ein Vollbeschäftigungsgleichgewicht zuzulassen.",
+								[ "das Nominallohnniveau", "das Preisniveau",
+										"das Reallohnniveau" ],
+								"das Zinsniveau", [ 1, 1, 0, 1 ]);
+
 						// Frage 15 Makroökonmie (Übersetzungsfrage)
-						createTL("Übersetzungsfrage", [ "real wage level", "interest rate level", "price level", "household", "nominal level", "wage ratio", "property","authorities", "profit rate", "national accounts"], 
-													  [ "Nominallohnniveau", "Preisniveau", "Reallohnniveau", "Zinsniveau", "Haushalt", "Vermögen", "Lohnquote", "Profitquote", "Volkswirtschaftliche Gesamtrechnung", "Gebietskörperschaft"  ], 
-													  [ 5, 3, 1, 2, 4, 7, 6, 9, 10, 8 ]);
-						
+						createTL("Übersetzungsfrage", [ "real wage level",
+								"interest rate level", "price level",
+								"household", "nominal level", "wage ratio",
+								"property", "authorities", "profit rate",
+								"national accounts" ], [ "Nominallohnniveau",
+								"Preisniveau", "Reallohnniveau", "Zinsniveau",
+								"Haushalt", "Vermögen", "Lohnquote",
+								"Profitquote",
+								"Volkswirtschaftliche Gesamtrechnung",
+								"Gebietskörperschaft" ], [ 5, 3, 1, 2, 4, 7, 6,
+								9, 10, 8 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -356,6 +410,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Dank deiner Hilfe hat die IMBIT-Krake den totalen
+				Durchblick!</p>
+
 		</div>
 
 	</div>

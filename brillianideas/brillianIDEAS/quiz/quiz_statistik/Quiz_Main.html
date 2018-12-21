@@ -63,34 +63,80 @@
 					function() {
 
 						//Demo Multiple Choice Aufgabe mit drei Attributen: Frage als String, Antworten als Array und Lösungen als Array mit 1=richtig, 0=falsch
-						createMC("Wie definiert man ein Ereignis?", [ "Eine Menge von Elementarereignissen", "Das Ergebnis einer Zuordnung", "Eine Teilmenge des Ergebnisraums", "Die Schnittmenge aller Zufallsexperimente" ], [ 1,0,1,0 ]);
-						createMC("Das Signifikanzniveau...", [ "Heißt α und ist eine kleine Zahl nahe bei null", "Wird bei Hypothesen Tests als Fehler der ersten Art gewertet", "Berechnet man mit dem Median", "Kann nur durch eine Stichprobe mit mehr als 100 Beobachtungsobjekten festgelegt werden", "Gibt im Hypothesentest an, welches Risiko man bereit ist einzugehen, eine falsche Entscheidung zu treffen" ], [ 1,0,0,0,1 ]);
+						createMC("Wie definiert man ein Ereignis?", [
+								"Eine Menge von Elementarereignissen",
+								"Das Ergebnis einer Zuordnung",
+								"Eine Teilmenge des Ergebnisraums",
+								"Die Schnittmenge aller Zufallsexperimente" ],
+								[ 1, 0, 1, 0 ]);
+						createMC(
+								"Das Signifikanzniveau...",
+								[
+										"Heißt α und ist eine kleine Zahl nahe bei null",
+										"Wird bei Hypothesen Tests als Fehler der ersten Art gewertet",
+										"Berechnet man mit dem Median",
+										"Kann nur durch eine Stichprobe mit mehr als 100 Beobachtungsobjekten festgelegt werden",
+										"Gibt im Hypothesentest an, welches Risiko man bereit ist einzugehen, eine falsche Entscheidung zu treffen" ],
+								[ 1, 0, 0, 0, 1 ]);
 						//Demo Single Choice Aufgabe mit drei Attributen: Frage als String, Antworten als Array und Lösungen als Array mit 1=richtig, 0=falsch
-						createSC("Entlang den Ästen eines Wahrscheinlichkeitsbaums wird…", [ "addiert", "subtrahiert", "multipliziert", "dividiert" ],
-								[ 0, 0, 1, 0 ]);
-						createSC("Für das Würfeln mit zwei Würfeln ist die Wahrscheinlichkeiten des Ereignisses, dass die Augenzahl größer als 10 ist…", [ "1/10", "6/10", "1/12", "0" ],
-								[ 0, 0, 1, 0 ]);
-						createSC("Welche Arten von Hypothesen Tests gibt es?", [ "relativer und prozentualer Hypothesen Test", "einseitiger und zweiseitiger Hypothesen Test", "statischer und dynamischer Hypothesen Test", "normalverteilter und standardnormalverteilter Hypothesen Test" ],
+						createSC(
+								"Entlang den Ästen eines Wahrscheinlichkeitsbaums wird…",
+								[ "addiert", "subtrahiert", "multipliziert",
+										"dividiert" ], [ 0, 0, 1, 0 ]);
+						createSC(
+								"Für das Würfeln mit zwei Würfeln ist die Wahrscheinlichkeiten des Ereignisses, dass die Augenzahl größer als 10 ist…",
+								[ "1/10", "6/10", "1/12", "0" ], [ 0, 0, 1, 0 ]);
+						createSC(
+								"Welche Arten von Hypothesen Tests gibt es?",
+								[
+										"relativer und prozentualer Hypothesen Test",
+										"einseitiger und zweiseitiger Hypothesen Test",
+										"statischer und dynamischer Hypothesen Test",
+										"normalverteilter und standardnormalverteilter Hypothesen Test" ],
 								[ 0, 1, 0, 0 ]);
-						createSC("Die IMBIT Krake möchte nachweisen, dass ihre 20 IT-Services im Durchschnitt von mehr als 10 Mitarbeitern betreut werden. Welche Hypothesen sollte sie testen?", [ "H0:μ≤20;H1:μ>20", "H0:μ≤10;H1:μ>10", "H0:μ>20;H1:μ≤20", "H0:μ>20;H1:μ>10" ],
+						createSC(
+								"Die IMBIT Krake möchte nachweisen, dass ihre 20 IT-Services im Durchschnitt von mehr als 10 Mitarbeitern betreut werden. Welche Hypothesen sollte sie testen?",
+								[ "H0:μ≤20;H1:μ>20", "H0:μ≤10;H1:μ>10",
+										"H0:μ>20;H1:μ≤20", "H0:μ>20;H1:μ>10" ],
 								[ 0, 1, 0, 0 ]);
-						createSC("Die IMBIT Krake möchte die Kunden ihres IT-Unternehmens besser kennenlernen und stellt fest, dass die unterschiedlichen Unternehmen 140, 211, 127, 290, 195, 150 und 143 Mitarbeiter haben. Wie groß ist die Spannweite dieser Unternehmensgrößen?", [ "150", "1256", "179,4", "3"],
-								[ 1, 0, 0, 0 ]);
-						createSC("Wann wird der Satz von Bayer angewandt?", [ "Durch neu gewonnene Informationen können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden", "Durch verringerten Ergebnisraum können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden"],
-								[ 1, 0]);
-					
+						createSC(
+								"Die IMBIT Krake möchte die Kunden ihres IT-Unternehmens besser kennenlernen und stellt fest, dass die unterschiedlichen Unternehmen 140, 211, 127, 290, 195, 150 und 143 Mitarbeiter haben. Wie groß ist die Spannweite dieser Unternehmensgrößen?",
+								[ "150", "1256", "179,4", "3" ], [ 1, 0, 0, 0 ]);
+						createSC(
+								"Wann wird der Satz von Bayer angewandt?",
+								[
+										"Durch neu gewonnene Informationen können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden",
+										"Durch verringerten Ergebnisraum können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden" ],
+								[ 1, 0 ]);
+
 						//Demo Drag&Drop Aufgabe mit 4 Attributen: Frage als String, Antworten als Array, Felder/Boxen als Array und Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
-						createDD("Das IT-Unternehmen der IMBIT Krake bekommt Rechnungen mit den folgenden Werten: 50€, 100€, 81€, 250€, 1000€, 44€, 250€. Ordne die Lagemaße korrekt zu.", [ "250", "100" , "254"], [ "Median",
-								"Mittelwert", "Modus" ], [ 3, 1, 2 ]);
-						
-						createDD("Die IMBIT Krake möchte die offenen Stellen in ihrem IT-Unternehmen besetzen. Sie sucht: HR:2, Service Desk:5, Marketing:3, Sales:5, Buchhaltung:3, SAP Consultant:5, Einkauf:1, Network Engineer:3, Presales:3, Motivationstrainer:0, Controlling:3, Entwickler:5, Jurist:1, Praktikant:1. Ordne die absolute Häufigkeit korrekt den offenen Stellen zu." , 
-						[ "0", "1","2", "3", "4", "5"], [  "3", "1","4", "0", "2", "5" ], [ 2, 1, 5, 6, 4, 3 ]);
-						
-						createDD("Ordne den Verteilungen ihre Schiefe zu.", 
-						[ "Symmetrisch", "Linksschief bzw. Rechtssteil","Rechtschief bzw. Linkssteil"], [  "größer als 0", "0","kleiner als 0" ], [ 2,3,1 ]);
-								
-						createDD("Die IMBIT Krake möchte ihr Produktportfolio erweitern und macht dafür eine Kundenumfrage. 10 der 70 Dienstleistungsunternehmen interessieren sich für IoT, 60 für Cloud. 50 der 130 Produktionsunternehmen interessieren sich für IoT, 80 für Cloud. Ordne die Wahrscheinlichkeiten korrekt zu.", [ "10/200=0.05", "(60/200)+(130/200)-(50/200)=0,7", "60/200=0,3"], [ "Ein Unternehmen ist an IoT Services interessiert", "Ein Produktionsunternehmen ist an IoT Services interessiert",
-								"Ein Unternehmen ist an IoT interessiert oder ist ein Produktionsunternehmen"], [ 1, 3, 2 ]);
+						createDD(
+								"Das IT-Unternehmen der IMBIT Krake bekommt Rechnungen mit den folgenden Werten: 50€, 100€, 81€, 250€, 1000€, 44€, 250€. Ordne die Lagemaße korrekt zu.",
+								[ "250", "100", "254" ], [ "Median",
+										"Mittelwert", "Modus" ], [ 3, 1, 2 ]);
+
+						createDD(
+								"Die IMBIT Krake möchte die offenen Stellen in ihrem IT-Unternehmen besetzen. Sie sucht: HR:2, Service Desk:5, Marketing:3, Sales:5, Buchhaltung:3, SAP Consultant:5, Einkauf:1, Network Engineer:3, Presales:3, Motivationstrainer:0, Controlling:3, Entwickler:5, Jurist:1, Praktikant:1. Ordne die absolute Häufigkeit korrekt den offenen Stellen zu.",
+								[ "0", "1", "2", "3", "4", "5" ], [ "3", "1",
+										"4", "0", "2", "5" ], [ 2, 1, 5, 6, 4,
+										3 ]);
+
+						createDD("Ordne den Verteilungen ihre Schiefe zu.", [
+								"Symmetrisch", "Linksschief bzw. Rechtssteil",
+								"Rechtschief bzw. Linkssteil" ], [
+								"größer als 0", "0", "kleiner als 0" ], [ 2, 3,
+								1 ]);
+
+						createDD(
+								"Die IMBIT Krake möchte ihr Produktportfolio erweitern und macht dafür eine Kundenumfrage. 10 der 70 Dienstleistungsunternehmen interessieren sich für IoT, 60 für Cloud. 50 der 130 Produktionsunternehmen interessieren sich für IoT, 80 für Cloud. Ordne die Wahrscheinlichkeiten korrekt zu.",
+								[ "10/200=0.05",
+										"(60/200)+(130/200)-(50/200)=0,7",
+										"60/200=0,3" ],
+								[
+										"Ein Unternehmen ist an IoT Services interessiert",
+										"Ein Produktionsunternehmen ist an IoT Services interessiert",
+										"Ein Unternehmen ist an IoT interessiert oder ist ein Produktionsunternehmen" ],
+								[ 1, 3, 2 ]);
 						//Demo Lückentext Aufgabe mit 4 Attributen: Frage als String, Lückentext als Array mit leerem String "" für jede Lücke, Antworten als Array und Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
 						createTQ(
 								"Der Gini-Koeffizient",
@@ -102,21 +148,39 @@
 										" dazwischen ist das Maß der Konzentration von Beobachtungswerten. Ist der Gini-Koeffizient 0 besteht maximale ",
 										"",
 										" ist der Gini-Koeffizient 1 besteht maximale",
-										"",
-										"."],
-										
-								[ "Lorenzkurve", "Konzentration", "Gleichverteilung", "Fläche" ], [ 1, 4, 3, 2 ]);
-										
+										"", "." ],
+
+								[ "Lorenzkurve", "Konzentration",
+										"Gleichverteilung", "Fläche" ], [ 1, 4,
+										3, 2 ]);
+
 						//Demo Frage zur Reihenfolge mit 3 Attributen: Frage als STring, Antworten als Array und Lösungen als Array. Die Angegebene Zahl entspricht der Position des jeweiligen Elements. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
-						createOD("In Welcher Reihenfolge kann man die folgenden Werte berechnen?", [ "Standardabweichung","Varianz", "Durchschnitt"], [ 3, 1, 2 ]);
-						
-								
+						createOD(
+								"In Welcher Reihenfolge kann man die folgenden Werte berechnen?",
+								[ "Standardabweichung", "Varianz",
+										"Durchschnitt" ], [ 3, 1, 2 ]);
+
 						//Demo Übersetzungsfrage mit 4 Attributen: Frage als String, Antworten als Array, zu übersetzende Begriffe als Array und Lösung als Array.
-			
-						createTL("Vokabeltest. Ordnen Sie die englischen Begriffe den deutschen Begriffen zu.", [ "Binomialverteilung", "Zufallsvariable", "Intervallschätzung","Hypothesentest", "Stichprobe", "Interquartilsabstand" , "arithmetisches Mittel", "Häufigkeitsverteilung", "Säulendiagramm", "Signifikanzniveau" ], 
-						[ "Sample", "Bar Graph","Random Variable", "Hypothesis Testing", "Interval Estimation", "Interquartile Range", "Significance Level","Binomial Distribution", "Arithmetic Mean", "Frequency Distribution"  ], [ 8,3,5,4,1,6,9,10,2,7 ]);
+
+						createTL(
+								"Vokabeltest. Ordnen Sie die englischen Begriffe den deutschen Begriffen zu.",
+								[ "Binomialverteilung", "Zufallsvariable",
+										"Intervallschätzung", "Hypothesentest",
+										"Stichprobe", "Interquartilsabstand",
+										"arithmetisches Mittel",
+										"Häufigkeitsverteilung",
+										"Säulendiagramm", "Signifikanzniveau" ],
+								[ "Sample", "Bar Graph", "Random Variable",
+										"Hypothesis Testing",
+										"Interval Estimation",
+										"Interquartile Range",
+										"Significance Level",
+										"Binomial Distribution",
+										"Arithmetic Mean",
+										"Frequency Distribution" ], [ 8, 3, 5,
+										4, 1, 6, 9, 10, 2, 7 ]);
 						showTheQuestion(count);
-						
+
 					});
 </script>
 
@@ -133,6 +197,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Mit deiner Hilfe wird das IT-Unternehmen der
+				IMBIT-Krake zu einhundert Prozent ein Erfolg!</p>
+
 		</div>
 
 	</div>

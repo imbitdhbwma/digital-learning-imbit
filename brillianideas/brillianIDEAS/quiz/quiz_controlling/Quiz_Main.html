@@ -64,33 +64,118 @@
 			.ready(
 					function() {
 
-						createSC("Was zählt nicht zu den wesentlichen Aufgaben des Controllings?", [ "Sicherstellen von Transparenzen im Hinblick auf Strategien, Ergebnisse, Finanzen und Prozesse", "Unternehmensübergreifende Gestaltung des zukunftsorientierten Berichtswesens ", "Pflegen der Controllingsysteme", "Unterstützung des Managementsprozesses der Zielfindung, Planung und Steuerung", "Kontrolle von eingehenden Rechnungen" ],
+						createSC(
+								"Was zählt nicht zu den wesentlichen Aufgaben des Controllings?",
+								[
+										"Sicherstellen von Transparenzen im Hinblick auf Strategien, Ergebnisse, Finanzen und Prozesse",
+										"Unternehmensübergreifende Gestaltung des zukunftsorientierten Berichtswesens ",
+										"Pflegen der Controllingsysteme",
+										"Unterstützung des Managementsprozesses der Zielfindung, Planung und Steuerung",
+										"Kontrolle von eingehenden Rechnungen" ],
 								[ 0, 0, 0, 0, 1 ]);
-						createMC("Welche Komponenten gehören zum Führungssystem eines Unternehmens?", [ "Zielsystem", "Organisationssystem", "Betriebssystem", "Projektmanagementsystem", "Personalführungssystem", "Informationssystem", "Planungs- und Kontrollsystem" ], [ 1, 1, 0, 0, 1, 1, 1 ]);
-						createDD("Ordne die Planungshorizonte richtig zu!", [ "bis zu einem Jahr", "zwischen einem und fünf Jahren", "mehr als fünf Jahre" ], [ "taktisch",
+						createMC(
+								"Welche Komponenten gehören zum Führungssystem eines Unternehmens?",
+								[ "Zielsystem", "Organisationssystem",
+										"Betriebssystem",
+										"Projektmanagementsystem",
+										"Personalführungssystem",
+										"Informationssystem",
+										"Planungs- und Kontrollsystem" ], [ 1,
+										1, 0, 0, 1, 1, 1 ]);
+						createDD("Ordne die Planungshorizonte richtig zu!", [
+								"bis zu einem Jahr",
+								"zwischen einem und fünf Jahren",
+								"mehr als fünf Jahre" ], [ "taktisch",
 								"strategisch", "operativ" ], [ 3, 1, 2 ]);
-						createDD("Ordne folgende Controlling-Instrumente richtig zu!", [ "Soll-Ist-Analyse", "Szenarioanalyse", "ABC-Analyse", "Nutzwertanalyse", "Budgetierung", "Umweltanalyse", "Berichtswesen", "Stärken-Schwächen-Analyse" ], [ "Strategisch",
-								"Operativ" ], [ 2, 1, 2, 1, 2, 1, 2, 1 ]);
-						createDD("Ordne folgende strategische Controllinginstrumente richtig zu!", [ "Marktwachstums-Marktanteils-Portfolio von BCG", "Wertkettenanalyse", "St. Galler Managementmodell", "PEST-Analyse", "Produkt-Markt-Expansionsraster nach Ansoff", "Five Forces nach Porter" ], [ "intern",
-								"extern" ], [ 1, 1, 2, 2, 1, 2 ]);
-						createMC("Aus welchen Perspektiven setzt sich die Balanced Scorecard zusammen?", [ "Finanzperspektive", "Produktperspektive", "Kundenperspektive", "Potenzialperspektive", "Preisperspektive", "Prozessperspektive", "Lieferantenperspektive" ], [ 1, 0, 1, 1, 0, 1, 0 ]);
-						createDD("Ordne folgende Ziele der richtigen Perspektive aus der BSC zu!", [ "Mitarbeiterzufriedenheit steigern", " hoher Marktanteil", "Effizienz steigern", "Umsatzrendite steigern" ], [ "Finanzperspektive", "Kundenperspektive",
-								"Prozessperspektive", "Potenzialperspektive" ], [ 4, 2, 3, 1 ]);
-						createMC("Welche der folgenden Kennzahlen gehören zu den Finanzkennzahlen?", [ "CPO", "EBIT", "ROCE", "NPS", "EVA", "ROI" ], [ 0, 1, 1, 0, 1, 1 ]);
-						createDD("Ordne folgende Definitionen einer Kennzahl zu!", [ "operatives Ergebnis (Bruttogewinn)", "Differenz aus Geschäftsergebnis und Kapitalkosten (Übergewinn)", "setzt Gewinn ins Verhältnis zum eingesetzten Kapital (Rentabilitätsmaß)" ], [ "EBIT",
-								"EVA", "ROI" ], [ 1, 2 ,3 ]);
-						createSC("Ein Unternehmen mit 40% Eigenkapital hat einen Betafaktor in Höhe von 1,7. Der risikolose Habenzins beträgt 3%, der Sollzins 9%. Die Risikoprämie am Markt liegt bei 5%, der Steuersatz bei 35%. Berechne die WACC!", [ "10,03%", "9,24%", "7,62%", "8,11%" ],
-								[ 0, 0, 0, 1 ]);
-						createSC("Der ROI eignet sich besonders für produzierende Unternehmen als Steuerungsgröße, da das operative Ergebnis in Relation zum eingesetzten Kapital dargestellt wird.", [ "Wahr", "Falsch" ],
-								[ 1, 0 ]);
-						createSC("Aus welchen zwei Kennzahlen setzt sich der ROI multiplikativ zusammen?", [ "Verschuldungsgrad und Investitionsquote", "Umsatzrendite und Kapitalumschlag", "Abschreibungsquote und Nettoinvestitionsquote", "Eigenkapitalquote und Dividendenrendite" ],
+						createDD(
+								"Ordne folgende Controlling-Instrumente richtig zu!",
+								[ "Soll-Ist-Analyse", "Szenarioanalyse",
+										"ABC-Analyse", "Nutzwertanalyse",
+										"Budgetierung", "Umweltanalyse",
+										"Berichtswesen",
+										"Stärken-Schwächen-Analyse" ], [
+										"Strategisch", "Operativ" ], [ 2, 1, 2,
+										1, 2, 1, 2, 1 ]);
+						createDD(
+								"Ordne folgende strategische Controllinginstrumente richtig zu!",
+								[
+										"Marktwachstums-Marktanteils-Portfolio von BCG",
+										"Wertkettenanalyse",
+										"St. Galler Managementmodell",
+										"PEST-Analyse",
+										"Produkt-Markt-Expansionsraster nach Ansoff",
+										"Five Forces nach Porter" ], [
+										"intern", "extern" ], [ 1, 1, 2, 2, 1,
+										2 ]);
+						createMC(
+								"Aus welchen Perspektiven setzt sich die Balanced Scorecard zusammen?",
+								[ "Finanzperspektive", "Produktperspektive",
+										"Kundenperspektive",
+										"Potenzialperspektive",
+										"Preisperspektive",
+										"Prozessperspektive",
+										"Lieferantenperspektive" ], [ 1, 0, 1,
+										1, 0, 1, 0 ]);
+						createDD(
+								"Ordne folgende Ziele der richtigen Perspektive aus der BSC zu!",
+								[ "Mitarbeiterzufriedenheit steigern",
+										" hoher Marktanteil",
+										"Effizienz steigern",
+										"Umsatzrendite steigern" ], [
+										"Finanzperspektive",
+										"Kundenperspektive",
+										"Prozessperspektive",
+										"Potenzialperspektive" ],
+								[ 4, 2, 3, 1 ]);
+						createMC(
+								"Welche der folgenden Kennzahlen gehören zu den Finanzkennzahlen?",
+								[ "CPO", "EBIT", "ROCE", "NPS", "EVA", "ROI" ],
+								[ 0, 1, 1, 0, 1, 1 ]);
+						createDD(
+								"Ordne folgende Definitionen einer Kennzahl zu!",
+								[
+										"operatives Ergebnis (Bruttogewinn)",
+										"Differenz aus Geschäftsergebnis und Kapitalkosten (Übergewinn)",
+										"setzt Gewinn ins Verhältnis zum eingesetzten Kapital (Rentabilitätsmaß)" ],
+								[ "EBIT", "EVA", "ROI" ], [ 1, 2, 3 ]);
+						createSC(
+								"Ein Unternehmen mit 40% Eigenkapital hat einen Betafaktor in Höhe von 1,7. Der risikolose Habenzins beträgt 3%, der Sollzins 9%. Die Risikoprämie am Markt liegt bei 5%, der Steuersatz bei 35%. Berechne die WACC!",
+								[ "10,03%", "9,24%", "7,62%", "8,11%" ], [ 0,
+										0, 0, 1 ]);
+						createSC(
+								"Der ROI eignet sich besonders für produzierende Unternehmen als Steuerungsgröße, da das operative Ergebnis in Relation zum eingesetzten Kapital dargestellt wird.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+						createSC(
+								"Aus welchen zwei Kennzahlen setzt sich der ROI multiplikativ zusammen?",
+								[
+										"Verschuldungsgrad und Investitionsquote",
+										"Umsatzrendite und Kapitalumschlag",
+										"Abschreibungsquote und Nettoinvestitionsquote",
+										"Eigenkapitalquote und Dividendenrendite" ],
 								[ 0, 1, 0, 0 ]);
-						createMC("Ein Unternehmen erwirtschaftet jährlich einen Gewinn von 15 Mio €. Dabei beträgt der Umsatz 300 Mio €, die Bilanzsumme 420 Mio €. Welche der folgenden Aussagen sind korrekt?", [ "Der Kapitalumschlag beträgt 14%.", "Die Umsatzrendite beträgt 5%.", "Der ROI beträgt 3,58%.", "Der Kapitalumschlag beträgt 71%.", "Die Umsatzrendite beträgt 200%.", "Der ROI beträgt 28%."], [ 0, 1, 1, 1, 0, 0 ]);
-						createSC("Ein Unternehmen erwirtschaftet ein NOPAT in Höhe von 50 Mio €. Dabei beträgt die Bilanzsumme 250 Mio €, die WACC betragen 8%. Berechne den EVA!", [ "15 Mio", "20 Mio", "25 Mio", "30 Mio" ],
-								[ 0, 0, 0, 1 ] );
-						createTL("Übersetzungsfrage", [ "sales", "revenue", "earnings", "reporting", 
-								"cash flow", "budgeting", "planning", "weighted average capital cost", "strategic", "operating" ], [ "Ergebnis", "Budgetierung", "strategisch", "Absatz", "Kapitalfluss", "Umsatz", "operativ", "Berichtswesen", "Planung", "gewichtete durchschnittliche Kapitalkosten" ], [ 4, 6, 1, 8, 5, 2, 9, 10, 3, 7 ]);
-						
+						createMC(
+								"Ein Unternehmen erwirtschaftet jährlich einen Gewinn von 15 Mio €. Dabei beträgt der Umsatz 300 Mio €, die Bilanzsumme 420 Mio €. Welche der folgenden Aussagen sind korrekt?",
+								[ "Der Kapitalumschlag beträgt 14%.",
+										"Die Umsatzrendite beträgt 5%.",
+										"Der ROI beträgt 3,58%.",
+										"Der Kapitalumschlag beträgt 71%.",
+										"Die Umsatzrendite beträgt 200%.",
+										"Der ROI beträgt 28%." ], [ 0, 1, 1, 1,
+										0, 0 ]);
+						createSC(
+								"Ein Unternehmen erwirtschaftet ein NOPAT in Höhe von 50 Mio €. Dabei beträgt die Bilanzsumme 250 Mio €, die WACC betragen 8%. Berechne den EVA!",
+								[ "15 Mio", "20 Mio", "25 Mio", "30 Mio" ], [
+										0, 0, 0, 1 ]);
+						createTL("Übersetzungsfrage", [ "sales", "revenue",
+								"earnings", "reporting", "cash flow",
+								"budgeting", "planning",
+								"weighted average capital cost", "strategic",
+								"operating" ], [ "Ergebnis", "Budgetierung",
+								"strategisch", "Absatz", "Kapitalfluss",
+								"Umsatz", "operativ", "Berichtswesen",
+								"Planung",
+								"gewichtete durchschnittliche Kapitalkosten" ],
+								[ 4, 6, 1, 8, 5, 2, 9, 10, 3, 7 ]);
 
 						showTheQuestion(count);
 					});
@@ -109,6 +194,10 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Die IMBIT-Krake kennt jetzt alle Kennzahlen und
+				erwirtschaftet dank deiner Hilfe einen zufriedenstellenden
+				Jahresüberschuss.</p>
+
 		</div>
 
 	</div>

@@ -64,51 +64,166 @@
 					function() {
 
 						// Frage 1
-						createDD("Was sind Normen, was sind Standards? Ordne zu!", [ "Richtlinien", "In der Regel von Anwendergruppen oder Herstellern erarbeitet ", "Werden empfohlen, sollten eingehalten werden ", "Verbindlich" ], [ "Normen","Standards"], [1,2,2,1]);
+						createDD(
+								"Was sind Normen, was sind Standards? Ordne zu!",
+								[
+										"Richtlinien",
+										"In der Regel von Anwendergruppen oder Herstellern erarbeitet ",
+										"Werden empfohlen, sollten eingehalten werden ",
+										"Verbindlich" ], [ "Normen",
+										"Standards" ], [ 1, 2, 2, 1 ]);
 
 						// Frage 2 
-						createSC("Was bedeutet die Abkürzung GL?", [ "General Language", "Good landscape", "Good language" ],[ 1, 0, 0 ]);
-						
+						createSC("Was bedeutet die Abkürzung GL?", [
+								"General Language", "Good landscape",
+								"Good language" ], [ 1, 0, 0 ]);
+
 						// Frage 3
-						createDD("Ordne die Programmiersprachen jeweils ihrer passenden Generation zu.", [  "Maschinensprachen", "höhere Programmiersprachen", "nichtprozedurale Programmiersprachen", "KI-Sprachen", "Assemblersprachen" ], [ "First GL","Second GL", "Thrid GL", "Fourth GL", "Fifth GL" ], [1,3,4,5,2]);
-						
+						createDD(
+								"Ordne die Programmiersprachen jeweils ihrer passenden Generation zu.",
+								[ "Maschinensprachen",
+										"höhere Programmiersprachen",
+										"nichtprozedurale Programmiersprachen",
+										"KI-Sprachen", "Assemblersprachen" ], [
+										"First GL", "Second GL", "Thrid GL",
+										"Fourth GL", "Fifth GL" ], [ 1, 3, 4,
+										5, 2 ]);
+
 						// Frage 4
-						createMC("Sind die folgenden Aussagen wahr?", [ "Bei der First GL erfolgt die 1:1 Übersetzung durch den  Assembler.", "Bei der Third GL erfolgt die 1:1 Übersetzung durch den Compiler.", "Bei der Third GL erfolgt die 1:N Übersetzung durch den Compiler/ Interpreter.", "Die Programmiersprachen LISP und Prolog gehen zu den KI- Sprachen.", "HTMl ist eine Programmiersprache." ], [ 1, 0,1,1,0 ]);
-						
+						createMC(
+								"Sind die folgenden Aussagen wahr?",
+								[
+										"Bei der First GL erfolgt die 1:1 Übersetzung durch den  Assembler.",
+										"Bei der Third GL erfolgt die 1:1 Übersetzung durch den Compiler.",
+										"Bei der Third GL erfolgt die 1:N Übersetzung durch den Compiler/ Interpreter.",
+										"Die Programmiersprachen LISP und Prolog gehen zu den KI- Sprachen.",
+										"HTMl ist eine Programmiersprache." ],
+								[ 1, 0, 1, 1, 0 ]);
+
 						// Frage 5
-						createMC("Welche Arten der Programmierung gibt es nach dem Programmierparadigma? ", [ "strukturierte Programmierung", "objektorientiere Programmierung", "funktionale Programmierung", "logische Programmierung", "klassenbasierte Programmierung", "unstrukturierte Programmierung" ], [ 1,1,1,1,0,0 ]);
-						
+						createMC(
+								"Welche Arten der Programmierung gibt es nach dem Programmierparadigma? ",
+								[ "strukturierte Programmierung",
+										"objektorientiere Programmierung",
+										"funktionale Programmierung",
+										"logische Programmierung",
+										"klassenbasierte Programmierung",
+										"unstrukturierte Programmierung" ], [
+										1, 1, 1, 1, 0, 0 ]);
+
 						// Frage 6
-						createDD("Ordne zu!", [ "Konzepte für Unterroutinen", "nur Funktionen als Anweisungen","Beschreibung von Aussagen", "Vererbung und Polymorphie" ], [ "Strukturierte Programmierung","Objektorientierte Programmierung", "Funktionale Programmierung", "Logische Programmierung"], [1,3,4,2]);
-						
+						createDD("Ordne zu!", [ "Konzepte für Unterroutinen",
+								"nur Funktionen als Anweisungen",
+								"Beschreibung von Aussagen",
+								"Vererbung und Polymorphie" ], [
+								"Strukturierte Programmierung",
+								"Objektorientierte Programmierung",
+								"Funktionale Programmierung",
+								"Logische Programmierung" ], [ 1, 3, 4, 2 ]);
+
 						// Frage 7
-						createMC("Sind die folgenen Aussagen wahr?", [ "Die Programmiersprachen PROLOG und CLP gehören zu der logischen Programmierung.", "Die Programmiersprache LISP gehört zur strukturierten Programmierung.", "Die objektorientierte Programmierung beschäftigt sich mit Objekten und Klassen sowie der Datenkapselung.", "Unter Programmierparadigma versteht man die Sichtweise und den Umgang mit den zu verarbeitenden Daten und Operationen." ], [ 1, 0, 1,1 ]);
-						
+						createMC(
+								"Sind die folgenen Aussagen wahr?",
+								[
+										"Die Programmiersprachen PROLOG und CLP gehören zu der logischen Programmierung.",
+										"Die Programmiersprache LISP gehört zur strukturierten Programmierung.",
+										"Die objektorientierte Programmierung beschäftigt sich mit Objekten und Klassen sowie der Datenkapselung.",
+										"Unter Programmierparadigma versteht man die Sichtweise und den Umgang mit den zu verarbeitenden Daten und Operationen." ],
+								[ 1, 0, 1, 1 ]);
+
 						// Frage 8
-						createDD("Ordne die Vorteile jeweils dem Interpreter bzw. dem Compiler zu.", [ "Benötigt weniger Speicherplatz", "Einzelne Anweisungen sofort testen", "Globale Fehlersuche", "Teilergebnisse sind sichtbar", "Unterstützung durch Entwicklungsumgebung", "Einfache Fehlersuche"], [ "Compiler","Interpreter" ], [1,2,1,2,1,2]);
-						
+						createDD(
+								"Ordne die Vorteile jeweils dem Interpreter bzw. dem Compiler zu.",
+								[
+										"Benötigt weniger Speicherplatz",
+										"Einzelne Anweisungen sofort testen",
+										"Globale Fehlersuche",
+										"Teilergebnisse sind sichtbar",
+										"Unterstützung durch Entwicklungsumgebung",
+										"Einfache Fehlersuche" ], [ "Compiler",
+										"Interpreter" ], [ 1, 2, 1, 2, 1, 2 ]);
+
 						//Frage 9
-						createDD("Ordne die Nachteile jeweils dem Interpreter bzw. dem Compiler zu.", [ "Mehrstufig", "Lokale Fehlersuche", "Bei jedem Übersetzungsvorgang muss das gesamte Programm übersetzt werden.", "Langsamer", "Fehlersuche aufwändiger", " Kein ausführbares Zielprogramm in Maschinensprache"], [ "Compiler","Interpreter" ], [1,2,1,2,1,2]);
-						
+						createDD(
+								"Ordne die Nachteile jeweils dem Interpreter bzw. dem Compiler zu.",
+								[
+										"Mehrstufig",
+										"Lokale Fehlersuche",
+										"Bei jedem Übersetzungsvorgang muss das gesamte Programm übersetzt werden.",
+										"Langsamer", "Fehlersuche aufwändiger",
+										" Kein ausführbares Zielprogramm in Maschinensprache" ],
+								[ "Compiler", "Interpreter" ], [ 1, 2, 1, 2, 1,
+										2 ]);
+
 						// Frage 10
-						createDD("Ordne zu!", [ "Personalnummer", "Name", "Einzahlungen", "Lagerbestände", "Abbuchungen", "Kontobestände" ], [ "Stammdaten","Bestandsdaten", "Bewegungsdaten" ], [1,1,3,2,3,2]);
-						
+						createDD("Ordne zu!", [ "Personalnummer", "Name",
+								"Einzahlungen", "Lagerbestände", "Abbuchungen",
+								"Kontobestände" ], [ "Stammdaten",
+								"Bestandsdaten", "Bewegungsdaten" ], [ 1, 1, 3,
+								2, 3, 2 ]);
+
 						// Frage 11
-						createMC("Sind die  folgende Aussagen wahr?", [ "OLTP ist eine Abkürzung für Online Transaction Processing.", "Auskunfts- und Reservierungssysteme sowie Kontoabfragen sind Beispiele für das OLTP.", "Die Daten werden nicht direkt nach der Eingabe aktualisiert und stehen auch nicht zeitlich gleich allen betroffenen Abteilungen zur Verfügung.", "OLTP verfolgt den Ansatz der Echtzeitbuchung, d. h. es können mehrere Nutzer gleichzeitig im Dialogbetrieb auf dem gleichen Datenbestand arbeiten.", "Ein ERP-System besteht aus 3 Systemlandschaften: Entwicklungssystem, Testsystem, Produktivsystem" ], [ 1, 1, 0,1,1 ]);
-						
+						createMC(
+								"Sind die  folgende Aussagen wahr?",
+								[
+										"OLTP ist eine Abkürzung für Online Transaction Processing.",
+										"Auskunfts- und Reservierungssysteme sowie Kontoabfragen sind Beispiele für das OLTP.",
+										"Die Daten werden nicht direkt nach der Eingabe aktualisiert und stehen auch nicht zeitlich gleich allen betroffenen Abteilungen zur Verfügung.",
+										"OLTP verfolgt den Ansatz der Echtzeitbuchung, d. h. es können mehrere Nutzer gleichzeitig im Dialogbetrieb auf dem gleichen Datenbestand arbeiten.",
+										"Ein ERP-System besteht aus 3 Systemlandschaften: Entwicklungssystem, Testsystem, Produktivsystem" ],
+								[ 1, 1, 0, 1, 1 ]);
+
 						//Frage 12 
-						createMC("Aus welchen funktionsbezogenen Modulen besteht ein ERP System? ", [ "Externes Rechnungswesen", "IT- Dienstleistungen", "Personal", "Vertrieb", "Beschaffung", "Controlling" ], [ 1,0,0,1,1,1 ]);
-						
-						
+						createMC(
+								"Aus welchen funktionsbezogenen Modulen besteht ein ERP System? ",
+								[ "Externes Rechnungswesen",
+										"IT- Dienstleistungen", "Personal",
+										"Vertrieb", "Beschaffung",
+										"Controlling" ], [ 1, 0, 0, 1, 1, 1 ]);
+
 						//Frage 13
-						createDD("Ordne die Vorteile jeweils der Individualsoftware bzw. der Standardsoftware zu.", [ "Maßgeschneiderte Lösung", "Keine Anpassung der Organisation erforderlich", "Geringer Anschaffungspreis", "Hohe Funktionalität", "Wettbewerbsvorteile", "Unabhängigkeit von Softwarelieferanten", "Know- how Transfer durch den Hersteller", "Branchenneutralität und Individualität durch Customizing" ], [ "Individualsoftware","Standardsoftware" ], [1,1,2,2,1,1,2,2]);
-						
+						createDD(
+								"Ordne die Vorteile jeweils der Individualsoftware bzw. der Standardsoftware zu.",
+								[
+										"Maßgeschneiderte Lösung",
+										"Keine Anpassung der Organisation erforderlich",
+										"Geringer Anschaffungspreis",
+										"Hohe Funktionalität",
+										"Wettbewerbsvorteile",
+										"Unabhängigkeit von Softwarelieferanten",
+										"Know- how Transfer durch den Hersteller",
+										"Branchenneutralität und Individualität durch Customizing" ],
+								[ "Individualsoftware", "Standardsoftware" ], [
+										1, 1, 2, 2, 1, 1, 2, 2 ]);
+
 						// Frage 14
-						createMC("Sind die  folgende Aussagen wahr?", [ "Um eine Software einzuführen gibt es 2 Arten: Big- Bang Strategie und die Rollout Strategie.", "Die Big Bang Strategie beinhaltet die Ablösung des Altsystems zum Stichtag.", "Unter Big Bang versteht man die schrittweise prozessorientiere Einführung einer Software.", "Die Rollout Strategie beinhaltet die sukzessive Ablösung durch die Umstellung vollständiger Prozessketten."], [ 1, 1, 0,1 ]);
-						
+						createMC(
+								"Sind die  folgende Aussagen wahr?",
+								[
+										"Um eine Software einzuführen gibt es 2 Arten: Big- Bang Strategie und die Rollout Strategie.",
+										"Die Big Bang Strategie beinhaltet die Ablösung des Altsystems zum Stichtag.",
+										"Unter Big Bang versteht man die schrittweise prozessorientiere Einführung einer Software.",
+										"Die Rollout Strategie beinhaltet die sukzessive Ablösung durch die Umstellung vollständiger Prozessketten." ],
+								[ 1, 1, 0, 1 ]);
+
 						// Frage 15 
-						createTL("Ordne den Begriffen jeweils ihre passende Übersetzung zu.", [ "business process"," binding", "information systems"," norms ","source code","operational information systems ", "object-oriented programming",  "requirement analysis", "master data", "programming language" ], [ "Programmiersprache", "Verbindlich", "Stammdaten", "Geschäftsprozess", "Wirtschaftsinformatik", "Quellcode","Objektorientierte Programmierung","Normen", "Anforderungsanalyse", "Betriebliche Informationssysteme" ], [ 4,2,5,8,6,10,7,9,3,1 ]);
-						
+						createTL(
+								"Ordne den Begriffen jeweils ihre passende Übersetzung zu.",
+								[ "business process", " binding",
+										"information systems", " norms ",
+										"source code",
+										"operational information systems ",
+										"object-oriented programming",
+										"requirement analysis", "master data",
+										"programming language" ], [
+										"Programmiersprache", "Verbindlich",
+										"Stammdaten", "Geschäftsprozess",
+										"Wirtschaftsinformatik", "Quellcode",
+										"Objektorientierte Programmierung",
+										"Normen", "Anforderungsanalyse",
+										"Betriebliche Informationssysteme" ], [
+										4, 2, 5, 8, 6, 10, 7, 9, 3, 1 ]);
+
 						showTheQuestion(count);
 					});
 </script>
@@ -124,6 +239,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Herzlichen Glückwunsch! Du hast geholfen, BWL und
+				IT zu vereinen.</p>
+
 		</div>
 
 	</div>

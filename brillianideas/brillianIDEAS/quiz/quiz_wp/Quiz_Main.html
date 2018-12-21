@@ -63,39 +63,120 @@
 			.ready(
 					function() {
 
-							createMC("Welche der folgenden Begriffe stellen Teilschritte der Wahrnehmung dar?", [ "Interpretation", "Anwendung", "Auswahl","Aufnahme","Verarbeitung", "Reflexion" ], [ 1, 0, 1, 1, 1, 0 ]);
-								
-							createSC("Was sagt das Gesetz der Nähe aus?", [ "Nah aneinander liegende Objekte werden automatisch von unserem Gehirn gruppiert.", "Nah aneinander liegende Objekte wirken größer.", "Je näher man am betrachteten Objekt steht, desto besser kann man die Proportionen abschätzen." ],[ 1, 0, 0 ]);
-							
-							createSC("Über wie viele Arten von Mechanorezeptoren verfügt die Haut? ", [ "4", "1", "3","7" ],[ 1, 0, 0, 0 ]);
-							
-							createSC("Welche der folgenden Aussagen beschreibt die Konsenstheorie am besten?", [ "Eine Aussage ist wahr, wenn sie für die Praxis fruchtbar und nützlich ist.", "Es kann nicht sicher festgestellt werden, ob eine Aussage wahr ist, aber sehr wohl, dass eine bestimmte Aussage falsch ist, nämlich wenn ein Experiment sie widerlegt.", "Eine Aussage ist wahr, wenn eine möglicherweise unendlich große Menge von Menschen unter idealen Kommunikationsbedingungen dieser Aussage zustimmen würde. " ],[ 0, 0, 1 ]);
-						
-							createSC("Welche Zellen sind für die Reizübertragung im Körper verantwortlich?", [ "Andrenerge Nervenzellen", "Neuronen", "Hensen-Zellen","Astrozyten" ],[ 0, 1, 0, 0 ]);
-							
-							createMC("Welche der folgenden Aussagen über Rezeptorzellen sind richtig?",["Rezeptorzellen sind Signalwandler.","Rezeptorzellen sind Codierer.","Rezeptorzellen sind Interpreten.","Rezeptorzellen sind Verstärker.", "Rezeptorzellen sind Boten."],[1,1,0,1,0]);
-							
-							createSC("Was besagt das Weber-Fechnersche Gesetz?", [ "Die subjektiv empfundene Stärke von Sinneseindrücken ist proportional zum Logarithmus der objektiven Intensität des physikalischen Reizes.", "Die subjektiv empfundene Stärke von Sinneseindrücken ist abhängig vom Alter der Testpersonen.", "Es gibt keine Möglichkeit die subjektiv empfundene Stärke von Sinneseindrücken einzuordnen."],[ 1, 0, 0 ]);
-							
-							createSC("Was besagt die \"Motorische Theorie der Sprachwahrnehmung\" ?", [ "Die Sprachwahrnehmung hängt mit der Gestik zusammen.", "Die Sprachwahrnehmung wird durch Motorik eingeschränkt.", "Es gibt enge Verbindungen zwischen den Modulen zur Erzeugung und Wahrnehmung von Sprache." ],[ 0,  0, 1 ]);
-							
-							createDD("Ordne die folgenden Funktionen in virtuellen Welten den Kategorien zu", [ "Rendering", "Duftstoffe", "Stereo-Graphik","Tastempfindung","Hall-Effekte","Beschleunigungen","Kraftrückkopplung","Stereo-Klang" ], [ "Visuell","Akkustisch", "Haptisch","Olfaktorisch" ], [ 1, 4, 1, 3, 2, 3, 3, 2 ]);
-							
-							createOD("Ordne die folgenden Sinne nach ihrem Einfluss. (absteigend)", [ "Schmecken", "Riechen", "Sehen", "Hören",	"Tasten" ], [ 4, 3, 1, 2, 5 ]);
-							
-							createSC("Welcher ist der älteste Sinn des Menschen?", [ "Geschmackssinn", "Geruchssinn", "Sehsinn", "Hörsinn",	"Tastsinn" ], [ 0,1,0,0,0 ]);
-							
-							createSC("Was demonstriert der sogenannte McGurk-Effekt?", [ "Die Beeinflussung der Wahrnehmung von Sprachsignalen durch unbewusstes Lippenlesen.", "Die Beeinflussung der Wahrnehmung von Sprachsignalen durch die Umgebung.", "Die Beeinflussung der Wahrnehmung von Gesten durch die Lautstärke der parallel gehörten Sprachsignale.","Keines der drei oberen." ],[ 1, 0, 0, 0 ]);
-							
-							createMC("Welche der folgenden Sinne sind von der „Kontextabhängigkeit der Wahrnehmung“ betroffen?", [ "Sehsinn", "Hörsinn", "Geschmackssinn"], [ 1, 1, 1]);
-							
-							createOD("Ordne die einzelnen Glieder der Kette des Wahrnehmungsprozesses nach ihrer Reihenfolge. (absteigend)", [ "Gehirn","Reaktion", "Nervensystem", "Sinnesorgane","Empfindung","Bewertung"], [3, 6, 2,1,4,5 ]);
-							
-							createTL("Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu!", [ "Stimuli", "Law of Similarity", "Virtual Realities","Perception","Body Sensation","Sensoric Adaption","Object Recognition","Optical Illusion","Binding Problem","Attentiveness" ], [ "Wahrnehmung", "Reize", "Virtuelle Welten", "Gesetz der Ähnlichkeit","Körperempfindung","Bindungsproblem","Aufmerksamkeit","Objekterkennung","Optische Täuschung","Sensorische Anpassung"], [ 2, 4, 3, 1,5,10,8,9,6,7]);
-							
-						
-							
-							showTheQuestion(count);
+						createMC(
+								"Welche der folgenden Begriffe stellen Teilschritte der Wahrnehmung dar?",
+								[ "Interpretation", "Anwendung", "Auswahl",
+										"Aufnahme", "Verarbeitung", "Reflexion" ],
+								[ 1, 0, 1, 1, 1, 0 ]);
+
+						createSC(
+								"Was sagt das Gesetz der Nähe aus?",
+								[
+										"Nah aneinander liegende Objekte werden automatisch von unserem Gehirn gruppiert.",
+										"Nah aneinander liegende Objekte wirken größer.",
+										"Je näher man am betrachteten Objekt steht, desto besser kann man die Proportionen abschätzen." ],
+								[ 1, 0, 0 ]);
+
+						createSC(
+								"Über wie viele Arten von Mechanorezeptoren verfügt die Haut? ",
+								[ "4", "1", "3", "7" ], [ 1, 0, 0, 0 ]);
+
+						createSC(
+								"Welche der folgenden Aussagen beschreibt die Konsenstheorie am besten?",
+								[
+										"Eine Aussage ist wahr, wenn sie für die Praxis fruchtbar und nützlich ist.",
+										"Es kann nicht sicher festgestellt werden, ob eine Aussage wahr ist, aber sehr wohl, dass eine bestimmte Aussage falsch ist, nämlich wenn ein Experiment sie widerlegt.",
+										"Eine Aussage ist wahr, wenn eine möglicherweise unendlich große Menge von Menschen unter idealen Kommunikationsbedingungen dieser Aussage zustimmen würde. " ],
+								[ 0, 0, 1 ]);
+
+						createSC(
+								"Welche Zellen sind für die Reizübertragung im Körper verantwortlich?",
+								[ "Andrenerge Nervenzellen", "Neuronen",
+										"Hensen-Zellen", "Astrozyten" ], [ 0,
+										1, 0, 0 ]);
+
+						createMC(
+								"Welche der folgenden Aussagen über Rezeptorzellen sind richtig?",
+								[ "Rezeptorzellen sind Signalwandler.",
+										"Rezeptorzellen sind Codierer.",
+										"Rezeptorzellen sind Interpreten.",
+										"Rezeptorzellen sind Verstärker.",
+										"Rezeptorzellen sind Boten." ], [ 1, 1,
+										0, 1, 0 ]);
+
+						createSC(
+								"Was besagt das Weber-Fechnersche Gesetz?",
+								[
+										"Die subjektiv empfundene Stärke von Sinneseindrücken ist proportional zum Logarithmus der objektiven Intensität des physikalischen Reizes.",
+										"Die subjektiv empfundene Stärke von Sinneseindrücken ist abhängig vom Alter der Testpersonen.",
+										"Es gibt keine Möglichkeit die subjektiv empfundene Stärke von Sinneseindrücken einzuordnen." ],
+								[ 1, 0, 0 ]);
+
+						createSC(
+								"Was besagt die \"Motorische Theorie der Sprachwahrnehmung\" ?",
+								[
+										"Die Sprachwahrnehmung hängt mit der Gestik zusammen.",
+										"Die Sprachwahrnehmung wird durch Motorik eingeschränkt.",
+										"Es gibt enge Verbindungen zwischen den Modulen zur Erzeugung und Wahrnehmung von Sprache." ],
+								[ 0, 0, 1 ]);
+
+						createDD(
+								"Ordne die folgenden Funktionen in virtuellen Welten den Kategorien zu",
+								[ "Rendering", "Duftstoffe", "Stereo-Graphik",
+										"Tastempfindung", "Hall-Effekte",
+										"Beschleunigungen",
+										"Kraftrückkopplung", "Stereo-Klang" ],
+								[ "Visuell", "Akkustisch", "Haptisch",
+										"Olfaktorisch" ], [ 1, 4, 1, 3, 2, 3,
+										3, 2 ]);
+
+						createOD(
+								"Ordne die folgenden Sinne nach ihrem Einfluss. (absteigend)",
+								[ "Schmecken", "Riechen", "Sehen", "Hören",
+										"Tasten" ], [ 4, 3, 1, 2, 5 ]);
+
+						createSC("Welcher ist der älteste Sinn des Menschen?",
+								[ "Geschmackssinn", "Geruchssinn", "Sehsinn",
+										"Hörsinn", "Tastsinn" ], [ 0, 1, 0, 0,
+										0 ]);
+
+						createSC(
+								"Was demonstriert der sogenannte McGurk-Effekt?",
+								[
+										"Die Beeinflussung der Wahrnehmung von Sprachsignalen durch unbewusstes Lippenlesen.",
+										"Die Beeinflussung der Wahrnehmung von Sprachsignalen durch die Umgebung.",
+										"Die Beeinflussung der Wahrnehmung von Gesten durch die Lautstärke der parallel gehörten Sprachsignale.",
+										"Keines der drei oberen." ], [ 1, 0, 0,
+										0 ]);
+
+						createMC(
+								"Welche der folgenden Sinne sind von der „Kontextabhängigkeit der Wahrnehmung“ betroffen?",
+								[ "Sehsinn", "Hörsinn", "Geschmackssinn" ], [
+										1, 1, 1 ]);
+
+						createOD(
+								"Ordne die einzelnen Glieder der Kette des Wahrnehmungsprozesses nach ihrer Reihenfolge. (absteigend)",
+								[ "Gehirn", "Reaktion", "Nervensystem",
+										"Sinnesorgane", "Empfindung",
+										"Bewertung" ], [ 3, 6, 2, 1, 4, 5 ]);
+
+						createTL(
+								"Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu!",
+								[ "Stimuli", "Law of Similarity",
+										"Virtual Realities", "Perception",
+										"Body Sensation", "Sensoric Adaption",
+										"Object Recognition",
+										"Optical Illusion", "Binding Problem",
+										"Attentiveness" ], [ "Wahrnehmung",
+										"Reize", "Virtuelle Welten",
+										"Gesetz der Ähnlichkeit",
+										"Körperempfindung", "Bindungsproblem",
+										"Aufmerksamkeit", "Objekterkennung",
+										"Optische Täuschung",
+										"Sensorische Anpassung" ], [ 2, 4, 3,
+										1, 5, 10, 8, 9, 6, 7 ]);
+
+						showTheQuestion(count);
 					});
 </script>
 
@@ -112,6 +193,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Klasse! Jetzt weiß die IMBIT-Krake, wie wir
+				Menschen so ticken!</p>
+
 		</div>
 
 	</div>

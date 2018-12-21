@@ -66,8 +66,12 @@
 						createSC("Meine SC Frage", [ "G", "H", "I" ],
 								[ 0, 1, 0 ]);
 						//Demo Drag&Drop Aufgabe mit 4 Attributen: Frage als String, Antworten als Array, Felder/Boxen als Array und Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
-						createDD("ABCDEF", [ "Dies\u00ADist\u00ADein\u00ADlanges\u00ADWort\u00ADmit\u00ADeinigen\u00ADweichen\u00ADTrennzeichen", "Test2" ], [ "Box1",
-								"Box2", "Box3" ], [ 3, 2 ]);
+						createDD(
+								"ABCDEF",
+								[
+										"Dies\u00ADist\u00ADein\u00ADlanges\u00ADWort\u00ADmit\u00ADeinigen\u00ADweichen\u00ADTrennzeichen",
+										"Test2" ], [ "Box1", "Box2", "Box3" ],
+								[ 3, 2 ]);
 						//Demo Lückentext Aufgabe mit 4 Attributen: Frage als String, Lückentext als Array mit leerem String "" für jede Lücke, Antworten als Array und Lösung als Array. Der Arrayindex entspricht der Antwortnummer und der eingetragene Wert dem erwarteten Feld
 						createTQ(
 								"Meine TQ Frage",
@@ -88,8 +92,8 @@
 								"Test3" ], [ 1, 2, 3 ]);
 						//Demo Übersetzungsfrage mit 4 Attributen: Frage als String, Antworten als Array, zu übersetzende Begriffe als Array und Lösung als Array.
 						createTL("Übersetzungsfrage", [ "Test1", "Test2",
-								"Test3" ], [ "Wort1", "Wort2", "Wort3" ], [ 3, 2,
-								1 ]);
+								"Test3" ], [ "Wort1", "Wort2", "Wort3" ], [ 3,
+								2, 1 ]);
 						showTheQuestion(count);
 					});
 </script>
@@ -97,12 +101,15 @@
 
 </head>
 <body>
+	<!--in diesen div werden alle Fragen gehängt-->
 	<div id="content">
 
 		<div
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Cleverer Outrotext darüber wie toll du das Quiz
+				gemeistert hast.</p>
 		</div>
 
 	</div>

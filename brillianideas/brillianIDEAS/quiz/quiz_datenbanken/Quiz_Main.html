@@ -62,96 +62,203 @@
 	$(document)
 			.ready(
 					function() {
-									
+
 						//Frage 1
-						createSC("Relationale Datenbanken: Eine Zeile wird auch Attribut genannt und eine Spalte Tupel.", [ "Wahr", "Falsch" ],[ 0, 1 ]);
+						createSC(
+								"Relationale Datenbanken: Eine Zeile wird auch Attribut genannt und eine Spalte Tupel.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
 
 						//Frage 2
-						createMC("Was sind Datenbanktypen?", [ "Hierarchische Datenbanken", "ISO/OSI-Datenbanken", "Netzwerk-Datenbanken", "Relationale Datenbanken", "Objektorientierte Datenbanken", "XML-Datenbanken", "Algebra-Datenbanken" ], [ 1, 0, 1, 1, 1, 1, 0 ]);
+						createMC("Was sind Datenbanktypen?", [
+								"Hierarchische Datenbanken",
+								"ISO/OSI-Datenbanken", "Netzwerk-Datenbanken",
+								"Relationale Datenbanken",
+								"Objektorientierte Datenbanken",
+								"XML-Datenbanken", "Algebra-Datenbanken" ], [
+								1, 0, 1, 1, 1, 1, 0 ]);
 
 						//Frage 3
-						createSC("Welcher Datenbanktyp wird am häufigsten verwendet?", [ "Objektorientierte Datenbanken", "Relationale Datenbanken" ],[ 0, 1 ]);
+						createSC(
+								"Welcher Datenbanktyp wird am häufigsten verwendet?",
+								[ "Objektorientierte Datenbanken",
+										"Relationale Datenbanken" ], [ 0, 1 ]);
 
 						//Frage 4
-						createSC("Es besteht eine Unverträglichkeit zwischen objektorientierten Programmiersprachen und dem Konzept der relationalen Datenbanken. Diese wird als Object-Relational Impedance Mismatch bezeichnet.", [ "Wahr", "Falsch" ],[ 1, 0 ]);
+						createSC(
+								"Es besteht eine Unverträglichkeit zwischen objektorientierten Programmiersprachen und dem Konzept der relationalen Datenbanken. Diese wird als Object-Relational Impedance Mismatch bezeichnet.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
 
 						//Frage 5
-						createSC("O/R Mapper...", [ "... mappen Objekte auf Relationen", "...mappen objektorientierte Datenbanken auf Relationenschemata" ],[ 1, 0 ]);
+						createSC(
+								"O/R Mapper...",
+								[ "... mappen Objekte auf Relationen",
+										"...mappen objektorientierte Datenbanken auf Relationenschemata" ],
+								[ 1, 0 ]);
 
 						//Frage 6
-						createSC("SQL ist eine deskriptive Sprache.", [ "Wahr", "Falsch" ],[ 1, 0 ]);
-						
+						createSC("SQL ist eine deskriptive Sprache.", [ "Wahr",
+								"Falsch" ], [ 1, 0 ]);
+
 						//Frage 7
-						createSC("SQL ist eine deklarative Sprache.", [ "Wahr", "Falsch" ],[ 1, 0 ]);
+						createSC("SQL ist eine deklarative Sprache.", [ "Wahr",
+								"Falsch" ], [ 1, 0 ]);
 
 						//Frage 8
-						createMC("Welches Verhalten kann man für Löschoperationen und Updates festlegen?", [ "Cascade", "Set null", "Set default", "No action" ], [ 1, 1, 1, 1 ]);
+						createMC(
+								"Welches Verhalten kann man für Löschoperationen und Updates festlegen?",
+								[ "Cascade", "Set null", "Set default",
+										"No action" ], [ 1, 1, 1, 1 ]);
 
 						//Frage 9
-						createSC("Mit welchem Schlüsselwort kann die Eindeutigkeit eines Wertes sichergestellt werden?", [ "CHECK", "UNIQUE", "ONLY" ],[ 0, 1, 0 ]);
+						createSC(
+								"Mit welchem Schlüsselwort kann die Eindeutigkeit eines Wertes sichergestellt werden?",
+								[ "CHECK", "UNIQUE", "ONLY" ], [ 0, 1, 0 ]);
 
 						//Frage 10
-						createMC("Bei welchen der folgenden Funktionen handelt es sich um Aggregatfunktionen?", [ "PLUS", "MINUS", "AVG", "COUNT", "MAX", "MIN", "SUM", "DIVIDE" ], [ 0, 0, 1, 1, 1, 1, 1, 0 ]);
+						createMC(
+								"Bei welchen der folgenden Funktionen handelt es sich um Aggregatfunktionen?",
+								[ "PLUS", "MINUS", "AVG", "COUNT", "MAX",
+										"MIN", "SUM", "DIVIDE" ], [ 0, 0, 1, 1,
+										1, 1, 1, 0 ]);
 
 						//Frage 11
-						createMC("Alle Kundennamen (Vor- und Nachname) aus der Relation 'Kunde' sollen ausgegeben werden. Kein Kundenname soll doppelt ausgegeben werden.", [ "SELECT DISTINCT Vorname, Nachname; FROM Kunde;", "SELECT Vorname, Nachname FROM Kunde;", "SELECT ONE Name FROM Kunde;", "SELECT DISTINCT Vorname, Nachname FROM Kunde;" ], [ 0, 0, 0, 1 ]);
+						createMC(
+								"Alle Kundennamen (Vor- und Nachname) aus der Relation 'Kunde' sollen ausgegeben werden. Kein Kundenname soll doppelt ausgegeben werden.",
+								[
+										"SELECT DISTINCT Vorname, Nachname; FROM Kunde;",
+										"SELECT Vorname, Nachname FROM Kunde;",
+										"SELECT ONE Name FROM Kunde;",
+										"SELECT DISTINCT Vorname, Nachname FROM Kunde;" ],
+								[ 0, 0, 0, 1 ]);
 
 						//Frage 12
-						createDD("Data Definition Language und Data Manipulation Language: Ordne zu!", [ "Create", "Alter", "Insert", "Drop", "Update", "Delete" ], [ "DML","DDL" ], [ 2, 2, 1, 2, 1, 1 ]);
-						
+						createDD(
+								"Data Definition Language und Data Manipulation Language: Ordne zu!",
+								[ "Create", "Alter", "Insert", "Drop",
+										"Update", "Delete" ], [ "DML", "DDL" ],
+								[ 2, 2, 1, 2, 1, 1 ]);
+
 						//Frage 13
-						createSC("Attribute beschreiben abstrakte oder physische Objekte der realen Welt.", [ "Wahr", "Falsch" ],[ 0, 1 ]);
+						createSC(
+								"Attribute beschreiben abstrakte oder physische Objekte der realen Welt.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
 
 						//Frage 14
-						createSC("Beziehungen zweiten Grades werden als duale Beziehungen bezeichnet.", [ "Wahr", "Falsch" ],[ 0, 1 ]);
+						createSC(
+								"Beziehungen zweiten Grades werden als duale Beziehungen bezeichnet.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
 
 						//Frage 15
-						createSC("Rekursive Beziehungen sind erlaubt.", ["Wahr", "Falsch"], [1, 0]);
-						
+						createSC("Rekursive Beziehungen sind erlaubt.", [
+								"Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 16
-						createSC("Kardinalitäten werden auch als look-around-Kardinalitäten bezeichnet.", [ "Wahr", "Falsch" ],[ 0, 1 ]);
-						
+						createSC(
+								"Kardinalitäten werden auch als look-around-Kardinalitäten bezeichnet.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
+
 						//Frage 17
-						createSC("Die Beziehung is-a stellt eine Aggregation dar und die part-of-Beziehung eine Generalisierung.", [ "Wahr", "Falsch" ],[ 0, 1 ]);			
-						
+						createSC(
+								"Die Beziehung is-a stellt eine Aggregation dar und die part-of-Beziehung eine Generalisierung.",
+								[ "Wahr", "Falsch" ], [ 0, 1 ]);
+
 						//Frage 18
-						createSC("Schwache Entitäten können nicht ohne ihre Eigentümerentität existieren.", [ "Wahr", "Falsch" ],[ 1, 0 ]);
-						
+						createSC(
+								"Schwache Entitäten können nicht ohne ihre Eigentümerentität existieren.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 19
-						createOD("Bringe die Speichersysteme bezüglich Kosten/Byte und Geschwindigkeit (absteigend) sowie Zugriffszeit und Speicherkapazität (aufsteigend) in die richtige Reihenfolge.", [ "main memory", "register/cache", "magnetic disk", "optical disk", "magnetic tape", "flash memory" ], [2, 1, 4, 5, 6, 3 ]);
-						
+						createOD(
+								"Bringe die Speichersysteme bezüglich Kosten/Byte und Geschwindigkeit (absteigend) sowie Zugriffszeit und Speicherkapazität (aufsteigend) in die richtige Reihenfolge.",
+								[ "main memory", "register/cache",
+										"magnetic disk", "optical disk",
+										"magnetic tape", "flash memory" ], [ 2,
+										1, 4, 5, 6, 3 ]);
+
 						//Frage 20
-						createSC("Wie werden Daten in den Hauptspeicher übertragen?", [ "Blockweise", "Seitenweise", "Je ein Datensatz" ], [ 1, 0, 0, ]);
-						
+						createSC(
+								"Wie werden Daten in den Hauptspeicher übertragen?",
+								[ "Blockweise", "Seitenweise",
+										"Je ein Datensatz" ], [ 1, 0, 0, ]);
+
 						//Frage 21
-						createMC("Welche Anomalien können auftreten?", [ "Löschanomalien", "Updateanomalien", "Einfügeanomalien", "Cascadeanomalien" ], [ 1, 1, 1, 0 ]);
+						createMC("Welche Anomalien können auftreten?", [
+								"Löschanomalien", "Updateanomalien",
+								"Einfügeanomalien", "Cascadeanomalien" ], [ 1,
+								1, 1, 0 ]);
 
 						//Frage 22
-						createSC("Was versteht man unter einem Primärschlüssel?", [ "Primärschlüssel einer Relation, der in einer anderen Relation platziert wird, um so eine Beziehung zwischen den Relationen herzustellen.", "Genau ein Kandidatenschlüssel wird als diese Art von Schlüssel festgelegt.", "Ein Schlüssel, der künstlich zur Relation hinzugefügt wird, um als Primärschlüssel zu fungieren.", "Eine Menge von non-null Attributen, von der die gesamt Attributmenge funktional abhängig ist." ],[ 0, 1, 0, 0 ]);
-						
+						createSC(
+								"Was versteht man unter einem Primärschlüssel?",
+								[
+										"Primärschlüssel einer Relation, der in einer anderen Relation platziert wird, um so eine Beziehung zwischen den Relationen herzustellen.",
+										"Genau ein Kandidatenschlüssel wird als diese Art von Schlüssel festgelegt.",
+										"Ein Schlüssel, der künstlich zur Relation hinzugefügt wird, um als Primärschlüssel zu fungieren.",
+										"Eine Menge von non-null Attributen, von der die gesamt Attributmenge funktional abhängig ist." ],
+								[ 0, 1, 0, 0 ]);
+
 						//Frage 23
-						createSC("Bei welcher Art der Datensatz-Speicherung werden Datensätze als Key-Value-Paare gespeichert?", [ "Fixlängen-Speicherung", "Speicherung in variabler Länge" ],[ 0, 1 ]);
+						createSC(
+								"Bei welcher Art der Datensatz-Speicherung werden Datensätze als Key-Value-Paare gespeichert?",
+								[ "Fixlängen-Speicherung",
+										"Speicherung in variabler Länge" ], [
+										0, 1 ]);
 
 						//Frage 24
-						createSC("Wann muss auf alle Fälle die Organisationsform 'Spanned' verwendet werden?", [ "bfr=100", "bfr=10", "bfr=1", "bfr=0" ],[ 0, 0, 0, 1 ]);
+						createSC(
+								"Wann muss auf alle Fälle die Organisationsform 'Spanned' verwendet werden?",
+								[ "bfr=100", "bfr=10", "bfr=1", "bfr=0" ], [ 0,
+										0, 0, 1 ]);
 
 						//Frage 25
-						createMC("Aus welchen Operationen setzt sich die Löschoperation bei B-Bäumen zusammen?", [ "Rotation", "Turn", "Merge", "Spin", "Delete", "Insert"], [ 1, 0, 1, 0, 0, 0 ]);
+						createMC(
+								"Aus welchen Operationen setzt sich die Löschoperation bei B-Bäumen zusammen?",
+								[ "Rotation", "Turn", "Merge", "Spin",
+										"Delete", "Insert" ], [ 1, 0, 1, 0, 0,
+										0 ]);
 
 						//Frage 26
-						createSC("Die Ordnung eines B-Baumes in einem Computersystem kann nicht beliebig erhöht werden, da ein Knoten einem Block/einer Seite entspricht und Blöcke in einem Computersystem durch eine feste Größe begrenzt sind.", [ "Wahr", "Falsch" ] , [ 1, 0 ]);
-				
+						createSC(
+								"Die Ordnung eines B-Baumes in einem Computersystem kann nicht beliebig erhöht werden, da ein Knoten einem Block/einer Seite entspricht und Blöcke in einem Computersystem durch eine feste Größe begrenzt sind.",
+								[ "Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 27
-						createSC("Wofür steht HANA?", [ "High Performance Analytic Application", "High Performance Analytic Appliance" ],[ 1, 0 ]);
+						createSC("Wofür steht HANA?", [
+								"High Performance Analytic Application",
+								"High Performance Analytic Appliance" ],
+								[ 1, 0 ]);
 
 						//Frage 28
-						createSC("Was unterscheidet HANA von anderen relationalen Datenbanken (Oracle, MS-SQL, etc.)?", [ "HANA arbeitet spaltenorientiert, andere relationale Datenbanken arbeiten zeilenorientiert", "HANA arbeitet zeilenorientiert, andere relationale Datenbanken arbeiten spaltenorientiert" ] , [ 1, 0 ]);
+						createSC(
+								"Was unterscheidet HANA von anderen relationalen Datenbanken (Oracle, MS-SQL, etc.)?",
+								[
+										"HANA arbeitet spaltenorientiert, andere relationale Datenbanken arbeiten zeilenorientiert",
+										"HANA arbeitet zeilenorientiert, andere relationale Datenbanken arbeiten spaltenorientiert" ],
+								[ 1, 0 ]);
 
 						//Frage 29
-						createSC("HANA ist eine In-Memory-Datenbank.", [ "Wahr", "Falsch" ] , [ 1, 0 ]);
-													
+						createSC("HANA ist eine In-Memory-Datenbank.", [
+								"Wahr", "Falsch" ], [ 1, 0 ]);
+
 						//Frage 30
-                        createTL("Deutsch-Englisch Fachbegriffe", [ "Row", "Column", "Attribute", "Entity", "Relationship", "Relational Database", "Table", "Atomicity", "Normal Form", "Foreign Key", "Consistency", "Query", "Isolation", "Composite Key", "Primary Key", "Durability", "Database", "Candidate Key", "Surrogate Key", "Referential Integrity"], [ "Abfrage", "Zusammengesetzter Schlüssel", "Zeile", "Atomarität", "Konsistenz", "Spalte", "Attribut", "Kandidatenschlüssel", "Relationale Datenbank", "Beziehung", "Referentielle Integrität", "Isolation", "Datenbank", "Tabelle", "Entität", "Primärschlüssel", "Künstlicher Schlüssel", "Fremdschlüssel", "Dauerhaftigkeit", "Normalform"], [ 3, 6, 7, 15, 10, 9, 14, 4, 20, 18, 5, 1, 12, 2, 16, 19, 13, 8, 17, 11]);
+						createTL("Deutsch-Englisch Fachbegriffe", [ "Row",
+								"Column", "Attribute", "Entity",
+								"Relationship", "Relational Database", "Table",
+								"Atomicity", "Normal Form", "Foreign Key",
+								"Consistency", "Query", "Isolation",
+								"Composite Key", "Primary Key", "Durability",
+								"Database", "Candidate Key", "Surrogate Key",
+								"Referential Integrity" ], [ "Abfrage",
+								"Zusammengesetzter Schlüssel", "Zeile",
+								"Atomarität", "Konsistenz", "Spalte",
+								"Attribut", "Kandidatenschlüssel",
+								"Relationale Datenbank", "Beziehung",
+								"Referentielle Integrität", "Isolation",
+								"Datenbank", "Tabelle", "Entität",
+								"Primärschlüssel", "Künstlicher Schlüssel",
+								"Fremdschlüssel", "Dauerhaftigkeit",
+								"Normalform" ], [ 3, 6, 7, 15, 10, 9, 14, 4,
+								20, 18, 5, 1, 12, 2, 16, 19, 13, 8, 17, 11 ]);
 
 						showTheQuestion(count);
 					});
@@ -170,6 +277,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Glückwunsch! Du hast es geschafft! Du bist jetzt
+				der/die neue Datenbankspezialist/in!</p>
+
 		</div>
 
 	</div>

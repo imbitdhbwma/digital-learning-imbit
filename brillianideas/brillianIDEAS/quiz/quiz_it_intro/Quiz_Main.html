@@ -64,74 +64,150 @@
 					function() {
 
 						//Frage 1
-						createSC("Welche Aussage trifft auf digitale Informationen zu?", 
-							[ "Sie können zu geringen Kosten ohne Integritätsverlust aufwändig dupliziert werden.", "Sie können in kurzer Zeit ohne Qualitätsverlust einfach dupliziert werden.", "Sie können zu geringen Kosten ohne Qualitätsverlust einfach dupliziert werden.", "Sie können zu geringen Kosten ohne Qualitätsverlust einfach zerstört werden." ],
-							[ 0, 1, 0, 0 ]);
+						createSC(
+								"Welche Aussage trifft auf digitale Informationen zu?",
+								[
+										"Sie können zu geringen Kosten ohne Integritätsverlust aufwändig dupliziert werden.",
+										"Sie können in kurzer Zeit ohne Qualitätsverlust einfach dupliziert werden.",
+										"Sie können zu geringen Kosten ohne Qualitätsverlust einfach dupliziert werden.",
+										"Sie können zu geringen Kosten ohne Qualitätsverlust einfach zerstört werden." ],
+								[ 0, 0, 1, 0 ]);
 						//Frage 2
-						createSC("Wie ist Software am besten definiert?", [ "Die Offlineversion einer Netzwerkressource.", "Eine Sammlung von Algorithmen auf einem Computer.", "Die Implementierung eines Programms in einer Laufzeitumgebung." ],
-							[ 0, 0, 1 ]);
+						createSC(
+								"Wie ist Software am besten definiert?",
+								[
+										"Die Offlineversion einer Netzwerkressource.",
+										"Eine Sammlung von Algorithmen auf einem Computer.",
+										"Die Implementierung eines Programms in einer Laufzeitumgebung." ],
+								[ 0, 0, 1 ]);
 						//Frage 3
-						createMC("Eine Softwareprodukt enthält meistens welche Bestandteile?", [ "Code", "Vertrag", "Installations- und De-Installationsroutinen", "Bilder, Klänge und Schriftarten", "Hilfssystem / Anleitung", "Rechnung", "Diskette",  "Updatemethoden / Patches", "Treiber für spezifische Hardware", "Aktivierungscode"], 
-							[ 1, 0, 1, 1, 1, 0, 0, 1, 1, 0]);
+						createMC(
+								"Eine Softwareprodukt enthält meistens welche Bestandteile?",
+								[
+										"Code",
+										"Vertrag",
+										"Installations- und De-Installationsroutinen",
+										"Bilder, Klänge und Schriftarten",
+										"Hilfssystem / Anleitung", "Rechnung",
+										"Diskette", "Updatemethoden / Patches",
+										"Treiber für spezifische Hardware",
+										"Aktivierungscode" ], [ 1, 0, 1, 1, 1,
+										0, 0, 1, 1, 0 ]);
 						//Frage 4
-						createTQ(
-							"Was ist ein Algorithmus?",
-							[
-									"Eine endliche",
-									"",
-									"von genau definierten",
-									"",
-									"zur Erfüllung gleichartiger",
-									"",
-									"." ],
-							[ "Aufgaben", "Reihe", "Anweisungen" ], 
-							[3,1,2]);
+						createTQ("Was ist ein Algorithmus?", [ "Eine endliche",
+								"", "von genau definierten", "",
+								"zur Erfüllung gleichartiger", "", "." ], [
+								"Aufgaben", "Reihe", "Anweisungen" ],
+								[ 3, 1, 2 ]);
 						//Frage 5
-						createSC("Wie viele natürliche Zahlen existieren in einem 32bit-System?", [ "32^2 - 1", "2^32", "32^2", "2^32 - 1" ],
-							[ 0, 0, 0, 1 ]);
+						createSC(
+								"Wie viele natürliche Zahlen existieren in einem 32bit-System?",
+								[ "32^2 - 1", "2^32", "32^2", "2^32 - 1" ], [
+										0, 0, 0, 1 ]);
 						//Frage 6
-						createSC("Was wird als Mantisse bezeichnet?", [ "Die Potenz einer Gleitkommazahl nach den Ziffernstellen.", "Die Ziffernstellen einer Gleitkommazahl vor der Potenz.", "Der Logarithmus einer Gleitkommazahl bezogen auf die Potenz.", "Die Stellen einer Gleitkommazahl vor dem Komma." ],
-							[ 0, 1, 0, 0 ]);
+						createSC(
+								"Was wird als Mantisse bezeichnet?",
+								[
+										"Die Potenz einer Gleitkommazahl nach den Ziffernstellen.",
+										"Die Ziffernstellen einer Gleitkommazahl vor der Potenz.",
+										"Der Logarithmus einer Gleitkommazahl bezogen auf die Potenz.",
+										"Die Stellen einer Gleitkommazahl vor dem Komma." ],
+								[ 0, 1, 0, 0 ]);
 						//Frage 7
-						createSC("Sind Gleitkommazahlen fehleranfällig?", [ "Ja, die Limitierung der Mantisse führt zu Präzisionsfehlern.", "Ja, aber der Gleitkommaprozessor gleicht die Fehler der Potenz aus.", "Ja, aber nur bei negativen Gleitkommazahlen durch die Nullstellenproblematik." ],
-							[ 1, 0, 0 ]);
+						createSC(
+								"Sind Gleitkommazahlen fehleranfällig?",
+								[
+										"Ja, die Limitierung der Mantisse führt zu Präzisionsfehlern.",
+										"Ja, aber der Gleitkommaprozessor gleicht die Fehler der Potenz aus.",
+										"Ja, aber nur bei negativen Gleitkommazahlen durch die Nullstellenproblematik." ],
+								[ 1, 0, 0 ]);
 						//Frage 8
-						createSC("Wozu dient die Byte-Reihenfolge?", [ "Sie legt fest, in welcher Reihenfolge Bytefolgen gespeichert werden.", "Sie legt fest, in welcher Reihenfolge Byteabstände gelöscht werden.", "Sie legt fest, in welcher Reihenfolge Bytefolgen verschlüsselt werden." ],
-							[ 1, 0, 0 ]);
+						createSC(
+								"Wozu dient die Byte-Reihenfolge?",
+								[
+										"Sie legt fest, in welcher Reihenfolge Bytefolgen gespeichert werden.",
+										"Sie legt fest, in welcher Reihenfolge Byteabstände gelöscht werden.",
+										"Sie legt fest, in welcher Reihenfolge Bytefolgen verschlüsselt werden." ],
+								[ 1, 0, 0 ]);
 						//Frage 9
 						createTQ(
-							"Was macht die Pulse Code Modulation-Methode?",
-							[
-									"Sie wandelt ein zeit- und wertkontinuierliches",
-									"",
-									"Signal in ein zeit- und wertdiskretes",
-									"",
-									"Signal um." ],
-							[ "digitales", "analoges" ], 
-							[2,1]);
+								"Was macht die Pulse Code Modulation-Methode?",
+								[
+										"Sie wandelt ein zeit- und wertkontinuierliches",
+										"",
+										"Signal in ein zeit- und wertdiskretes",
+										"", "Signal um." ], [ "digitales",
+										"analoges" ], [ 2, 1 ]);
 						//Frage 10
-						createMC("Welche Elemente sind Bestandteile einer Von-Neumann-Architektur?", 
-							[ "Prozessor (CPU) mit Steuerwerk und Rechenwerk (ALU)", "Register", "Hauptspeicher", "Massenspeicher", "I/O-Interface", "Grafikeinheit", "Netzwerkeinheit",  "Bus-System"], 
-							[ 1, 0, 1, 0, 1, 0, 0, 1]);
+						createMC(
+								"Welche Elemente sind Bestandteile einer Von-Neumann-Architektur?",
+								[
+										"Prozessor (CPU) mit Steuerwerk und Rechenwerk (ALU)",
+										"Register", "Hauptspeicher",
+										"Massenspeicher", "I/O-Interface",
+										"Grafikeinheit", "Netzwerkeinheit",
+										"Bus-System" ], [ 1, 0, 1, 0, 1, 0, 0,
+										1 ]);
 						//Frage 11
-						createDD("Ordne diese typischen Operationen einer Von-Neumann-Architektur einander zu.", 
-							[ "Stop", "Summierung von Daten", "Verschieben von Daten zwischen Speicher, Prozessor und I/O", "Vergleich von Daten", "Multiplikation von Daten", "Sprung zu neuer Instruktion" ], 
-							[ "Arithmetische Operation","Logische Operation", "Transportoperation", "Verzweigung" ], 
-							[4,1,3,2,1,4]);
+						createDD(
+								"Ordne diese typischen Operationen einer Von-Neumann-Architektur einander zu.",
+								[
+										"Stop",
+										"Summierung von Daten",
+										"Verschieben von Daten zwischen Speicher, Prozessor und I/O",
+										"Vergleich von Daten",
+										"Multiplikation von Daten",
+										"Sprung zu neuer Instruktion" ], [
+										"Arithmetische Operation",
+										"Logische Operation",
+										"Transportoperation", "Verzweigung" ],
+								[ 4, 1, 3, 2, 1, 4 ]);
 						//Frage 12
-						createMC("Welche Datenkompressionsarten gibt es?", 
-							[ "Verlustarme Datenkompression (Poor Lossless)", "Verlustbehaftete Datenkompression (Lossy)", "Verlustqualitative Datenkompression (Quality Lossy)", "Verlustsensitive Datenkompression (Sensitive Lossy)", "Verlustfreie Datenkompression (Lossless)", "Verlustreiche Datenkompression (Rich Lossless)"], 
-							[ 0, 1, 0, 0, 1, 0]);
+						createMC(
+								"Welche Datenkompressionsarten gibt es?",
+								[
+										"Verlustarme Datenkompression (Poor Lossless)",
+										"Verlustbehaftete Datenkompression (Lossy)",
+										"Verlustqualitative Datenkompression (Quality Lossy)",
+										"Verlustsensitive Datenkompression (Sensitive Lossy)",
+										"Verlustfreie Datenkompression (Lossless)",
+										"Verlustreiche Datenkompression (Rich Lossless)" ],
+								[ 0, 1, 0, 0, 1, 0 ]);
 						//Frage 13
-						createSC("Was ist ein Cache?", [ "Die technische Bezeichnung für die Druckerwarteschlange.", "Der Blockbereich eines Massenspeichers, der für die Verteilung von Prüfziffern zuständig ist.", "Ein Puffer-Speicher, der zwischen Systemen mit unterschiedlicher Geschwindigkeit vermittelt.", "Die Sicherheitsschaltung in einem Netzteil." ],
-							[ 0, 0, 1, 0 ]);
+						createSC(
+								"Was ist ein Cache?",
+								[
+										"Die technische Bezeichnung für die Druckerwarteschlange.",
+										"Der Blockbereich eines Massenspeichers, der für die Verteilung von Prüfziffern zuständig ist.",
+										"Ein Puffer-Speicher, der zwischen Systemen mit unterschiedlicher Geschwindigkeit vermittelt.",
+										"Die Sicherheitsschaltung in einem Netzteil." ],
+								[ 0, 0, 1, 0 ]);
 						//Frage 14
-						createSC("Was sind zeichenorientierte Geräte (character devices)?", [ "Zeichenorientierte Geräte übertragen nur ein Zeichen zur selben Zeit. Ein Beispiel ist das Keyboard.", "Zeichenorientierte Geräte sind Geräte zur Freihandgestaltung am Computer. Ein Beispiel ist der PC-Stift.", "Zeichenorientierte Geräte übertragen Zeichen in Matrixform. Ein Beispiel ist eine Analog-Digital-Matrix." ],
-							[ 1, 0, 0 ]);
+						createSC(
+								"Was sind zeichenorientierte Geräte (character devices)?",
+								[
+										"Zeichenorientierte Geräte übertragen nur ein Zeichen zur selben Zeit. Ein Beispiel ist das Keyboard.",
+										"Zeichenorientierte Geräte sind Geräte zur Freihandgestaltung am Computer. Ein Beispiel ist der PC-Stift.",
+										"Zeichenorientierte Geräte übertragen Zeichen in Matrixform. Ein Beispiel ist eine Analog-Digital-Matrix." ],
+								[ 1, 0, 0 ]);
 						//Frage 15
-						createTL("Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu.", [ "Character Device", "Block Device", "Mainboard", "Runtime Environment", "Mantissa", "Cache", "Floating Point Number", "Source Code", "Main Memory", "Redundant Array of Independent Disks" ], 
-							[ "Hauptplatine", "Redundante Anordnung unabhängiger Festplatten", "zeichenorientiertes Gerät", "Laufzeitumgebung", "Mantisse", "blockorientiertes Gerät", "Puffer-Speicher", "Hauptspeicher", "Gleitkommazahl", "Quelltext" ], 
-							[ 3, 6,	1, 4, 5, 7, 9, 10, 8, 2]);
+						createTL(
+								"Ordne den deutschen Fachbegriffen ihre englischen Übersetzungen zu.",
+								[ "Character Device", "Block Device",
+										"Mainboard", "Runtime Environment",
+										"Mantissa", "Cache",
+										"Floating Point Number", "Source Code",
+										"Main Memory",
+										"Redundant Array of Independent Disks" ],
+								[
+										"Hauptplatine",
+										"Redundante Anordnung unabhängiger Festplatten",
+										"zeichenorientiertes Gerät",
+										"Laufzeitumgebung", "Mantisse",
+										"blockorientiertes Gerät",
+										"Puffer-Speicher", "Hauptspeicher",
+										"Gleitkommazahl", "Quelltext" ], [ 3,
+										6, 1, 4, 5, 7, 9, 10, 8, 2 ]);
 
 						showTheQuestion(count);
 					});
@@ -150,6 +226,9 @@
 			id="gz"
 			class="questionclass">
 			<p id="supergeil"></p>
+			<p id="outro">Die IMBIT-Krake ist jetzt auf dem besten Weg,
+				IT-Profi zu werden!</p>
+
 		</div>
 
 	</div>
