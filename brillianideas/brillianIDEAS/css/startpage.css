@@ -1,5 +1,3 @@
-
-
 <<<<<<< HEAD
 @font-face {
 
@@ -22,13 +20,12 @@
 }
 =======
 
->>>>>>> Added support for local google fonts
+>>>>>>> Addet suport for local google fonts
 
 html {
 	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
-	background-image: url("img/background.gif");
 }
 
 body {
@@ -87,6 +84,7 @@ body {
 	width: initial;
 	max-width: 75vw;
 	z-index:-2;
+	   transform: translateY(-0%);
 }
 #arrowRight{
 	top: 50vh;
@@ -109,7 +107,7 @@ body {
 	background-color: rgba(255, 255, 255, 0);
 	top: 0px;
 	left: 0px;
-	z-index: -20;
+	z-index: 3;
 	overflow-x: scroll;
 	overflow-x: hidden;
 }
