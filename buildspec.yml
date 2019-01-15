@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
+      - cd brilliancrm
+      - mvn package
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.jar
