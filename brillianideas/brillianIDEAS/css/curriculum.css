@@ -20,6 +20,11 @@ html {
 	overflow: hidden;
 }
 
+#content {
+	-webkit-transform: translate3d(0,0,0);
+}
+
+
 a:link {
     text-decoration: none;
     color: #991b33;
