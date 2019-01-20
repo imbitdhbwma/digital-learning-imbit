@@ -227,7 +227,7 @@
 			</tr>
 			<tr>
 				<td align="left">
-					<a class="login" href="brillianICM/Registration?g=000">Register</a>
+					<a class="login" href="Registration?g=000">Register</a>
 				</td>
 			</tr>
 			<tr>
