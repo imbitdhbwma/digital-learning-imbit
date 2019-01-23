@@ -1,8 +1,8 @@
 /* This Script should be executed by the database admin (e.g. root) to create the database for brillianICM. */
 -- <<Reset database>>
 -- Danger!! if the the following statements are uncommented the database and connection user will be reset. Any exising content is lost! Use this in case you want to start with the initial database.
- DROP USER brillianicm@localhost;
- DROP database icmcake; 
+-- DROP USER brillianicm@localhost;
+-- DROP database icmcake; 
 
 -- <<General Configuration>>
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `group` (
   PROFESSOR_ID int(11) NOT NULL,
   CERTIFICATE int(11) NOT NULL DEFAULT 0,
   ORG varchar(256) COLLATE utf8mb4_general_ci,
-  DESCRIPTION varchar(256) COLLATE utf8-unicode_ci,
+  DESCRIPTION varchar(256) COLLATE utf8mb4_general_ci,
   URL varchar(256) COLLATE utf8mb4_general_ci,
   PRIMARY KEY (GROUP_ID),
   KEY GROUP_ID (GROUP_ID),
