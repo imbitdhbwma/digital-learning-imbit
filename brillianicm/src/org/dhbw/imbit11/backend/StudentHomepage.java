@@ -32,7 +32,7 @@ import javax.servlet.http.HttpServletResponse;
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		String url = "/homepage_student.jsp";
+		String url = "/backend/homepage_student.jsp";
 		
 		
 	     // forward the request and response to the view
