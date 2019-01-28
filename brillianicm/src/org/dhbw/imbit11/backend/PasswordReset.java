@@ -152,7 +152,7 @@ import org.apache.shiro.subject.Subject;
 		//Send the temporary password to the user
 		String content = "Your temporary password is "
 				+ temporaryPassword + ". You can change this after you logged in. \n\nGreetings, \n" +
-					"your brillianCRM admin \n\n\n This is an automated email. Please do not reply.";
+					"your brillianICM admin \n\n\n This is an automated email. Please do not reply.";
 		MailClient mailclient = new MailClient();
 		mailclient.sendMail(email, "Password Reset", content, request);
 		}
