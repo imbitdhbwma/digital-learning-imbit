@@ -399,6 +399,13 @@ bottom: 2vw;
 	text-indent: 0px;
 	text-shadow: 1px 1px 1px white;
 }
+.versetzen:hover .tooltiptext_ru {
+	visibility: visible;
+	color: black;
+	font-size: 3vw;
+	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
+}
 
 
 .tetris:hover .tooltiptext_ru {
@@ -417,11 +424,12 @@ bottom: 2vw;
 	text-shadow: 1px 1px 1px white;
 }
 
-.cursor:hover .tooltiptext_whitebg {
+.cursorb:hover .tooltiptext_whitebg {
 	visibility: visible;
 	color: black;
 	font-size: 3vw;
 	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
 }
 
 
