@@ -24,6 +24,11 @@ html {
 	-webkit-transform: translate3d(0,0,0);
 }
 
+.iconGroesse {
+    height: 2.5em !important;
+    width: auto !important;
+}
+
 
 a:link {
     text-decoration: none;
