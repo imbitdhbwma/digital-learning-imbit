@@ -1,21 +1,9 @@
-html {
-	box-sizing: border-box;
+html {	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
 }
 
-body {
-	box-sizing: border-box;
-	font-family: 'Tinos';
-	color: var(--text);
 
-	/* top level grid */
-  display: grid;
-  grid-template-rows: 1fr 100px;
-  grid-template-columns: 100%;
-  grid-template-areas: "content"
-                        "launchbar";
-}
 
 #title a {
     text-decoration: none;
@@ -30,74 +18,49 @@ body {
 	font-size: 1.1153846153846153846153846153846em;
 }
 
-.containerold{ 
-	display: flex;
-	width: 33%;
-	align-items: center;
-	justify-content: center;
-	font-family: "Caveat Brush";
-	color: #991B33;
-	font-size: 5em;
-}
-
-.screen {
-	width: 100%;
-	display: flex;
-	
-}
-.screenonebwl {
-	width: 100%;
-	display: flex;
-	
-	margin-top: 0vw;
-	margin-left: 10%;
-}
-
-.schach1 {
-	position: absolute;
-	top: 20%;
-	margin-left: 40%;
-}
-
-
-.screentwo {
-	margin-top: 6vw;
-	width: 80%;
-	margin-left: 5%;
-	display: flex;
-}
-
-.screentwobwl {
-	width: 80%;
-	margin-left: 5%;
-	display: flex;
-	
-	margin-top: 8vw;
-}
-
-
-.screenthree {
-	margin-top: 6vw;
-	width: 50%;
-	margin-left: 35%;
-	display: flex;
-}
 .container {
 	position: relative;
-	margin: auto;
+	margin-bottom: 5vh;
+	margin-right: 5vh;
+	margin-left: 5vh;
+	margin-top:15vh;
 	display: flex;
-	top: 16vw;
 	height: 13vw;
 	width: auto;
 	max-width: 13vw
 }
- .ludogruen {
-	 top:7vw;
-	 
+ 
+/*Icons IT Quizz*/
+.kegel {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	max-width: 60%;
+	max-height: 60%;
+}
+ 
+
+/* Tooltip Text*/
+.tooltiptext{
+	visibility: hidden;
+	 top: 40%;
+	 left: 30%;
+	 font-family: Caveat Brush;
+	 font-size: 2em;
+	 color: white;
+	 position: absolute;
+	 z-index: 2;
  }
- 
- 
- 
+/* Tooltip Text Hover Mouseover*/
+
+ .tooltiphover:hover .tooltiptext{
+	visibility: visible;
+	color: black;
+	font-size: 3vw;
+	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
+}
+
 
 .IntroText {
 	width: 100%;
@@ -112,44 +75,8 @@ body {
 	margin-top: -15%;
 }
 
-.luecke {
-	
-	margin-top: -20%;
-}
-
-.lueckegros {
-	
-	margin-top: -35%;
-}
-
-.ludorot {
-	margin-top: -10%;
-}
-
-
-.versetzen {
-	top: 10vw;
-}
-.doppeltversetzen {
-	top: 5vw;
-	margin-left: 5vw;
-}
-
 .bauer {
 	top: 6vw;
-}
-
-
-.dreifachversetzen {
-	top: -5vw;
-}
-
-.supplycm {
-bottom: 2vw;
-}
-
-.nachunten {
-	top: 22vw;
 }
 
 .schach1 {
@@ -161,24 +88,7 @@ bottom: 2vw;
 	max-height: 60%;
 }
 
-.cursor{
-	top: 5vw;
-}
 
-.cursorb{
-	top: 0vw;
-}
-
-.ludoblau{
-	top: 35vh;
-}
-.ludoblauz{
-	top: 25vh;
-}
-
-.joystick{
-	top: 11vw;
-}
 
 .herzkoenig{
 	position: absolute;
@@ -188,10 +98,6 @@ bottom: 2vw;
 	max-height: 60%;
 }
 
-.karodame{
-	top: 9vw;
-}
-
 .klecks {
 	top: -10%;
 	left: -10%;
@@ -199,68 +105,10 @@ bottom: 2vw;
 	max-height: 120%;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.spielfigur {
-	
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.spielfigurklein {
-	position: absolute;
-	top: 20%;
-	left: 40%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.tetris {
-	position: absolute;
-	top: 30%;
-	left: 40%;
-	max-width: 35%;
-}
-
-.ass {
-	position: absolute;
-	top: 0%;
-	left: 35%;
-	max-width: 60%;
-	max-height: 60%;
-}
 
 
-.ludo {
-	position: absolute;
-	top: 20%;
-	left: 40%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.gameboyhover {
-	margin-left: 13vw;
-}
-
-.nachoben {
-	top: 8vw;
-}
 
 
-/* Tooltip container */
-.tooltip {
-    width:1px;
-    height:1px;
-}
 /* Tooltip links */
 .tooltip .tooltiptext_l {
    visibility: visible;
@@ -274,203 +122,9 @@ bottom: 2vw;
 	text-shadow: 1px 1px 1px white;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext_l {
-    visibility: visible;
-}
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_ru {
-	/* text-shadow: 1px 1px 1px white; */
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-	line-height: 3vw;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.dart:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.steine:hover .tooltiptext_ru {
-	visibility: visible;
-	color: #000;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.wuerfel:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.schach:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.rubikscube:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.puzzle:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.kreuzkoenig:hover .tooltiptext_red {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.karodame:hover .tooltiptext_red {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.snookerorangehover:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.mario:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.pacman:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.joystick:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.controller:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-.versetzen:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.tetris:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.gameboyhover:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.cursorb:hover .tooltiptext_whitebg {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.ludogruen:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.ludoblau:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
 
 
 
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_whitebg {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container alt color: #941a32;*/
-.tooltip:hover .tooltiptext_whitebg {
-	visibility: visible;
-	color: #202020;
-	font-size: 3vw;
-	text-indent: 0px;
-}
 
 
 /* Tooltip rechts unten */
@@ -506,13 +160,7 @@ bottom: 2vw;
     z-index: 2;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container;*/
-.wahrpsycho:hover .tooltiptext_wahrnpsycho {
-	visibility: visible;
-	color: #f6f8f7;
-	font-size: 3vw;
-	text-indent: -9vw;
-}
+
 
 
 
@@ -527,22 +175,6 @@ bottom: 2vw;
     position: absolute;
     z-index: 3;
 	background-color: rgba(255, 255, 255, .5); /* linear-gradient(90deg, #1fb7b7, #000) */
-	/* border: 3px solid #fff; */
-	border-radius: 20px;
-	line-height: 3vw;
-}
-
-#Aufforderung_bwl {
-    top: 5vh;
-    left: 23vw;
-    width: 30vw;
-    text-align: center;
-    font-family: Caveat Brush;
-    font-size: 3vw;
-    color:black;
-    position: absolute;
-    z-index: 3;
-	background-color: rgba(255, 255, 255, .5); /*#35bebb;*/
 	/* border: 3px solid #fff; */
 	border-radius: 20px;
 	line-height: 3vw;
@@ -618,4 +250,15 @@ bottom: 2vw;
 
 #wp_tooltip {
 	text-indent: -8vw;
+}
+
+
+/*New flex layout */
+
+.containerFlex  {
+	margin-bottom: 55vh !important;
+	display:flex !important;
+	flex-wrap: wrap!important;
+	justify-content: space-around!important;
+	align-content: space-around!important;
 }

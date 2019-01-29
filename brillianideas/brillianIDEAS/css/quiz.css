@@ -133,7 +133,8 @@ SFS dark red = #9f2026; */
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding: 50px;
+    
     margin-bottom: 12px;
     cursor: pointer;
     -webkit-user-select: none;

@@ -114,16 +114,16 @@ body {
     z-index: 3;
 }
 
-#octo_kopf {
+.octo_kopf {
     position: absolute;
 	top: 0px;
 	left: 0;
 	width: 25vw;
-	height: 30vh;
+	height: auto;
     z-index:1;
 }
 
-#octo_arm_links{
+.octo_arm_links{
     position: absolute;
 	bottom: 0px;
 	left: 0;
@@ -142,15 +142,24 @@ body {
     z-index:1;
 }
 
-#octo_arm_rechts_unten{
-	position: absolute;
-	bottom: 0;
-	right: -10px;
-	width: 40vw;
-	height: 30vh;
+.octo_arm_rechts_unten{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 40%;
+	height: auto;
     z-index:1;
 }
 
+.octo_arm_links_unten{
+    position: fixed;
+	bottom: 0px;
+	left: 0;
+	width: 20%;
+	height: auto;
+    transform: translateY(-25%);
+	z-index:1;
+}
 #arrowRight{
 	top: 50vh;
 	right: 1%;
