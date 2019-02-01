@@ -38,6 +38,13 @@ html {	box-sizing: border-box;
 	max-width: 60%;
 	max-height: 60%;
 }
+.schachfigur {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	max-width: 80%;
+	max-height: 80%;
+}
  
 
 /* Tooltip Text*/
@@ -63,7 +70,7 @@ html {	box-sizing: border-box;
 
 
 .IntroText {
-	width: 100%;
+	width: 130%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
@@ -106,16 +113,10 @@ html {	box-sizing: border-box;
 	line-height: 3vw;
 }
 
-
-#wp_tooltip {
-	text-indent: -8vw;
-}
-
-
 /*New flex layout */
 
 .containerFlex  {
-	margin-bottom: 55vh !important;
+	margin-bottom: 60vh !important;
 	display:flex !important;
 	flex-wrap: wrap!important;
 	justify-content: space-around!important;
