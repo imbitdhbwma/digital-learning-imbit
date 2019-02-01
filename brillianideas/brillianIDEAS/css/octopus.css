@@ -15,92 +15,11 @@ body {
   grid-template-columns: 100%;
   grid-template-areas: "content"
                         "launchbar";
+                        
+                            hyphens:auto;
+                        
 }
 
-#title a {
-    text-decoration: none;
-    color: var(--text);
-}
-
-.upper{
-	text-transform: uppercase;
-}
-
-.IDEAS{
-	font-size: 1.1153846153846153846153846153846em;
-}
-
-.container{
-	height: 100%;
-	display: -webkit-flexbox;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
-	justify-content: center;
-	font-family: "Caveat Brush";
-	color: #991B33;
-	font-size: 5em;
-}
-
-/* Tooltip container */
-.tooltip {
-    width:1px;
-    height:1px;
-}
-/* Tooltip links */
-.tooltip .tooltiptext_l {
-   visibility: hidden;
-    top: 68vh;
-    left: 15vw;
-    font-family: Caveat Brush;
-    font-size: 2.5em;
-    color:black;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext_l {
-    visibility: visible;
-}
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_ru {
-   visibility: hidden;
-    top: 65vh;
-    left: 55vw;
-    font-family: Caveat Brush;
-    font-size: 2.5em;
-    color:black;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext_ru {
-    visibility: visible;
-}
-
-/* Tooltip rechts oben */
-.tooltip .tooltiptext_ro {
-   visibility: hidden;
-    top: 4vh;
-    left: 58vw;
-    font-family: Caveat Brush;
-    font-size: 2.5em;
-    color:black;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext_ro {
-    visibility: visible;
-}
 
 #Titeltext {
     top: 35vh;

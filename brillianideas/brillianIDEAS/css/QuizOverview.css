@@ -79,59 +79,15 @@ html {	box-sizing: border-box;
 .klecks {
 	top: -10%;
 	left: -10%;
-	max-width: 120%;
-	max-height: 120%;
+	max-width: 160%;
+	max-height: 160%;
 }
 
-/* Tooltip links */
-.tooltip .tooltiptext_l {
-   visibility: visible;
-    top: 68vh;
-    left: 15vw;
-    font-family: Caveat Brush;
-    font-size: 28px;
-    color:black;
-    position: absolute;
-	z-index: 2;
-	text-shadow: 1px 1px 1px white;
+/* Tooltip container */
+.tooltip {
+    width:1px;
+    height:1px;
 }
-
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_red {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container;*/
-.tooltip:hover .tooltiptext_red {
-	visibility: visible;
-	color: #941a32;
-	font-size: 3vw;
-	text-indent: 0px;
-}
-
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_wahrnpsycho {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-
-
 
 
 .Aufforderung {
