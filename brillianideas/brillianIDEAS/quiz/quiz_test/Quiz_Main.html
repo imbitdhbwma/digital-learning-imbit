@@ -1,17 +1,22 @@
-// nur eine Vorlage aus: https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
+<!--nur eine Vorlage aus: https://stackoverflow.com/questions/12070631/how-to-use-json-file-in-html-code
+03.02.19 Haben das entsprechende json eingebunden und die Variablen angepasst. Anzeige aller Datensätze in Tabelle gelungen. 
+-->
 
 <html>
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 <script>
     $(function() {
-         var people = [];
-        $.getJSON('people.json', function(data) {
+         var questions = [];
+        $.getJSON('convertcsv.json', function(data) {
 
-             $.each(data.person, function(i, f) {
-                var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-                "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+             $.each(data, function(i, f) {
+                 //If-Bedingung um auf subject zu filtern
+                 if(f.subject==="UX"){ 
+                var tblRow = "<tr>" + "<td>" + f.subject + "</td>" +
+                "<td>" + f.questionType + "</td>" + "<td>" + f.question + "</td>" + "<td>" + f.answers + "</td>" + "<td>" + f.correct + "</td>"+ "</tr>"
                 $(tblRow).appendTo("#userdata tbody");
+                 }
             });
             
          });
@@ -20,14 +25,16 @@
 </head>
 <body>
 
+<!--Anzeigetabelle -->
 <div class="wrapper">
 <div class="profile">
     <table id= "userdata" border="2">
     <thead>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email Address</th>
-            <th>City</th>
+            <th>Subject</th>
+            <th>QuestionType</th>
+            <th>Question</th>
+            <th>Answers</th>
+            <th>Correct</th>
     </thead>
     <tbody>
     </tbody>
