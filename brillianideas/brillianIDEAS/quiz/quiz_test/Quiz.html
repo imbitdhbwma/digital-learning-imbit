@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<link
+	rel="shortcut icon"
+	href="../../img/favicon.ico"
+	type="image/x-icon">
+<meta charset="UTF-8">
+<title>Systemanalyse</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/main.css" />
+
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_checkbox.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Drag.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Radiobutton.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Text.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Table.css" />
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../dev_files/Quiz_Order.css" />
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	type="text/javascript"
+	src="../dev_files/helper.js"></script>
+<link
+	rel="stylesheet"
+    href="../../css/fonts.css" />
+</head>
+
+<body>
+
+ <!--Textdarstellung auf der Ergebnisseite der Quizes-->
+	<div id="content">
+
+		<div
+			id="gz"
+			class="questionclass">
+			<p id="supergeil"></p>
+			<p id="outro">Dank deiner Hilfe kann die IMBIT-Krake nun wieder
+				klar und strukturiert denken, denn Ordnung ist das halbe Leben!</p>
+
+        </div>
+        
+<!--Buttons -->
+	</div>
+	<div id="next_button_div">
+		<button
+			style="vertical-align: middle"
+			class="button"
+			type="button">
+			<a
+				href="#"
+				id="next_button"
+				onclick="nextButtonClick()">Weiter</a>
+		</button>
+	</div>
+
+	<div id="back_button_div">
+		<button
+			style="vertical-align: middle"
+			class="button"
+			type="button">
+			<a
+				href="#"
+				id="back_button"
+				onclick="backButtonClick()">Zurück</a>
+		</button>
+	</div>
+
+	<div id="tl">
+		<img
+			id="tentakel_l"
+			src="../../img/tentakel_ltr.png">
+	</div>
+	<div id="tr">
+		<img
+			id="tentakel_r"
+			src="../../img/tentakel_rtl.png">
+    </div>
+    
+    <script>
+    $(function() {
+        var array = [];
+
+        //json Datei laden
+        $.getJSON('convertcsv.json', function(data) {
+                //Schleife iteriert durch das Array
+                $.each(data, function(i, f) {
+                    var subject = f.subject;
+                    var questionType= f.questionType;
+                    var question= f.question;
+                    var answers = f.answers;
+                    var correct = f.correct;
+                   // console.log(answers);
+
+                    // Anzeige der UX Fragen sortiert nach questionType
+                    if(subject==="UX") {
+                        switch (questionType){
+                            case "MC": 
+                            $(document).ready(function() {
+						        createMC(
+                                    question,
+                                    answers,
+                                    correct
+                                );
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

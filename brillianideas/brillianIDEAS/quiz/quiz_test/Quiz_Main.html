@@ -7,19 +7,21 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 <script>
     $(function() {
-         var questions = [];
+        //var questions = [];
         $.getJSON('convertcsv.json', function(data) {
 
              $.each(data, function(i, f) {
                  //If-Bedingung um auf subject zu filtern
-                 if(f.subject==="UX"){ 
+                //if(f.subject==="UX"){ 
                 var tblRow = "<tr>" + "<td>" + f.subject + "</td>" +
                 "<td>" + f.questionType + "</td>" + "<td>" + f.question + "</td>" + "<td>" + f.answers + "</td>" + "<td>" + f.correct + "</td>"+ "</tr>"
                 $(tblRow).appendTo("#userdata tbody");
-                 }
+                 //}
+                console.log(f.questionType);
             });
             
          });
+         
     });
 </script>
 </head>

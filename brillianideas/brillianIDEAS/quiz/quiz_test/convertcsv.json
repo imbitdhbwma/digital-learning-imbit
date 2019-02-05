@@ -7,40 +7,15 @@
       "Steve Jobs",
       "Donald Norman",
       "Charles Babbage",
-      "Steve Wozniak",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Steve Wozniak"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -50,40 +25,15 @@
       "Usability Testing",
       "Eye-Tracking",
       "Storyboarding",
-      "Tagebuchstudien",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Tagebuchstudien"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -95,37 +45,19 @@
       "Einstellungen",
       "Verhaltensweisen",
       "objektive Befunde: »zählen«",
-      "subjektive Befunde: »befragen«",
-      "",
-      "",
-      "",
-      ""
+      "subjektive Befunde: »befragen«"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
       2,
       2,
       1,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Quantitative Methoden",
-      "Qualitative Methoden ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Qualitative Methoden "
    ]
 },
  {
@@ -136,40 +68,15 @@
       "Die Überprüfung von Systemkompatibilitäten.",
       "Die Beobachtung der ersten Interaktion von Usern mit neuer Software.,",
       "Die Durchführung von Performance Tests.",
-      "Das Auswerten von Tagebuchstudien.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Das Auswerten von Tagebuchstudien."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -178,41 +85,14 @@
    "answers": [
       "Um eine intuitive Steuerung von Software zu ermöglichen.",
       "Um zu testen, ob Software funktioniert.",
-      "Um die Laufzeit von Software zu optimieren. ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Um die Laufzeit von Software zu optimieren. "
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -221,41 +101,14 @@
    "answers": [
       "Das Erzählen einer Geschichte über das Nutzerverhalten.,",
       "Die sequentielle Aneinanderreihung von Bildern um Abläufe und Abhängigkeiten im Voraus abzubilden.,",
-      "Die Sammlung von Geschichten über Anwendungsmöglichkeiten, welche auf einem Board dargestellt werden. ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Sammlung von Geschichten über Anwendungsmöglichkeiten, welche auf einem Board dargestellt werden. "
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -265,40 +118,15 @@
       "Es bietet die Möglichkeit, schnell Konzepte zu erstellen.",
       "Entwickelte Konzepte sind sofort in digitaler Form verfügbar.",
       "Visualisierte Problemstellungen sind besser zu verstehen.",
-      "Ergänzungen zu Protokollen von Meetings. ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ergänzungen zu Protokollen von Meetings. "
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -309,39 +137,16 @@
       "Prototype (Bauen) ",
       "Test (Testen) ",
       "Define (Definieren)",
-      "Ideate",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ideate"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       4,
       5,
       2,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -353,37 +158,20 @@
       "Storyboards",
       "Shadowing",
       "Interviews",
-      "»Yes and«-Thinking",
-      "",
-      "",
-      "",
-      ""
+      "»Yes and«-Thinking"
    ],
-   "FIELD14": "",
    "correct": [
       3,
       1,
       1,
       2,
       2,
-      3,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Prototype",
       "Empathize",
-      "Ideate",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ideate"
    ]
 },
  {
@@ -398,11 +186,8 @@
       "Virtuelle Methoden",
       "Explizite Methoden",
       "Objektive Methoden",
-      "Subjektive Methoden",
-      "",
-      ""
+      "Subjektive Methoden"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
@@ -411,23 +196,9 @@
       0,
       1,
       0,
-      0,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -438,38 +209,18 @@
       "Usability Testing",
       "Eye-Tracking",
       "Elektroenzephalografie",
-      "Mitarbeiterbefragungen",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Mitarbeiterbefragungen"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
       1,
       1,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Implizite Methoden",
-      "Explizite Methoden",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Explizite Methoden"
    ]
 },
  {
@@ -479,41 +230,14 @@
    "answers": [
       "Von oben nach unten",
       "Es gibt keine typische Richtung",
-      "In F-Form",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "In F-Form"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -522,41 +246,14 @@
    "answers": [
       "oben mittig",
       "oben rechts",
-      "unten links",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "unten links"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -566,40 +263,15 @@
       "oben links ",
       "oben mittig",
       "oben rechts ",
-      "an mehreren Stellen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "an mehreren Stellen"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "UX",
@@ -617,7 +289,6 @@
       "Thinking Aloud",
       "On-site Questionnaire "
    ],
-   "FIELD14": "",
    "correct": [
       10,
       3,
@@ -630,7 +301,6 @@
       2,
       4
    ],
-   "FIELD25": "",
    "title": [
       "Aufmerksamkeitsmessung",
       "Lautes Denken",
@@ -652,39 +322,17 @@
       "Richtlinien",
       "In der Regel von Anwendergruppen oder Herstellern erarbeitet.",
       "Werden empfohlen, sollten eingehalten werden.",
-      "Verbindlich ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verbindlich "
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       2,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Normen",
-      "Standards",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Standards"
    ]
 },
  {
@@ -694,41 +342,14 @@
    "answers": [
       "Generation language",
       "General language",
-      "Good language",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Good language"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -739,38 +360,21 @@
       "Höhere Programmiersprachen",
       "Nichtprozedurale Programmiersprachen",
       "KI-Sprachen",
-      "Assemblersprachen",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Assemblersprachen"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
       4,
       5,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "First GL",
       "Second GL",
       "Third GL",
       "Fourth GL",
-      "Fifth GL",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fifth GL"
    ]
 },
  {
@@ -782,39 +386,16 @@
       "Bei der Third GL erfolgt die 1:1 Übersetzung durch den Compiler.",
       "Bei der Third GL erfolgt die 1:N Übersetzung durch den Compiler/Interpreter.",
       "Die Programmiersprachen LISP und Prolog gehören zu den KI-Sprachen.",
-      "HTML ist eine Programmiersprache.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "HTML ist eine Programmiersprache."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -826,38 +407,17 @@
       "funktionale Programmierung",
       "logische Programmierung",
       "klassenbasierte Programmierung",
-      "unstrukturierte Programmierung",
-      "",
-      "",
-      "",
-      ""
+      "unstrukturierte Programmierung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -867,39 +427,19 @@
       "Konzepte für Unterroutinen",
       "Nur Funktionen als Anweisungen",
       "Beschreibung von Aussagen",
-      "Vererbung und Polymorphie",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Vererbung und Polymorphie"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
       4,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Strukturierte Programmierung",
       "Objektorientierte Programmierung",
       "Funktionale Programmierung",
-      "Logische Programmierung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Logische Programmierung"
    ]
 },
  {
@@ -910,40 +450,15 @@
       "Die Programmiersprachen Prolog und CLP gehören zur logischen Programmierung.",
       "Die Programmiersprache LISP gehört zur strukturierten Programmierung.",
       "Die objektorientierte Programmierung beschäftigt sich mit Objekten und Klassen, sowie mit der Datenkapselung.",
-      "Unter einem Programmierparadigma versteht man die Sichtweise und den Umgang mit den zu verarbeitenden Daten und Operationen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Unter einem Programmierparadigma versteht man die Sichtweise und den Umgang mit den zu verarbeitenden Daten und Operationen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -955,80 +470,44 @@
       "Globale Fehlersuche",
       "Teilergebnisse sind sichtbar",
       "Unterstützung durch Entwicklungsumgebung",
-      "Einfache Fehlersuche",
-      "",
-      "",
-      "",
-      ""
+      "Einfache Fehlersuche"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       1,
       2,
       1,
-      2,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Compiler",
-      "Interpreter",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Interpreter"
    ]
 },
  {
    "subject": "WI",
    "questionType": "DD",
-   "question": "Ordne die Nachteile dem Interpreter bzw. dem Compiler zu.",
+   "question": "Ordne die Nachteile dem Interpreter oder dem Compiler zu.",
    "answers": [
       "Mehrstufig",
       "Lokale Fehlersuche",
       "Langsamer",
       "Kein ausführbares Zielprogramm in Maschinensprache",
       "Bei jedem Übersetzungsvorgang muss das gesamte Programm übersetzt werden.",
-      "Fehlersuche aufwändiger",
-      "",
-      "",
-      "",
-      ""
+      "Fehlersuche aufwändiger"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       2,
       2,
       1,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Compiler",
-      "Interpreter",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Interpreter"
    ]
 },
  {
@@ -1041,81 +520,41 @@
       "Einzahlungen",
       "Lagerbestände",
       "Abbuchungen",
-      "Kontobestände",
-      "",
-      "",
-      "",
-      ""
+      "Kontobestände"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       3,
       2,
       3,
-      2,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Stammdaten",
       "Bestandsdaten",
-      "Bewegungsdaten",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Bewegungsdaten"
    ]
 },
  {
    "subject": "WI",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen wahr? Wenn ja, markiere sie.",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "OLTP ist eine Abkürzung für Online Transaction Processing.",
       "Auskunfts- und Reservierungssysteme sowie Kontoabfragen sind Beispiele für OLTP.",
       "Bei OLTP werden die Daten nicht direkt nach der Eingabe aktualisiert und stehen auch nicht allen betroffenen Abteilungen zur gleichen Zeit zur Verfügung.",
       "OLTP verfolgt den Ansatz der Echtzeitbuchung, d. h. es können mehrere Nutzer gleichzeitig im Dialogbetrieb auf dem gleichen Datenbestand arbeiten.",
-      "Ein ERP-System besteht aus 3 Systemlandschaften: Entwicklungssystem, Testsystem, Produktivsystem.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ein ERP-System besteht aus 3 Systemlandschaften: Entwicklungssystem, Testsystem, Produktivsystem."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -1127,38 +566,17 @@
       "Personal",
       "Vertrieb",
       "Beschaffung",
-      "Controlling",
-      "",
-      "",
-      "",
-      ""
+      "Controlling"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -1172,11 +590,8 @@
       "Wettbewerbsvorteile",
       "Unabhängigkeit von Softwarelieferanten",
       "Know-how Transfer durch den Hersteller",
-      "Branchenneutralität und Individualität durch Customizing",
-      "",
-      ""
+      "Branchenneutralität und Individualität durch Customizing"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
@@ -1185,66 +600,30 @@
       1,
       1,
       2,
-      2,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Individualsoftware",
-      "Standardsoftware",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Standardsoftware"
    ]
 },
  {
    "subject": "WI",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen wahr?",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "Um eine Software einzuführen gibt es zwei Strategien: die Big Bang Strategie und die Rollout Strategie.",
       "Die Big Bang Strategie beschreibt die vollständige Ablösung des Altsystems zum Stichtag.",
-      "",
       "Unter einem Big Bang versteht man die schrittweise, prozessorientiere Einführung einer Software.",
-      "Die Rollout Strategie beschreibt die sukzessive Ablösung durch die Umstellung einzelner vollständiger Prozessketten.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Rollout Strategie beschreibt die sukzessive Ablösung durch die Umstellung einzelner vollständiger Prozessketten."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "WI",
@@ -1262,7 +641,6 @@
       "Master Data",
       "Programming Language"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       2,
@@ -1275,7 +653,6 @@
       3,
       1
    ],
-   "FIELD25": "",
    "title": [
       "Programmiersprache",
       "Verbindlich",
@@ -1299,38 +676,17 @@
       "Hohe Preise",
       "Nutzung der Plankostenrechnung",
       "Flexibilität",
-      "Produktorientierung",
-      "",
-      "",
-      "",
-      ""
+      "Produktorientierung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1338,84 +694,36 @@
    "question": "Der Schwerpunkt von Geschäftsprozessmanagement liegt in der technischen Umsetzung. Die Analyse und Optimierung dieser sind nicht von großer Bedeutung.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
    "questionType": "DD",
-   "question": "Ebenen der Prozessbetrachtung und deren Fokus. Ordne die Ebenen den verschiedenen Fokuspunkten zu. ",
+   "question": "Ordne die Ebenen der Prozessbetrachtung den verschiedenen Fokuspunkten zu. ",
    "answers": [
       "Modellierung",
       "Analyse",
       "Darstellung",
       "Technische Umsetzung",
-      "Optimierung",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Optimierung"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
       1,
       3,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Fokus: Dokumentation ",
       "Fokus: Gestaltung",
-      "Fokus: Implementierung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fokus: Implementierung"
    ]
 },
  {
@@ -1426,40 +734,15 @@
       "Ein Rahmenkonzept zur Gestaltung der betrieblichen Abläufe.",
       "Ein Vergleich von Mitarbeitern.",
       "Eine Abfolge von Transaktionen",
-      "Eine Abfolge von Aktivitäten und Zuständen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Eine Abfolge von Aktivitäten und Zuständen"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1467,42 +750,13 @@
    "question": "Im Geschäftsprozessmanagement gilt der Grundsatz: »Strategie vor Methodik vor Werkzeug«.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1510,85 +764,27 @@
    "question": "Geschäftsprozessmanagement beinhaltet Ansätze wie Business Process Reengineering oder Continuous Improvement.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
    "questionType": "SC",
-   "question": "Analyse eines Geschäftsprozesses. Ist eine Prozesskostenanalyse eine Methode oder eine Kenngröße?",
+   "question": "Ist eine Prozesskostenanalyse eine Methode oder eine Kenngröße?",
    "answers": [
       "Methode",
-      "Kenngröße",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kenngröße"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1596,47 +792,18 @@
    "question": "Ein Workflow kann als Abfolge von Transaktionen zwischen Objekten angesehen werden.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
    "questionType": "DD",
-   "question": "Analyse der Geschäftsprozesse - handelt es sich um eine Methode oder eine Kenngröße? Ziehe alle Elemente in das richtige Feld.",
+   "question": "Handelt es sich um eine Methode oder eine Kenngröße? ",
    "answers": [
       "Ergebnisqualität",
       "Prozessqualität",
@@ -1644,12 +811,8 @@
       "Prozesskosten",
       "Prozesskostenanalyse",
       "Prozesszeitanalyse",
-      "Transportzeiten",
-      "",
-      "",
-      ""
+      "Transportzeiten"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
@@ -1657,23 +820,11 @@
       2,
       1,
       1,
-      2,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Methoden",
-      "Kenngrößen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kenngrößen"
    ]
 },
  {
@@ -1682,41 +833,17 @@
    "question": "Geschäftsprozesse und Dokumente. Ziehe das richtige Wort in die Lücke.",
    "answers": [
       "Ein",
-      "",
       "ist eine Einheit von Informationen, die in einem DV-System als Datei oder als Bestandteil einer Datei vorliegt. Ein",
       " ",
-      "ist eine zielgerichtete, zeitlich-logische Abfolge von Aufgaben, die arbeitsteilig von mehreren Organisationen oder Organisationseinheiten unter Nutzung von  Informations- und Kommunikationstechnologien ausgeführt werden können.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "ist eine zielgerichtete, zeitlich-logische Abfolge von Aufgaben, die arbeitsteilig von mehreren Organisationen oder Organisationseinheiten unter Nutzung von  Informations- und Kommunikationstechnologien ausgeführt werden können."
    ],
-   "FIELD14": "",
    "correct": [
       2,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Geschäftsprozess",
-      "Dokument",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Dokument"
    ]
 },
  {
@@ -1727,40 +854,15 @@
       "Eine Einheit von Informationen",
       "Der Vergleich von Geschäftsprozessen",
       "Die Einhaltung von Richtlinien und Gesetzen in einem Unternehmen",
-      "Die Systematische Aufzeichnung von Geschäftsvorfällen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Systematische Aufzeichnung von Geschäftsvorfällen"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1768,128 +870,45 @@
    "question": "Welches ist das Standardverfahren für (grundlegende) Rechere in DMS?",
    "answers": [
       "Direct Retrieval",
-      "Indirect Retrieval",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Indirect Retrieval"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
    "questionType": "MC",
-   "question": "Wähle die Zielstellungen des Workflow-Managements.",
+   "question": "Wähle die Zielstellungen des Workflow-Managements aus.",
    "answers": [
       "Versionierung",
       "Kontrolle",
       "Qualitätssicherung",
-      "Höhere Produktivität",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Höhere Produktivität"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
    "questionType": "SC",
-   "question": "Wie kann man die Erfassung von Papierdokumenten nach dem Arbeitsablauf unterscheiden? ",
+   "question": "Welche Arbeitsabläufe gibt es bei der Erfassung von Papierdokumenten?",
    "answers": [
       "Hochladen und herunterladen.",
-      "Frühes und spätes Scannen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Frühes und spätes Scannen"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "GPM",
@@ -1907,7 +926,6 @@
       "Optimization",
       "Quality Assurance"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       1,
@@ -1920,7 +938,6 @@
       7,
       5
    ],
-   "FIELD25": "",
    "title": [
       "Geschäftsprozess",
       "Recherche",
@@ -1944,81 +961,33 @@
       "Auswahl",
       "Aufnahme",
       "Verarbeitung",
-      "Reflexion",
-      "",
-      "",
-      "",
-      ""
+      "Reflexion"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
    "questionType": "SC",
-   "question": "Was sagt das »Gesetz der Nähe« aus?",
+   "question": "Was sagt das Gesetz der Nähe aus?",
    "answers": [
       "e näher man am betrachteten Objekt steht, desto besser kann man die Proportionen abschätzen.",
       "Nah aneinander liegende Objekte werden automatisch von unserem Gehirn gruppiert.",
-      "Nah aneinander liegende Objekte wirken größer.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Nah aneinander liegende Objekte wirken größer."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2028,40 +997,15 @@
       "1",
       "3",
       "4",
-      "7",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "7"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2070,41 +1014,14 @@
    "answers": [
       "Eine Aussage ist wahr, wenn sie für die Praxis verständlich und nützlich ist.",
       "Es kann nicht sicher festgestellt werden, ob eine Aussage wahr ist, aber sehr wohl, dass eine bestimmte Aussage falsch ist, nämlich wenn ein Experiment sie widerlegt.",
-      "Eine Aussage ist wahr, wenn eine möglicherweise unendlich große Menge von Menschen unter idealen Kommunikationsbedingungen dieser Aussage zustimmen würde.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Eine Aussage ist wahr, wenn eine möglicherweise unendlich große Menge von Menschen unter idealen Kommunikationsbedingungen dieser Aussage zustimmen würde."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2114,40 +1031,15 @@
       "Andrenerge Nervenzellen",
       "Neuronen",
       "Hensen-Zellen",
-      "Astrozyten",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Astrozyten"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2158,39 +1050,16 @@
       "Rezeptorzellen sind Codierer.",
       "Rezeptorzellen sind Interpreten.",
       "Rezeptorzellen sind Verstärker.",
-      "Rezeptorzellen sind Boten.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Rezeptorzellen sind Boten."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2199,89 +1068,35 @@
    "answers": [
       "Die subjektiv empfundene Stärke von Sinneseindrücken ist proportional zum Logarithmus der objektiven Intensität des physikalischen Reizes.",
       "Die subjektiv empfundene Stärke von Sinneseindrücken verhält sich proportional zum Alter der Testpersonen.",
-      "Es gibt keine Möglichkeit die subjektiv empfundene Stärke von Sinneseindrücken einzuordnen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Es gibt keine Möglichkeit die subjektiv empfundene Stärke von Sinneseindrücken einzuordnen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
    "questionType": "SC",
-   "question": "Was besagt die »Motorische Theorie der Sprachwahrnehmung«?",
+   "question": "Was besagt die Motorische Theorie der Sprachwahrnehmung?",
    "answers": [
       "Die Sprachwahrnehmung hängt mit der Gestik zusammen.",
       "Die Sprachwahrnehmung wird durch Motorik eingeschränkt.",
-      "Es gibt enge Verbindungen zwischen den Modulen zur Erzeugung und Wahrnehmung von Sprache.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Es gibt enge Verbindungen zwischen den Modulen zur Erzeugung und Wahrnehmung von Sprache."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
    "questionType": "DD",
-   "question": "Ordne die folgenden Funktionen in virtuellen Welten den Kategorien zu.",
+   "question": "Ordne die folgenden Funktionen in virtuellen Welten in die Kategorien ein.",
    "answers": [
       "Rendering",
       "Duftstoffe",
@@ -2290,11 +1105,8 @@
       "Hall-Effekte",
       "Beschleunigungen",
       "Kraftrückkopplung",
-      "Stereo-Klang",
-      "",
-      ""
+      "Stereo-Klang"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       4,
@@ -2303,66 +1115,34 @@
       2,
       3,
       3,
-      2,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Visuell",
       "Akustisch",
       "Haptisch",
-      "Olfaktorisch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Olfaktorisch"
    ]
 },
  {
    "subject": "Wahrnehmungspsychologie",
    "questionType": "OD",
-   "question": "Ordne die folgenden Sinne absteigend nach ihrem Einfluss.",
+   "question": "Ordne die folgenden Sinne absteigend nach ihrem Einfluss. ",
    "answers": [
       "Schmecken",
       "Riechen",
       "Sehen",
       "Hören",
-      "Tasten",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Tasten"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       3,
       1,
       2,
-      5,
-      null,
-      null,
-      null,
-      null,
-      null
+      5
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2373,39 +1153,16 @@
       "Geruchssinn",
       "Sehsinn",
       "Hörsinn",
-      "Tastsinn",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Tastsinn"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2415,83 +1172,31 @@
       "Die Beeinflussung der Wahrnehmung von Sprachsignalen durch unbewusstes Lippenlesen.",
       "Die Beeinflussung der Wahrnehmung von Sprachsignalen durch die Umgebung.",
       "Die Beeinflussung der Wahrnehmung von Gesten durch die Lautstärke der parallel gehörten Sprachsignale.",
-      "Keines der drei oberen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Keines der drei oberen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
    "questionType": "MC",
-   "question": "Welche der folgenden Sinne sind von der »Kontextabhängigkeit der Wahrnehmung« betroffen?",
+   "question": "Welche der folgenden Sinne sind von der Kontextabhängigkeit der Wahrnehmung betroffen?",
    "answers": [
       "Sehsinn",
       "Hörsinn",
-      "Geschmackssinn",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Geschmackssinn"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2503,38 +1208,17 @@
       "Nervensystem",
       "Sinnesorgane",
       "Empfindung",
-      "Bewertung",
-      "",
-      "",
-      "",
-      ""
+      "Bewertung"
    ],
-   "FIELD14": "",
    "correct": [
       3,
       6,
       2,
       1,
       4,
-      5,
-      null,
-      null,
-      null,
-      null
+      5
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Wahrnehmungspsychologie",
@@ -2552,7 +1236,6 @@
       "Binding Problem",
       "Attentiveness"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       4,
@@ -2565,7 +1248,6 @@
       6,
       7
    ],
-   "FIELD25": "",
    "title": [
       "Wahrnehmung",
       "Reize ",
@@ -2582,7 +1264,7 @@
  {
    "subject": "Systemanalyse",
    "questionType": "DD",
-   "question": "Ordne die Begriffe den Anwendungsgebieten zu. ",
+   "question": "Ordne die folgenden Begriffe den Anwendungsgebieten zu. ",
    "answers": [
       "Finanzbuchhaltung",
       "Lohn- und Gehaltsabrechnung",
@@ -2590,12 +1272,8 @@
       "Grafik",
       "Datenbank",
       "Tabellenkalkulation",
-      "Budgetrechnung",
-      "",
-      "",
-      ""
+      "Budgetrechnung"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
@@ -2603,23 +1281,11 @@
       1,
       1,
       1,
-      2,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Persönliche Anwendung",
-      "Kommerzielle Anwendung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kommerzielle Anwendung"
    ]
 },
  {
@@ -2635,163 +1301,87 @@
       " ",
       "befasst sich mit der Eigenschaft, dass Softwarekomponenten teilweise oder ganz in neuen Anwendungen eingesetzt und iin diese ntegriert werden können. Die Leichtigkeit mit der SW-Produkte an Spezifikationsänderungen angepasst werden können, wird dem Kriterium der",
       " ",
-      "zugeordnet.",
-      ""
+      "zugeordnet."
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
       4,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Benutzerfreundlichkeit",
       "Robustheit",
       "Erweiterbarkeit",
-      "Verifizierbarkeit",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verifizierbarkeit"
    ]
 },
  {
    "subject": "Systemanalyse",
    "questionType": "OD",
-   "question": "Ordne die Phasen der Softwareentwicklung von Anfang zum Ende.",
+   "question": "Ordne die Phasen der Softwareentwicklung chronologisch.",
    "answers": [
       "Implementierung",
       "Planung",
       "Validierung",
       "Installation",
       "Definition",
-      "Entwurf",
-      "",
-      "",
-      "",
-      ""
+      "Entwurf"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       1,
       5,
       6,
       2,
-      3,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen wahr? Wenn ja, markiere sie.",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "Programmierung bzw. Codierung sind Bestandteil der Implementierung.",
       "Abnahme, Einführung, Schulung, und das Rollout werden der Installation zugeordnet.",
       "Die Erstellung des Lastenhefts und die Prüfung auf Durchführbarkeit werden der Definitionsphase zugeordnet.",
       "Die Anforderungsanalyse, das Pflichtenheft und die Projektplanung sind Bestandteil der Definitionsphase.",
-      "Die Entwurfsphase besteht aus den Systemtests und Integrationstests.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Entwurfsphase besteht aus den Systemtests und Integrationstests."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
    "questionType": "DD",
-   "question": "Ordne die Begriffe den Vorgehensmodellen zu. ",
+   "question": "Ordne die folgenden Begriffe den Vorgehensmodellen zu. ",
    "answers": [
       "Phasenmodell",
       "Wasserfallmodell",
       "Extreme Programmierung",
       "V-Modell",
       "Rational Unified Process",
-      "SCRUM",
-      "",
-      "",
-      "",
-      ""
+      "SCRUM"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       3,
       2,
       2,
-      3,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Klassisches Vorgehensmodell",
       "Modernes Vorgehensmodell",
-      "Agiles Vorgehensmodell",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Agiles Vorgehensmodell"
    ]
 },
  {
@@ -2803,211 +1393,103 @@
       "Das Lastenheft ist ein verfeinertes Pflichtenheft.",
       "Das Pflichtenheft enthält eine Zusammenfassung aller fachlichen Anforderungen, die das zu entwickelnde Software-Produkt aus der Sicht des Auftraggebers/Kunden erfüllen muss.",
       "Insbesondere werden in einem Lastenheft alle nicht-formalisierbaren Anforderungen aufgeführt und ̈Entwicklungsprioritäten aus auftraggebersicht festgelegt.",
-      "Generell beschreibt das Pflichtenheft eher das »Was« anstatt das »Wie«.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Generell beschreibt das Pflichtenheft eher das »Was« anstatt das »Wie«."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
    "questionType": "DD",
-   "question": "Die allgemeinen Eigenschaften eines Pflichtenhefts lassen sich in sechs Kategorien untergliedern. Ordne zu. ",
+   "question": "Ordne die allgemeinen Eigenschaften eines Pflichtenhefts den sechs Kategorien zu. ",
    "answers": [
       "Standardisiertes, gegliedertes Schema; meistens: textuell.",
       "Auftraggeber, Auftragnehmer, Projektleiter, Systemanalytiker,Software-Entwickler etc.",
       "Detaillierte verbale Beschreibung.",
       "Zeitlich direkt nach der  Planungsphase.",
-      "Fachlicher Funktions-, Daten- und Leistungsumfang sowie die Qualitätsanforderungen.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fachlicher Funktions-, Daten- und Leistungsumfang sowie die Qualitätsanforderungen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
       5,
       2,
-      4,
-      null,
-      null,
-      null,
-      null,
-      null
+      4
    ],
-   "FIELD25": "",
    "title": [
       "Form",
       "Zeitpunk",
       "Auftraggeber",
       "Inhalt",
-      "Sprache",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sprache"
    ]
 },
  {
    "subject": "Systemanalyse",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen wahr?",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "Ein Use Case beschreibt in der Fachsprache der Anwendung einen typischen Arbeitsablauf.",
       "Ein Use Case besteht immer nur aus einer Aufgabe, welche von mehreren Akteuren durchgeführt wird, um ein Ziel zu erreichen bzw. ein messbares Ergebnis zu erzielen.",
       "Ein Use Case ist der Teil eines Geschäftsprozesses, der die Benutzerinteraktion mit dem Software-System beschreibt.",
       "Ziel des Use Cases ist die Aufnahme des IST – Zustandes (Arbeitsablauf ohne das zukünftige System) und die Aufnahme des SOLL- Zustandes (Arbeitsablauf mit Unterstützung des zukünftigen Systems).",
-      "Die Beschreibung erfolgt immer in HTML. Das ist der Standard.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Beschreibung erfolgt immer in HTML. Das ist der Standard."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
    "questionType": "DD",
-   "question": "Ordne zu. ",
+   "question": "Ordne die Aussagen den Kategorien zu.",
    "answers": [
-      "Verzweigung von Hauptprozess A in Prozess B.",
-      "Ist Prozess B beendet, Zurückkehren zu Prozess A.",
-      "Modellierung selbständiger Unterprozesse.",
-      "Wiederverwendung in anderen Geschäftsprozessen.",
-      "Analog Unterprogramm in Programmiersprachen.",
-      "Verlagerung komplexer Sonderfälle in einen Erweiterungsprozess.",
-      "",
-      "",
-      "",
-      ""
+      "Verzweigung von Hauptprozess A in Prozess B",
+      "Ist Prozess B beendet, zurückkehren zu Prozess A",
+      "Modellierung selbständiger Unterprozesse",
+      "Wiederverwendung in anderen Geschäftsprozessen",
+      "Analog Unterprogramm in Programmiersprachen",
+      "Verlagerung komplexer Sonderfälle in einen Erweiterungsprozess"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       2,
       2,
       2,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Extend Beziehung",
-      "Include Beziehung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Include Beziehung"
    ]
 },
  {
    "subject": "Systemanalyse",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen über UML wahr? ",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "Es existieren verschiedene Diagrammtypen (statisches vs. dynamisches Modell).",
       "UML ist programmiersprachenabhängig.",
-      "Alle Softwaresysteme sind mit Hilfe von UML darstellbar.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Alle Softwaresysteme sind mit Hilfe von UML darstellbar."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
@@ -3016,84 +1498,40 @@
    "answers": [
       "Sie beschreiben das Verhalten von Objekten und sind zuständig für Änderungen oder Abfrage des Zustandes eines Objektes.",
       "Beschreiben Dinge, Personen oder Begriffe der realen Welt (sog. Entitäten) mit ihren Attributinstanzen.",
-      "Beschreiben Gruppen von Objekten mit ihren gemeinsamen Attributen und Operationen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Beschreiben Gruppen von Objekten mit ihren gemeinsamen Attributen und Operationen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Methoden",
       "Klassen",
-      "Objekte",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Objekte"
    ]
 },
  {
    "subject": "Systemanalyse",
    "questionType": "MC",
-   "question": "Sind die folgenden Aussagen wahr?",
+   "question": "Welche der folgenden Aussagen sind wahr?",
    "answers": [
       "Die Reihenfolge der Objekte im Sequenzdiagramm spielt keine Rolle (möglichst übersichtlich).",
       "Sequenzdiagramme veranschaulichen Interaktionen zwischen Objekten im zeitlichen Verlauf.",
       "Sequenzdiagramm und Klassendiagramm eines Objektmodells müssen stets unterschiedlich sein.",
       "Das Kommunikationsdiagramm ist eine Alternative zum Objektdiagramm.",
       "Ein Aktivitätsdiagramm ist eine Sonderform des Zustandsdiagramms.",
-      "Ein Kommunikationsdiagramm hebt die Verbindungen zwischen Objekten hervor.",
-      "",
-      "",
-      "",
-      ""
+      "Ein Kommunikationsdiagramm hebt die Verbindungen zwischen Objekten hervor."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
@@ -3101,41 +1539,22 @@
    "question": "Fülle den Lückentext aus.",
    "answers": [
       "Das",
-      "",
       "dient zur Ablaufbeschreibung eines Systems. Dieses Diagramm dient zur Beschreibung zeitlicher Abläufe bei der Interaktion zwischen ausgewählten Objekten. Es handelt sich hierbei um ein",
-      "",
       ". Bei einem",
-      "",
       "sind Attributwerte außerhalb des Objekts nicht sichtbar. Ein Merkmal des",
-      "",
-      "ist, dass eine Klasse Attribute und die Operationen ihrer Objekte definiert.",
-      ""
+      "ist, dass eine Klasse Attribute und die Operationen ihrer Objekte definiert."
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
       4,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Sequenzdiagramm",
       "Aktivitätsdiagramm",
       "Klassendiagramms",
-      "Objektdiagramm",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Objektdiagramm"
    ]
 },
  {
@@ -3145,41 +1564,14 @@
    "answers": [
       "Die Komposition ist eine starke Form der Aggregation.",
       "Das Teilobjekt ist zu einem Zeitpunkt mehreren Aggregatobjekten zugeordnet.",
-      "Ein Teilobjekt kann mehreren Aggregatobjekten zugeordnet werden.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ein Teilobjekt kann mehreren Aggregatobjekten zugeordnet werden."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Systemanalyse",
@@ -3197,7 +1589,6 @@
       "Commercial Application",
       "Extensibility"
    ],
-   "FIELD14": "",
    "correct": [
       10,
       6,
@@ -3210,7 +1601,6 @@
       3,
       1
    ],
-   "FIELD25": "",
    "title": [
       "Erweiterbarkeit",
       "Pflichtenheft",
@@ -3234,81 +1624,32 @@
       "Mehrere Kapitalgeber",
       "Interdependenz",
       "Keine Kapitalbindung",
-      "Hohe Kapitalbindung",
-      "",
-      "",
-      "",
-      ""
+      "Hohe Kapitalbindung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "SC",
-   "question": "Beurteile folgende Aussage: Investitionsrechnungen orientieren sich immer an monetären Zielen.",
+   "question": "Investitionsrechnungen orientieren sich immer an monetären Zielen.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
@@ -3318,82 +1659,36 @@
       "Eine betriebliche Tätigkeit, die zu unterschiedlichen Zeitpunkten t Aus- und Einzahlungen verursacht, wobei dieser Vorgang immer mit einer Auszahlung beginnt",
       "Mittel- bis langfristige Überlassung von Anlagengegenständen gegen Zahlung eines Nutzungsentgelts",
       "Ein Wertpapier eigener Art",
-      "Zahlungsreihe, die in der Regel mit einer Einzahlung beginnt",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Zahlungsreihe, die in der Regel mit einer Einzahlung beginnt"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "DD",
-   "question": "Um welche Investitionsart handelt es sich? Ziehe alle Elemente in das richtige Feld.",
+   "question": "Um welche Investitionsart handelt es sich? ",
    "answers": [
       "Erwerb von Wertpapieren",
       "Kauf einer neuen Maschine",
-      "",
       "Schulungen",
-      "Marketing Maßnahmen",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Marketing Maßnahmen"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
       2,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Spekulative Finanzinvestition",
       "Immaterielle Sachinvestition",
-      "Materielle Sachinvestition",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Materielle Sachinvestition"
    ]
 },
  {
@@ -3404,40 +1699,15 @@
       "Ersatzinvestition-identischer Ersatz",
       "Ersatzinvestition-Rationalisierungsinvestition",
       "Erweiterungsinvestition",
-      "Einrichtungsinvestition",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Einrichtungsinvestition"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
@@ -3447,83 +1717,29 @@
       "Einfache Anwendung",
       "Sagt aus, ob die Investition rentabel ist",
       "Berücksichtigt Qualitätsunterschiede",
-      "Anwendbar beiAlternativenvergleich",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Anwendbar beiAlternativenvergleich"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "SC",
-   "question": "Beurteile folgende Aussage: Bei der Kostenvergleichsrechnung sind die Kapitalkosten und Betriebskosten zu berücksichtigen.",
+   "question": "Bei der Kostenvergleichsrechnung sind die Kapitalkosten und Betriebskosten zu berücksichtigen.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
@@ -3533,83 +1749,22 @@
       "Einfache Anwendung",
       "Einbeziehung des Erlöses einer Investition",
       "Berücksichtigt Qualitätsunterschiede",
-      "Unproblematisch bei unterschiedlichen Nutzungsdauern",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Unproblematisch bei unterschiedlichen Nutzungsdauern"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "investition",
@@ -3619,126 +1774,43 @@
       "Keine",
       "Break-Even-Menge",
       "Maximale Produktionsmenge",
-      "Minimale Produktionsmenge",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Minimale Produktionsmenge"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "SC",
-   "question": "Beurteile folgende Aussage: Der Gewinn bei Break-Even-Menge ist größer 0.",
+   "question": "Der Gewinn bei der Break-Even-Menge ist größer 0.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "SC",
-   "question": "Beurteile folgende Aussage: Bei den dynamischen Investitionsrechnungen werden mehrere Perioden betrachtet.",
+   "question": "Bei den dynamischen Investitionsrechnungen werden mehrere Perioden betrachtet.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
@@ -3748,45 +1820,20 @@
       "Positive Differenz aus Erträgen und Aufwendungen",
       "Gewinn nach Abzug von Steuern",
       "Kennziffer der dynamischen Investitionsrechnung - Summe der Barwerte einer Investition",
-      "Summe der materiellen und immateriellen Güter eines Unternehmens",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Summe der materiellen und immateriellen Güter eines Unternehmens"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "investition",
    "questionType": "DD",
-   "question": "Handelt es sich um ein statisches oder dynamisches Investitionsrechenverfahren? Ziehe alle Elemente in das richtige Feld.",
+   "question": "Handelt es sich um ein statisches oder dynamisches Investitionsrechenverfahren? ",
    "answers": [
       "Kostenvergleichsrechnung",
       "Dynamische Amortisationsdauer",
@@ -3795,11 +1842,8 @@
       "Kapitalwertmethode",
       "Rentabilitätsrechnung",
       "Amortisationsrechnung",
-      "Interner Zinsfuß",
-      "",
-      ""
+      "Interner Zinsfuß"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
@@ -3808,66 +1852,19 @@
       2,
       1,
       1,
-      2,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Statische",
-      "Dynamische",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Dynamische"
    ]
 },
  {
    "subject": "investition",
    "questionType": "TL",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "bilanzierung",
@@ -3880,12 +1877,8 @@
       "Freie Gestaltung",
       "Aufgaben: Dokumentation, Rechenschaftslegung, Information, Kontrolle",
       "Zukunftsbezogen",
-      "Aufgaben: Kostenrechnung, Planungsrechnung",
-      "",
-      "",
-      ""
+      "Aufgaben: Kostenrechnung, Planungsrechnung"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
@@ -3893,72 +1886,21 @@
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "bilanzierung",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "bilanzierung",
    "questionType": "DD",
-   "question": "Ordne folgende Positionen der jeweiligen Bilanzseite zu!",
+   "question": "Ordne folgende Positionen der jeweiligen Bilanzseite zu.",
    "answers": [
       "Forderungen",
       "Rückstellungen",
@@ -3971,7 +1913,6 @@
       "Gewinnrücklagen",
       "Fuhrpark"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
@@ -3984,62 +1925,17 @@
       2,
       1
    ],
-   "FIELD25": "",
    "title": [
       "Aktiva",
-      "Passiva",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Passiva"
    ]
 },
  {
    "subject": "bilanzierung",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "bilanzierung",
@@ -4053,11 +1949,8 @@
       "Rohstoffe gehen in die Produktion",
       "Maschine wird abgeschrieben",
       "Miete für Lagerhalle wird bezahlt",
-      "Darlehenszinsen werden gezahlt",
-      "",
-      ""
+      "Darlehenszinsen werden gezahlt"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
@@ -4066,23 +1959,9 @@
       1,
       1,
       1,
-      1,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "bilanzierung",
@@ -4092,126 +1971,47 @@
       "Bilanz",
       "Lagebericht",
       "Anhang (bei Kapitalgesellschaften)",
-      "Gewinn- und Verlustrechnung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Gewinn- und Verlustrechnung"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "bilanzierung",
    "questionType": "DD",
-   "question": "Kapitalgesellschaft oder Personengesellschaft? Ordne zu.",
+   "question": "Gehören folgende Gesellschaftsformen zu den Kapitalgesellschaften oder Personengesellschaften? ",
    "answers": [
       "KGaA",
       "KG",
       "OHG",
       "AG",
       "GmbH",
-      "GbR",
-      "",
-      "",
-      "",
-      ""
+      "GbR"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       2,
       1,
       1,
-      2,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Kapitalgesellschaft",
-      "Personengesellschaft",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Personengesellschaft"
    ]
 },
  {
    "subject": "bilanzierung",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "bilanzierung",
@@ -4223,43 +2023,22 @@
       "Anschaffungsnebenkosten",
       "Nachträgliche Anschaffungsnebenkosten",
       "Anschaffungspreisminderungen",
-      "Vertriebskosten/ Sondereinzelkosten des Vertriebs",
-      "",
-      "",
-      "",
-      ""
+      "Vertriebskosten/ Sondereinzelkosten des Vertriebs"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "bilanzierung",
    "questionType": "DD",
-   "question": "Aktivierungspflicht, -wahlrecht oder -verbot? Ordne zu.",
+   "question": "Besteht Aktivierungspflicht, -wahlrecht oder -verbot? ",
    "answers": [
       "Sondereinzelkosten der Fertigung",
       "Material- und Fertigungsgemeinkosten",
@@ -4269,10 +2048,8 @@
       "Aufwendungen für soziale Einrichtungen",
       "Leerkosten (Kosten der U>nterbeschäftigung)",
       "Materialeinzelkosten",
-      "Allgemeine Verwaltungskosten",
-      ""
+      "Allgemeine Verwaltungskosten"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
@@ -4282,65 +2059,20 @@
       2,
       3,
       1,
-      2,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Pflicht",
       "Wahlrecht",
-      "Verbot",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verbot"
    ]
 },
  {
    "subject": "bilanzierung",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "bilanzierung",
@@ -4351,168 +2083,56 @@
       "Sowohl unter HGB als auch unter IFRS dürfen Kosten der allgemeinen Verwaltung und der Aufwendungen für soziale Einrichtungen in die Herstellungskosten miteinberechnet werden.",
       "Das LiFo-Verfahren ist unter HGB zulässig, nicht aber unter IFRS.",
       "Nach einer außerplanmäßigen Abschreibung darf bei einer Wertaufholung unter HGB über die fortgeführten Anschaffungskosten zugeschrieben werden, unter IFRS nicht.",
-      "Fremdkapitalkosten müssen unter IFRS in die Herstellungskosten miteinberechnet werden, während unter HGB ein Wahlrecht besteht.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fremdkapitalkosten müssen unter IFRS in die Herstellungskosten miteinberechnet werden, während unter HGB ein Wahlrecht besteht."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "bilanzierung",
    "questionType": "DD",
-   "question": "Ordne folgende Kennzahlen richtig zu:",
+   "question": "Ordne folgende Kennzahlen richtig zu.",
    "answers": [
       "Gewinn/ durchschnittliches EK",
       "Fremdkapital/ Gesamtkapital",
       "Fremdkapital/ Eigenkapital",
       "Jahresergebnis/ Umsatzerlöse",
-      "Jahresergebnis/ durchschnittliches Gesamtkapital",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Jahresergebnis/ durchschnittliches Gesamtkapital"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       4,
       1,
       5,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Verschuldungsgrad",
       "EK-Rentabilität",
       "ROI",
       "Fremdkapitalquote",
-      "Umsatzrentabilität",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Umsatzrentabilität"
    ]
 },
  {
    "subject": "bilanzierung",
    "questionType": "TL",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
@@ -4522,126 +2142,29 @@
       "Informationen",
       "Ressourcen",
       "Personal",
-      "Finanzielle Mittel",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Finanzielle Mittel"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
@@ -4650,127 +2173,39 @@
    "answers": [
       "wertschöpfend",
       "nicht wertschöpfend",
-      "nicht wertschöpfend, aber notwendig",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "nicht wertschöpfend, aber notwendig"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "SC",
-   "question": "Welcher dieser Begriffe gehört nicht zu Inventartypen?",
+   "question": "Welcher dieser Begriffe gehört nicht zu den Inventartypen?",
    "answers": [
       "Rohwaren",
       "Fertigwaren",
       "Betriebsstoffe",
-      "Kapital",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kapital"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
@@ -4780,169 +2215,67 @@
       "ERP-System",
       "CRM-System",
       "EDI-System",
-      "Dokumentenverwaltungssystem",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Dokumentenverwaltungssystem"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "DD",
-   "question": "Welche der folgenden Aspekte sind wertschöpfend und welche nicht? Ordne zu.",
+   "question": "Welche der folgenden Aspekte sind wertschöpfend und welche nicht? ",
    "answers": [
       "Kostenreduzierung",
       "Lieferzeitreduzierung",
       "Serviceverbesserung",
       "Qualitätsverbesserung",
       "Kundenzufriedenheit",
-      "Steuerreduzierung",
-      "",
-      "",
-      "",
-      ""
+      "Steuerreduzierung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
       1,
       2,
-      2,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "wertschöpfend",
-      "nicht wertschöpfend",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "nicht wertschöpfend"
    ]
 },
  {
    "subject": "scm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "MC",
-   "question": "Kreuze die Begriffe an, die zu den 5P's einer Strategie zugeordnet werden können!",
+   "question": "Markiere die Begriffe, die zu den 5P's einer Strategie zugeordnet werden können.",
    "answers": [
       "Plan",
       "Pattern",
       "Position",
       "Perspective",
-      "Ploy",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ploy"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
@@ -4952,40 +2285,15 @@
       "Effectiveness",
       "Value",
       "Efficiency",
-      "Productivity",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Productivity"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
@@ -4994,41 +2302,14 @@
    "answers": [
       "Der Punkt des maximalen Profits",
       "Der Punkt der minimalen Kosten",
-      "Der Punkt an dem sich Kosten und Profit ausgleichen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Der Punkt an dem sich Kosten und Profit ausgleichen"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
@@ -5038,126 +2319,40 @@
       "Produktion",
       "Service",
       "öffentliche Wirtschaft",
-      "bei allen genannten",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "bei allen genannten"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "scm",
    "questionType": "TL",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "MC",
-   "question": "Die Vorgehensweise von ITIL ist..",
+   "question": "Die Vorgehensweise von ITIL ist …",
    "answers": [
-      "technikorierntiert",
-      "serviceorientiert",
-      "prozessorientiert",
-      "objektorientiert",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "… technikorierntiert",
+      "… serviceorientiert",
+      "… prozessorientiert",
+      "… objektorientiert"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
@@ -5167,169 +2362,61 @@
       "Business Capacity",
       "Component Capacity",
       "Service Capacity",
-      "Revenue Capacity",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Revenue Capacity"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "SC",
-   "question": "Die Umsetzung von ITIL ist ein…",
+   "question": "Die Umsetzung von ITIL ist ein …",
    "answers": [
-      "De-facto-Standard",
-      "De-jure-Standard",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "… De-facto-Standard",
+      "… De-jure-Standard"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "SC",
-   "question": "Beurteile folgende Aussage: Continual Service Improvement beschäftigt sich nicht mit der Verbesserung der IT-Services, sondern der sie erbringenden Prozesse.",
+   "question": "Continual Service Improvement beschäftigt sich mit der Verbesserung der IT-Services.",
    "answers": [
       "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Falsch"
    ],
-   "FIELD14": "",
    "correct": [
-      1,
       0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "SC",
-   "question": "Welche Alternative zu ITIL könnte die IMBIT Krake nutzen?",
+   "question": "Welche Alternative zu ITIL kann die IMBIT Krake nutzen?",
    "answers": [
       "COBIT",
       "ITMS",
       "IMBIT",
-      "EBIT",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "EBIT"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
@@ -5339,83 +2426,33 @@
       "Service Entity & Timeframe",
       "Availability, Warranty & Timeframe",
       "Utility, Warranty & Cost",
-      "Cost, Utility & Availability",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cost, Utility & Availability"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "SC",
-   "question": "Nach welchen Kriterien sollte die IMBIT Krake den Service Catalogue sortieren?",
+   "question": "Nach welchen Kriterien soll man den Servicekatalog sortieren?",
    "answers": [
       "Technische Kriterien",
       "Logistische Kriterien",
       "Finanzielle Kriterien",
-      "Kunden Kriterien",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kunden Kriterien"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
@@ -5425,45 +2462,23 @@
       "Prozessziele festlegen",
       "Einhaltung von KPIs überwachen",
       "Definition des Prozesses",
-      "Operative Ressourcenplanung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Operative Ressourcenplanung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       1,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Process Owner",
-      "Process Manager",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Process Manager"
    ]
 },
  {
    "subject": "itsm",
    "questionType": "DD",
-   "question": "Ordne die folgenden Prozesse ihren ITIL Bänden zu:",
+   "question": "Ordne die folgenden Prozesse ihren ITIL Bänden zu.",
    "answers": [
       "Service Level Management",
       "IT Service Continuity",
@@ -5476,7 +2491,6 @@
       "Capacity Management",
       "Request Fulfillment"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
@@ -5489,61 +2503,31 @@
       2,
       4
    ],
-   "FIELD25": "",
    "title": [
       "Service Strategy",
       "Service Design",
       "Service Transition",
-      "Service Operation",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Service Operation"
    ]
 },
  {
    "subject": "itsm",
    "questionType": "DD",
-   "question": "Ordne die folgenden Rahmenvereinbarungen ihren jeweiligen Vertragspartner zu:",
+   "question": "Ordne die folgenden Rahmenvereinbarungen ihren jeweiligen Vertragspartner zu.",
    "answers": [
       "Service Level Agreement (SLA)",
       "Operation Level Agreement (OLA)",
-      "Underpinning Contract (UP)",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Underpinning Contract (UP)"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Interne Einheiten",
       "Kunden",
-      "Lieferanten",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Lieferanten"
    ]
 },
  {
@@ -5558,11 +2542,8 @@
       "Betriebssystem",
       "Netzwerkanbindung",
       "Kostenstelle",
-      "IT-Service",
-      "",
-      ""
+      "IT-Service"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
@@ -5571,195 +2552,52 @@
       3,
       3,
       1,
-      2,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Asset Management",
       "Schnittstelle",
-      "Configuration Management",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Configuration Management"
    ]
 },
  {
    "subject": "itsm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "OD",
-   "question": "Recovery Management: Ordne die folgenden Wiederherstellungsoptionen für den Katastrophenfall nach vorraussichlicher Downtime.",
+   "question": "Ordne die folgenden Wiederherstellungsoptionen für den Katastrophenfall nach vorraussichlicher Downtime.",
    "answers": [
       "Warm Standby",
       "Cold Standby",
       "Immediate Recovery",
-      "Hot Standby",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Hot Standby"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
       4,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "itsm",
    "questionType": "TL",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "porter",
@@ -5770,81 +2608,41 @@
       "Primäraktivitäten",
       "Geschäftsprozesse",
       "sekundäre Aktivitäten",
-      "Strategie-Beratung",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Strategie-Beratung"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgende Begriffe zu.",
    "answers": [
       "Einkauf und Beschaffung",
       "Produktion",
       "Personalwirtschaft",
       "Marketing und Vertrieb",
-      "Kundenservice",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kundenservice"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       3,
       4,
       5,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Customer Relationship Management",
       "Procurement",
       "Production Planning",
       "HR",
-      "Sales Distribution",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sales Distribution"
    ]
 },
  {
@@ -5860,10 +2658,8 @@
       "Personalwirtschaft",
       "Produktion",
       "Unternehmensinfrastruktur",
-      "Kundendienst",
-      ""
+      "Kundendienst"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
@@ -5873,21 +2669,11 @@
       2,
       1,
       2,
-      1,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Primäre Aktivitäten",
-      "Sekundäre Aktivitäten",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sekundäre Aktivitäten"
    ]
 },
  {
@@ -5897,41 +2683,14 @@
    "answers": [
       "Es gibt keinen Unterschied zwischen sekundären und primären Aktivitäten.",
       "Primäraktivitäten sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Sekundäre Aktivitäten sind Tätigkeiten, die für die Ausübung der primären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung.",
-      "Sekundäre Aktivitäten  sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Primäre Aktivitäten sind Tätigkeiten, die für die Ausübung der sekundären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sekundäre Aktivitäten  sind die Tätigkeiten, die einen direkten wertschöpfenden Beitrag zur Erstellung eines Produktes oder einer Dienstleistung liefern. Primäre Aktivitäten sind Tätigkeiten, die für die Ausübung der sekundären Aktivitäten die notwendige Voraussetzung sind. Sie liefern somit einen indirekten Beitrag zur Erstellung eines Produktes oder einer Dienstleistung."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
@@ -5940,41 +2699,14 @@
    "answers": [
       "Die Value Chain von Michale Porter stellt die Stufen der Produktion als eine geordnete Reihung von Tätigkeiten dar.",
       "Die Wertschöpfungskette besteht aus primären Aktivitäten wie beispielsweise der Personalwirtschaft und sekundären Aktivitäten wie beispielsweise Marketing und Vertrieb.",
-      "Die Portersche Value Chain setzt sich aus den einzelnen Wertaktivitäten und der Gewinnspanne zusammen. Wertaktivitäten sind Tätigkeiten, die zur Herstellung eines Produktes oder einer Dienstleistung erbracht werden. Die Gewinnspanne ist der Unterschied zwischen dem Ertrag, den dieses Produkt erbringt, und den eingesetzten Ressourcen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Portersche Value Chain setzt sich aus den einzelnen Wertaktivitäten und der Gewinnspanne zusammen. Wertaktivitäten sind Tätigkeiten, die zur Herstellung eines Produktes oder einer Dienstleistung erbracht werden. Die Gewinnspanne ist der Unterschied zwischen dem Ertrag, den dieses Produkt erbringt, und den eingesetzten Ressourcen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
@@ -5989,10 +2721,8 @@
       "Ersatzprodukte",
       "Export und Import",
       "Potenzielle Mitbewerber",
-      "Mitbewerber Rivalität",
-      ""
+      "Mitbewerber Rivalität"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
@@ -6002,107 +2732,60 @@
       1,
       0,
       1,
-      1,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgende Begriffe zu.",
    "answers": [
       "Bedrohung durch Substitutionsprodukte",
       "Bedrohung durch neue Anbieter",
       "Verhandlungsstärke der Lieferanten",
       "Verhandlungsstärke der Abnehmer",
-      "Rivalität unter den bestehenden Wettbewerbern",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Rivalität unter den bestehenden Wettbewerbern"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       5,
       1,
       3,
-      4,
-      null,
-      null,
-      null,
-      null,
-      null
+      4
    ],
-   "FIELD25": "",
    "title": [
       "Zulieferer",
       "Ersatzprodukte",
       "Kunden",
       "Mitbewerber Rivalität",
-      "Potenzielle Mitbewerber",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Potenzielle Mitbewerber"
    ]
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgenden Aussagen den Kategorien zu.",
    "answers": [
       "Ein Frucht- und Kräuterlieferant eines Bionadeherstellers könnte damit drohen, die Rohstoffe selbst zu einer Limonade zu verarbeiten.",
       "Siruphersteller: Mittels Sirup lässt sich Leitungswasser zu einem geschmackhaltigen Erfrischungsgetränk aufwerten, welches ein Substitut für Softdrinks darstellt.",
       "Ein Großabnehmer könnte die Softdrink Preise in gewisser Weise drücken, und damit drohen anstelle von Softdrink-Automaten, frischgepresste Säfte auszuschenken.",
       "Coca Cola hat einen sehr großen Bekanntheitsgrad und befindet sich im Kühlschrank vieler Kunden. Um als Mitbewerber in den Markt einzutreten sind erhöhte Werbekosten nötig, um das eigene Produkt dem Kunden schmackhaft zu machen.",
-      "Die Rivalität in dem deutschen Getränkemarkt ist groß. Die Gesellschaft altert und ein großes Marktwachstum ist nicht erkennbar. Es sind einige „Bigplayer“ wie bspw. CocaCola  am Markt vertreten welche über eine hohe Kundenloyalität und hohe Werbebudgets verfügen.",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Rivalität im deutschen Getränkemarkt ist groß. Die Gesellschaft altert und ein großes Marktwachstum ist nicht erkennbar. Es sind einige „Bigplayer“ wie bspw. CocaCola  am Markt vertreten welche über eine hohe Kundenloyalität und hohe Werbebudgets verfügen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
       3,
       4,
-      5,
-      null,
-      null,
-      null,
-      null,
-      null
+      5
    ],
-   "FIELD25": "",
    "title": [
       "Zulieferer",
       "Ersatzprodukte",
       "Kunden",
       "Potenzielle Mitbewerber",
-      "Mitbewerber Rivalität",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Mitbewerber Rivalität"
    ]
 },
  {
@@ -6113,131 +2796,48 @@
       "Das Five Forces Modell basiert darauf, dass die Attraktivität einer Branche durch die Ausprägung der fünf wesentlichen Wettbewerbskräfte bestimmt wird.",
       "Je geringer die Bedrohung der Five Forces ist, desto unattraktiver ist die betrachtete Branche und desto schwieriger ist es, einen nachhaltigen Wettbewerbsvorteil zu erzielen.",
       "Die Five Forces werden nie für die gesamte Branche betrachtet.",
-      "Unternehmen sollten eher versuchen, in einer Branche mit attraktiver Branchenstruktur tätig zu sein und eine verteidigungsfähige Position in ihrer Branche aufzubauen, also eine Position in der die fünf Wettbewerbskräfte eine möglichst wenig bedrohliche Ausprägung aufweisen.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Unternehmen sollten eher versuchen, in einer Branche mit attraktiver Branchenstruktur tätig zu sein und eine verteidigungsfähige Position in ihrer Branche aufzubauen, also eine Position in der die fünf Wettbewerbskräfte eine möglichst wenig bedrohliche Ausprägung aufweisen."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgende Begriffe zu.",
    "answers": [
       "Einzigartigkeit",
       "Gesamtmarkt",
       "Teilmarkt",
-      "Kostenvorsprung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kostenvorsprung"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       1,
       1,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Wettbewerbsbreite",
-      "strategischer Vorteil",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "strategischer Vorteil"
    ]
 },
  {
    "subject": "porter",
    "questionType": "TQ",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgende Eigenschaften den Vorteilsarten zu. ",
    "answers": [
       "Konstant hohe Geschwindigkeit",
       "Permanente Innovationen",
@@ -6246,11 +2846,8 @@
       "Standortvorteile",
       "Automatisierung",
       "Zeitvorteile",
-      "Flexibilität",
-      "",
-      ""
+      "Flexibilität"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
@@ -6259,22 +2856,12 @@
       1,
       3,
       3,
-      2,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "Differenzierungsvorteile",
       "Nischenvorteile",
-      "Kostenvorteile",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kostenvorteile"
    ]
 },
  {
@@ -6285,174 +2872,74 @@
       "Die Wettbewerbsstrategie nach Porter gehört zu den Basisstrategien der Unternehmensentwicklung und definiert wie sich ein Unternehmen gegenüber dem Wettbewerb positioniert.",
       "Bei der Strategie der Kostenführerschaft wird angestrebt, der Anbieter auf dem Markt mit dem höchsten Preis zu sein oder zu werden.",
       "Bei der Strategie der Differenzierung soll laut Porter ein Leistungsvorteil erarbeitet werden. Die Produkte oder Dienstleistungen sollen  fast identische Eigenschaften aufweisen.",
-      "Das Hauptaugenmerk der Wettbewerbsstrategien nach Porter richtet sich dabei auf die Wettbewerber. Ziel ist eine gefestigte Branchenposition.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Das Hauptaugenmerk der Wettbewerbsstrategien nach Porter richtet sich dabei auf die Wettbewerber. Ziel ist eine gefestigte Branchenposition."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "porter",
    "questionType": "DD",
-   "question": "Ordne folgende Begriffe zu:",
+   "question": "Ordne folgende Begriffe zu.",
    "answers": [
       "Unternehmen können einen entscheidenden Konkurrenzvorteil durch minimal gehaltene Kostenstrukturen erreichen.",
       "In dieser Strategie ist es möglich die Produkte günstiger anzubieten als die Konkurrenz.",
       "Produkte und die Servicedienstleistungen sind bei der Strategie gekennzeichnet durch eine klare Unique Selling Position, die sich deutlich vom bestehenden Angebot am Markt differenzieren.",
       "Strategie kann mit verschiedenen Taktiken umgesetzt werden wie bspw. durch besondere Produkteigenschaften oder Preisführerschaft.",
       "Unternehmen positioniert innerhalb eines spezifischen Teil- oder Nischenmarktes.",
-      "Konkurrenzvorteil entsteht durch Avisierung eines engen Marktsegments mit genau definierter Zielgruppe.",
-      "",
-      "",
-      "",
-      ""
+      "Konkurrenzvorteil entsteht durch Avisierung eines engen Marktsegments mit genau definierter Zielgruppe."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       2,
       2,
       3,
-      3,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "Kostenführerschaft",
       "Differenzierung",
-      "Fokussierung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fokussierung"
    ]
 },
  {
    "subject": "porter",
    "questionType": "TL",
-   "question": "",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "answers": [],
+   "correct": [],
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "SC",
-   "question": "Welche dieser Funktionen ist keine Basisfunktion des Kernels ",
+   "question": "Welche dieser Funktionen ist keine Basisfunktion des Kernels?",
    "answers": [
       "open",
       "write",
       "move",
       "print",
-      "read",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "read"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "DD",
-   "question": "Unterscheide die monolithische Betriebssystemsarchitektur ",
+   "question": "Unterscheide die monolithische Betriebssystemsarchitektur.",
    "answers": [
       "Answer1",
       "Anwendungsprogramme, Systemaufruf, Dateisystem und Basisfunktionen sind in jeweils einzelne Schichten aufgeteilt und alle Teil des Betriebssystems. Ziel ist eine Kapselung hardwareunabhängiger Teile des Systems.",
@@ -6462,34 +2949,18 @@
       "Answer6",
       "Answer7",
       "Answer8",
-      "Answer9",
-      ""
+      "Answer9"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
-      null,
-      null,
-      null,
-      null,
       1,
       2,
-      0,
-      null
+      0
    ],
-   "FIELD25": "",
    "title": [
       "monolithisch",
-      "modularisiert",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "modularisiert"
    ]
 },
  {
@@ -6497,129 +2968,55 @@
    "questionType": "MC",
    "question": "Welchen Zustand kann ein Prozess annehmen?",
    "answers": [
-      "",
       "Blockiert",
       "alt",
       "gesättigt",
       "terminiert",
-      "neu",
-      "",
-      "",
-      "",
-      ""
+      "neu"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       0,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "DD",
-   "question": "Unterscheide zwischen abhängigen und unabhängigen Prozessabläufen!",
+   "question": "Unterscheide zwischen abhängigen und unabhängigen Prozessabläufen.",
    "answers": [
       "Nutzung gemeinsamer Speicherbereiche oder Peripheriegeräte",
-      "parallel ausführbare Benutzeraufträge, die sich nicht gegenseitig beeinflussen",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "parallel ausführbare Benutzeraufträge, die sich nicht gegenseitig beeinflussen"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "abhängig",
-      "unabhängig",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "unabhängig"
    ]
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "MC",
-   "question": "Welche der folgenden Begriffe können zu einem Deadlock führen?",
+   "question": "Wodurch kann ein Deadlock ausgelöst werden?",
    "answers": [
       "Prozess",
       "Software",
       "Ressourcenanfrage",
-      "Trojaner",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Trojaner"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
@@ -6630,216 +3027,97 @@
       "Speicher",
       "Physikalischer Adressraum",
       "Prozess",
-      "Kernel",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Kernel"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "OD",
-   "question": "Wie funktioniert das sogenannte Paging?",
+   "question": "Wie läuft Paging chronologisch ab?",
    "answers": [
       "Logischer Adressraum wird in Seiten aufgeteilt",
       "Nach Zuordnung wird der Prozess im Rahmen des Hauptspeichers ausgeführt",
       "Jede Seite erhält eine Zuordnung zu einem Rahmen",
-      "Hauptspeicher wird in Blöcke fester Größen eingeteilt",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Hauptspeicher wird in Blöcke fester Größen eingeteilt"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       1,
       3,
-      2,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "MC",
-   "question": "Welche sind Ziele einer optimalen Prozessorverwaltung und welche nicht?",
+   "question": "Wähle die Ziele einer optimalen Prozessorverwaltung aus.",
    "answers": [
       "Fairness bei der Abarbeitung von Prozessen",
       "Stapelbetrieb",
       "Prozessdurchsatz",
-      "Abnutzung des Prozessors verhindern",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Abnutzung des Prozessors verhindern"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "OD",
-   "question": "Ordne die Begriffe nach dem Ebenenmodell von links nach rechts! Beginne mit der obersten Ebene",
+   "question": "Ordne die Begriffe nach dem Ebenenmodell von links nach rechts! Beginne mit der obersten Ebene.",
    "answers": [
       "BS-Ebene",
       "höhere Programmiersprachen",
       "digitale Logikebene",
       "Assemblersprachen",
       "Mikroprogramm-Ebene",
-      "koventionelle Maschinenebene",
-      "",
-      "",
-      "",
-      ""
+      "koventionelle Maschinenebene"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       4,
       1,
       6,
       5,
-      3,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Betriebssysteme",
    "questionType": "MC",
-   "question": "Was sind Ziele von Sicherheitsmaßnahmen im Betriebssystem? Kreuze an!",
+   "question": "Was sind Ziele der Sicherheitsmaßnahmen in einem Betriebssystem?",
    "answers": [
       "Vetraulichkeit von Daten",
       "Schutz vor physischen Schäden am Computer",
       "Schutz vor Missbrauch und kriminellen Handlungen",
-      "Schutz vor jugendgefährdenen Medien",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Schutz vor jugendgefährdenden Medien"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
    "questionType": "DD",
-   "question": "Was beschreibt eine verbindungslose und eine verbindungsorientierte Kommunikation?",
+   "question": "Was beschreibt verbindungslose und verbindungsorientierte Kommunikation?",
    "answers": [
       "Verbindung vor der Kommunikation",
       "Keine Empfangsbestätigung",
@@ -6847,12 +3125,8 @@
       "Keine Verbindung vor der Kommunkation",
       "Neue Verbindung bei Fehler",
       "Unabhängige Nachrichtenübertragung",
-      "Datenstrom reguliert",
-      "",
-      "",
-      ""
+      "Datenstrom reguliert"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       2,
@@ -6860,29 +3134,17 @@
       2,
       1,
       2,
-      1,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "Verbindungsorientiert",
-      "Verbindungslos ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verbindungslos "
    ]
 },
  {
    "subject": "Comsys",
    "questionType": "DD",
-   "question": "Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 1)",
+   "question": "Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell?",
    "answers": [
       "Routing der Datenpakete",
       "Physische Sicht",
@@ -6891,11 +3153,8 @@
       "Hinzufügen von Prüfsummen",
       "Umwandlung der Bits in Signal ",
       "Data Link",
-      "physikalische Übertragung ",
-      "",
-      ""
+      "physikalische Übertragung "
    ],
-   "FIELD14": "",
    "correct": [
       3,
       1,
@@ -6904,28 +3163,18 @@
       2,
       1,
       2,
-      1,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "1. Schicht",
       "2. Schicht",
-      "3. Schicht",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "3. Schicht"
    ]
 },
  {
    "subject": "Comsys",
    "questionType": "DD",
-   "question": "Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? (Teil 2)",
+   "question": "Welche Funktionen haben folgende Schichten im ISO/OSI-Referenzmodell? ",
    "answers": [
       "Kommunikation",
       "Umwandlung in unabhängige Format",
@@ -6934,11 +3183,8 @@
       "Steuerung der Verbindung",
       "Anwendung",
       "Zuordnung der Datenpakete ",
-      "Darstellung",
-      "",
-      ""
+      "Darstellung"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       3,
@@ -6947,66 +3193,30 @@
       2,
       4,
       1,
-      3,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
    "title": [
       "4. Schicht",
       "5. Schicht",
       "6. Schicht",
-      "7. Schicht",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "7. Schicht"
    ]
 },
  {
    "subject": "Comsys",
    "questionType": "SC",
-   "question": "Was versteht man unter Datenkapselung im ISO-/OSI-Modell?",
+   "question": "Was versteht man unter Datenkapselung im ISO/OSI-Modell?",
    "answers": [
       "Die zu versendenen Daten werden vor dem Zugriff von außen geschützt",
       "Die zu versendenden Daten werden mit Informationen ergänzt",
-      "Die zu versendenden Daten werden vom Stromkreis getrennt",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die zu versendenden Daten werden vom Stromkreis getrennt"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7015,41 +3225,14 @@
    "answers": [
       "Ein logischer Endpunkt einer Verbindung",
       "Ein semantischer Knoten in einer Verbindung",
-      "Ein Steckplatz für Computerprozessoren",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ein Steckplatz für Computerprozessoren"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7058,41 +3241,14 @@
    "answers": [
       "Das Verstärken von Leistungssignalen in einem kabelgebundenen Netzwerk",
       "Das Verschlüsseön und Entschlüsseln von Daten in einem Heimnetzwerk",
-      "Das Packen und Entpacken von Daten verschiedener Sockets",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Das Packen und Entpacken von Daten verschiedener Sockets"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7100,42 +3256,13 @@
    "question": "Was trifft auf das Netzwerkprotokoll UDP zu?",
    "answers": [
       "UDP baut vor dem Senden der Daten eine Verbindung auf und hat eine Fehlerkontrolle",
-      "UDP ist verbindungslos und hat keine Fehlerkontrolle",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "UDP ist verbindungslos und hat keine Fehlerkontrolle"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7149,11 +3276,8 @@
       "Es gibt keine Zentrale und keine Knoten",
       "Bei Ausfall einer Station bleibt die Kommunikation der anderen Stationen erhalten",
       "Alle Stationen sind Knoten, es gibt keinen zentralen Knoten",
-      "Die Verbindung aller Teilnehmer erfolgt über einen gemeinsamen separaten Übertragungsweg",
-      "",
-      ""
+      "Die Verbindung aller Teilnehmer erfolgt über einen gemeinsamen separaten Übertragungsweg"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
@@ -7162,23 +3286,9 @@
       0,
       0,
       1,
-      0,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7187,41 +3297,14 @@
    "answers": [
       "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die den Verlauf eines Datenpakets beschreibt.",
       "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die zwischen zwei Endpunkten verschickt wird.",
-      "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die die Sicherheit eines Datenpakets beschreibt.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ein Datagramm ist eine in sich geschlossene, unabhängige Dateneinheit, die die Sicherheit eines Datenpakets beschreibt."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7230,41 +3313,14 @@
    "answers": [
       "Die Aufteilung eines Datagramms auf mehrere Blöcke, falls die Gesamtlänge größer als die Maximum Transmission Unit der Netzwerkschnittstelle ist.",
       "Die Vertauschung von Blöcken in Datagrammen, die durch Speicherung in den Netzwerkschnittstellen hervorgerufen wird.",
-      "Die Aufteilung eines Datagramms auf mehrere Blöcke bei der Speicherung der Daten beim ISP.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Aufteilung eines Datagramms auf mehrere Blöcke bei der Speicherung der Daten beim ISP."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Comsys",
@@ -7273,89 +3329,33 @@
    "answers": [
       "DHCP (Dual Hyper Core Protocol) ermöglicht die Zuweisung von Prozessorkernen in Routern.",
       "DHCP (Dipper Host Calculation Protocol) ermöglicht die genaue Berechnung von IP-Adressen im Internet.",
-      "DHCP (Dynamic Host Configuration Protocol) ermöglicht die Zuweisung der Netzwerkkonfiguration an Clients durch einen Server.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "DHCP (Dynamic Host Configuration Protocol) ermöglicht die Zuweisung der Netzwerkkonfiguration an Clients durch einen Server."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
-   "question": "Relationale Datenbanken: Eine Zeile wird auch Attribut genannt und eine Spalte einen Tupel.",
+   "question": "Eine Zeile wird auch Attribut genannt und eine Spalte Tupel.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr ",
-      "Falsch ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "MC",
-   "question": "Was sind Datenbanktypen?",
+   "question": "Welche der Begriffe sind Datenbanktypen?",
    "answers": [
       "Hierarchische Datenbanken",
       "ISO/OSI-Datenbanken",
@@ -7363,37 +3363,17 @@
       "Relationale Datenbanken",
       "Objektorientierte Datenbanken",
       "XML-Datenbanken",
-      "Algebra-Datenbank",
-      "",
-      "",
-      ""
+      "Algebra-Datenbank"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7401,85 +3381,27 @@
    "question": "Welcher Datenbanktyp wird am häufigsten verwendet?",
    "answers": [
       "Objektorientierte Datenbanken",
-      "Relationale Datenbanken",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Relationale Datenbanken"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "Es besteht eine Unverträglichkeit zwischen objektorientierten Programmiersprachen und dem Konzept der relationalen Datenbanken. Diese wird als Object-Relational Impedance Mismatch bezeichnet.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7487,128 +3409,27 @@
    "question": "O/R Mapper...",
    "answers": [
       "... mappen Objekte auf Relationen.",
-      "...mappen objektorientierte Datenbanken auf Relationenschemata.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "...mappen objektorientierte Datenbanken auf Relationenschemata."
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "SQL ist eine deskriptive Sprache.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
-},
- {
-   "subject": "Datenbanken",
-   "questionType": "SC",
-   "question": "SQL ist eine deklarative Sprache.",
-   "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ],
-   "FIELD14": "",
-   "correct": [
-      1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-   ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7618,40 +3439,15 @@
       "Cascade",
       "Set null",
       "Set default",
-      "No action",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "No action"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       1,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7660,41 +3456,14 @@
    "answers": [
       "CHECK",
       "UNIQUE",
-      "ONLY",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "ONLY"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7708,11 +3477,8 @@
       "MAX",
       "MIN",
       "SUM",
-      "DIVIDE",
-      "",
-      ""
+      "DIVIDE"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
@@ -7721,23 +3487,9 @@
       1,
       1,
       1,
-      0,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -7746,83 +3498,39 @@
    "answers": [
       "SELECT DISTINCT Vorname, Nachname; FROM Kunde;",
       "SELECT Vorname, Nachname FROM Kunde;",
-      "SELECT DISTINCT Vorname, Nachname FROM Kunde;",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "SELECT DISTINCT Vorname, Nachname FROM Kunde;"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "DD",
-   "question": "Data Definition Language (DDL ) und Data Manipulation Language (DML): Ordne zu!",
+   "question": "Ordne die Begriffe der Data Definition Language (DDL ) oder der Data Manipulation Language (DML) zu.",
    "answers": [
       "Create",
       "Alter",
       "Insert",
       "Drop",
       "Update",
-      "Delete",
-      "",
-      "",
-      "",
-      ""
+      "Delete"
    ],
-   "FIELD14": "",
    "correct": [
       2,
       2,
       1,
       2,
       1,
-      1,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "DML",
-      "DDL",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "DDL"
    ]
 },
  {
@@ -7830,215 +3538,70 @@
    "questionType": "SC",
    "question": "Beziehungen zweiten Grades werden als duale Beziehungen bezeichnet.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "Rekursive Beziehungen sind erlaubt.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "Kardinalitäten werden auch als look-around-Kardinalitäten bezeichnet.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "Die Beziehung is-a stellt eine Aggregation dar und die part-of-Beziehung eine Generalisierung.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
-   "question": "chwache Entitäten können nicht ohne ihre Eigentümerentität existieren.",
+   "question": "Schwache Entitäten können nicht ohne ihre Eigentümerentität existieren.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8050,38 +3613,16 @@
       "mangetic disk",
       "optical disk",
       "magnetic tape",
-      "flash memory",
-      "",
-      "",
-      "",
-      ""
+      "flash memory"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       4,
       5,
       6,
-      3,
-      null,
-      null,
-      null,
-      null,
-      null
+      3
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8090,41 +3631,14 @@
    "answers": [
       "Blockweise",
       "Seitenweise",
-      "Je ein Datensatz",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Je ein Datensatz"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8134,40 +3648,14 @@
       "Löschanomalien",
       "Updateanomalien",
       "Einfügeanomalien",
-      "Cascadeanomalien",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cascadeanomalien"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8177,126 +3665,47 @@
       "Primärschlüssel einer Relation, der in einer anderen Relation platziert wird, um so eine Beziehung zwischen den Relationen herzustellen.",
       "Genau ein Kandidatenschlüssel wird als diese Art von Schlüssel festgelegt.",
       "Ein Schlüssel, der künstlich zur Relation hinzugefügt wird, um als Primärschlüssel zu fungieren.",
-      "Eine Menge von non-null Attributen, von der die gesamt Attributmenge funktional abhängig ist.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Eine Menge von non-null Attributen, von der die gesamt Attributmenge funktional abhängig ist."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
-   "question": "Bei welcher Art der Datensatz-Speicherung werden Datensätze als Key-Value-Paare gespeichert?",
+   "question": "Bei welcher Art der Datensatzspeicherung werden Datensätze als Key-Value-Paare gespeichert?",
    "answers": [
       "Fixlängen-Speicherung",
-      "Speicherung in variabler Länge",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Speicherung in variabler Länge"
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
-   "question": "Wann muss auf alle Fälle die Organisationsform 'Spanned' verwendet werden?",
+   "question": "Wann muss die Organisationsform »Spanned« verwendet werden?",
    "answers": [
       "bfr=100",
       "bfr=10",
       "bfr=1",
-      "bfr=0",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "bfr=0"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8308,81 +3717,31 @@
       "Merge",
       "Spin",
       "Delete",
-      "Insert",
-      "",
-      "",
-      "",
-      ""
+      "Insert"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
       1,
       0,
       0,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "Die Ordnung eines B-Baumes in einem Computersystem kann nicht beliebig erhöht werden, da ein Knoten einem Block/einer Seite entspricht und Blöcke in einem Computersystem durch eine feste Größe begrenzt sind.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8390,42 +3749,13 @@
    "question": "Wofür steht HANA?",
    "answers": [
       "High Performance Analytic Application",
-      "High Performance Analytic Appliance",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "High Performance Analytic Appliance"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
@@ -8433,85 +3763,27 @@
    "question": "Was unterscheidet HANA von anderen relationalen Datenbanken (Oracle, MS-SQL, etc.)?",
    "answers": [
       "HANA arbeitet spaltenorientiert, andere relationale Datenbanken arbeiten zeilenorientiert",
-      "HANA arbeitet zeilenorientiert, andere relationale Datenbanken arbeiten spaltenorientiert",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "HANA arbeitet zeilenorientiert, andere relationale Datenbanken arbeiten spaltenorientiert"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "Datenbanken",
    "questionType": "SC",
    "question": "HANA ist eine In-Memory-Datenbank.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8521,40 +3793,15 @@
       "Sie können zu geringen Kosten ohne Integritätsverlust aufwändig dupliziert werden.",
       "Sie können in kurzer Zeit ohne Qualitätsverlust einfach dupliziert werden.",
       "Sie können zu geringen Kosten ohne Qualitätsverlust einfach dupliziert werden.",
-      "Sie können zu geringen Kosten ohne Qualitätsverlust einfach zerstört werden.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sie können zu geringen Kosten ohne Qualitätsverlust einfach zerstört werden."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8563,46 +3810,19 @@
    "answers": [
       "Die Offlineversion einer Netzwerkressource.",
       "Eine Sammlung von Algorithmen auf einem Computer.",
-      "Die Implementierung eines Programms in einer Laufzeitumgebung.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Implementierung eines Programms in einer Laufzeitumgebung."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
    "questionType": "MC",
-   "question": "Eine Softwareprodukt enthält meistens welche Bestandteile?",
+   "question": "Welche Bestandteile enthält ein Softwareprodukt?",
    "answers": [
       "Code",
       "Vertrag",
@@ -8612,8 +3832,7 @@
       "Rechnung",
       "Diskette",
       "Updatemethoden / Patches",
-      "Treiber für spezifische Hardware",
-      ""
+      "Treiber für spezifische Hardware"
    ],
    "FIELD14": "Aktivierungscode",
    "correct": [
@@ -8628,19 +3847,7 @@
       1,
       0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8650,40 +3857,15 @@
       "32^2 - 1",
       "2^32",
       "32^2",
-      "2^32 - 1",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "2^32 - 1"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8693,40 +3875,15 @@
       "Die Potenz einer Gleitkommazahl nach den Ziffernstellen.",
       "Die Ziffernstellen einer Gleitkommazahl vor der Potenz.",
       "Der Logarithmus einer Gleitkommazahl bezogen auf die Potenz.",
-      "Die Stellen einer Gleitkommazahl vor dem Komma.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Stellen einer Gleitkommazahl vor dem Komma."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8735,41 +3892,14 @@
    "answers": [
       "Ja, die Limitierung der Mantisse führt zu Präzisionsfehlern.",
       "Ja, aber der Gleitkommaprozessor gleicht die Fehler der Potenz aus.",
-      "Ja, aber nur bei negativen Gleitkommazahlen durch die Nullstellenproblematik.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Ja, aber nur bei negativen Gleitkommazahlen durch die Nullstellenproblematik."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8778,41 +3908,14 @@
    "answers": [
       "Sie legt fest, in welcher Reihenfolge Bytefolgen gespeichert werden.",
       "Sie legt fest, in welcher Reihenfolge Byteabstände gelöscht werden.",
-      "Sie legt fest, in welcher Reihenfolge Bytefolgen verschlüsselt werden.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Sie legt fest, in welcher Reihenfolge Bytefolgen verschlüsselt werden."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8826,11 +3929,8 @@
       "I/O-Interface",
       "Grafikeinheit",
       "Netzwerkeinheit",
-      "Bus-System",
-      "",
-      ""
+      "Bus-System"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
@@ -8839,152 +3939,76 @@
       1,
       0,
       0,
-      1,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
    "questionType": "DD",
-   "question": "Ordne diese typischen Operationen einer Von-Neumann-Architektur einander zu!",
+   "question": "Ordne diese typischen Operationen einer Von-Neumann-Architektur einander zu.",
    "answers": [
       "Stop",
       "Summierung von Daten",
       "Verschiebung von Daten zwischen Speicher, Prozessor und I/0",
       "Vergleich von Daten",
       "Multiplikation von Daten",
-      "Sprung zu neuer Instruktion",
-      "",
-      "",
-      "",
-      ""
+      "Sprung zu neuer Instruktion"
    ],
-   "FIELD14": "",
    "correct": [
       4,
       1,
       3,
       2,
       1,
-      4,
-      null,
-      null,
-      null,
-      null
+      4
    ],
-   "FIELD25": "",
    "title": [
       "Arithmetische Operation",
       "Logische Operation",
       "Transportoperation",
-      "Verzweigung",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verzweigung"
    ]
 },
  {
    "subject": "it-intro",
    "questionType": "MC",
-   "question": "Welche Datenkompressionarten gibt es?",
+   "question": "Welche Datenkompressionsarten gibt es?",
    "answers": [
       "Verlustarme Datenkompression (Poor Lossless)",
       "Verlustbehaftete Datenkompression (Lossy)",
       "Verlustqualitative Datenkompression (Quality Lossy)",
       "Verlustsensitive Datenkompression (Sensitive Lossy)",
       "Verlustfreie Datenkompression (Lossless)",
-      "Verlustreiche Datenkompression (Rich Lossless)",
-      "",
-      "",
-      "",
-      ""
+      "Verlustreiche Datenkompression (Rich Lossless)"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
    "questionType": "SC",
-   "question": "Was ist ein Cache",
+   "question": "Was ist ein Cache?",
    "answers": [
       "Die technische Bezeichnung für die Druckerwarteschlange.",
       "Der Blockbereich eines Massenspeichers, der für die Verteilung von Prüfziffern zuständig ist.",
       "Ein Puffer-Speicher, der zwischen Systemen mit unterschiedlicher Geschwindigkeit vermittelt.",
-      "Die Sicherheitsschaltung in einem Netzteil.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Die Sicherheitsschaltung in einem Netzteil."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "it-intro",
@@ -8993,41 +4017,14 @@
    "answers": [
       "Zeichenorientierte Geräte übertragen nur ein Zeichen zur selben Zeit. Ein Beispiel ist das Keyboard.",
       "Zeichenorientierte Geräte sind Geräte zur Freihandgestaltung am Computer. Ein Beispiel ist der PC-Stift.",
-      "Zeichenorientierte Geräte übertragen Zeichen in Matrixform. Ein Beispiel ist eine Analog-Digital-Matrix.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Zeichenorientierte Geräte übertragen Zeichen in Matrixform. Ein Beispiel ist eine Analog-Digital-Matrix."
    ],
-   "FIELD14": "",
    "correct": [
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
@@ -9036,84 +4033,28 @@
    "answers": [
       "Private Home Page",
       "Hypertext Preprocessor",
-      "Personal Hypertext Processor",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Personal Hypertext Processor"
    ],
-   "FIELD14": "",
    "correct": [
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "SC",
    "question": "PHP ist eine serverseitige Programmiersprache, die HTML und CSS Code generieren kann.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
@@ -9123,88 +4064,34 @@
       "IP-Adresse",
       "TCP-Portnummer",
       "MAC-Adresse",
-      "Server-Passwort",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Server-Passwort"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       1,
       0,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "SC",
    "question": "Anschlussströme repräsentieren eine Verbindung zu einer Quelle oder einem Zielort (Datei, Socket, usw.).",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Wahr",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "DD",
-   "question": "Weise die Aussagen richtig zu!",
+   "question": "Weise die Aussagen richtig zu.",
    "answers": [
       "Skriptsprache",
       "von Webserver instanziiert und durchgeführt",
@@ -9212,12 +4099,8 @@
       "vom Client geladen und ausgeführt",
       "clientseitig",
       "hat nichts zu tun mit Java",
-      "kann fast gesamte Java-API benutzen",
-      "",
-      "",
-      ""
+      "kann fast gesamte Java-API benutzen"
    ],
-   "FIELD14": "",
    "correct": [
       1,
       3,
@@ -9225,153 +4108,59 @@
       2,
       1,
       1,
-      2,
-      null,
-      null,
-      null
+      2
    ],
-   "FIELD25": "",
    "title": [
       "JavaScript",
       "Java Applet",
-      "Java Servlet",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Java Servlet"
    ]
 },
  {
    "subject": "VS",
    "questionType": "SC",
-   "question": "jQuery ist eine…",
+   "question": "jQuery ist eine …",
    "answers": [
-      "...Programmiersprache",
-      "...JSON Library",
-      "...JavaScript Library",
-      "...Art, Warteschlangen (Querys) zu organisieren",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "… Programmiersprache.",
+      "… JSON Library.",
+      "… JavaScript Library.",
+      "… Art, Warteschlangen (Querys) zu organisieren."
    ],
-   "FIELD14": "",
    "correct": [
       0,
       0,
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "SC",
    "question": "jQuery benutzt CSS-Selektoren, um Elemente auszuwählen.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "Richtig",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "SC",
-   "question": "Ist jQuery eine Library für client scripting oder server scripting?",
+   "question": "Ist jQuery eine Library für Client Scripting oder Server Scripting?",
    "answers": [
-      "client scripting",
-      "server scripting",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Client Scripting",
+      "Server Scripting"
    ],
-   "FIELD14": "",
    "correct": [
       1,
-      0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0
    ],
-   "FIELD25": "",
-   "title": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
@@ -9380,40 +4169,17 @@
    "answers": [
       "Führt eine SQL-Abfrage auf einer MySQL-Datenbank durch.",
       "Schließt eine Verbindung zu einer MySQL-Datenbank.",
-      "Stellt unter Angabe der Verbindungsdaten eine Verbindung mit einer MySQL-Datenbank her.",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Stellt unter Angabe der Verbindungsdaten eine Verbindung mit einer MySQL-Datenbank her."
    ],
-   "FIELD14": "",
    "correct": [
       2,
       3,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
    "title": [
       "mysqli_connect()",
       "mysqli_query()",
-      "mysqli_close()",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "mysqli_close()"
    ]
 },
  {
@@ -9421,85 +4187,413 @@
    "questionType": "SC",
    "question": "Der Servlet-Kontext-Listener wird nur benachrichtigt, wenn der Kontext initialisiert wird.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
    "correct": [
       0,
-      1,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1
    ],
-   "FIELD25": "",
-   "title": [
-      "Richtig",
-      "Falsch",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-   ]
+   "title": []
 },
  {
    "subject": "VS",
    "questionType": "SC",
    "question": "Der Servlet-Kontext-Listener wird benachrichtigt, wenn der Kontext initialisiert oder zerstört wird.",
    "answers": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Wahr ",
+      "Falsch "
    ],
-   "FIELD14": "",
+   "correct": [
+      1,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "MC",
+   "question": "Wie definiert man ein Ereignis?",
+   "answers": [
+      "Eine Menge von Elementarereignissen.",
+      "Das Ergebnis einer Zuordnung.",
+      "Eine Teilmenge des Ergebnisraums.",
+      "Die Schnittmenge aller Zufallsexperimente. "
+   ],
    "correct": [
       1,
       0,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      1,
+      0
    ],
-   "FIELD25": "",
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "MC",
+   "question": "Das Signifikanzniveau …",
+   "answers": [
+      "… heißt α und ist eine kleine Zahl nahe Null.",
+      "… wird bei Hypothesentests als Fehler der ersten Art gewertet. ",
+      "… berechnet man mit dem Median.",
+      "… kann nur durch eine Stichprobe mit mehr als 100 Beobachtungsobjekten festgelegt werden.",
+      "… gibt im Hypothesentest an, welches Risiko man bereit ist einzugehen, eine falsche Entscheidung zu treffen"
+   ],
+   "correct": [
+      1,
+      0,
+      0,
+      0,
+      1
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "Entlang der Äste eines Wahrscheinlichkeitsbaums wird …",
+   "answers": [
+      "… addiert.",
+      "… subtrahiert. ",
+      "… multipliziert.",
+      "… dividiert."
+   ],
+   "correct": [
+      0,
+      0,
+      1,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "Für das Würfeln mit zwei Würfeln ist die Wahrscheinlichkeit, dass die Augenzahl größer als 10 ist, …",
+   "answers": [
+      "… 1/10.",
+      "… 6/10.",
+      "… 1/6.",
+      "0."
+   ],
+   "correct": [
+      0,
+      0,
+      1,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "Welche Arten von Hypothesentests gibt es?",
+   "answers": [
+      "Relativer und prozentualer Hypothesentest.",
+      "Einseitger und zweiseitiger Hypothesentest. ",
+      "Statistiscer und dynamischer Hypothesentest.",
+      "Normalverteilter und standardnormalverteilter Hypothesentest."
+   ],
+   "correct": [
+      0,
+      1,
+      0,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "20 IT-Services sollen im Durchschnitt von mehr als 10 Mitarbeitern betreut werden. Welche Hypothesen sollte sie testen?",
+   "answers": [
+      "H0:μ≤20;H1:μ>20",
+      "H0:μ≤10;H1:μ>10",
+      "H0:μ>20;H1:μ≤20",
+      "H0:μ>20;H1:μ>10"
+   ],
+   "correct": [
+      0,
+      1,
+      0,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "Die IMBIT Krake möchte die Kunden ihres IT-Unternehmens besser kennenlernen und stellt fest, dass die unterschiedlichen Unternehmen 140, 211, 127, 290, 195, 150 und 143 Mitarbeiter haben. Wie groß ist die Spannweite dieser Unternehmensgrößen?",
+   "answers": [
+      "150",
+      "1256",
+      "19,4",
+      "3"
+   ],
+   "correct": [
+      1,
+      0,
+      0,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "SC",
+   "question": "In welchem Fall wird der Satz von Bayer angewandt?",
+   "answers": [
+      "Durch neu gewonnene Informationen können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden.",
+      "Durch verringerten Ergebnisraum können schon ermittelte Wahrscheinlichkeiten genauer bestimmt werden."
+   ],
+   "correct": [
+      1,
+      0
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "DD",
+   "question": "Das IT-Unternehmen der IMBIT Krake bekommt Rechnungen mit den folgenden Werten: 50€, 100€, 81€, 250€, 1000€, 44€, 250€. Ordne die Lagemaße korrekt zu.",
+   "answers": [
+      "250",
+      "100",
+      "254"
+   ],
+   "correct": [
+      3,
+      1,
+      2
+   ],
    "title": [
-      "Richtig",
-      "Falsch ",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Median",
+      "Mittelwert",
+      "Modus"
    ]
+},
+ {
+   "subject": "Statistik",
+   "questionType": "DD",
+   "question": "Die IMBIT Krake möchte die offenen Stellen in ihrem IT-Unternehmen besetzen. Sie sucht folgende Mitarbeiter: HR : 2, Service Desk : 5, Marketing : 3, Sales : 5, Buchhaltung : 3, SAP Consultant : 5, Einkauf : 1, Network Engineer : 3, Presales : 3, Motivationstrainer : 0, Controlling : 3, Entwickler : 5, Jurist : 1, Praktikant : 1. Ordne die absolute Häufigkeit korrekt den offenen Stellen zu.",
+   "answers": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+   ],
+   "correct": [
+      2,
+      1,
+      5,
+      6,
+      4,
+      3
+   ],
+   "title": [
+      "3",
+      "1",
+      "4",
+      "0",
+      "2",
+      "5"
+   ]
+},
+ {
+   "subject": "Statistik",
+   "questionType": "DD",
+   "question": "Ordne den Verteilungen ihre Schiefe zu.",
+   "answers": [
+      "Symmetrisch.",
+      "Linksschief bzw. rechtssteil.",
+      "Rechtsschief bzw. linkssteil."
+   ],
+   "correct": [
+      2,
+      3,
+      1
+   ],
+   "title": [
+      "größer als 0",
+      "0",
+      "kleiner als 0"
+   ]
+},
+ {
+   "subject": "Statistik",
+   "questionType": "DD",
+   "question": "Die IMBIT Krake möchte ihr Produktportfolio erweitern und macht dafür eine Kundenumfrage. 10 der 70 Dienstleistungsunternehmen interessieren sich für IoT, 60 für eine Cloud. 50 der 130 Produktionsunternehmen interessieren sich für IoT, 80 für eine Cloud. Ordne die Wahrscheinlichkeiten korrekt zu.",
+   "answers": [
+      "10/200 = 0.05",
+      "(60/200)+(130/200)-(50/200) = 0.7",
+      "60/200 = 0.3"
+   ],
+   "correct": [
+      1,
+      3,
+      2
+   ],
+   "title": [
+      "Ein Unternehmen ist an IoT Services interessiert.",
+      "Ein Produktionsunternehmen ist an IoT Services interessiert.",
+      "Ein Unternehmen ist an IoT interessiert oder ist ein Produktionsunternehmen."
+   ]
+},
+ {
+   "subject": "Statistik",
+   "questionType": "TQ",
+   "question": "Der Gini-Koeffizient.",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "OD",
+   "question": "In welcher Reihenfolge kann man die folgenden Werte berechnen?",
+   "answers": [
+      "Standardabweichung",
+      "Varianz",
+      "Durchschnitt"
+   ],
+   "correct": [
+      3,
+      1,
+      2
+   ],
+   "title": []
+},
+ {
+   "subject": "Statistik",
+   "questionType": "TL",
+   "question": "Ordne die englischen Begriffe den deutschen Begriffen zu. ",
+   "answers": [
+      "Binomialverteilung",
+      "Zufallsvariable",
+      "Intervallschätzung",
+      "Hypothesentest",
+      "Stichprobe",
+      "Interquartilsabstand",
+      "arithmetisches Mittel",
+      "Häufigkeitsverteilung",
+      "Säulendiagramm",
+      "Signifikanzniveau"
+   ],
+   "correct": [
+      8,
+      3,
+      5,
+      4,
+      1,
+      6,
+      9,
+      10,
+      2,
+      7
+   ],
+   "title": [
+      "Sample ",
+      "Bar Graph",
+      "Random Variable",
+      "Hypothesis Testing",
+      "Interval Estimation",
+      "Interquartile Range",
+      "Significance Level",
+      "Binominal Distribution",
+      "Arithmetic Mean",
+      "Frequency Distribution"
+   ]
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
+},
+ {
+   "subject": "Controlling",
+   "answers": [],
+   "correct": [],
+   "title": []
 }
 ]
