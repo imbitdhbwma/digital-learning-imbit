@@ -3,6 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.dhbw.imbit</groupId>
 	<artifactId>brillianICM</artifactId>
+	<version></version>
 	<packaging>war</packaging>
 	<name>brillianICM</name>
 	<description>brillianICM</description>
