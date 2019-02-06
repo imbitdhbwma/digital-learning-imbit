@@ -4,48 +4,48 @@
 <head>
 <link
 	rel="shortcut icon"
-	href="../../img/favicon.ico"
+	href="../img/favicon.ico"
 	type="image/x-icon">
 <meta charset="UTF-8">
 <title>Quiz</title>
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/main.css" />
+	href="dev_files/main.css" />
 
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_checkbox.css" />
+	href="dev_files/Quiz_checkbox.css" />
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_Drag.css" />
+	href="dev_files/Quiz_Drag.css" />
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_Radiobutton.css" />
+	href="dev_files/Quiz_Radiobutton.css" />
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_Text.css" />
+	href="dev_files/Quiz_Text.css" />
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_Table.css" />
+	href="dev_files/Quiz_Table.css" />
 <link
 	rel="stylesheet"
 	type="text/css"
-	href="../dev_files/Quiz_Order.css" />
+	href="dev_files/Quiz_Order.css" />
 
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
 	type="text/javascript"
-	src="../dev_files/helper.js"></script>
+	src="dev_files/helper.js"></script>
 <link
 	rel="stylesheet"
-    href="../../css/fonts.css" />
+    href="../css/fonts.css" />
 </head>
 
 <body>
@@ -91,12 +91,12 @@
 	<div id="tl">
 		<img
 			id="tentakel_l"
-			src="../../img/tentakel_ltr.png">
+			src="../img/tentakel_ltr.png">
 	</div>
 	<div id="tr">
 		<img
 			id="tentakel_r"
-			src="../../img/tentakel_rtl.png">
+			src="../img/tentakel_rtl.png">
     </div>
 	
 	
@@ -131,7 +131,7 @@ if (value) alert(value);
         var array = [];
 
         //json Datei laden
-        $.getJSON('convertcsv.json', function(data) {
+        $.getJSON("dev_files/convertcsv.json", function(data) {
                 //Schleife iteriert durch das Array
                 $.each(data, function(i, f) {
                     var subject = f.subject;
