@@ -15,7 +15,7 @@
     <Resource name="jdbc/security" auth="Container" 
         username="brillianicm" password="icm@IMBIT"
         driverClassName="com.mysql.jdbc.Driver" 
-        url="jdbc:mysql://localhost:3306/icmcake?autoReconnect=true"
+        url="jdbc:mysql://localhost:3306/brillianquiz?autoReconnect=true"
         logAbandoned="true" removeAbandoned="true" 
         type="javax.sql.DataSource" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
         testWhileIdle="true"
