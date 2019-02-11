@@ -50,44 +50,130 @@
 
 <body>
 
- <!--Textdarstellung auf der Ergebnisseite der Quizes-->
-	<div id="content">
+		<div><!-- //<div id="content"> -->
+	<ul id="questionList">
+		
+	</ul>
+	
+	<script>
+			//get Parameter aus der URL, um entsprechendes Fach aus dem Json zufiltern 
+		function getParameter(key) {
+				var query = window.location.search.substring(1); 
+				var pairs = query.split('&');
+		
+				for (var i = 0; i < pairs.length; i++) {
+				var pair = pairs[i].split('=');
+				if(pair[0] == key) {
+						if(pair[1].length > 0)
+					return pair[1];
+				}  
+				}
+		
+				return undefined;  
+		};
+		
+		var key = 'subject';
+		var value = getParameter(key);
+		
+		//if (value) alert(value);//Für Testzwecke
+	
+	
+	
+	
+	
+		$(function() {
+			var array = [];
+	
+			//json Datei laden
+			$.getJSON("dev_files/convertcsv.json", function(data) {
+					//Schleife iteriert durch das Array
+					$.each(data, function(i, f) {
+						var subject = f.subject;
+						var questionType= f.questionType;
+						var question= f.question;
+						var answers = f.answers;
+						var correct = f.correct;
+						var title = f.title;
+						// console.log(answers);
 
-		<div
-			id="gz"
-			class="questionclass">
-			<p id="supergeil"></p>
-			<p id="outro">Dank deiner Hilfe kann die IMBIT-Krake nun wieder
-				klar und strukturiert denken, denn Ordnung ist das halbe Leben!</p>
-
-        </div>
-        
-<!--Buttons -->
-	</div>
-	<div id="next_button_div">
-		<button
-			style="vertical-align: middle"
-			class="button"
-			type="button">
-			<a
-				href="#"
-				id="next_button"
-				onclick="nextButtonClick()">Weiter</a>
-		</button>
-	</div>
-
-	<div id="back_button_div">
-		<button
-			style="vertical-align: middle"
-			class="button"
-			type="button">
-			<a
-				href="#"
-				id="back_button"
-				onclick="backButtonClick()">Zurück</a>
-		</button>
-	</div>
-
+						
+	
+						// Anzeige der Fragen sortiert nach questionType
+						if(subject===value) {
+							switch (questionType){
+								case "MC": 
+								$(document).ready(function() {
+									createMC(
+										question,
+										answers,
+										correct
+									);
+								});
+								break;
+	
+								case "SC": 
+								$(document).ready(function() {
+									createSC(
+										question,
+										answers,
+										correct
+									);
+								});
+								break;
+	
+								case "DD": 
+								$(document).ready(function() {
+									createDD(
+										question,
+										answers,
+										title,
+										correct
+									);
+								});
+								break;
+								
+								case "TL": 
+								$(document).ready(function() {
+									createTL(
+										question,
+										answers,
+										title,
+										correct
+									);
+								});
+								break;
+	
+								case "TQ": 
+								$(document).ready(function() {
+									createTQ(
+										question,
+										answers,
+										title,
+										correct
+									);
+								});
+								break;
+	
+								case "OD": 
+								$(document).ready(function() {
+									createOD(
+										question,
+										answers,
+										correct
+									);
+								});
+								break;
+	
+							}
+							
+						}
+					});
+				});
+			});
+		</script>
+		
+	 
+ </div>
 	<div id="tl">
 		<img
 			id="tentakel_l"
@@ -102,118 +188,7 @@
 	
 
 
-    <script>
-	function getParameter(key) {
-  		var query = window.location.search.substring(1); 
-  		var pairs = query.split('&');
- 
-  		for (var i = 0; i < pairs.length; i++) {
-    		var pair = pairs[i].split('=');
-    		if(pair[0] == key) {
-     			if(pair[1].length > 0)
-        		return pair[1];
-			}  
-  		}
- 
-  		return undefined;  
-	};
- 
-var key = 'subject';
-var value = getParameter(key);
- 
-if (value) alert(value);
-
-
-
-
-
-    $(function() {
-        var array = [];
-
-        //json Datei laden
-        $.getJSON("dev_files/convertcsv.json", function(data) {
-                //Schleife iteriert durch das Array
-                $.each(data, function(i, f) {
-                    var subject = f.subject;
-                    var questionType= f.questionType;
-                    var question= f.question;
-                    var answers = f.answers;
-                    var correct = f.correct;
-					var title = f.title;
-                   // console.log(answers);
-
-                    // Anzeige der UX Fragen sortiert nach questionType
-                    if(subject===value) {
-                        switch (questionType){
-                            case "MC": 
-                            $(document).ready(function() {
-						        createMC(
-                                    question,
-                                    answers,
-                                    correct
-                                );
-                            });
-							break;
-
-							case "SC": 
-                            $(document).ready(function() {
-						        createSC(
-                                    question,
-                                    answers,
-                                    correct
-                                );
-                            });
-							break;
-
-							case "DD": 
-                            $(document).ready(function() {
-						        createDD(
-                                    question,
-                                    answers,
-									title,
-                                    correct
-                                );
-                            });
-							break;
-							
-							case "TL": 
-                            $(document).ready(function() {
-						        createTL(
-                                    question,
-                                    answers,
-									title,
-                                    correct
-                                );
-                            });
-							break;
-
-							case "TQ": 
-                            $(document).ready(function() {
-						        createTQ(
-                                    question,
-                                    answers,
-									title,
-                                    correct
-                                );
-                            });
-							break;
-
-							case "OD": 
-                            $(document).ready(function() {
-						        createOD(
-                                    question,
-                                    answers,
-                                    correct
-                                );
-                            });
-							break;
-
-                        }
-                    }
-                });
-            });
-        });
-    </script>
+    
 
 </body>
 

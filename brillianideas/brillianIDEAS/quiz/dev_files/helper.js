@@ -36,11 +36,14 @@ function createMC(frage, antworten, richtig) {
 		questionlabelspan.className = "checkmark_check";
 		questionlabel.appendChild(questionlabelspan);
 		questiondiv.appendChild(questionlabel);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 /**
  * eine Single Choice Frage anglegen
@@ -78,10 +81,14 @@ function createSC(frage, antworten, richtig) {
 		questionlabelspan.className = "checkmark";
 		questionlabel.appendChild(questionlabelspan);
 		questiondiv.appendChild(questionlabel);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 
 }
 /**
@@ -148,10 +155,12 @@ function createDD(frage, antworten, container, richtig) {
 		box.appendChild(boxTitel);
 
 		boxenDiv.appendChild(box);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 
 }
 
@@ -214,10 +223,12 @@ function createTQ(frage, text, antworten, richtig) {
 		answersdiv.appendChild(answerP);
 	}
 	questiondiv.appendChild(answersdiv);
+	var list = document.createElement("li");
+		list.appendChild(questiondiv);
+	
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 
 /**
@@ -300,10 +311,12 @@ function createTL(frage, antworten, container, richtig) {
 		});
 		td2.appendChild(td2div);
 		table.appendChild(zeile);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
 
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 
 /**
@@ -368,11 +381,12 @@ function createOD(frage, antworten, richtig) {
 		box.appendChild(boxTitel);
 
 		boxenDiv.appendChild(box);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 /**
  * Erstellt den div der Frage und fügt den Header mit dem Fragentext ein.
