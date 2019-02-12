@@ -30,6 +30,31 @@ body {
 	font-size: 1.1153846153846153846153846153846em;
 }
 
+.loginbutton{
+	position: relative;
+	width: 50%;
+}
+
+.loginbutton img{
+	width: 100%;
+	height: auto;
+}
+
+.loginbutton .login{
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #cb3f5a;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: 2px solid black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
 .container{
 	height: 100%;
 	display: -webkit-flexbox;
