@@ -62,7 +62,7 @@ import org.apache.shiro.subject.Subject;
 		/* 
 		 * Philipp K 
 		 * 5.3.16
-		 * Not needed in BrillianICM
+		 * Not needed in BrillianQUIZ
 		 */
  // 	if(subject.hasRole("professor")){
 			
@@ -103,7 +103,7 @@ import org.apache.shiro.subject.Subject;
 	/*
 	 * Philipp K.
 	 * 5.3.16
-	 * The following Code is not needed in BrillianICM because the user is not able to set its progress by its own 
+	 * The following Code is not needed in BrillianQUIZ because the user is not able to set its progress by its own 
 	 */
 	/*	}else{
 			String email;

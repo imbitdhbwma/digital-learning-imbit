@@ -349,7 +349,7 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact BrillianICM Team</h2>
+                <h2>Contact BrillianQUIZ Team</h2>
                 <p>Feel free to email us to provide some feedback on our game, or to just to say hello!</p>
                 <p><a href="mailto:HowBrillianAreYou">HowBrillianAreYou@brillianQUIZ.com</a>
                 </p>

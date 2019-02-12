@@ -290,8 +290,8 @@ function checkTTS() {
 	<div  class="center mainWindow clearfix" data-options="region:'center'">
 	
 	
-	<!--	<p class="bubble left" style="margin: 70px auto;">BrillianICM Rocks!</p>
-		<p class="bubble right" style="margin: 30px auto;">BrillianICM Rocks!</p> -->
+	<!--	<p class="bubble left" style="margin: 70px auto;">BrillianQUIZ Rocks!</p>
+		<p class="bubble right" style="margin: 30px auto;">BrillianQUIZ Rocks!</p> -->
 			
 			<!--		<div class="mainLocationButton easyui-linkbutton" id="4" >START</div>	 -->
 		<div class="mainEventContainer" data-options="inline:true, center:true, fit:true" ></div>
