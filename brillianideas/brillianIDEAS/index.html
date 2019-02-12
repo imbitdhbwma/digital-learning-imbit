@@ -1,113 +1,69 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129691392-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <head>
+        <title>brillianIDEAS</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/core-a.css">
+        <link rel="stylesheet" href="css/color-a.css">
+        <link rel="stylesheet" href="css/startpage.css">
+        <link rel="stylesheet" href="css/dots.css" />
+        <!--<link rel="stylesheet" href="css/rocketbar.css" />-->
+        <link rel="stylesheet" href="css/curriculum.css">
+        <link rel="stylesheet" href="css/ipad.css" />
+        <link rel="stylesheet" type="text/css" href="css/digitallearning.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/rocketbar0.css"> -->
+        <link rel="stylesheet" href="css/fonts.css"/>
+        <!-- Old jQuery for jQuery Mobile Support -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/velocity.min.js"></script>
+        <!-- Custom jQuery Mobile - Touch Only -->
+        <script src="js/jquery.mobile.custom.min.js"></script>
+        <script src="js/jquery.waitforimages.js"></script>
+        <script src="js/rocketbar.js"></script>
+        <script src="js/navigation.js"></script>
+        <script type="text/javascript" src="js/einstellung.js"></script>
 
-  gtag('config', 'UA-129691392-1');
-</script> -->
+        <!-- digitalLearning - Files -->
+        <script src="js/makeGrid.js"></script>
+        <script src="js/main.js"></script>
 
-    <title>brillianIDEAS</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/core-a.css">
-    <link rel="stylesheet" href="css/color-a.css">
-    <link rel="stylesheet" href="css/startpage.css">
-    <link rel="stylesheet" href="css/dots.css" />
-    <link rel="stylesheet" href="css/rocketbar.css" />
-    <link rel="stylesheet" href="css/curriculum.css">
-    <link rel="stylesheet" href="css/ipad.css" />
-    <link rel="stylesheet" type="text/css" href="css/digitallearning.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/rocketbar0.css"> -->
-    <link rel="stylesheet" href="css/fonts.css"/>
-    <!-- Old jQuery for jQuery Mobile Support -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/velocity.min.js"></script>
-    <!-- Custom jQuery Mobile - Touch Only -->
-    <script src="js/jquery.mobile.custom.min.js"></script>
-    <script src="js/jquery.waitforimages.js"></script>
-    <script src="js/rocketbar.js"></script>
-    <script src="js/navigation.js"></script>
-    <script type="text/javascript" src="js/einstellung.js"></script>
+    </head>
 
-    <!-- digitalLearning - Files -->
-    <script src="js/makeGrid.js"></script>
-    <script src="js/main.js"></script>
+    <body style="position: fixed;">
 
-</head>
+    <!-- Bubbles, bubbles everywhere! ~RAHS  -->
+        <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> <source src="img/Background.mp4" type="video/mp4"> </video>
 
-<body style="position: fixed;">
+        <audio src=audio/whale.mp3 id="my_audio" loop="loop"></audio>
+        <script type="text/javascript">
+            window.onload=function(){
+                document.getElementById("my_audio").play();
+            }
+        </script>
 
-<!-- Bubbles, bubbles everywhere! ~RAHS  -->
-<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> <source src="img/Background.mp4" type="video/mp4"> </video>
+        <div id="container" style="display:block">
+        
+            <div id='content'>
+            </div>
+            <ul id="dots" class="dotstyle dotstyle-fillup">
+                <li>
+                    <a id="digitalLearning" href="content/digitalLearning.html"></a>
+                </li>
+                <li class="current home">
+                    <a href="./content/startpage.htm"></a>
+                </li>
+                <li>
+                    <a id="imbit" href="content/curriculum.html"></a>
+                </li>
+            </ul>
+            
+        </div> 
 
-<audio src=audio/whale.mp3 id="my_audio" loop="loop"></audio>
-<script type="text/javascript">
-    window.onload=function(){
-        document.getElementById("my_audio").play();
-    }
-</script>
-
-<div id="container" style="display:block">
-    <!--<a href="#"><img id="arrowLeft" src="img/pfeil_rechts.png" alt="" style="transform: scaleX(-1);"></a>
-    <a href="#"></a>
-    <a href="#"><img id="arrowRight" src="img/pfeil_rechts.png" alt=""></a>-->
-    <div id='content'>
-    </div>
-    <ul id="dots" class="dotstyle dotstyle-fillup">
-        <li>
-            <a id="digitalLearning" href="content/digitalLearning.html"></a>
-        </li>
-        <li class="current home">
-            <a href="./content/startpage.htm"></a>
-        </li>
-        <li>
-            <a id="imbit" href="content/curriculum.html"></a>
-        </li>
-    </ul>
-</div> 
-
-<!--launchbar-->
-<div id="launchbar" class="launchbar">
-
-    <div id="rocketbar" class="rocketbar">
-        <!-- see comments in rocketbar.css The order of the links does not matter here.-->
-        <div class="imbit">
-            <img id="tentacle_img_small_launchbar" class="img" src="img/launchbar_tentakel_u10.png" onclick="showRocketbar()">
-          <!--  <img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage" onclick="openTab('./#imbit');">-->
-            <a target="_self" href="#imbit" onClick="history.go(0)" VALUE="Refresh" ><img src="img/IMBIT.png"  class="icon" alt="IMBIT Homepage"></a>
-        </div>
-        <div class="digitallearning">
-            <a target="_self" href="#digitalLearning" onClick="history.go(0)" VALUE="Refresh" ><img src="img/digitalesLernen.png" class="icon" alt="digitales Lernen"></a>
-        </div>
-        <div class="icm">
-            <a target="_blank" href="http://brillianICM.com"><img src="img/brillianicm.png" class="icon" alt="brillianICM"></a>
-        </div>
-        <div class="crm">
-            <a target="_blank" href="http://brillianCRM.com"><img src="img/brilliancrm.png" class="icon" alt="brillianCRM"></a>
-        </div>
-        <div class="wiki">
-            <a target="_blank" href="http://wiki.brillianideas.com"><img src="img/wiki.png" class="icon" alt="Cloud Wiki"></a>
-        </div>
-        <div class="interactive">
-            <a target="_blank" href="content/octopus.html"><img src="img/quiz.png" class="icon" alt="Quizzes" onmouseover="this.src='img/quiz_alt.png';" onmouseout="this.src='img/quiz.png'"></a>
-        </div>
-        <div class="video">
-            <img src="img/newContent.png" class="icon" alt="New Content"  onclick="window.open('LernvideosBWL.html','_self')">
-        </div>
-        <div class="impressum">
-            <img src="img/impressum.png" class="icon" alt="Impressum" onclick="window.open('content/impressum.html','_self')">
-        </div>
-    </div>
-</div>
-
-<!-- <div class="technical"></div> -->
-
-</body>
-
+        <footer></footer>
+        <script>
+            document.onload = $("footer").load("./content/rocketbarIndex.html");
+        </script>
+    </body>
 </html>
