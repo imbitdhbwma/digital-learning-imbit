@@ -143,8 +143,9 @@ SFS dark red = #9f2026; */
     user-select: none;
 }
 
-.quizBullets{
-    padding-left: 50px;
+.padding-l-50{
+    padding: 0px !important;
+    padding-left: 50px !important;
 }
 
 /* Hide the browser's default checkbox */
