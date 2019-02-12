@@ -224,7 +224,7 @@ body {
 					</div>
 				</div>
 			</a> <a
-				href="https://github.com/cheyer/brillianicm/blob/master/src/main/java/org/dhbw/imbit11/masterfile.xml"
+				href="https://github.com/cheyer/brillianquiz/blob/master/src/main/java/org/dhbw/imbit11/masterfile.xml"
 				target="_blank">
 				<div class="col-md-2 col-sm-3 ">
 					<div class="card">
@@ -325,7 +325,7 @@ body {
 								return online;
 							}
 
-							var prodServer = "https://www.brillianicm.com/";
+							var prodServer = "https://www.brillianquiz.com/";
 							setTimeout(checkServerStatus(prodServer), 1500);
 							$('#easter-heart').click(function() {
 								counter++;

@@ -75,7 +75,7 @@ function changeSelect() {
 	   
    } else if (selectedValue=='Imprint'){
 	   
-	   // Letzte Änderung 05.03.16 von Tanja: Imprint Feld im Dropdown öffnet einen neuen Tab in dem die Imprint.jsp angezeigt wird.
+	   // Letzte ï¿½nderung 05.03.16 von Tanja: Imprint Feld im Dropdown ï¿½ffnet einen neuen Tab in dem die Imprint.jsp angezeigt wird.
 	   window.open ("frontend/imprint.jsp", "_blank");
   		 var selectBox = document.getElementById("selectBox");
    			selectBox.options[0].selected = true;   
@@ -190,7 +190,7 @@ function checkTTS() {
 
 				var box = window.confirm ("Are you sure you want to leave this page?")
 				if (box == true){
-					window.open("https://brillianicm.com", "_self");}
+					window.open("https://brillianquiz.com", "_self");}
 				else if (box==false){
 				}	
 			}
@@ -261,10 +261,10 @@ function checkTTS() {
 				<svg id= "iconsBox"height="50" width="200" >
 					<circle id="icon_competence" cx="25" cy="25" r="13" stroke="black" stroke-width="0.5" fill="red" onmouseover="Tip('Competence:&lt;&#47;br&gt;  WHY &lt;&#47;br&gt; This KPI is all about knowing WHY something is done &lt;&#47;br&gt; in a particular way respectively knowing according reasons why the answer was the right one. &lt;&#47;br&gt; This is based especially on knowledge that comes from the 9 cultural dimensions.')" onmouseout="UnTip()" />
 						<text x="25" y="32" font-family="sans-serif"  font-size="20px"  text-anchor="middle"  fill="black" onmouseover="Tip('Competence: &lt;&#47;br&gt;  WHY &lt;&#47;br&gt; This KPI is all about knowing WHY something is done &lt;&#47;br&gt; in a particular way respectively knowing according reasons why the answer was the right one. &lt;&#47;br&gt; This is based especially on knowledge that comes from the 9 cultural dimensions.')" onmouseout="UnTip()">C</text>
-					<circle id="icon_communication" cx="75" cy="25" r="13" stroke="black" stroke-width="0.5" fill="green" onmouseover="Tip('Communications: &lt;&#47;br&gt; HOW &lt;&#47;br&gt; It’s about how individuals communicate &lt;&#47;br&gt; with each other based on known models, such as „iceberg model“ or „4-ears model“')" onmouseout="UnTip()" />
-						<text x="75" y="32" font-family="sans-serif"  font-size="20px"  text-anchor="middle"  fill="black"onmouseover="Tip('Communications: &lt;&#47;br&gt; HOW &lt;&#47;br&gt; It’s about how individuals communicate &lt;&#47;br&gt; with each other based on known models, such as „iceberg model“ or „4-ears model“')"onmouseout="UnTip()">C</text>
-					<circle id="icon_behaviour" cx="125" cy="25" r="13" stroke="black" stroke-width="0.5" fill="orange" onmouseover="Tip('Behavior: &lt;&#47;br&gt;  WHAT &lt;&#47;br&gt; Behavior (Verhalten) is about WHAT was/is going on. &lt;&#47;br&gt; This is about what to do or how to behave in a certain situation. It includes Do’s & Dont’s. ')" onmouseout="UnTip()"/>
-						<text x="125" y="32" font-family="sans-serif"  font-size="20px"  text-anchor="middle"  fill="black"onmouseover="Tip('Behavior: &lt;&#47;br&gt;  WHAT &lt;&#47;br&gt; Behavior (Verhalten) is about WHAT was/is going on. &lt;&#47;br&gt; This is about what to do or how to behave in a certain situation. It includes Do’s & Dont’s. ')"onmouseout="UnTip()">B</text>
+					<circle id="icon_communication" cx="75" cy="25" r="13" stroke="black" stroke-width="0.5" fill="green" onmouseover="Tip('Communications: &lt;&#47;br&gt; HOW &lt;&#47;br&gt; Itï¿½s about how individuals communicate &lt;&#47;br&gt; with each other based on known models, such as ï¿½iceberg modelï¿½ or ï¿½4-ears modelï¿½')" onmouseout="UnTip()" />
+						<text x="75" y="32" font-family="sans-serif"  font-size="20px"  text-anchor="middle"  fill="black"onmouseover="Tip('Communications: &lt;&#47;br&gt; HOW &lt;&#47;br&gt; Itï¿½s about how individuals communicate &lt;&#47;br&gt; with each other based on known models, such as ï¿½iceberg modelï¿½ or ï¿½4-ears modelï¿½')"onmouseout="UnTip()">C</text>
+					<circle id="icon_behaviour" cx="125" cy="25" r="13" stroke="black" stroke-width="0.5" fill="orange" onmouseover="Tip('Behavior: &lt;&#47;br&gt;  WHAT &lt;&#47;br&gt; Behavior (Verhalten) is about WHAT was/is going on. &lt;&#47;br&gt; This is about what to do or how to behave in a certain situation. It includes Doï¿½s & Dontï¿½s. ')" onmouseout="UnTip()"/>
+						<text x="125" y="32" font-family="sans-serif"  font-size="20px"  text-anchor="middle"  fill="black"onmouseover="Tip('Behavior: &lt;&#47;br&gt;  WHAT &lt;&#47;br&gt; Behavior (Verhalten) is about WHAT was/is going on. &lt;&#47;br&gt; This is about what to do or how to behave in a certain situation. It includes Doï¿½s & Dontï¿½s. ')"onmouseout="UnTip()">B</text>
 				</svg>
 
 			</ul>

@@ -318,14 +318,14 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/DE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/DE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/DE_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/DE_goodie1_germanwall.png</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/DE_goodie1_germanwall.png</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie1_germanwall.png</goodieSource> <!-- For server -->
 		
 		<nextevent href="l700e206"/>
@@ -1075,7 +1075,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/DE_goodie3_germanbeer.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/DE_goodie3_germanbeer.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie3_germanbeer.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -1132,7 +1132,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/DE_goodie2_comic.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/DE_goodie2_comic.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie2_comic.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -1488,14 +1488,14 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/DE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/DE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/DE_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!--  <goodieSource>../brillianicm/images/DE_goodie1_germanwall.png</goodieSource> --> <!-- For local testing -->
+		<!--  <goodieSource>../brillianquiz/images/DE_goodie1_germanwall.png</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie1_germanwall.png</goodieSource> <!-- For server -->
 		
 		<nextevent href="l700e205"/>
@@ -2245,7 +2245,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/DE_goodie3_germanbeer.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/DE_goodie3_germanbeer.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie3_germanbeer.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -2303,7 +2303,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/DE_goodie2_comic.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/DE_goodie2_comic.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/DE_goodie2_comic.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -2378,7 +2378,7 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/BR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/BR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/BR_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
@@ -2572,7 +2572,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/BR_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/BR_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/BR_goodie1_facts.jpg</goodieSource> <!-- For server -->
 	</event>
 
@@ -3140,7 +3140,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/BR_goodie3_samba.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/BR_goodie3_samba.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/BR_goodie3_samba.mp4</goodieSource> <!-- For server -->
 	</event>
 
@@ -3223,7 +3223,7 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/BR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/BR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/BR_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
@@ -3417,7 +3417,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/BR_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/BR_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/BR_goodie1_facts.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -3986,7 +3986,7 @@
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/BR_goodie3_samba.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/BR_goodie3_samba.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/BR_goodie3_samba.mp4</goodieSource> <!-- For server -->
 	</event>
 
@@ -4075,7 +4075,7 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/CN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/CN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/CN_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -4643,7 +4643,7 @@
 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 <goodieType>Image</goodieType>
 <goodieHeading></goodieHeading>
-<!-- <goodieSource>../brillianicm/images/CN_goodie1_counting.gif</goodieSource> --> <!-- For local testing -->
+<!-- <goodieSource>../brillianquiz/images/CN_goodie1_counting.gif</goodieSource> --> <!-- For local testing -->
 <goodieSource>../images/CN_goodie1_counting.gif</goodieSource> <!-- For server -->
 
 </event>
@@ -5266,7 +5266,7 @@
 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 <goodieType>Image</goodieType>
 <goodieHeading></goodieHeading>
-<!-- <goodieSource>../brillianicm/images/CN_goodie3_facts.jpg</goodieSource> --> <!-- For local testing -->
+<!-- <goodieSource>../brillianquiz/images/CN_goodie3_facts.jpg</goodieSource> --> <!-- For local testing -->
 <goodieSource>../images/CN_goodie3_facts.jpg</goodieSource> <!-- For server -->
 
 </event>
@@ -5862,7 +5862,7 @@
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/CN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/CN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/CN_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -6472,7 +6472,7 @@
 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 <goodieType>Image</goodieType>
 <goodieHeading></goodieHeading>
-<!-- <goodieSource>../brillianicm/images/CN_goodie1_counting.gif</goodieSource> --> <!-- For local testing -->
+<!-- <goodieSource>../brillianquiz/images/CN_goodie1_counting.gif</goodieSource> --> <!-- For local testing -->
 <goodieSource>../images/CN_goodie1_counting.gif</goodieSource> <!-- For server -->
 
 </event>
@@ -7095,7 +7095,7 @@
 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 <goodieType>Image</goodieType>
 <goodieHeading></goodieHeading>
-<!-- <goodieSource>../brillianicm/images/CN_goodie3_facts.png</goodieSource> --> <!-- For local testing -->
+<!-- <goodieSource>../brillianquiz/images/CN_goodie3_facts.png</goodieSource> --> <!-- For local testing -->
 <goodieSource>../images/CN_goodie3_facts.jpg</goodieSource> <!-- For server -->
 
 </event>
@@ -7666,7 +7666,7 @@ In China it is highly important to show respect to your guest. With inviting you
 	
 	<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 	<!-- Path to the national anthem -->
-	<!-- <nationalhymne>../brillianicm/audio/IN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+	<!-- <nationalhymne>../brillianquiz/audio/IN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 	<nationalhymne>../audio/IN_nationalhymne.mp3</nationalhymne> <!-- For server -->
 	<!-- End of line -->
 	
@@ -7744,7 +7744,7 @@ In China it is highly important to show respect to your guest. With inviting you
 	
 	<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 	<!-- Path to the national anthem -->
-	<!-- <nationalhymne>../brillianicm/audio/IN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+	<!-- <nationalhymne>../brillianquiz/audio/IN_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 	<nationalhymne>../audio/IN_nationalhymne.mp3</nationalhymne> <!-- For server -->
 	<!-- End of line -->
 	
@@ -8422,7 +8422,7 @@ In China it is highly important to show respect to your guest. With inviting you
 	<!-- EDIT BY MANH ON MAR 5, 2016 -->
 	<goodieType>Image</goodieType>
 	<goodieHeading></goodieHeading>
-	<!-- <goodieSource>../brillianicm/images/IN_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
+	<!-- <goodieSource>../brillianquiz/images/IN_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
 	<goodieSource>../images/IN_goodie1_facts.jpg</goodieSource> <!-- For server -->
 	
 	</event>
@@ -8450,7 +8450,7 @@ In China it is highly important to show respect to your guest. With inviting you
 	<!-- EDIT BY MANH ON MAR 5, 2016 -->
 	<goodieType>Image</goodieType>
 	<goodieHeading></goodieHeading>
-	<!-- <goodieSource>../brillianicm/images/IN_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
+	<!-- <goodieSource>../brillianquiz/images/IN_goodie1_facts.jpg</goodieSource> --> <!-- For local testing -->
 	<goodieSource>../images/IN_goodie1_facts.jpg</goodieSource> <!-- For server -->
 	
 	</event>
@@ -9938,7 +9938,7 @@ In China it is highly important to show respect to your guest. With inviting you
 	<!-- EDIT BY MANH ON MAR 5, 2016 -->
 	<goodieType>Video</goodieType>
 	<goodieHeading></goodieHeading>
-	<!-- <goodieSource>../brillianicm/videos/IN_goodie3_video.mp4</goodieSource> --> <!-- For local testing -->
+	<!-- <goodieSource>../brillianquiz/videos/IN_goodie3_video.mp4</goodieSource> --> <!-- For local testing -->
 	<goodieSource>../videos/IN_goodie3_video.mp4</goodieSource> <!-- For server -->
 
   </event>
@@ -10005,7 +10005,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/IN_goodie3_video.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/IN_goodie3_video.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/IN_goodie3_video.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -10260,7 +10260,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/ES_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/ES_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/ES_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
@@ -10466,7 +10466,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/ES_goodie1_funfacts.png</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/ES_goodie1_funfacts.png</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/ES_goodie1_funfacts.png</goodieSource> <!-- For server -->
 
 	</event>
@@ -11036,7 +11036,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/ES_goodie3_soccer.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/ES_goodie3_soccer.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/ES_goodie3_soccer.mp4</goodieSource> <!-- For server -->
 	
 	</event>
@@ -11103,7 +11103,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/ES_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/ES_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/ES_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -11309,7 +11309,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/ES_goodie1_funfacts.png</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/ES_goodie1_funfacts.png</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/ES_goodie1_funfacts.png</goodieSource> <!-- For server -->
 	</event>
 	
@@ -11877,7 +11877,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/ES_goodie3_soccer.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/ES_goodie3_soccer.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/ES_goodie3_soccer.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -11953,7 +11953,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/SE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/SE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/SE_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -12216,7 +12216,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/SE_goodie1_funfacts.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/SE_goodie1_funfacts.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/SE_goodie1_funfacts.jpg</goodieSource> <!-- For server -->
 	</event>
 	
@@ -13176,7 +13176,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/SE_goodie3_kanelbullar.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/SE_goodie3_kanelbullar.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/SE_goodie3_kanelbullar.jpg</goodieSource> <!-- For server -->
 
     </event>	
@@ -13279,7 +13279,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/SE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/SE_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/SE_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
@@ -13541,7 +13541,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/SE_goodie1_funfacts.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/SE_goodie1_funfacts.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/SE_goodie1_funfacts.jpg</goodieSource> <!-- For server -->
 	</event>
 	
@@ -14501,7 +14501,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/SE_goodie3_kanelbullar.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/SE_goodie3_kanelbullar.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/SE_goodie3_kanelbullar.jpg</goodieSource> <!-- For server -->
         
     </event>
@@ -14627,7 +14627,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/US_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/US_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/US_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -15431,7 +15431,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/US_goodie2_laws.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/US_goodie2_laws.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/US_goodie2_laws.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -15747,7 +15747,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/US_goodie1_football.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/US_goodie1_football.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/US_goodie1_football.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -16061,7 +16061,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/US_goodie3_statistics.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/US_goodie3_statistics.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/US_goodie3_statistics.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -16175,7 +16175,7 @@ about not or at least giving fewer tips than usual.
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/US_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/US_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/US_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 		
@@ -16983,7 +16983,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/US_goodie2_laws.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/US_goodie2_laws.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/US_goodie2_laws.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -17299,7 +17299,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/US_goodie1_football.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/US_goodie1_football.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/US_goodie1_football.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -17612,7 +17612,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/US_goodie3_statistics.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/US_goodie3_statistics.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/US_goodie3_statistics.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -17720,7 +17720,7 @@ about not or at least giving fewer tips than usual.
 			
 			<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 			<!-- Path to the national anthem -->
-			<!-- <nationalhymne>../brillianicm/audio/TR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+			<!-- <nationalhymne>../brillianquiz/audio/TR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 			<nationalhymne>../audio/TR_nationalhymne.mp3</nationalhymne> <!-- For server -->
 			<!-- End of line -->
 		
@@ -17791,7 +17791,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/TR_goodie1_vocabulary.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/TR_goodie1_vocabulary.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/TR_goodie1_vocabulary.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -18339,7 +18339,7 @@ about not or at least giving fewer tips than usual.
                                 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 								<goodieType>Video</goodieType>
 								<goodieHeading></goodieHeading>
-								<!-- <goodieSource>../brillianicm/videos/TR_goodie2_facts.mp4</goodieSource> --> <!-- For local testing -->
+								<!-- <goodieSource>../brillianquiz/videos/TR_goodie2_facts.mp4</goodieSource> --> <!-- For local testing -->
 								<goodieSource>../videos/TR_goodie2_facts.mp4</goodieSource> <!-- For server -->
                                     
     </event>
@@ -18700,7 +18700,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/TR_goodie3_bath.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -18828,7 +18828,7 @@ about not or at least giving fewer tips than usual.
 			
 			<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 			<!-- Path to the national anthem -->
-			<!-- <nationalhymne>../brillianicm/audio/TR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+			<!-- <nationalhymne>../brillianquiz/audio/TR_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 			<nationalhymne>../audio/TR_nationalhymne.mp3</nationalhymne> <!-- For server -->
 			<!-- End of line -->
 			
@@ -18900,7 +18900,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/TR_goodie1_vocabulary.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/TR_goodie1_vocabulary.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/TR_goodie1_vocabulary.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -19450,7 +19450,7 @@ about not or at least giving fewer tips than usual.
                                 <!-- EDIT BY MANH ON MAR 5, 2016 -->
 								<goodieType>Video</goodieType>
 								<goodieHeading></goodieHeading>
-								<!-- <goodieSource>../brillianicm/videos/TR_goodie2_facts.mp4</goodieSource> --> <!-- For local testing -->
+								<!-- <goodieSource>../brillianquiz/videos/TR_goodie2_facts.mp4</goodieSource> --> <!-- For local testing -->
 								<goodieSource>../videos/TR_goodie2_facts.mp4</goodieSource> <!-- For server -->
                                     
     </event>
@@ -19796,7 +19796,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/TR_goodie3_bath.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -19820,7 +19820,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/TR_goodie3_bath.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/TR_goodie3_bath.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -19940,7 +19940,7 @@ about not or at least giving fewer tips than usual.
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/AU_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/AU_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/AU_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -20107,7 +20107,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/AU_goodie1_animals.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/AU_goodie1_animals.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/AU_goodie1_animals.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -20387,7 +20387,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/AU_goodie2_food.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/AU_goodie2_food.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/AU_goodie2_food.jpg</goodieSource> <!-- For server -->
 		
 	</event>
@@ -20642,7 +20642,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/AU_goodie3_rugby.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/AU_goodie3_rugby.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/AU_goodie3_rugby.jpg</goodieSource> <!-- For server -->
 		     
     </event>
@@ -20954,7 +20954,7 @@ about not or at least giving fewer tips than usual.
 		
 		<!-- EDIT BY ANIL ON MAR 4, 2016 -->
 		<!-- Path to the national anthem -->
-		<!-- <nationalhymne>../brillianicm/audio/AU_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
+		<!-- <nationalhymne>../brillianquiz/audio/AU_nationalhymne.mp3</nationalhymne> --> <!-- For local testing -->
 		<nationalhymne>../audio/AU_nationalhymne.mp3</nationalhymne> <!-- For server -->
 		<!-- End of line -->
 
@@ -21121,7 +21121,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Video</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/videos/AU_goodie1_animals.mp4</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/videos/AU_goodie1_animals.mp4</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../videos/AU_goodie1_animals.mp4</goodieSource> <!-- For server -->
 		
 	</event>
@@ -21401,7 +21401,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/AU_goodie2_food.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/AU_goodie2_food.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/AU_goodie2_food.jpg</goodieSource> <!-- For server -->
 	</event>
 	
@@ -21655,7 +21655,7 @@ about not or at least giving fewer tips than usual.
 		<!-- EDIT BY MANH ON MAR 5, 2016 -->
 		<goodieType>Image</goodieType>
 		<goodieHeading></goodieHeading>
-		<!-- <goodieSource>../brillianicm/images/AU_goodie3_rugby.jpg</goodieSource> --> <!-- For local testing -->
+		<!-- <goodieSource>../brillianquiz/images/AU_goodie3_rugby.jpg</goodieSource> --> <!-- For local testing -->
 		<goodieSource>../images/AU_goodie3_rugby.jpg</goodieSource> <!-- For server -->     
     </event>
 	

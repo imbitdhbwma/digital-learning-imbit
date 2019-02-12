@@ -144,7 +144,7 @@ public class MailClient extends HttpServlet
 			
 //			BufferedWriter writer = null;
 //			try {
-//				writer = new BufferedWriter(new FileWriter("/opt/tomcat/webapps/brillianicm-test2/log.txt", true));
+//				writer = new BufferedWriter(new FileWriter("/opt/tomcat/webapps/brillianquiz-test2/log.txt", true));
 //			} catch (IOException e1) {
 //				// TODO Auto-generated catch block
 //				e1.printStackTrace();

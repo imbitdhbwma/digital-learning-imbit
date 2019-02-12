@@ -13,7 +13,7 @@
     <!-- Type: a org.apache.tomcat.jdbc.pool.DataSource will be created. -->
 
     <Resource name="jdbc/security" auth="Container" 
-        username="brillianicm" password="icm@IMBIT"
+        username="brillianquiz" password="quiz@IMBIT"
         driverClassName="com.mysql.jdbc.Driver" 
         url="jdbc:mysql://localhost:3306/brillianquiz?autoReconnect=true"
         logAbandoned="true" removeAbandoned="true" 
