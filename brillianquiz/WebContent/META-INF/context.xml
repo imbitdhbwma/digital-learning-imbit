@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/brillianICM">
+<Context path="/brillianQUIZ">
 
 	<!-- some default values for Connection Pool are defined by Tomcat itself
 	for more information lookup https://people.apache.org/~fhanik/jdbc-pool/jdbc-pool.html

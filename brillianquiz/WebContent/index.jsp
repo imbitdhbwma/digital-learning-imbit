@@ -7,7 +7,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
-<title>brillianICM - Development Konsole</title>
+<title>brillianQUIZ - Development Konsole</title>
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/frameworks/jquery-2.0.0.min.js"></script>
@@ -147,7 +147,7 @@ body {
 	<div class="container">
 		<div class="page-header">
 			<h1>
-				Development Console <small>brillianICM 2016</small>
+				Development Console <small>brillianQUIZ 2016</small>
 			</h1>
 			<span class="label label-default" id="server-indicator">Loading...</span>
 			</p>
@@ -240,7 +240,7 @@ body {
 		</div>
 		<div class="row">
 			<a
-				href="https://www.dropbox.com/s/vy3537b9ifjzsg2/brillianICM%20Doku%20Gesamt_final.pdf?dl=0"
+				href="https://www.dropbox.com/s/vy3537b9ifjzsg2/brillianQUIZ%20Doku%20Gesamt_final.pdf?dl=0"
 				target="_blank">
 				<div class="col-md-2 col-sm-3 ">
 					<div class="card">
@@ -265,7 +265,7 @@ body {
 						</div>
 					</div>
 				</div>
-			</a> <a href="http://brillianideas.com:8080/brillianICM/Main">
+			</a> <a href="http://brillianideas.com:8080/brillianQUIZ/Main">
 				<div class="col-md-2 col-sm-3 ">
 					<div class="card">
 						<div class="card-image">
@@ -290,7 +290,7 @@ body {
 	<footer class="footer ignoreMe">
 		<div class="container ignoreMe">
 			<p class="text-margin ignoreMe">
-				brillianICM 2016 - Development Console - 4.0.0 - 06.03.2016 -
+				brillianQUIZ 2016 - Development Console - 4.0.0 - 06.03.2016 -
 				developed with <span id="counter"></span> <span id="easter-heart"
 					class="heart">♥</span> in Mannheim
 			</p>

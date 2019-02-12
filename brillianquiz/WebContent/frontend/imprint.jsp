@@ -70,12 +70,12 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h3>The brillianCRM and brillianICM Serious Games &ndash; How Brilliant Are You?</h3>
+                <h3>The brillianCRM and brillianQUIZ Serious Games &ndash; How Brilliant Are You?</h3>
                 
 
 <p>In spring 2014, the WIMBIT11B class of IMBIT at the Baden-Wuerttemberg Cooperative State University in Mannheim developed brillianCRM, a serious game about project management, as part of a lecture by Prof. Bendl and Prof. Mayr.
-In the subsequent academic year, the WIMBIT12C class enhanced and polished brillianCRM and the WIMBIT12A,B classes started brillianICM, a new serious game about intercultural competencies based on the same game engine.
-Another year passed and after 3 months of development and testing, the WIMBIT13C students are proud to present an improved next generation brillianICM with new countries and new features. <p>
+In the subsequent academic year, the WIMBIT12C class enhanced and polished brillianCRM and the WIMBIT12A,B classes started brillianQUIZ, a new serious game about intercultural competencies based on the same game engine.
+Another year passed and after 3 months of development and testing, the WIMBIT13C students are proud to present an improved next generation brillianQUIZ with new countries and new features. <p>
 
 <p>Our games are web-based and run in modern browsers including those on mobile devices. Good luck with our games and have fun!<p>
 
@@ -105,7 +105,7 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
 	</div>
 	<p>
 	<h3>Haftungsausschluss</h3>
-	<p>Der Autor &uuml;bernimmt keine Gew&auml;hr f&uuml;r die Aktualit&auml;t, Richtigkeit und Vollst&auml;ndigkeit der bereitgestellten Informationen auf den brillianICM-Webseiten. Haftungsanspr&uuml;che gegen den Autor, welche sich auf Sch&auml;den materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollst&auml;ndiger Informationen verursacht wurden, sind grunds&auml;tzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vors&auml;tzliches oder grob fahrl&auml;ssiges Verschulden vorliegt.<br>
+	<p>Der Autor &uuml;bernimmt keine Gew&auml;hr f&uuml;r die Aktualit&auml;t, Richtigkeit und Vollst&auml;ndigkeit der bereitgestellten Informationen auf den brillianQUIZ-Webseiten. Haftungsanspr&uuml;che gegen den Autor, welche sich auf Sch&auml;den materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollst&auml;ndiger Informationen verursacht wurden, sind grunds&auml;tzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vors&auml;tzliches oder grob fahrl&auml;ssiges Verschulden vorliegt.<br>
 	Alle Angebote sind freibleibend und unverbindlich. Der Autor beh&auml;lt es sich ausdr&uuml;cklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ank&uuml;ndigung zu ver&auml;ndern, zu erg&auml;nzen, zu l&ouml;schen oder die Ver&ouml;ffentlichung zeitweise oder endg&uuml;ltig einzustellen.</p>
 	
 	
@@ -126,7 +126,7 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
 	
 	
 	<h3>Datenschutz</h3>
-	<p>Sofern auf den brillianICM-Webseiten die M&ouml;glichkeit zur Eingabe pers&ouml;nlicher oder gesch&auml;ftlicher Daten wie E-mail-Adressen, Namen, Kennworten oder dergleichen besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdr&uuml;cklich freiwilliger Basis. Die Nutzung der im Rahmen des Impressums oder vergleichbarer Angaben ver&ouml;ffentlichten Kontaktdaten wie Postanschriften, Telefon- und Faxnummern sowie Emailadressen durch Dritte zur &uuml;bersendung von nicht ausdr&uuml;cklich angeforderten Informationen ist nicht gestattet. Rechtliche Schritte gegen die Versender von sogenannten Spam-Mails bei Verst&ouml;&szlig;en gegen dieses Verbot sind ausdr&uuml;cklich vorbehalten.</p>
+	<p>Sofern auf den brillianQUIZ-Webseiten die M&ouml;glichkeit zur Eingabe pers&ouml;nlicher oder gesch&auml;ftlicher Daten wie E-mail-Adressen, Namen, Kennworten oder dergleichen besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdr&uuml;cklich freiwilliger Basis. Die Nutzung der im Rahmen des Impressums oder vergleichbarer Angaben ver&ouml;ffentlichten Kontaktdaten wie Postanschriften, Telefon- und Faxnummern sowie Emailadressen durch Dritte zur &uuml;bersendung von nicht ausdr&uuml;cklich angeforderten Informationen ist nicht gestattet. Rechtliche Schritte gegen die Versender von sogenannten Spam-Mails bei Verst&ouml;&szlig;en gegen dieses Verbot sind ausdr&uuml;cklich vorbehalten.</p>
 	
 	<h3>Anwendbares Recht </h3>
 	<p> Es gilt ausschlie&szlig;lich das ma&szlig;gebliche Recht der Bundesrepublik Deutschland. Diese Nutzungshinweise sind als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. </p>
@@ -171,7 +171,7 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact BrillianICM Team</h2>
                 <p>Feel free to email us to provide some feedback on our game, or to just to say hello!</p>
-                <p><a href="mailto:HowBrillianAreYou">HowBrillianAreYou@brillianICM.com</a>
+                <p><a href="mailto:HowBrillianAreYou">HowBrillianAreYou@brillianQUIZ.com</a>
                 </p>
                 
                 </div>

@@ -78,16 +78,16 @@ public class MailClient extends HttpServlet
 	            		+ "Please find your certificate and badge attached. \n"
 	            		+ "For more information about OpenBadges visit openbadges.org. \n\n"
 	            		+ "Kind regards, \n"
-	            		+ "Your brillianICM Team \n");
+	            		+ "Your brillianQUIZ Team \n");
 	             
 	            //now write the PDF content to the output stream
-	            outputStream = PDFCreator.createCertificate(username,"brillianICM",score1, score2, score3, "Competence", "Communications", "Behavior", useremail, completedCountry);
+	            outputStream = PDFCreator.createCertificate(username,"brillianQUIZ",score1, score2, score3, "Competence", "Communications", "Behavior", useremail, completedCountry);
 	            byte[] bytes = outputStream.toByteArray();
 	            //construct the pdf body part
 	            DataSource dataSource = new ByteArrayDataSource(bytes, "application/pdf");
 	            MimeBodyPart pdfBodyPart = new MimeBodyPart();
 	            pdfBodyPart.setDataHandler(new DataHandler(dataSource));
-	            pdfBodyPart.setFileName("brillianICM Certificate for "+username+".pdf");
+	            pdfBodyPart.setFileName("brillianQUIZ Certificate for "+username+".pdf");
 
 	            //construct the svg file
 	            byte[] bytesSVG = BadgeBakery.bakeBadge(useremail, completedCountry);
@@ -95,7 +95,7 @@ public class MailClient extends HttpServlet
 	            DataSource dataSourceSVG = new ByteArrayDataSource(bytesSVG, "image/svg+xml");
 	            MimeBodyPart svgBodyPart = new MimeBodyPart();
 	            svgBodyPart.setDataHandler(new DataHandler(dataSourceSVG));
-	            svgBodyPart.setFileName("brillianICM Module "+completedCountry+" "+username+".svg");
+	            svgBodyPart.setFileName("brillianQUIZ Module "+completedCountry+" "+username+".svg");
 	                         
 	            //construct the mime multi part
 	            MimeMultipart mimeMultipart = new MimeMultipart();
@@ -107,7 +107,7 @@ public class MailClient extends HttpServlet
 	            MimeMessage mimeMessage = new MimeMessage(session);
 	            mimeMessage.setSender(new InternetAddress(mailusername));
 	            mimeMessage.setFrom(new InternetAddress(mailusername));
-	            mimeMessage.setSubject("Your brillianICM certificate");
+	            mimeMessage.setSubject("Your brillianQUIZ certificate");
 	            mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress(useremail));
 	            mimeMessage.setContent(mimeMultipart);
 	             

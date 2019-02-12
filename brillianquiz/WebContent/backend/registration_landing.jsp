@@ -60,7 +60,7 @@
 		</div>
 	</div>-->
 <div class="center" data-options="region:'center'">
-<h3 style="text-transform:none;">Welcome to brillianICM</h3>
+<h3 style="text-transform:none;">Welcome to brillianQUIZ</h3>
 <p>Your registration was successful.</p>
 <p>At the moment your account is still inactive. You will shortly receive an e-mail from us with an activation link. 
 Please follow the directions in the next e-mail to activate your account, so you can start your ICM project.</p>

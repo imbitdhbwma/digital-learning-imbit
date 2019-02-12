@@ -60,7 +60,7 @@
 
 	<div class="center studentHomepage" data-options="region:'center'">
 		<div class="studentRegisterContainer" >
-			<h3 style="text-transform:none;">Welcome to brillianICM</h3>
+			<h3 style="text-transform:none;">Welcome to brillianQUIZ</h3>
 			<p>Please fill in the form below and hit the send button to register:</p>
 			<p style="color:red">${status}</p>
 

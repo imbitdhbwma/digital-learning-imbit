@@ -100,13 +100,13 @@ public class SendRegistrationLink extends javax.servlet.http.HttpServlet impleme
 		for (int i = 0; i < toMail.length; i++) {
 
 			// email without using HTML
-			String content = "Welcome to brillianICM!<br><br> Please use the following link to register to your course: "
+			String content = "Welcome to brillianQUIZ!<br><br> Please use the following link to register to your course: "
 					+ link + "<br><br> With best regards, <br><br>"
-					+ "your brillianICM team <br><br><br> Note that this is a system generated e-mail. Please do not reply.";
+					+ "your brillianQUIZ team <br><br><br> Note that this is a system generated e-mail. Please do not reply.";
 
 			// send the mail
 			MailClient mailclient = new MailClient();
-			mailclient.sendMail(toMail[i], "Registration Link brillianICM", content, request);
+			mailclient.sendMail(toMail[i], "Registration Link brillianQUIZ", content, request);
 			request.setAttribute("status", "Your e-mail was sent to the entered address.");
 			System.out.println("Email sent");
 

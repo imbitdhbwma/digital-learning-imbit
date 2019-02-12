@@ -33,23 +33,23 @@ public interface ApplicationConstants {
 	public static  String CONTENT_BUTTON_TEXT = "Content";
 	public static  String ACCOUNT_BUTTON_TEXT = "Account";
 	
-	public static  String PAGETITLE_MAIN = "brillianICM Game";
-	public static  String PAGETITLE_RESETPW = "brillianICM Reset Password";
-	public static  String PAGETITLE_LOGIN = "brillianICM Login";
-	public static  String PAGETITLE_STUDENT = "brillianICM Student";
-	public static  String PAGETITLE_PROFESSOR = "brillianICM Lecturer";
-	public static  String PAGETITLE_ADMIN = "brillianICM Administrator";
-	public static  String PAGETITLE_REGISTRATION_LANDING = "brillianICM Registration";
-	public static  String PAGETITLE_REGISTRATION_COMPLETE = "brillianICM Registration";
-	public static  String PAGETITLE_REGISTRATION= "brillianICM Registration";
+	public static  String PAGETITLE_MAIN = "brillianQUIZ Game";
+	public static  String PAGETITLE_RESETPW = "brillianQUIZ Reset Password";
+	public static  String PAGETITLE_LOGIN = "brillianQUIZ Login";
+	public static  String PAGETITLE_STUDENT = "brillianQUIZ Student";
+	public static  String PAGETITLE_PROFESSOR = "brillianQUIZ Lecturer";
+	public static  String PAGETITLE_ADMIN = "brillianQUIZ Administrator";
+	public static  String PAGETITLE_REGISTRATION_LANDING = "brillianQUIZ Registration";
+	public static  String PAGETITLE_REGISTRATION_COMPLETE = "brillianQUIZ Registration";
+	public static  String PAGETITLE_REGISTRATION= "brillianQUIZ Registration";
 	
-	public static  String BADGE_CRITERIA_GERMANY = "brillianICM Module Germany Badge";
-	public static  String BADGE_CRITERIA_SWEDEN = "brillianICM Module Sweden Badge";
-	public static  String BADGE_CRITERIA_BRAZIL = "brillianICM Module Brazil Badge";
-	public static  String BADGE_CRITERIA_USA = "brillianICM Module USA Badge";
-	public static  String BADGE_CRITERIA_SPAIN = "brillianICM Module Spain Badge";
-	public static  String BADGE_CRITERIA_TURKEY = "brillianICM Module Turkey Badge";
-	public static  String BADGE_CRITERIA_AUSTRALIA = "brillianICM Module Australia Badge";
-	public static  String BADGE_CRITERIA_CHINA = "brillianICM Module China Badge";
+	public static  String BADGE_CRITERIA_GERMANY = "brillianQUIZ Module Germany Badge";
+	public static  String BADGE_CRITERIA_SWEDEN = "brillianQUIZ Module Sweden Badge";
+	public static  String BADGE_CRITERIA_BRAZIL = "brillianQUIZ Module Brazil Badge";
+	public static  String BADGE_CRITERIA_USA = "brillianQUIZ Module USA Badge";
+	public static  String BADGE_CRITERIA_SPAIN = "brillianQUIZ Module Spain Badge";
+	public static  String BADGE_CRITERIA_TURKEY = "brillianQUIZ Module Turkey Badge";
+	public static  String BADGE_CRITERIA_AUSTRALIA = "brillianQUIZ Module Australia Badge";
+	public static  String BADGE_CRITERIA_CHINA = "brillianQUIZ Module China Badge";
 	
 }

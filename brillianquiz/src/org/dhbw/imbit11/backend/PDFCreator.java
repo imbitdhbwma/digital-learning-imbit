@@ -59,8 +59,8 @@ public class PDFCreator extends HttpServlet {
 		page1.add(new PDFContent("image", "4",-27,150,260,200, 0 ,0,0,0, 0, ""));
 		page1.add(new PDFContent("text", name, 203, 450, 1, 20,0,0,0,0,0, ""));
 		page1.add(new PDFContent("text", "has earned this certificate of completion for:", 203, 410, 1, 20,0,0,0,0,0, ""));
-		if(gameName=="brillianICM"){
-			page1.add(new PDFContent("text", "brillianICM: "+completedCountry, 203, 350, 1, 30,0,0,0,0,0, ""));
+		if(gameName=="brillianQUIZ"){
+			page1.add(new PDFContent("text", "brillianQUIZ: "+completedCountry, 203, 350, 1, 30,0,0,0,0,0, ""));
 			page1.add(new PDFContent("text", "The Management Game for", 203, 310, 1, 30,0,0,0,0,0, ""));
 			page1.add(new PDFContent("text", "Your Intercultural Competencies", 203, 280, 1, 30,0,0,0,0,0, ""));
 			page1.add(new PDFContent("line", "",0,0,0,0, 1.2 ,200, 340, 650, 340, "0.7176 0.6901 0.6901"));
