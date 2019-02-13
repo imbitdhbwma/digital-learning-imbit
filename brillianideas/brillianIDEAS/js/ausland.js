@@ -205,6 +205,22 @@ function initMap() {
 		'</p>' +
         '</div>' +
         '</div>';
+        
+        '<h2 id="secondHeading">Luca, 20</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'In Madrid habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort mit einem internationalen Team die Implementation einer Track-and-Trace-Lösung gestartet. Ich habe viel Neues gelernt und hatte sehr viel Spaß.'
+		'</p>' +
+        '</div>' +
+        '</div>';
+        
+         '<h2 id="secondHeading">Hector, 26</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'In Madrid habe ich die Möglichkeit bekommen, ein SOC (Security Operations Center) näher kennenzulernen und die täglichen Aktivitäten zu unterstützen. Dazu zählten die Erstellung von Log-Parsing-Regeln mit Regex und die Klassifizierung von Events und Sicherheitslücken anhand von SIEM und Threat Intelligence Software. Spannend fand ich vor allem, wie anders die spanische Arbeitsweise ist, obwohl das Land physisch nicht allzu weit entfernt ist. '
+		'</p>' +
+        '</div>' +
+        '</div>';
 
     var infowindow7 = new google.maps.InfoWindow({
         content: contentString7
@@ -618,9 +634,121 @@ function initMap() {
     });
 
     /* End Marker 18 */
+    
+    /* Initialize Marker19 (Breslau) */
+    var contentString19 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Breslau &ndash;</h1>' +
+		'<h2 id="secondHeading">Anne, 24</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'Ich habe meinen Auslandsaufenthalt in der wunderschönen polnischen Stadt Breslau verbracht. Dort habe ich zusammen mit dem Quality Control Team an der Optimierung und Automatisierung von täglichen Reportingaufgaben mit Hilfe von Process Mining Software und BI Tools gearbeitet. Der Auslandsaufenthalt war eine tolle Zeit um die Arbeits- und Lebenskultur in einem anderen Land kennenzulernen und herauszufinden, wie man sich in einer anderen Kultur verhält und dort effektiv arbeitet. ' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow19 = new google.maps.InfoWindow({
+        content: contentString19
+    });
+
+    var marker19 = new google.maps.Marker({
+        position: {
+            lat: 51.107883,
+            lng: 17.038538
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Breslau'
+    });
+
+    marker19.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow19.open(map, marker19);
+    });
+
+    /* End Marker 19 */
+
+	/* Initialize Marker20 (San Jose) */
+    var contentString20 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; San Jose &ndash;</h1>' +
+		'<h2 id="secondHeading">Anika, 21</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In San Jose habe ich meinen 5. Praxiseinsatz im Global Chief Data Office eines weltweit führenden IT Konzerns verbracht. Ich habe mich die meiste Zeit mit der Softwareentwicklung im Frontend und Backend befasst. Großraumbüros gab es dort nicht wirklich, weshalb ich einen Großteil der Zeit alleine gearbeitet habe und es viele Online-Meetings gab. Es war dennoch eine tolle Erfahrung!' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+        
+        '<h2 id="secondHeading"></h2>' +
+        '<div id="bodyContent">' +
+        '<p> ' +
+		'' +
+        '</p>' +
+        '</div>' +
+        '</div>';
+        '</div>' +
+        '</div>';
+
+    var infowindow20 = new google.maps.InfoWindow({
+        content: contentString20
+    });
+
+    var marker20 = new google.maps.Marker({
+        position: {
+            lat: 37.3382082,
+            lng: -121.8863286
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'San Jose'
+    });
+
+    marker20.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow20.open(map, marker20);
+    });
+
+    /* End Marker 20 */
+    
+    /* Initialize Marker21 (Sydney) */
+    var contentString21 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Sydney &ndash;</h1>' +
+		'<h2 id="secondHeading">Elisa, 21</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In Sydney habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort dem lokalen CO/FI Team dabei geholfen eine neue Software zur Kosten- und Salesplanung zu implementieren. Zu meinen Aufgaben hat sowohl die Datenbereinigung und Validierung, als auch das Enduser- und Administratortraining gezählt. Des Weiteren habe ich auch einige Reportingtemplates gebaut. ' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow21 = new google.maps.InfoWindow({
+        content: contentString21
+    });
+
+    var marker21 = new google.maps.Marker({
+        position: {
+            lat: -33.72976093425797,
+            lng: 151.1350952509518
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Sydney'
+    });
+
+    marker21.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow21.open(map, marker21);
+    });
+
+    /* End Marker 20 */
 
 	/* Array with all infowindows */
-    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18];
+    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18, infowindow19, infowindow20, infowindow21];
 
     /* End Infobox (Summer School) */
 
