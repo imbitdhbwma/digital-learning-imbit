@@ -14,7 +14,7 @@ img {
 	bottom: 0px;
 	right: 0px;
 	heigth: 100%;
-	width: 200px;
+	width: 400px;
 }
 
 h1 {
@@ -47,6 +47,7 @@ p {
 	p {
 		font-size: 1.25rem;
 	}
+	.img{max-width: 40%;}
 }
 
 @media(min-width: 800px; {
@@ -54,4 +55,5 @@ p {
 		font-size: 1.5rem;
 		line-height: 1.5;
 	}
+	.img{max-width: 50%;}
 }
