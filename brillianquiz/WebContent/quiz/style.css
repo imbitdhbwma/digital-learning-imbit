@@ -1,7 +1,20 @@
+img {
+	max-width: 100%;
+	max-heigth: 100%;
+}
+
 .container {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 850px;
+}
+
+.loginkopf {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	heigth: 100%;
+	width: 200px;
 }
 
 h1 {
