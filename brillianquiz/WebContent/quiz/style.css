@@ -1,7 +1,20 @@
+img {
+	max-width: 100%;
+	max-heigth: 100%;
+}
+
 .container {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 850px;
+}
+
+.loginkopf {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	heigth: 100%;
+	width: 100px;
 }
 
 h1 {
@@ -34,6 +47,7 @@ p {
 	p {
 		font-size: 1.25rem;
 	}
+	.img{max-width: 40%;}
 }
 
 @media(min-width: 800px; {
@@ -41,4 +55,5 @@ p {
 		font-size: 1.5rem;
 		line-height: 1.5;
 	}
+	.img{max-width: 50%;}
 }
