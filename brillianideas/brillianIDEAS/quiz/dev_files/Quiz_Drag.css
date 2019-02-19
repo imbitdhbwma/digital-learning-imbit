@@ -12,11 +12,11 @@
 	text-overflow: ellipsis;
 }
 
-#antworten {
+.antworten {
 	display: flex;
 	flex-direction: column;
 	max-width: 35%;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 /* drop box*/

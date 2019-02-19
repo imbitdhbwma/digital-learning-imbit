@@ -114,7 +114,7 @@ function createDD(frage, antworten, container, richtig) {
 	questiondiv.setAttribute("data-type", "dd");
 
 	var answersDiv = document.createElement("div");
-	answersDiv.id = "antworten";
+	answersDiv.className = "antworten";
 	questiondiv.appendChild(answersDiv);
 
 	// Erstelle alle Antworten als draggable <p> und hänge sie jeweils in den Antworten div
@@ -133,7 +133,7 @@ function createDD(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle die Boxen jeweils mit Überschrift und hänge sie in den boxen div
 	for (i = 0; i < container.length; i++) {
@@ -254,7 +254,7 @@ function createTL(frage, antworten, container, richtig) {
 	questiondiv.setAttribute("data-type", "tl");
 
 	var answersDiv = document.createElement("div");
-	answersDiv.id = "antworten";
+	answersDiv.className = "antworten";
 	questiondiv.appendChild(answersDiv);
 
 	// Erstelle alle Antwortmöglichkeiten als draggable <p>
@@ -273,7 +273,7 @@ function createTL(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle die Tabelle mit Überschriften
 	var table = document.createElement("table");
@@ -360,7 +360,7 @@ function createOD(frage, antworten, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxenOD";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle eine reihe leerer boxen und nummeriere sie.
 	for (i = 0; i < antworten.length; i++) {
