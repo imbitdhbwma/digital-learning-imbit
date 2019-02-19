@@ -7,250 +7,56 @@
 <!-- <html xmlns="http://www.w3.org/1999/xhtml"  style="width:100%; margin:0; padding:0 ">-->
 <head>
 <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1">
 <title><%=ApplicationConstants.PAGETITLE_LOGIN%></title>
-<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/logo144.png">
-<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/logo60.png">
-<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/logo120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/logo76.png">
-<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/logo152.png">
-<link rel="icon" type="image/png" href="images/favicons/logo196.png" sizes="196x196">
-<link rel="icon" type="image/png" href="images/favicons/logo160.png" sizes="160x160">
-<link rel="icon" type="image/png" href="images/favicons/logo96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="images/favicons/logo16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="images/favicons/logo32.png" sizes="32x32">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="images/favicons/logo144.png">
+<link rel="stylesheet" href="style.css">
+<script src="js/jquery/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css" />
+<script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-   <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/bootstrap-changes.css" rel="stylesheet"> 
-    
-       <!-- Overwriting Font -->
-     <link href="css/font.css" rel="stylesheet">
-    
-
-<!-- <link type="text/css" rel="stylesheet" href="css/jquery.easyui.css" />
-<link type="text/css" rel="stylesheet" href="css/jquery.easyui.icon.css" />
-<link rel="stylesheet" type="text/css"
-	href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
-<link type="text/css" rel="stylesheet" href="css/master.css" /> -->
-
-<!-- Imprint function -->
-<!--  <script type="text/javascript">
-	$(document).ready(function(){
-		$('body').show();
-		$('#imprint').bind('click', function() {
-			showImprint();
-		});
-	});
-</script>-->
-
-<!--Framework JS -->
-	<script type="text/javascript" src="js/frameworks/jquery-2.0.0.min.js"></script>
-	<script type="text/javascript" src="js/frameworks/jquery.easyui.min.js"></script>
-	<script type="text/javascript" src="js/frameworks/jquery.fancybox.pack.js?v=2.1.5"></script>
-	<script type="text/javascript" src="js/frameworks/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/frameworks/bootstrap.min.js"></script>
-
-	
-	<!--Custom JS -->	
-	<script type="text/javascript" src="js/master.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/events.js"></script>
-	<script type="text/javascript" src="js/serverFunctions.js"></script>
-	<script type="text/javascript" src="js/grayscale.js"></script>
-
-	<!-- EDIT BY EANGEL ON FEB 17, 2016 -->
-	<!-- Text nicht mehr zentriert, sondern linksbündig darstellen -->
-	<style>
-		.col-lg-8.col-lg-offset-2 {
-		    text-align: left;
-		    margin-left: 40px;
-		    width: 100%;
-		}
-		
-		.btn-default {
-		    border: 1px solid black;
-		    color: black;
-		    background-color: hsl(30,90%,50%);
-		    margin-top: 10px;
-		    margin-right: 255px;
-		}
-		
-		table a:not(.btn), .table a:not(.btn) {
-		    text-decoration: underline;
-		    margin-right: 40%;
-		}
-		
-		element.style {
-		    padding-right: 245px;
-		}
-		
-		/*
-		.container{   
-			margin-left:0px;
-		}
-		*/
-	     
-		@media (min-width: 767px)
-		.content-section {
-		    padding-top: 220px;
-		}
-	</style>
-	<!-- End of line -->
 </head>
-<body  id="page-top"  data-spy="scroll" data-target=".navbar-fixed-top">
-	<script type="text/javascript" src="js/frameworks/wz_tooltip.js"></script>
-    <!-- Navigation -->
-       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" >
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class=" page-scroll" href="#page-top">
-                
-                    <div style="width:120px;"> <img src="img/logo_klein.png" alt="" style="width:100%">  </img></div>
+
+<body>
+
+<div class="container">
+</div>
+
+<!-- <h1>h1</h1> Inhalt -->
+<img class="animated" src="img/animated/wi.gif" alt="WI">
+<img class="animated" src="img/animated/bwl.gif" alt="BWL">
+<img class="animated" src="img/animated/it.gif" alt="IT">
+
+<div class="loginkopf">
+<a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
+</div>
+
+<a data-fancybox="login" data-src="#login" href="javascript:;">
+                    Login
                 </a>
-            </div>
+         
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- EDIT BY EANGEL ON FEB 17, 2016 -->
-            <!-- Removing the About, Imprint and Contact buttons -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <!-- 
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                     
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                     <li>
-                      <a class="page-scroll" href="#imprint">Imprint</a>
-                    </li>
-                   
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            -->
-            <!-- /.navbar-collapse -->
-        <!-- </div> -->
-        <!-- End of line -->
-        <!-- /.container -->
-    </nav>
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:660px;">
+        <h2 class="mb-3">
+            Hallo!
+        </h2>
+        <p>
+            Melde dich an, um deinen Fortschritt zu speichern.
+        </p>
+        <p>
+            <input type="text" value="" name="name" class="form-control" placeholder="Email" />
+        </p>
+        <p>
+            <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
+        </p>
+        <p class="mb-0 text-right">
+            <input data-fancybox-close type="button" class="btn btn-primary" value="Anmelden" />
+        </p>
+		<a href='resetpw.jsp'>Passwort vergessen?</a>
+		<a href="Registration?g=000">Konto erstellen</a>
+    </form>
 
-    
-   <header class="intro">
-        <div class="intro intro-body">
-            <div class="container">
-            
-             <div class="row">
-                    <div class="col-md-8">
-                        <h1 class="brand-heading" style="text-transform:none; text-align: left;"></h1>
-                        <p class="intro-text" style="text-align: center;">The Management Game for Your<br> Intercultural Competencies</p>
-                       
-                       
-                    </div>
-                </div>
-            
-        
-       <p style="color: red; text-align: left;">${error}</p>
-       		<!-- EDIT BY MANH ON MAR 7, 2016 -->
-       		<!-- Remove the old login section -->
-       		   
-             <form action="LoginUser" method="post" >
-             <!--  
-			<table style="width:30%; bottom:0px; padding:0; text-align:center">
-			<tr>
-				<td><input class="form-control" type="text" name="username" maxlength="50"  placeholder="Email"/></td>
-			</tr>
-			
-			<tr>
-				<td><input class="form-control" type="password" name="password" maxlength="50" placeholder="Password" /></td>
-			</tr>
-			
-			<tr >
-				<td><input class="btn btn-default"  type="submit"
-					name="submit" value="Login" /></td>
-			</tr>
-			<tr>
-				<td align="right" style="padding-right: 28px;">
-					<a class="login" href='resetpw.jsp'>Forgot your password?</a>
-				</td>
-			</tr>
-			<tr>
-				<td align="right" style="padding-right: 28px;">
-					<a class="login" href='/Registration?g=000' >Register</a>
-				</td>				
-			</tr>
-		</table>
-        -->
-        <!-- End of line -->
-             
-             <!-- EDIT BY MANH ON MAR 7, 2016 -->
-             <!-- Redesign of the login screen -->
-		<table style="width:30%; bottom:0px; padding:0; text-align:center">
-			<tr>
-				<td><input class="form-control" type="text" name="username" maxlength="50"  placeholder="Email"/></td>
-			</tr>
-			
-			<tr>
-				<td><input class="form-control" type="password" name="password" maxlength="50" placeholder="Password" /></td>
-			</tr>
-			
-			<tr >
-				<td><input class="btn btn-default"  type="submit"
-					name="submit" value="Login" style="width:100%"/></td>
-			</tr>
-			<tr>
-				<td align="left">
-					<a class="login" href='resetpw.jsp'>Forgot your password?</a>
-				</td>
-			</tr>
-			<tr>
-				<td align="left">
-					<a class="login" href="Registration?g=000">Register</a>
-				</td>
-			</tr>
-			<tr>
-				<td align="left">
-					<a class="login" href="badges/badgeAbout.html">More about about open badges</a>
-				</td>
-			</tr>
-		</table>
-			<!-- End of line -->
-		
-		</form>
-      </div>  
-   </div>     
-    </header>
-        
-   <!-- About Section -->
-   <!-- Update 05.03.16 von Tanja: Von Herrn Mayr genehmigtes Update von About und Imprint eingefügt. -->
-   <!-- Letzte Änderung 20.03.16 von Tanja: Update Inhalt in Imprint.jsp und Login.jsp -->
-   
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h3>The brillianCRM and brillianQUIZ Serious Games &ndash; How Brilliant Are You?</h3>
+<h3>The brillianCRM and brillianQUIZ Serious Games &ndash; How Brilliant Are You?</h3>
                 
 
 <p>In spring 2014, the WIMBIT11B class of IMBIT at the Baden-Wuerttemberg Cooperative State University in Mannheim developed brillianCRM, a serious game about project management, as part of a lecture by Prof. Bendl and Prof. Mayr.
@@ -315,17 +121,6 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
 	<h3>Angaben zum Copyright</h3>
 	<a href = "http://tomcat.apache.org/" target="_blank" >Apache Tomcat</a>, <a href = "http://shiro.apache.org/" target="_blank" >Apache Shiro</a>, <a href = "http://www.mysql.com/" target="_blank" >mySQL</a> <a href = "http://dev.mysql.com/downloads/connector/j/5.0.html" target="_blank" >inkl. JDBC Adapter</a>,
 	<a href = "http://commons.apache.org/proper/commons-io/" target="_blank" >Apache Commons IO</a>, <a href = "http://jquery.com/" target="_blank" >jQuery</a>, <a href = "http://www.jeasyui.com/" target="_blank" >jQuery EasyUI</a> und <a href = "http://fancybox.net/" target="_blank" >fancybox</a> <a href= "https://www.yworks.com/de/products_ydoc.html" target= "_blank">yWorks UML Doclet</a>.
-	Die verwendeten Icons wurden von <a href="http://www.freepik.com" title="Freepik" target="_blank" >Freepik</a> entworfen und k&ouml;nnen von <a href="http://www.flaticon.com" title="Flaticon" target="_blank" >Flaticon</a> kostenlos heruntergeladen werden.
-	Zusätzlich wurden Bilder von
-	<a href = "http://www.commons.wikimedia.org/" target="_blank" >Wikimedia</a>,
-	<a href = "http://www.flickr.com/" target="_blank" >Flickr</a>,
-	<a href = "http://rugby.com/" target="_blank" >Pixabay</a>,
-	<a href = "http://zimbio.com/" target="_blank" >Zimbio</a>,
-	<a href = "http://disovermagazine.com/" target="_blank" >DisoverMagazine</a>,
-	<a href = "http://wikipedia.org/" target="_blank" >Wikipedia</a>,
-	<a href = "http://wordpress.com/" target="_blank" >Wordpress</a>,
-	<a href = "http://planetdeadly.com/" target="_blank" >PlanetDeadly</a>,
-	<a href = "http://lifeinthefastlane.com/" target="_blank" >Lifeinthefastlane</a> bezogen.
 	<hr />
 	
 	<%
@@ -346,28 +141,6 @@ Anil Balci, Franziska Müller, Marvin Diehl, Annalena von Rhein, Sophie Hagemann
   
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact BrillianQUIZ Team</h2>
-                <p>Feel free to email us to provide some feedback on our game, or to just to say hello!</p>
-                <p><a href="mailto:HowBrillianAreYou">HowBrillianAreYou@brillianQUIZ.com</a>
-                </p>
-              <!--  <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul> -->
-            </div>
-        </div>
-    </section>
-
     <!-- Map Section -->
  <!--<div id="map"></div>  -->  
  
