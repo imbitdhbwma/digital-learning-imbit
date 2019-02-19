@@ -9,6 +9,13 @@ img {
 	max-width: 850px;
 }
 
+.animated {
+	background-image: url("img/background/bubble01.png");
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: top;	
+}
+
 .loginkopf {
 	position: fixed;
 	bottom: 0px;
