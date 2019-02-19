@@ -22,7 +22,7 @@
 <img class="animated" src="img/animated/it.gif" alt="IT">
 
 <div class="loginkopf">
-<img src="img/background/kopf01.png" alt="Login">
+<a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
 
 <a data-fancybox="login" data-src="#login" href="javascript:;">
@@ -30,14 +30,12 @@
                 </a>
          
 
-    <form id="login" action="" method="post" style="display: none;width:100%;max-width:660px;">
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:660px;">
         <h2 class="mb-3">
             Hallo!
         </h2>
         <p>
             Melde dich an, um deinen Fortschritt zu speichern.
-            <br />
-            Lorem Ipsum, Content Team.
         </p>
         <p>
             <input type="text" value="" name="name" class="form-control" placeholder="Email" />
