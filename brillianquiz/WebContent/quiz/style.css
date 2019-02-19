@@ -14,25 +14,7 @@ img {
 	bottom: 0px;
 	right: 0px;
 	heigth: 100%;
-	width: 200px;
-}
-
-.parent {
-  	position: relative;
- 	top: 0;
- 	left: 0;
-}
-
-.animated {
-	position: absolute;
-  	top: 30px;
-	left: 70px;
-}
-
-.bubbles {
-  	position: relative;
-  	top: 0;
-  	left: 0;  
+	width: 400px;
 }
 
 h1 {
