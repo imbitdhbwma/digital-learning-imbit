@@ -4,63 +4,22 @@
     <link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">-->
     <link rel="stylesheet" href="../css/fonts.css"/>
 
-    <link href="../css/rocketbar.css" rel="stylesheet" type="text/css">
+   
     <link href="../css/impressum.css" rel="stylesheet" type="text/css">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
 </head>
 
 <!-- Sound Einstellungen -->
 <script src="../js/jquery.min.js"></script>
 <script src="../js/einstellung.js"></script>
-
-<script>
-    function showRocketbar() {
-        console.log("1");
-        // document.getElementById("rocketbar").setAttribute("style", "transform: translateY(10%);");
-        document.getElementById("rocketbar").classList.toggle("open");
-    }
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <title>Impressum</title>
 
 <body style="margin: 0px; padding: 0px; background-color: #949494; font-family: Tinos;">
 
-    <!--launchbar -->
-    <div id="launchbar" class="launchbar">
-
-        <div id="rocketbar" class="rocketbar">
-            <!-- see comments in rocketbar.css -->
-            <div class="wiki">
-                <a target="_blank" href="http://wiki.brillianideas.com"><img src="../img/wiki.png" class="icon" alt="Cloud Wiki"></a>
-            </div>
-            <div class="icm">
-                <a target="_blank" href="http://brillianICM.com"><img src="../img/brillianicm.png" class="icon" alt="brillianICM"></a>
-            </div>
-            <div class="crm">
-                <a target="_blank" href="http://brillianCRM.com"><img src="../img/brilliancrm.png" class="icon" alt="brillianCRM"></a>
-            </div>
-            <div class="imbit">
-                <img id="tentacle_img_small_launchbar" class="img" src="../img/launchbar_tentakel_u10.png" onclick="showRocketbar()">
-                <!--  <img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage" onclick="openTab('./#imbit');">-->
-                <a target="_blank" href="http://brillianideas.com/#imbit"><img src="../img/IMBIT.png" class="icon" alt="IMBIT Homepage"></a>
-            </div>
-            <div class="digitallearning">
-                <img src="../img/digitalesLernen.png" class="icon" alt="digitales Lernen" onclick="openWindow('brillianideas.com/#digitalLearning', '_self');">
-            </div>
-            <div class="interactive">
-                <img src="../img/quiz.png" class="icon" alt="Quizzes" onmouseover="this.src='../img/quiz_alt.png';" onmouseout="this.src='../img/quiz.png';" onclick="window.open('octopus.html','_self')">
-            </div>
-            <div class="video">
-                <img src="../img/newContent.png" class="icon" alt="New Content" onclick="window.open('../LernvideosBWL.html','_self')">
-            </div>
-            <div class="impressum">
-                <img src="../img/impressum.png" class="icon" alt="Impressum" onclick="window.open('impressum.html','_self')">
-            </div>
-        </div>
-    </div>
-
-
-
+    
     <div style="margin-left: 25%; margin-right: 25%;">
         <br>
         <!--<div>
@@ -165,6 +124,14 @@
             <br>
 
 
-</body>
+</div>
+<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
+<footer></footer>
+<script>
 
+document.onload = $("footer").load("rocketbar.html");
+//document.getElementById("footer").innerHTML='<object type="text/html" data="rocketbar.html" ></object>';
+
+
+</script>
 </html>
