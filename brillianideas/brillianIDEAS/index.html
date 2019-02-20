@@ -63,12 +63,19 @@
         <script>
             var konami = "";
             var konamiToBe = "11911911511597100971009897"
+            var konamiState = 0;
             $(document).keypress(function(event){
                 konami = konami + (event.which);
                 if(konami.slice(-26) == konamiToBe){
-                    //alert("Hallo");
-                    document.getElementById("video-background-source").src="";
                     var video = document.getElementById("video_background");
+                    var source = document.getElementById("video-background-source");
+                    if(konamiState == 0){
+                        source.src="img/rickroll.mp4";
+                        konamiState = 1;
+                    }else{
+                        source.src="img/Background.mp4"
+                        konamiState = 0;
+                    }
                     video.load();
                     video.play();
                 }
