@@ -42,7 +42,7 @@ html {	box-sizing: border-box;
 .fisch {
 	position: absolute;
 	top: 0%;
-	left: 35%;
+	left: 20%;
 	max-width: 80%;
 	max-height: 80%;
 }
@@ -79,16 +79,16 @@ html {	box-sizing: border-box;
 
 
 .IntroText {
-	width: 180%;
+	width: 140%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
 	color: #991b33;
-	font-size: 1.8vw;
+	font-size: 1.6vw;
 	
-	line-height: 1.8vw;
+	line-height: 1.6vw;
 	
-	margin-top: 90%;
+	margin-top: 100%;
 }
 
 
