@@ -61,10 +61,14 @@
             
         </div> 
         <script>
+            /* Easter egg*/
             var konami = "";
             var konamiToBe = "11911911511597100971009897"
             var konamiState = 0;
             $(document).keypress(function(event){
+                const start_bg_ltr = document.querySelector("#start_bg_ltr");
+                const start_bg_rtl = document.querySelector("#start_bg_rtl");
+
                 konami = konami + (event.which);
                 if(konami.slice(-26) == konamiToBe){
                     var video = document.getElementById("video_background");
@@ -72,15 +76,17 @@
                     if(konamiState == 0){
                         source.src="img/rickroll.mp4";
                         konamiState = 1;
+                        start_bg_ltr.classList.add("apply-shake")
+                        start_bg_rtl.classList.add("apply-shake")
                     }else{
                         source.src="img/Background.mp4"
                         konamiState = 0;
+                        start_bg_ltr.classList.remove("apply-shake")
+                        start_bg_rtl.classList.remove("apply-shake")
                     }
                     video.load();
                     video.play();
                 }
-                
-                
             });
         </script>
         <footer></footer>

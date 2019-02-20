@@ -131,3 +131,27 @@ body {
     transform: scale(1.05);
   }
 }
+
+/* Shake effect for easter egg*/
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(20px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-40px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(40px, 0, 0);
+	}
+}
+
+.apply-shake {
+		animation: shake 2s cubic-bezier(.36,.07,.19,.97) both;
+}  
+/* End of Shake effect for easter egg*/
