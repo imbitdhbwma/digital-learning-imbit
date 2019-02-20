@@ -38,6 +38,15 @@ html {	box-sizing: border-box;
 	max-width: 60%;
 	max-height: 60%;
 }
+
+.fisch {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	max-width: 80%;
+	max-height: 80%;
+}
+
 .schachfigur {
 	position: absolute;
 	top: 20%;
@@ -70,16 +79,16 @@ html {	box-sizing: border-box;
 
 
 .IntroText {
-	width: 130%;
+	width: 180%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
 	color: #991b33;
-	font-size: 1.4vw;
+	font-size: 1.8vw;
 	
-	line-height: 1.4vw;
+	line-height: 1.8vw;
 	
-	margin-top: -15%;
+	margin-top: 90%;
 }
 
 
