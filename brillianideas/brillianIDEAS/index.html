@@ -67,7 +67,10 @@
                 konami = konami + (event.which);
                 if(konami.slice(-26) == konamiToBe){
                     //alert("Hallo");
-                    getElementById("video-background-source").src="";
+                    document.getElementById("video-background-source").src="";
+                    var video = document.getElementById("video_background");
+                    video.load();
+                    video.play();
                 }
                 
                 
