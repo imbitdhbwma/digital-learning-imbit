@@ -816,8 +816,8 @@ function initMap() {
 
     var marker23 = new google.maps.Marker({
         position: {
-            lat: 47.5595986,
-            lng: 7.5885761
+            lat: 47.559601, 
+            lng: 7.588576
         },
         map: map,
 		icon: iconOctopus1,
