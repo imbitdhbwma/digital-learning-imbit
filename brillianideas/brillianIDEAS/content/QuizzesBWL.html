@@ -1,89 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<!-- Autor: Alexander Hager WIMBIT 16B 2018. Sorry für das Chaos beim CSS, aber die Anforderungen wurden die ganze Zeit geändert...--> 
-
-<head>
-	<title>Quizübersicht BWL</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
-	<link rel="stylesheet" href="../css/QuizOverview.css">
-	<link rel="shortcut icon" href="../img/favicon.ico" type="image/ico" />
-	<link rel="stylesheet" type="text/css" href="../css/quiz.css" />
-	<link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
-	<script language="javascript" type="text/javascript" src="../js/quiz.js"></script>
-	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-		<source src="../img/Background.mp4" type="video/mp4">
-	</video>
-
-	<link rel="stylesheet" href="../css/rocketbar.css">
-	<link rel="stylesheet" type="text/css" href="../css/rocketbar.css">
-	<script src="../js/rocketbar.js"></script>
-    <script src="../js/navigation.js"></script>
-	
-	<style>
-		html {width: 180%;}
-	</style>
-	
-	
-
-<div id="video_pattern"></div>
-
-</head>
+	<head>
+			<title>Quizübersicht BWL</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<link rel="stylesheet" href="../css/QuizOverview.css">
+			<link rel="stylesheet" href="../css/octopus.css">	
+			<link rel="shortcut container" href="../img/favcontainer.ico" type="image/ico" />
+			<link rel="stylesheet" type="text/css" href="../css/quiz.css" />
+			<link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
+			<script language="javascript" type="text/javascript" src="../js/quiz.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+				<source src="../img/Background.mp4" type="video/mp4">
+			</video>
+		
+			<style>
+				html {
+					 overflow-x: hidden;}
+			</style>
+			<div id="video_pattern"></div>
+			
+				
+			
+		
+		</head>
+		
 
 <body>
-	
-	
-	<div class="loginbutton">
-	
-	<img class="background_image" id="octo_kopf_bwl" src="../img/Tintenfisch_Kopf_HOME_gedreht_ex.png" alt=""/>
-	<div id="Aufforderung_bwl">
-	Hilf mir das Un&shy;ter&shy;neh&shy;men zu füh&shy;ren!
+	<div></div>
+	</div><img class="octo_kopf" src="../img/Tintenfisch_Kopf_HOME_gedreht_ex.png" alt=""></div>
+	<div class="Aufforderung">
+			Hilf mir das Un&shy;ter&shy;neh&shy;men zu füh&shy;ren!
 	</div>
+
 	
-	<button
-		class="login"
-		onclick="location.href='http://localhost:8080/brillianicm-2.0.0-SNAPSHOT/'"
-		type="button"
-	>Login</button>
+	<div class="containerFlex">
+			<div class="container tooltiphover">  <!--workaround um Karkenkopf auszuweichen-->
+			</div>
+
 	
-	</div>
-	
-	
-	
-	<div class="screenonebwl">
-	
-	
-	
-	<div class="container schach bauer">
-	
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz_abwl/Quiz_Main.html">
         <!-- Schach 1 Bauer-->
-        <span><img class="schach1" src="../img/BWL - 13/chess1.png"></span>
+        <span><img class="schachfigur" src="../img/BWL - 13/chess1.png"></span>
 		
         <!-- Klecks-->
         <span class="grid_row_5 grid_column_10_13 modul" ><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">BWL</span>
+		<span class="tooltiptext">BWL</span>
 		</div>
 		<p class="IntroText luecke">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
 		
 		</a>
 	</div>
 	
-	
-	<div class="container versetzen schach">
-	
+	<div class="container tooltiphover">
+			<a href="../quiz/quiz_statistik/Quiz_Main.html">
+			<!-- Schach 11 -->
+			<span><img class="schachfigur" src="../img/BWL - 13/chess11.png"></span>
+			
+			
+			<!-- Klecks-->
+			<span><img class="klecks" src="klecks.png" ></span>
+			
+			<div class="tooltip">
+			<span class="tooltiptext">Sta&shy;tis&shy;tik</span>
+			</div>
+			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			</a>
+		</div> 
+		<div class="container tooltiphover">
+				<a href="../quiz/quiz_porter/Quiz_Main.html">
+				<!-- Stein Rot -->
+				<span><img class="schachfigur" src="../img/BWL - 13/chess10.png"></span>
+				
+				
+				<!-- Klecks-->
+				<span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
+				
+				<div class="tooltip">
+				<span class="tooltiptext">BWL-&nbsp;Mo&shy;del&shy;le nach&nbsp;Por&shy;ter</span>
+				</div>
+				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				</a>
+			</div> 
+
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz_bilanzierung/Quiz_Main.html">
         <!-- Schach 2 Pferd -->
-        <span class="" ><img class="spielfigurklein" src="../img/BWL - 13/chess2.png"></span>
+		<span><img class="schachfigur" src="../img/BWL - 13/chess2.png"></span>
 
         <!-- Klecks-->
         <span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">Bi&shy;lan&shy;zie&shy;rung</span>
+		<span class="tooltiptext">Bi&shy;lan&shy;zie&shy;rung</span>
 		</div>
 		<p class="IntroText">Als Kauf&shy;mann ist die IMBIT-Kra&shy;ke zur Buch&shy;füh&shy;rung und Bi&shy;lanz&shy;er&shy;stel&shy;lung ver&shy;pflich&shy;tet. Da&shy;zu braucht sie dei&shy;ne Hil&shy;fe.</p>
 		
@@ -92,280 +105,160 @@
 	
 	
 	
-	<div class="container doppeltversetzen schach">
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz_itsm/Quiz_Main.html">
         <!-- Schach 3 Dame-->
-        <span class="" ><img class="spielfigur schach1" src="../img/BWL - 13/chess3.png"></span>
+        <span><img class="schachfigur" src="../img/BWL - 13/chess3.png"></span>
 
         <!-- Klecks-->
-        <span class="" ><img class="klecks" src="klecks.png" ></span>
+        <span><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">ITSM</span>
+		<span class="tooltiptext">ITSM</span>
 		</div>
 		<p class="IntroText luecke">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;tige IT-Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-Kra&shy;ke ITIL ein&shy;füh&shy;ren.</p>
 		</a>
 	</div>
 	
-	<div class="container versetzen dart">
-	 <div class="klecks">
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz_finanzierung/Quiz_Main.html">
 		
         <!-- Schach4 Laeufer-->
-        <span class="" ><img class="spielfigur schach1" src="../img/BWL - 13/chess4.png"></span>
+        <span><img class="schachfigur" src="../img/BWL - 13/chess4.png"></span>
 		
         <!-- Klecks -->
-        <span class="" ><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
+        <span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
 	 	
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">Fi&shy;nan&shy;zie&shy;rung</span>
+		<span class="tooltiptext">Fi&shy;nan&shy;zie&shy;rung</span>
 		</div>
 		<p class="IntroText">Zur Grün&shy;dung ih&shy;res Un&shy;ter&shy;neh&shy;mens be&shy;nö&shy;tigt die IMBIT-Kra&shy;ke Geld. Hilf ihr bei der Be&shy;schaf&shy;fung fi&shy;nan&shy;ziel&shy;ler Mit&shy;tel!</p>
 		</a>
 	 </div>
-	</div>
 	
+	 <div class="container tooltiphover">
+			<a href="../quiz/quiz_vwl/Quiz_Main.html">
+			<!-- Schach 12-->
+			<span><img class="schachfigur" src="../img/BWL - 13/chess12.png"></span>
+			
+			
+			<!-- Klecks-->
+			<span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
+			
+			<div class="tooltip">
+			<span class="tooltiptext">VWL</span>
+			</div>
+			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die volks&shy;wirt&shy;schaft&shy;lich&shy;en Zu&shy;sam&shy;men&shy;hänge zu ver&shy;steh&shy;en!</p>
+			</a>
+		</div>  	
 	
-	<div class="container doppeltversetzen wuerfel">
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz_controlling/Quiz_Main.html">
         <!-- 2. Würfel-->
-        <span class="" ><img class="spielfigur schach1" src="../img/BWL - 13/chess5.png"></span>
+		<span><img class="schachfigur" src="../img/BWL - 13/chess5.png"></span>
 
         <!-- Klecks-->
-        <span class="" ><img class="klecks" src="klecks.png" ></span>
+        <span><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">Con&shy;trol&shy;ling</span>
+		<span class="tooltiptext">Con&shy;trol&shy;ling</span>
 		</div>
 		<p class="IntroText luecke">Lei&shy;der hat die IMBIT-Kra&shy;ke kei&shy;ne Ah&shy;nung, wie man ein Un&shy;ter&shy;neh&shy;men führt. Hilf ihr beim Ma&shy;nage&shy;ment!</p>
 		</a>
 	</div>
 	
-	   <div class="container versetzen schach">
+	   <div class="container tooltiphover">
         <a href="../quiz/quiz_klr/Quiz_Main.html">
         <!-- Stein Grün -->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess6.png"></span>
+        <span><img class="schachfigur" src="../img/BWL - 13/chess6.png"></span>
 		
 		
         <!-- Klecks-->
         <span><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">KLR</span>
+		<span class="tooltiptext">KLR</span>
 		</div>
 		<p class="IntroText">Kos&shy;ten? Wel&shy;che Kos&shy;ten? Die IMBIT-Kra&shy;ke braucht ganz dring&shy;end dei&shy;ne Hil&shy;fe, um ih&shy;re Kos&shy;ten zu i&shy;den&shy;ti&shy;fi&shy;zie&shy;ren!</p>
 		</a>
 	</div> 
 	
-	</div>
+		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="screentwobwl">	 
-    <div class="container steine nachoben">
+	 
+    <div class="container tooltiphover">
         <a href="../quiz/quiz_investition/Quiz_Main.html">
         <!-- Stein Blau-->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess7.png"></span>
+		<span><img class="schachfigur" src="../img/BWL - 13/chess7.png"></span>
 		
 		
         <!-- Klecks-->
         <span><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru"">Investition</span>
+		<span class="tooltiptext">Investition</span>
 		</div>
 		<p class="IntroText lueckegros">Die IMBIT-Kra&shy;ke ist mit den ver&shy;schie&shy;den&shy;en In&shy;ves&shy;ti&shy;tions&shy;rech&shy;nung&shy;en ü&shy;ber&shy;for&shy;dert. Kannst du ihr ein&shy;en Crash&shy;kurs zu In&shy;ves&shy;ti&shy;tion ge&shy;ben?</p>
 		</a>
 	</div> 
 	
 	
-	<div class="container steine">
+	<div class="container tooltiphover">
         <a href="../quiz/quiz_marketing/Quiz_Main.html">
         <!-- Stein Gelb -->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess8.png"></span>
-		
-		
-        <!-- Klecks-->
-        <span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
-		
-		<div class="tooltip">
-		<span class="tooltiptext_ru">Mar&shy;ke&shy;ting</span>
-		</div>
-		<p class="IntroText">Wie soll das Un&shy;ter&shy;neh&shy;men der IMBIT-Kra&shy;ke wahr&shy;ge&shy;nom&shy;men wer&shy;den?</p>
-		</a>
-	</div> 
-	
-	<div class="container steine">
-        <a href="../quiz/quiz_scm/Quiz_Main.html">
-        <!-- Stein Gelb -->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess9.png"></span>
+		<span><img class="schachfigur" src="../img/BWL - 13/chess8.png"></span>
 		
 		
         <!-- Klecks-->
         <span><img class="klecks" src="klecks.png" ></span>
 		
 		<div class="tooltip">
-		<span class="tooltiptext_ru">Sup&shy;ply&nbsp;Chain Ma&shy;nage&shy;ment</span>
+		<span class="tooltiptext">Mar&shy;ke&shy;ting</span>
+		</div>
+		<p class="IntroText">Wie soll das Un&shy;ter&shy;neh&shy;men der IMBIT-Kra&shy;ke wahr&shy;ge&shy;nom&shy;men wer&shy;den?</p>
+		</a>
+	</div> 
+	
+	<div class="container tooltiphover">
+        <a href="../quiz/quiz_scm/Quiz_Main.html">
+        <!-- Stein Gelb -->
+		<span><img class="schachfigur" src="../img/BWL - 13/chess9.png"></span>
+		
+		
+        <!-- Klecks-->
+        <span><img class="klecks" src="klecks.png" ></span>
+		
+		<div class="tooltip">
+		<span class="tooltiptext">Sup&shy;ply&nbsp;Chain Ma&shy;nage&shy;ment</span>
 		</div>
 		<p class="IntroText lueckegros">Nun möch&shy;te die IMBIT-Kra&shy;ke ak&shy;tiv ei&shy;ne Lie&shy;fer&shy;ket&shy;te mit ih&shy;ren Kun&shy;den und Lie&shy;fe&shy;ran&shy;ten auf&shy;bau&shy;en. Un&shy;ter&shy;stüt&shy;ze sie!</p>
 		</a>
 	</div> 
 	
 	
-	<div class="container steine">
-        <a href="../quiz/quiz_porter/Quiz_Main.html">
-        <!-- Stein Rot -->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess10.png"></span>
 		
-		
-        <!-- Klecks-->
-        <span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
-		
-		<div class="tooltip">
-		<span class="tooltiptext_ru">BWL-&nbsp;Mo&shy;del&shy;le nach&nbsp;Por&shy;ter</span>
-		</div>
-		<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
-		</a>
-	</div> 
 	
-	<div class="container steine">
-        <a href="../quiz/quiz_statistik/Quiz_Main.html">
-        <!-- Schach 11 -->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess11.png"></span>
-		
-		
-        <!-- Klecks-->
-        <span><img class="klecks" src="klecks.png" ></span>
-		
-		<div class="tooltip">
-		<span class="tooltiptext_ru">Sta&shy;tis&shy;tik</span>
-		</div>
-		<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
-		</a>
-	</div> 
+ </div>
+
+ <img class="octo_arm_rechts_unten"  src="../img/tentakel_rtl.png" alt=""/>
+
 	
-	<div class="container steine supplycm">
-        <a href="../quiz/quiz_vwl/Quiz_Main.html">
-        <!-- Schach 12-->
-        <span><img class="spielfigur schach1" src="../img/BWL - 13/chess12.png"></span>
-		
-		
-        <!-- Klecks-->
-        <span><img class="klecks" src="2431_1_wandtattoo_tafelfolie_splash.png" ></span>
-		
-		<div class="tooltip">
-		<span class="tooltiptext_ru">VWL</span>
-		</div>
-		<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die volks&shy;wirt&shy;schaft&shy;lich&shy;en Zu&shy;sam&shy;men&shy;hänge zu ver&shy;steh&shy;en!</p>
-		</a>
-	</div> 
-	
-	</div>
-	
-	
-	
-	<div class="screenthree">	 
-	
-	</div>
-	
-        <img class="background_image" id="octo_arm_rechts_untenBWL" src="../img/tentakel_rtl.png" alt=""/>
-	
-        <img class="background_image" id="octo_arm_links" src="../img/tentakel_ltr.png" alt=""/>
-	
+ <img class="octo_arm_links_unten"  src="../img/tentakel_ltr.png" alt=""/>
 	
 	
 <!--Sitemap-->
 <div>
 	<b>De&shy;zem&shy;ber 2018, WIMBIT16B im Rah&shy;men des <a href=http://www.brillianideas.com/ target=_blank>bril&shy;lian<span style="font-size: 16.371px">I&shy;DEAS</span></a> IT-Pro&shy;jek&shy;tes</b>
 </div>
-<!--launchbar-->
-<div
-id="launchbar"
-class="launchbar">
-<div
-	id="rocketbar"
-	class="rocketbar">
-	<!-- see comments in rocketbar.css -->
-	<div class="imbit">
-		<img
-			id="tentacle_img_small_launchbar"
-			class="img"
-			src="../img/launchbar_tentakel_u10.png"
-			onclick="showRocketbar()"> <img
-			src="../img/IMBIT.png"
-			class="icon"
-			alt="IMBIT Homepage"
-			onclick="window.open('http://brillianideas.com/#imbit', '_self');">
-	</div>
-	<div class="digitallearning">
-		<img
-			src="../img/digitalesLernen.png"
-			class="icon"
-			alt="digitales Lernen"
-			onclick="window.open('http://brillianideas.com/#digitalLearning', '_self');">
-	</div>
-	<div class="icm">
-		<a
-			target="_blank"
-			href="http://www.brillianicm.com"><img
-			src="../img/brillianicm.png"
-			class="icon"
-			alt="brillianICM"></a>
-	</div>
-	<div class="crm">
-		<a
-			target="_blank"
-			href="http://www.brilliancrm.com"><img
-			src="../img/brilliancrm.png"
-			class="icon"
-			alt="brillianCRM"></a>
-	</div>
-	<div class="wiki">
-		<a
-			target="_blank"
-			href="http://wiki.brillianideas.com"><img
-			src="../img/wiki.png"
-			class="icon"
-			alt="Cloud Wiki"></a>
-	</div>
-	<div class="interactive">
-		<img
-			src="../img/quiz.png"
-			class="icon"
-			alt="Quizzes"
-			onmouseover="this.src='../img/quiz_alt.png';"
-			onmouseout="this.src='../img/quiz.png';"
-			onclick="window.open('../content/octopus.html','_self')">
-	</div>
-	<div class="video">
-		<img
-			src="../img/newContent.png"
-			class="icon"
-			alt="New Content"
-			onclick="window.open('../LernvideosBWL.html','_self')">
-	</div>
-	<div class="impressum">
-		<img
-			src="../img/impressum.png"
-			class="icon"
-			alt="Impressum"
-			onclick="window.open('../content/impressum.html','_self')">
-	</div>
-</div>
-</div>
-</body>
-<script type="text/javascript">
-	function showRocketbar() {
-		console.log("1");
-		// document.getElementById("rocketbar").setAttribute("style", "transform: translateY(10%);");
-		document.getElementById("rocketbar").classList.toggle("open");
-	}
+
+<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
+<footer></footer>
+<script>
+
+document.onload = $("#footer").load("rocketbar.html");
+//document.getElementById("footer").innerHTML='<object type="text/html" data="rocketbar.html" ></object>';
+
+
 </script>
 </html>

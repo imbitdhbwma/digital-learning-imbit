@@ -26,7 +26,7 @@ JS as there is no or not sufficient CSS only solution. */
 }
 
 .rocketbar.open {
-  max-height: 20vh;
+  max-height: 100%;
 }
 
 /* tentacle on top of rocketbar */

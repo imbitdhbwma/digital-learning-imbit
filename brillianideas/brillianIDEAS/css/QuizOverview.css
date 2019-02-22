@@ -1,21 +1,9 @@
-html {
-	box-sizing: border-box;
+html {	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
 }
 
-body {
-	box-sizing: border-box;
-	font-family: 'Tinos';
-	color: var(--text);
 
-	/* top level grid */
-  display: grid;
-  grid-template-rows: 1fr 100px;
-  grid-template-columns: 100%;
-  grid-template-areas: "content"
-                        "launchbar";
-}
 
 #title a {
     text-decoration: none;
@@ -30,102 +18,59 @@ body {
 	font-size: 1.1153846153846153846153846153846em;
 }
 
-.loginbutton{
-	position: relative;
-	width: 50%;
-}
-
-.loginbutton img{
-	width: 100%;
-	height: auto;
-}
-
-.loginbutton .login{
-	position: absolute;
-	top: 400px;
-	left: 100px;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #cb3f5a;
-	color: white;
-	font-size: 16px;
-	padding: 12px 24px;
-	border: 2px solid black;
-	cursor: pointer;
-	border-radius: 5px;
-}
-
-.containerold{ 
-	display: flex;
-	width: 33%;
-	align-items: center;
-	justify-content: center;
-	font-family: "Caveat Brush";
-	color: #991B33;
-	font-size: 5em;
-}
-
-.screen {
-	width: 100%;
-	display: flex;
-	
-}
-.screenonebwl {
-	width: 100%;
-	display: flex;
-	
-	margin-top: 0vw;
-	margin-left: 10%;
-}
-
-.schach1 {
-	position: absolute;
-	top: 20%;
-	margin-left: 40%;
-}
-
-
-.screentwo {
-	margin-top: 6vw;
-	width: 80%;
-	margin-left: 5%;
-	display: flex;
-}
-
-.screentwobwl {
-	width: 80%;
-	margin-left: 5%;
-	display: flex;
-	
-	margin-top: 8vw;
-}
-
-
-.screenthree {
-	margin-top: 6vw;
-	width: 50%;
-	margin-left: 35%;
-	display: flex;
-}
 .container {
 	position: relative;
-	margin: auto;
+	margin-bottom: 5vh;
+	margin-right: 5vh;
+	margin-left: 5vh;
+	margin-top:15vh;
 	display: flex;
-	top: 16vw;
 	height: 13vw;
 	width: auto;
 	max-width: 13vw
 }
- .ludogruen {
-	 top:7vw;
-	 
- }
  
- 
+/*Icons IT Quizz*/
+.kegel {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	max-width: 60%;
+	max-height: 60%;
+}
+.schachfigur {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	max-width: 80%;
+	max-height: 80%;
+}
  
 
+/* Tooltip Text*/
+.tooltiptext{
+	visibility: hidden;
+	 top: 40%;
+	 left: 30%;
+	 font-family: Caveat Brush;
+	 font-size: 2em;
+	 color: white;
+	 position: absolute;
+	 z-index: 2;
+ }
+/* Tooltip Text Hover Mouseover*/
+
+ .tooltiphover:hover .tooltiptext{
+	visibility: visible;
+	color: black;
+	font-size: 3vw;
+	text-indent: 0px;
+	text-shadow: 1px 1px 1px white;
+}
+
+
 .IntroText {
-	width: 100%;
+	width: 130%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
@@ -137,411 +82,22 @@ body {
 	margin-top: -15%;
 }
 
-.luecke {
-	
-	margin-top: -20%;
-}
-
-.lueckegros {
-	
-	margin-top: -35%;
-}
-
-.ludorot {
-	margin-top: -10%;
-}
-
-
-.versetzen {
-	top: 10vw;
-}
-.doppeltversetzen {
-	top: 5vw;
-	margin-left: 5vw;
-}
-
-.bauer {
-	top: 6vw;
-}
-
-
-.dreifachversetzen {
-	top: -5vw;
-}
-
-.supplycm {
-bottom: 2vw;
-}
-
-.nachunten {
-	top: 22vw;
-}
-
-.schach1 {
-	position: absolute;
-	top: 30%;
-	left: 0%;
-	
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.cursor{
-	top: 5vw;
-}
-
-.cursorb{
-	top: 0vw;
-}
-
-.ludoblau{
-	top: 35vh;
-}
-.ludoblauz{
-	top: 25vh;
-}
-
-.joystick{
-	top: 11vw;
-}
-
-.herzkoenig{
-	position: absolute;
-	top: 20%;
-	left: 40%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.karodame{
-	top: 9vw;
-}
 
 .klecks {
 	top: -10%;
 	left: -10%;
-	max-width: 120%;
-	max-height: 120%;
+	max-width: 160%;
+	max-height: 160%;
 }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.spielfigur {
-	
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.spielfigurklein {
-	position: absolute;
-	top: 20%;
-	left: 40%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.tetris {
-	position: absolute;
-	top: 30%;
-	left: 40%;
-	max-width: 35%;
-}
-
-.ass {
-	position: absolute;
-	top: 0%;
-	left: 35%;
-	max-width: 60%;
-	max-height: 60%;
-}
-
-
-.ludo {
-	position: absolute;
-	top: 20%;
-	left: 40%;
-	max-width: 100%;
-	max-height: 60%;
-}
-
-.gameboyhover {
-	margin-left: 13vw;
-}
-
-.nachoben {
-	top: 8vw;
-}
-
 
 /* Tooltip container */
 .tooltip {
     width:1px;
     height:1px;
 }
-/* Tooltip links */
-.tooltip .tooltiptext_l {
-   visibility: visible;
-    top: 68vh;
-    left: 15vw;
-    font-family: Caveat Brush;
-    font-size: 28px;
-    color:black;
-    position: absolute;
-	z-index: 2;
-	text-shadow: 1px 1px 1px white;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext_l {
-    visibility: visible;
-}
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_ru {
-	/* text-shadow: 1px 1px 1px white; */
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-	line-height: 3vw;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.dart:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.steine:hover .tooltiptext_ru {
-	visibility: visible;
-	color: #000;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.wuerfel:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.schach:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.rubikscube:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.puzzle:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.kreuzkoenig:hover .tooltiptext_red {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.karodame:hover .tooltiptext_red {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
 
 
-.snookerorangehover:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.mario:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.pacman:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.joystick:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.controller:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-.versetzen:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.tetris:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.gameboyhover:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.cursorb:hover .tooltiptext_whitebg {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-.ludogruen:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-.ludoblau:hover .tooltiptext_ru {
-	visibility: visible;
-	color: black;
-	font-size: 3vw;
-	text-indent: 0px;
-	text-shadow: 1px 1px 1px white;
-}
-
-
-
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_whitebg {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container alt color: #941a32;*/
-.tooltip:hover .tooltiptext_whitebg {
-	visibility: visible;
-	color: #202020;
-	font-size: 3vw;
-	text-indent: 0px;
-}
-
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_red {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container;*/
-.tooltip:hover .tooltiptext_red {
-	visibility: visible;
-	color: #941a32;
-	font-size: 3vw;
-	text-indent: 0px;
-}
-
-
-/* Tooltip rechts unten */
-.tooltip .tooltiptext_wahrnpsycho {
-   visibility: hidden;
-    top: 40%;
-    left: 30%;
-    font-family: Caveat Brush;
-    font-size: 2em;
-    color: white;
-    position: absolute;
-    z-index: 2;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container;*/
-.wahrpsycho:hover .tooltiptext_wahrnpsycho {
-	visibility: visible;
-	color: #f6f8f7;
-	font-size: 3vw;
-	text-indent: -9vw;
-}
-
-
-
-#Aufforderung {
+.Aufforderung {
     top: 5vh;
     left: 23vw;
     width: 30vw;
@@ -557,90 +113,12 @@ bottom: 2vw;
 	line-height: 3vw;
 }
 
-#Aufforderung_bwl {
-    top: 5vh;
-    left: 23vw;
-    width: 30vw;
-    text-align: center;
-    font-family: Caveat Brush;
-    font-size: 3vw;
-    color:black;
-    position: absolute;
-    z-index: 3;
-	background-color: rgba(255, 255, 255, .5); /*#35bebb;*/
-	/* border: 3px solid #fff; */
-	border-radius: 20px;
-	line-height: 3vw;
-}
+/*New flex layout */
 
-#octo_kopf {
-    position: absolute;
-	top: 0px;
-	left: 0;
-	width: 22vw;
-    z-index:1;
-}
-
-#octo_arm_links{
-    position: absolute;
-	bottom: 0px;
-	left: 0;
-	width: 15vw;
-	height: 30vh;
-    transform: translateY(-25%);
-	z-index:1;
-}
-
-
-
-#octo_arm_rechts_unten{
-	position: absolute;
-	bottom: 0;
-	right: 0%;
-	width: 40vw;
-	height: 30vh;
-    z-index:1;
-}
-
-
-
-#octo_arm_rechts_untenBWL{
-	position: absolute;
-	bottom: 0;
-	right: -100%;
-	width: 40vw;
-	height: 30vh;
-    z-index:1;
-}
-
-#octo_arm_rechts_unten_IT{
-	position: absolute;
-	bottom: 0;
-	right: -25%;
-	width: 40vw;
-	height: 30vh;
-    z-index:1;
-}
-
-#octo_arm_rechts_unten_WI{
-	position: absolute;
-	bottom: 0;
-	right: -20%;
-	width: 40vw;
-	height: 30vh;
-    z-index:1;
-}
-
-
-#octo_kopf_bwl {
-    position: absolute;
-	top: 0px;
-	left: 0;
-	width: 22vw;
-    z-index:1;
-}
-
-
-#wp_tooltip {
-	text-indent: -8vw;
+.containerFlex  {
+	margin-bottom: 60vh !important;
+	display:flex !important;
+	flex-wrap: wrap!important;
+	justify-content: space-around!important;
+	align-content: space-around!important;
 }
