@@ -814,7 +814,7 @@ function initMap() {
         content: contentString23
     });
 
-    var marker22 = new google.maps.Marker({
+    var marker23 = new google.maps.Marker({
         position: {
             lat: 47.5595986,
             lng: 7.5885761
@@ -831,7 +831,7 @@ function initMap() {
         infowindow23.open(map, marker23);
     });
 
-    /* End Marker 22 */
+    /* End Marker 23 */
 
 	/* Array with all infowindows */
     var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18, infowindow19, infowindow20, infowindow21];
