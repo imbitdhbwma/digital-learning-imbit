@@ -16,12 +16,25 @@
 <div class="container">
 </div>
 
+<a href="#" onclick="new DivObject()">Fish</a>
+
 <!-- <h1>h1</h1> Inhalt -->
-<a href="../../../brillianideas/brillianIDEAS/content/QuizzesWI.html">
+<div class="outer">
+<div class="inner" align="center">
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesWI.html" style="text-decoration:none;">
 <img class="animated" src="img/animated/wi.gif" alt="WI">
+<!-- <p class="title"> Wirtschaftsinformatik </p> -->
 </a>
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesBWL.html" style="text-decoration:none;">
 <img class="animated" src="img/animated/bwl.gif" alt="BWL">
+<!-- <p class="title"> BWL </p> -->
+</a>
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesIT.html" style="text-decoration:none;">
 <img class="animated" src="img/animated/it.gif" alt="IT">
+<!-- <p class="title"> IT </p> -->
+</a>
+</div>
+</div>
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
@@ -47,4 +60,11 @@
     </form>
 
 </body>
+<script>
+	DivObject = function() {
+		this.div = document.createElement("div");
+		document.body.appendChild(this.div);
+		this.div.className = "fish";
+	}
+</script>
 </html>
