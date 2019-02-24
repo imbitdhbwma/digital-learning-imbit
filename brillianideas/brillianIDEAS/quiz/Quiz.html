@@ -50,6 +50,10 @@
 
 <body>
 
+	<div class="title" id="title">
+		<h1></h1>
+	</div>
+
 	<div><!-- //<div id="content"> -->
 		<ul id="questionList">
 			
@@ -132,6 +136,8 @@
 	
 						// Anzeige der Fragen sortiert nach questionType
 						if(subject===value) {
+							//Erzeugt Überschrift
+							document.getElementById('title').innerHTML = "Quiz "+ value;
 
 							switch (questionType){
 								case "MC": 

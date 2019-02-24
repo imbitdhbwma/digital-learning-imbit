@@ -7,6 +7,15 @@ body {
 	background-color: #991b33;
 }
 
+ul { 
+	list-style-type: none; 
+}
+
+button {
+	float: right;
+	margin: 50%; 
+}
+
 a {
 	color: white;
 	text-decoration: none;
@@ -60,6 +69,14 @@ a:visited {
 	border-radius: 5px;
 	margin-bottom: 3%;
 	text-shadow: 1px 1px #991B33;
+}
+
+.title {
+	font-size: 4em;
+	margin-bottom: 1%;
+	padding-left: 4%;
+	width: 75%;
+	text-shadow: 1px 1px black;
 }
 
 .questionclass {
