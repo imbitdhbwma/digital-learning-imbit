@@ -426,6 +426,8 @@ function findQuestionNumber() {
 	var weiter = true;
 	var n = 1;
 
+	
+
 	while (weiter) {
 		if (document.getElementById("question" + n + "_answer1") !== null) {
 			n++;
@@ -434,6 +436,7 @@ function findQuestionNumber() {
 		}
 	}
 	return n;
+	
 }
 
 /**
@@ -451,6 +454,7 @@ function evaluate() {
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
 			var childrenInput = $("#question" + i).find("input").toArray();
 			var richtig = richtigArray.shift();
+			// Test ob Array funktioniert console.log(richtig);
 
 			var gibMirPunkte = true;
 			// Durchläuft alle Kinder (=Antwortmöglichkeiten), prüft ob sie geklickt wurden und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
@@ -464,6 +468,7 @@ function evaluate() {
 				}
 				if (gibMirPunkte) {
 					score++;
+					console.log("Score: " + score);
 				}
 			}
 		}
@@ -476,6 +481,7 @@ function evaluate() {
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".dropbox").toArray();
+			//console.log(boxes);
 
 			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
@@ -489,6 +495,7 @@ function evaluate() {
 
 			if (gibMirPunkte) {
 				score++;
+				console.log("Score: " + score); 
 			}
 
 			// set the variable question to be the DOM representation of the element again (instead of jQuery)
@@ -503,7 +510,7 @@ function evaluate() {
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".box_textOrder").toArray();
-			console.log("anzahl der boxen: " + boxes.length);
+			//console.log("anzahl der boxen: " + boxes.length);
 
 			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
