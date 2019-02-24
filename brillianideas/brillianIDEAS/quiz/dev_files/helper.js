@@ -441,10 +441,9 @@ function findQuestionNumber() {
  * 
  */
 function evaluate() {
-
+	
 	// läuft durch alle Fragen
 	for (var i = 1; i <= anzahlFragen; i++) {
-
 		var question = document.getElementById("question" + i);
 
 		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser Teil durchlaufen.
@@ -583,6 +582,7 @@ function evaluate() {
 		}
 
 	}
+
 
 }
 
