@@ -454,7 +454,7 @@ function evaluate() {
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
 			var childrenInput = $("#question" + i).find("input").toArray();
 			var richtig = richtigArray.shift();
-			// Test ob Array funktioniert console.log(richtig);
+			console.log(richtig);
 
 			var gibMirPunkte = true;
 			// Durchläuft alle Kinder (=Antwortmöglichkeiten), prüft ob sie geklickt wurden und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
@@ -588,9 +588,11 @@ function evaluate() {
 
 		}
 
-	}
+	} createScoreText();
+}
 
-
+function createScoreText (){
+	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
