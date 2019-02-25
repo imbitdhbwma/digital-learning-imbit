@@ -88,7 +88,7 @@
 									out.println(groups.get(i).get(1));
 									out.println("</big></td><td>");
 									//send email invitation button
-									out.println("<form action=\"" + "http://brillianideas.com:8080/brillianICM"
+									out.println("<form action=\"" + "/brillianICM"
 											+ "/RegistrationPage\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"invitationbutton" + i + "\" type=\"submit\" "
 											+ "value=\"Send email invitation\"/><a class= \"easyui-linkbutton\" onclick=\"$('#invitationbutton"
@@ -96,14 +96,14 @@
 											+ "<input type=\"text\" name=\"link\" value=\"" + groups.get(i).get(3)
 											+ "\" style=\"display:none\"/>" + "</form></td><td>");
 									//delete group without members button
-									out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianICM" + "/DeleteGroup\" method=\"post\">"
+									out.println("<td><form action=\"" + "/brillianICM" + "/DeleteGroup\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"deleteGroupButton" + i
 											+ "\" type=\"submit\" value=\"Delete Group\"/> <a class= \"easyui-linkbutton\" onclick=checker("
 											+ i + ",\"" + groups.get(i).get(1) + "\")>delete group</a>"
 											+ "<input type=\"text\" name=\"group_id\" value=\"" + groups.get(i).get(0)
 											+ "\" style=\"display:none\"/>" + "</form></td><td>");
 									//delete group with all members button
-									out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianICM"
+									out.println("<td><form action=\"" + "/brillianICM"
 											+ "/DeleteGroupMembers\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"deleteGroupMembersButton" + i
 											+ "\" type=\"submit\" value=\"Delete Group Members\"/> <a class= \"easyui-linkbutton\" onclick=checker("
@@ -116,7 +116,7 @@
 									* 3.3.16
 									* Deleted Cost Time and Quality because its not needed to be updated when beeing set to a new country
 									*/
-									out.println("<form action=\"" + "http://brillianideas.com:8080/brillianICM" + "/SetUserProgress\" method=\"post\">"
+									out.println("<form action=\"" + "/brillianICM" + "/SetUserProgress\" method=\"post\">"
 											+ "<input type=\"text\" name=\"group_id\" value=\"" + groups.get(i).get(0)
 											+ "\" style=\"display:none\"/>"
 											+ "<input type=\"text\" name=\"cost\" value=\"0\" style=\"display:none\"/>"
@@ -132,7 +132,7 @@
 											+ "value=\"setProgress\" style=\"display:none\" /></td><td>"
 											+ "<a class= \"easyui-linkbutton\" onclick=\"$('#setProgress" + i
 											+ "').trigger('click')\")>Set progress</a></td></form></td><td>");
-									out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianICM"
+									out.println("<td><form action=\"" + "/brillianICM"
 											+ "/SendCertificate\" method=\"post\">"
 											+ "<input style=\"display:none\" id=\"SendCertificatesNowButton" + i
 											+ "\" type=\"submit\" value=\"SendcertificatesNow\"/> <a class= \"easyui-linkbutton\" onclick=confirmCertificationSend("
@@ -141,7 +141,7 @@
 											+ "\" style=\"display:none\"/>" + "<input type=\"text\" name=\"group_name\" value=\""
 											+ groups.get(i).get(1) + "\" style=\"display:none\"/>" + "</form></td><td>");
 									if (groups.get(i).get(2).equals("1")) {
-										out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianICM"
+										out.println("<td><form action=\"" + "/brillianICM"
 												+ "/ChangeCertificate\" method=\"post\">"
 												+ "<input style=\"display:none\" id=\"TurnCertificateOff" + i
 												+ "\" type=\"submit\" value=\"ChangeCertificate\"/> <a class= \"easyui-linkbutton\" onclick=\"$('#TurnCertificateOff"
@@ -151,7 +151,7 @@
 												+ "<input type=\"text\" name=\"certificate\" value=\"0\" style=\"display:none\"/>"
 												+ "</form></td><td>");
 									} else {
-										out.println("<td><form action=\"" + "http://brillianideas.com:8080/brillianICM"
+										out.println("<td><form action=\"" + "/brillianICM"
 												+ "/ChangeCertificate\" method=\"post\">"
 												+ "<input style=\"display:none\" id=\"TurnCertificateOn" + i
 												+ "\" type=\"submit\" value=\"ChangeCertificate\"/> <a class= \"easyui-linkbutton\" onclick=\"$('#TurnCertificateOn"
@@ -199,7 +199,7 @@
 											a++;
 											if (groups.get(i).get(1).equals(row.get(5))) {
 												out.println("<tr><td>");
-												out.println("<form action=\"" + "http://brillianideas.com:8080/brillianICM"
+												out.println("<form action=\"" + "/brillianICM"
 														+ "/DeleteUser\" method=\"post\"><input style=\"display:none\" id=\"deleteUserButton"
 														+ a + "\" type=\"submit\" "
 														+ "value=\"Delete User\"/><a class= \"easyui-linkbutton\" onclick=\"$('#deleteUserButton"
@@ -207,7 +207,7 @@
 												out.println("<input type=\"text\" name=\"delete_email\" value=\"" + row.get(6)
 														+ "\" style=\"display:none\"/></form>");
 												out.println("</td><td>");
-												out.println("<form action=\"" + "http://brillianideas.com:8080/brillianICM"
+												out.println("<form action=\"" + "/brillianICM"
 														+ "/ResetUserProgress\" method=\"post\"><input style=\"display:none\" id=\"resetUserProgressButton"
 														+ a + "\" type=\"submit\" "
 														+ "value=\"Reset User\"/><a class= \"easyui-linkbutton\" onclick=\"$('#resetUserProgressButton"

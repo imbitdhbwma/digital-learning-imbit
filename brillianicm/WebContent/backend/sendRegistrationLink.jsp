@@ -61,7 +61,7 @@
 		</div>
 	</div>
 	<div class="center" data-options="region:'center'" align="center" style="padding-left: 2%; padding-right: 2%">
-		<h3>Welcome to brillianCRM</h3>
+		<h3>Welcome to brillianICM</h3>
 		<p>Please fill in the form below and hit the send button to
 			register:</p>
 		<p>Multiple addresses can be separated by ";".
