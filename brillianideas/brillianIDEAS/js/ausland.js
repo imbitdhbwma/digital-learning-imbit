@@ -39,10 +39,10 @@ function initMap() {
         '<p> ' +
 		'Im Rahmen meines Auslandsaufenthaltes in London habe ich auf zwei Projekten mitgearbeitet. Im ersten Projekt haben wir für einen Kunden SAP Reports auf Completeness und Accuracy getestet. Dahingegen befasste sich das Zweite mit der Erstellung und Auswertung eines standardisierten Assessments in einem Governance Portal. Die Tätigkeiten waren sehr anspruchsvoll, aber nicht minder spannend. In meiner Freizeit und an den Wochenenden war ich häufig in der Stadt unterwegs und konnte so vieles sehen und erleben, was ich als Tourist nicht hätte mitbekommen können.' +
             
-        '<h2 id="secondHeading">Nele, 21</h2>' +
+        '<h2 id="secondHeading">Nele, 21 & Marvin, 20</h2>' +
         '<div id="bodyContent">' +
         '<p> ' +
-		'Ich habe meinen fünften Praxiseinsatz in London verbracht, wo ich das Talent & Engagement Team unterstützt habe. Dabei fielen verschiedene Aufgaben und Projekt an. Besonders habe ich die Nähe der Lokation zur Themse, dem London Eye, und der Innenstadt geschätzt.' +
+		'Wir haben unseren fünften Praxiseinsatz in London verbracht, wo wir das Talent & Engagement Team unterstützt haben. Dabei fielen verschiedene Aufgaben und Projekt an. Besonders haben wir die Nähe der Lokation zur Themse, dem London Eye, und der Innenstadt geschätzt.' +
         '</p>' +
         '</div>' +
         '</div>';
