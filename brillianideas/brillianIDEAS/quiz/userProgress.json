@@ -1,0 +1,1592 @@
+{
+    "UX": [
+        {
+            "id": 1001,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1002,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1003,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1004,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1005,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1006,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1007,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1008,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1009,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1010,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1011,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1012,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1013,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1014,
+            "completed": false,
+            "subject": "UX"
+        },
+        {
+            "id": 1015,
+            "completed": false,
+            "subject": "UX"
+        }
+    ],
+    "WI": [
+        {
+            "id": 1016,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1017,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1018,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1019,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1020,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1021,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1022,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1023,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1024,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1025,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1026,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1027,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1028,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1029,
+            "completed": false,
+            "subject": "WI"
+        },
+        {
+            "id": 1030,
+            "completed": false,
+            "subject": "WI"
+        }
+    ],
+    "GPM": [
+        {
+            "id": 1031,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1032,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1033,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1034,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1035,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1036,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1037,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1038,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1039,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1040,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1041,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1042,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1043,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1044,
+            "completed": false,
+            "subject": "GPM"
+        },
+        {
+            "id": 1045,
+            "completed": false,
+            "subject": "GPM"
+        }
+    ],
+    "Wahrnehmungspsychologie": [
+        {
+            "id": 1046,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1047,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1048,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1049,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1050,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1051,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1052,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1053,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1054,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1055,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1056,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1057,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1058,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1059,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        },
+        {
+            "id": 1060,
+            "completed": false,
+            "subject": "Wahrnehmungspsychologie"
+        }
+    ],
+    "Systemanalyse": [
+        {
+            "id": 1061,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1062,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1063,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1064,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1065,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1066,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1067,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1068,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1069,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1070,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1071,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1072,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1073,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1074,
+            "completed": false,
+            "subject": "Systemanalyse"
+        },
+        {
+            "id": 1075,
+            "completed": false,
+            "subject": "Systemanalyse"
+        }
+    ],
+    "investition": [
+        {
+            "id": 1076,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1077,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1078,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1079,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1080,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1081,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1082,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1083,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1084,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1085,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1086,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1087,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1088,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1089,
+            "completed": false,
+            "subject": "investition"
+        },
+        {
+            "id": 1090,
+            "completed": false,
+            "subject": "investition"
+        }
+    ],
+    "bilanzierung": [
+        {
+            "id": 1091,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1092,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1093,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1094,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1095,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1096,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1097,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1098,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1099,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1100,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1101,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1102,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1103,
+            "completed": false,
+            "subject": "bilanzierung"
+        },
+        {
+            "id": 1104,
+            "completed": false,
+            "subject": "bilanzierung"
+        }
+    ],
+    "scm": [
+        {
+            "id": 1105,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1106,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1107,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1108,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1109,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1110,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1111,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1112,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1113,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1114,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1115,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1116,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1117,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1118,
+            "completed": false,
+            "subject": "scm"
+        },
+        {
+            "id": 1119,
+            "completed": false,
+            "subject": "scm"
+        }
+    ],
+    "itsm": [
+        {
+            "id": 1120,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1121,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1122,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1123,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1124,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1125,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1126,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1127,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1128,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1129,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1130,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1131,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1132,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1133,
+            "completed": false,
+            "subject": "itsm"
+        },
+        {
+            "id": 1134,
+            "completed": false,
+            "subject": "itsm"
+        }
+    ],
+    "porter": [
+        {
+            "id": 1135,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1136,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1137,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1138,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1139,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1140,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1141,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1142,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1143,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1144,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1145,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1146,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1147,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1148,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1149,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1252,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1253,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1254,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1255,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1256,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1257,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1258,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1259,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1260,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1261,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1262,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1263,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1264,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1265,
+            "completed": false,
+            "subject": "porter"
+        },
+        {
+            "id": 1266,
+            "completed": false,
+            "subject": "porter"
+        }
+    ],
+    "Betriebssysteme": [
+        {
+            "id": 1150,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1151,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1152,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1153,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1154,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1155,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1156,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1157,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1158,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        },
+        {
+            "id": 1159,
+            "completed": false,
+            "subject": "Betriebssysteme"
+        }
+    ],
+    "Comsys": [
+        {
+            "id": 1160,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1161,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1162,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1163,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1164,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1165,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1166,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1167,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1168,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1169,
+            "completed": false,
+            "subject": "Comsys"
+        },
+        {
+            "id": 1170,
+            "completed": false,
+            "subject": "Comsys"
+        }
+    ],
+    "Datenbanken": [
+        {
+            "id": 1171,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1172,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1173,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1174,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1175,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1176,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1177,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1178,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1179,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1180,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1181,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1182,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1183,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1184,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1185,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1186,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1187,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1188,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1189,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1190,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1191,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1192,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1193,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1194,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1195,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1196,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1197,
+            "completed": false,
+            "subject": "Datenbanken"
+        },
+        {
+            "id": 1198,
+            "completed": false,
+            "subject": "Datenbanken"
+        }
+    ],
+    "it-intro": [
+        {
+            "id": 1199,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1200,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1201,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1202,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1203,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1204,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1205,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1206,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1207,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1208,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1209,
+            "completed": false,
+            "subject": "it-intro"
+        },
+        {
+            "id": 1210,
+            "completed": false,
+            "subject": "it-intro"
+        }
+    ],
+    "VS": [
+        {
+            "id": 1211,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1212,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1213,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1214,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1215,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1216,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1217,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1218,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1219,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1220,
+            "completed": false,
+            "subject": "VS"
+        },
+        {
+            "id": 1221,
+            "completed": false,
+            "subject": "VS"
+        }
+    ],
+    "Statistik": [
+        {
+            "id": 1222,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1223,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1224,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1225,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1226,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1227,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1228,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1229,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1230,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1231,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1232,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1233,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1234,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1235,
+            "completed": false,
+            "subject": "Statistik"
+        },
+        {
+            "id": 1236,
+            "completed": false,
+            "subject": "Statistik"
+        }
+    ],
+    "Controlling": [
+        {
+            "id": 1237,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1238,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1239,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1240,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1241,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1242,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1243,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1244,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1245,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1246,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1247,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1248,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1249,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1250,
+            "completed": false,
+            "subject": "Controlling"
+        },
+        {
+            "id": 1251,
+            "completed": false,
+            "subject": "Controlling"
+        }
+    ],
+    "klr ": [
+        {
+            "id": 1267,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1268,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1269,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1270,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1271,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1272,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1273,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1274,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1275,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1276,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1277,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1278,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1279,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1280,
+            "completed": false,
+            "subject": "klr "
+        },
+        {
+            "id": 1281,
+            "completed": false,
+            "subject": "klr "
+        }
+    ],
+    "VWL_Mikro": [
+        {
+            "id": 1282,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1283,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1284,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1285,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1286,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1287,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1288,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1289,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1290,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1291,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1292,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1293,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1294,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1295,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        },
+        {
+            "id": 1296,
+            "completed": false,
+            "subject": "VWL_Mikro"
+        }
+    ],
+    "VWL_Makro": [
+        {
+            "id": 1297,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1298,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1299,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1300,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1301,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1302,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1303,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1304,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1305,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1306,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1307,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1308,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1309,
+            "completed": false,
+            "subject": "VWL_Makro"
+        },
+        {
+            "id": 1310,
+            "completed": false,
+            "subject": "VWL_Makro"
+        }
+    ]
+}
