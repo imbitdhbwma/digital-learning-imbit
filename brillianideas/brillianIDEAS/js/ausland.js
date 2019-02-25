@@ -382,6 +382,11 @@ function initMap() {
         '<p>' +
         'Im Winter 2019 hatte ich die Möglichkeit in Peking zu arbeiten. Die Arbeitskultur und das Leben in China waren ein völlig neues Erlebnis für mich. In einem Land in dem ich nicht verstanden werde und nur mit Hilfe des Internets und Kontexts einige Dinge verstehe war jeder Tag ein Abenteuer. Zu meinen Aufgaben gehörte vor allem die Unterstützung des Senior Managements. ' +
        
+       	'<h2 id="secondHeading">Michelle, 21</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'Eine andere kulturelle Arbeitsweise auf der Executive Ebene und das Leben in einer Megacity. In diesen Bereichen konnte ich  zahlreiche Erfahrungen während meiner Zeit in Peking sammeln. Es war eine einzigartige Zeit! ' +
+       
         '</p>' +
         '</div>' +
         '</div>';
@@ -833,8 +838,42 @@ function initMap() {
 
     /* End Marker 23 */
 
+     /* Initialize Marker24 (Gijon) */
+    var contentString24 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Gijon &ndash;</h1>' +
+		'<h2 id="secondHeading">Annett, 22</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In der Nähe von Gijon arbeitete ich in der neuen Gesellschaft meiner Firma, die erst im gleichen Jahr gekauft wurde. Dort wurde ich hauptsächlich im Marketing eingesetzt und beschäftigte mich mit einer Konkurrentenanalyse des spanischen Marktes.' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow24 = new google.maps.InfoWindow({
+        content: contentString24
+    });
+
+    var marker24 = new google.maps.Marker({
+        position: {
+            lat: 43.5322015, 
+            lng: -5.6611195
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Gijon'
+    });
+
+    marker24.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow24.open(map, marker24);
+    });
+
+    /* End Marker 24 */
+    
 	/* Array with all infowindows */
-    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18, infowindow19, infowindow20, infowindow21];
+    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18, infowindow19, infowindow20, infowindow21, infowindow22, infowindow23, infowindow24 ];
 
     /* End Infobox (Summer School) */
 
