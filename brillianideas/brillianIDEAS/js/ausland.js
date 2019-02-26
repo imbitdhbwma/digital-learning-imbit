@@ -695,10 +695,10 @@ function initMap() {
 	/* Initialize Marker20 (San Jose) */
     var contentString20 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; San Jose &ndash;</h1>' +
-		'<h2 id="secondHeading">Anika, 21</h2>' +
+		'<h2 id="secondHeading">Anika, 21 & Barbara, 25</h2>' +
 		'<div id="bodyContent">' +
         '<p>' +
-        'In San Jose habe ich meinen 5. Praxiseinsatz im Global Chief Data Office eines weltweit führenden IT Konzerns verbracht. Ich habe mich die meiste Zeit mit der Softwareentwicklung im Frontend und Backend befasst. Großraumbüros gab es dort nicht wirklich, weshalb ich einen Großteil der Zeit alleine gearbeitet habe und es viele Online-Meetings gab. Es war dennoch eine tolle Erfahrung!' +
+        'In San Jose haben wir unseren 5. Praxiseinsatz im Global Chief Data Office eines weltweit führenden IT Konzerns verbracht. Wir haben uns die meiste Zeit mit der Softwareentwicklung im Frontend und Backend befasst. Großraumbüros gab es dort nicht wirklich, weshalb jeder von uns einen Großteil der Zeit alleine gearbeitet hat und es viele Online-Meetings gab. Es war dennoch eine tolle Erfahrung!' +
 		'</p>' +
         '</div>' +
         '</div>';
