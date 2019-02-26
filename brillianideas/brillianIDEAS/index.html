@@ -34,7 +34,7 @@
     <body style="position: fixed;">
 
     <!-- Bubbles, bubbles everywhere! ~RAHS  -->
-        <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> <source src="img/Background.mp4" type="video/mp4"> </video>
+        <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> <source id="video-background-source" src="img/Background.mp4" type="video/mp4"> </video>
 
         <audio src=audio/whale.mp3 id="my_audio" loop="loop"></audio>
         <script type="text/javascript">
@@ -60,7 +60,33 @@
             </ul>
             
         </div> 
+        <script>
+            /* Easter egg*/
+            var konami = "";
+            var konamiToBe = "11911911511597100971009897"
+            var konamiState = 0;
+            $(document).keypress(function(event){
+                const start_bg_ltr = document.querySelector("#start_bg_ltr");
+                const start_bg_rtl = document.querySelector("#start_bg_rtl");
 
+                konami = konami + (event.which);
+                if(konami.slice(-26) == konamiToBe){
+                    var video = document.getElementById("video_background");
+                    var source = document.getElementById("video-background-source");
+                    if(konamiState == 0){
+                        source.src="img/rickroll.mp4";
+                        konamiState = 1;
+                        start_bg_ltr.classList.add("apply-shake")
+                        start_bg_rtl.classList.add("apply-shake")
+                    }else{
+                        source.src="img/Background.mp4"
+                        konamiState = 0;
+                    }
+                    video.load();
+                    video.play();
+                }
+            });
+        </script>
         <footer></footer>
         <script>
             document.onload = $("footer").load("./content/rocketbarIndex.html");
