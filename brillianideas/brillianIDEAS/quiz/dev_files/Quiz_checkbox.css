@@ -30,6 +30,7 @@
     width: 25px;
     background-color: white;
     border-radius: 5px;
+    hyphens: auto;
 }
 
 /* On mouse-over, add a light red background color */

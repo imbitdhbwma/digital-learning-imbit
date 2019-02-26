@@ -36,11 +36,14 @@ function createMC(frage, antworten, richtig) {
 		questionlabelspan.className = "checkmark_check";
 		questionlabel.appendChild(questionlabelspan);
 		questiondiv.appendChild(questionlabel);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 /**
  * eine Single Choice Frage anglegen
@@ -78,10 +81,14 @@ function createSC(frage, antworten, richtig) {
 		questionlabelspan.className = "checkmark";
 		questionlabel.appendChild(questionlabelspan);
 		questiondiv.appendChild(questionlabel);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 
 }
 /**
@@ -107,7 +114,7 @@ function createDD(frage, antworten, container, richtig) {
 	questiondiv.setAttribute("data-type", "dd");
 
 	var answersDiv = document.createElement("div");
-	answersDiv.id = "antworten";
+	answersDiv.className = "antworten";
 	questiondiv.appendChild(answersDiv);
 
 	// Erstelle alle Antworten als draggable <p> und hänge sie jeweils in den Antworten div
@@ -126,7 +133,7 @@ function createDD(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle die Boxen jeweils mit Überschrift und hänge sie in den boxen div
 	for (i = 0; i < container.length; i++) {
@@ -148,10 +155,12 @@ function createDD(frage, antworten, container, richtig) {
 		box.appendChild(boxTitel);
 
 		boxenDiv.appendChild(box);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 
 }
 
@@ -214,10 +223,12 @@ function createTQ(frage, text, antworten, richtig) {
 		answersdiv.appendChild(answerP);
 	}
 	questiondiv.appendChild(answersdiv);
+	var list = document.createElement("li");
+		list.appendChild(questiondiv);
+	
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 
 /**
@@ -243,7 +254,7 @@ function createTL(frage, antworten, container, richtig) {
 	questiondiv.setAttribute("data-type", "tl");
 
 	var answersDiv = document.createElement("div");
-	answersDiv.id = "antworten";
+	answersDiv.className = "antworten";
 	questiondiv.appendChild(answersDiv);
 
 	// Erstelle alle Antwortmöglichkeiten als draggable <p>
@@ -262,7 +273,7 @@ function createTL(frage, antworten, container, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxen";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle die Tabelle mit Überschriften
 	var table = document.createElement("table");
@@ -300,10 +311,12 @@ function createTL(frage, antworten, container, richtig) {
 		});
 		td2.appendChild(td2div);
 		table.appendChild(zeile);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
 
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 
 /**
@@ -347,7 +360,7 @@ function createOD(frage, antworten, richtig) {
 
 	var boxenDiv = document.createElement("div");
 	boxenDiv.id = "boxenOD";
-	questiondiv.appendChild(boxenDiv);
+	answersDiv.insertAdjacentElement('beforeend',boxenDiv);
 
 	// Erstelle eine reihe leerer boxen und nummeriere sie.
 	for (i = 0; i < antworten.length; i++) {
@@ -368,11 +381,12 @@ function createOD(frage, antworten, richtig) {
 		box.appendChild(boxTitel);
 
 		boxenDiv.appendChild(box);
+		var list = document.createElement("li");
+		list.appendChild(questiondiv);
 	}
 
-	var contentdiv = document.getElementById("content");
-	contentdiv.append(questiondiv);
-
+	var contentdiv = document.getElementById("questionList");
+	contentdiv.append(list);
 }
 /**
  * Erstellt den div der Frage und fügt den Header mit dem Fragentext ein.
@@ -412,6 +426,8 @@ function findQuestionNumber() {
 	var weiter = true;
 	var n = 1;
 
+	
+
 	while (weiter) {
 		if (document.getElementById("question" + n + "_answer1") !== null) {
 			n++;
@@ -420,6 +436,7 @@ function findQuestionNumber() {
 		}
 	}
 	return n;
+	
 }
 
 /**
@@ -427,10 +444,9 @@ function findQuestionNumber() {
  * 
  */
 function evaluate() {
-
+	
 	// läuft durch alle Fragen
 	for (var i = 1; i <= anzahlFragen; i++) {
-
 		var question = document.getElementById("question" + i);
 
 		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser Teil durchlaufen.
@@ -438,6 +454,7 @@ function evaluate() {
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
 			var childrenInput = $("#question" + i).find("input").toArray();
 			var richtig = richtigArray.shift();
+			console.log(richtig);
 
 			var gibMirPunkte = true;
 			// Durchläuft alle Kinder (=Antwortmöglichkeiten), prüft ob sie geklickt wurden und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
@@ -451,6 +468,7 @@ function evaluate() {
 				}
 				if (gibMirPunkte) {
 					score++;
+					console.log("Score: " + score);
 				}
 			}
 		}
@@ -463,6 +481,7 @@ function evaluate() {
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".dropbox").toArray();
+			//console.log(boxes);
 
 			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
@@ -476,6 +495,7 @@ function evaluate() {
 
 			if (gibMirPunkte) {
 				score++;
+				console.log("Score: " + score); 
 			}
 
 			// set the variable question to be the DOM representation of the element again (instead of jQuery)
@@ -490,7 +510,7 @@ function evaluate() {
 			var richtig = richtigArray.shift();
 			var question = $('#question' + i);
 			var boxes = $("#question" + i).find(".box_textOrder").toArray();
-			console.log("anzahl der boxen: " + boxes.length);
+			//console.log("anzahl der boxen: " + boxes.length);
 
 			// Durchläuft alle Antworten, prüft in welcher Box sie hängen und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
 			for (var k = 0; k < draggables.length; k++) {
@@ -568,8 +588,11 @@ function evaluate() {
 
 		}
 
-	}
+	} createScoreText();
+}
 
+function createScoreText (){
+	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
