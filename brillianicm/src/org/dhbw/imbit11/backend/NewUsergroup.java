@@ -71,26 +71,30 @@ import org.apache.shiro.SecurityUtils;
 		String org_description = request.getParameter("groupdescription");
 		String org_url = request.getParameter("groupurl");
 		
+		class ContainsBlankException extends Exception{}
 		try {
-			
-			//get the user (aka subject) associated with this request.
-			
-			String subjectPrincipal = SecurityUtils.getSubject().getPrincipal().toString();
-
-			//System.out.println("Der derzeitige Dozent ist " + subjectPrincipal);
-			
-			UserRealm userRealm = new UserRealm();
-			userRealm.createNewGroup(groupname, subjectPrincipal, org_name, org_description, org_url);
-			request.setAttribute("success", "The new User Group was created!");
+			if(!(groupname.contains(" "))){
+				//get the user (aka subject) associated with this request.
+				
+				String subjectPrincipal = SecurityUtils.getSubject().getPrincipal().toString();
+	
+				//System.out.println("Der derzeitige Dozent ist " + subjectPrincipal);
+				
+				UserRealm userRealm = new UserRealm();
+				userRealm.createNewGroup(groupname, subjectPrincipal, org_name, org_description, org_url);
+				request.setAttribute("success", "The new User Group was created!");
+			} else {
+				throw new ContainsBlankException();
+			}
+		}catch(ContainsBlankException e){
+			e.printStackTrace();
+			request.setAttribute("error", "NOT SUCCESSFUL - blanks not allowed!");
+		}catch (Exception ex) {
+			ex.printStackTrace();
+			request.setAttribute("error", "NOT SUCCESSFUL - cause not known!");
 		}
 		
-		catch (Exception ex) {
-			
-			ex.printStackTrace();
-			
-			request.setAttribute("error", "NOT SUCCESSFUL - cause not known!");
-			
-		}
+		
 		
 		
 	     // forward the request and response to the view
