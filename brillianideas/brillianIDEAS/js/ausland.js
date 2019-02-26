@@ -28,18 +28,22 @@ function initMap() {
         '<div id="bodyContent">' +
         '<p> ' +
 		'Ich habe in meinem Auslandseinsatz das Projektmanagement eines Charter Clients unterstützt. Hierbei konnte ich viele spannende Einblicke in die Tätigkeiten einer Beraterin auf einem Kundenprojekt im Bereich der Konsumgüterindustrie gewinnen. Besonders interessant war die direkte Interaktion mit dem Kunden im Bereich Scope Management. Persönlich gewachsen bin ich an den Aufgaben, die ich selbstständig bearbeitet und mit dem Kunden besprochen habe.' +
+		
 		'<h2 id="secondHeading">Lara, 21</h2>' +
         '<div id="bodyContent">' +
         '<p> ' +
 		'Ich war zwei Monate in London und habe dort für einen Kunden der Konsumgüterindustrie das Go-Live eines Salesforce Projektes begleitet. Meine Aufgaben dabei umfassten, vor allem das Testing der implementierten Funktionen sowie die Administration und Bereitstellung einer Salesforce Testumgebung. So hatte ich die Möglichkeit, die Prozesse vor Ort beim Kunden besser nachvollziehen zu können. Außerdem hatte ich an den Wochenenden die Möglichkeit, London sowie weitere Städte und Sehenswürdigkeiten in Großbritannien zu erkunden.' +
-
+        
 		'<h2 id="secondHeading">Sebastian, 21</h2>' +
         '<div id="bodyContent">' +
         '<p> ' +
 		'Im Rahmen meines Auslandsaufenthaltes in London habe ich auf zwei Projekten mitgearbeitet. Im ersten Projekt haben wir für einen Kunden SAP Reports auf Completeness und Accuracy getestet. Dahingegen befasste sich das Zweite mit der Erstellung und Auswertung eines standardisierten Assessments in einem Governance Portal. Die Tätigkeiten waren sehr anspruchsvoll, aber nicht minder spannend. In meiner Freizeit und an den Wochenenden war ich häufig in der Stadt unterwegs und konnte so vieles sehen und erleben, was ich als Tourist nicht hätte mitbekommen können.' +
+            
+        '<h2 id="secondHeading">Nele, 21 & Marvin, 20</h2>' +
+        '<div id="bodyContent">' +
+        '<p> ' +
+		'Wir haben unseren fünften Praxiseinsatz in London verbracht, wo wir das Talent & Engagement Team unterstützt haben. Dabei fielen verschiedene Aufgaben und Projekt an. Besonders haben wir die Nähe der Lokation zur Themse, dem London Eye, und der Innenstadt geschätzt.' +
         '</p>' +
-        '</div>' +
-        '</div>';
         '</div>' +
         '</div>';
 
@@ -65,6 +69,7 @@ function initMap() {
     });
 
     /* End Marker 2 */
+    
     /* Initialize Marker 3 (Mailand) */
     var contentString3 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Mailand &ndash;</h1>' +
@@ -99,6 +104,7 @@ function initMap() {
     });
 
     /* End Marker 3 */
+    
      /* Initialize Marker4 (Hongkong) */
     var contentString4 = '<div id="content">' +
 		'<h1 id="firstHeading">&ndash; Hongkong &ndash;</h1>' +
@@ -131,6 +137,7 @@ function initMap() {
     });
 
     /* End Marker 4 */
+    
   /* Initialize Marker5 (Dublin) */
     var contentString5 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Dublin &ndash;</h1>' +
@@ -163,6 +170,7 @@ function initMap() {
     });
 
     /* End Marker 5 */
+    
 	 /* Initialize Marker6 (Bratislava) */
     var contentString6 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Bratislava &ndash;</h1>' +
@@ -202,6 +210,18 @@ function initMap() {
         '<div id="bodyContent">' +
         '<p>' +
         'Im Zuge meines Studiums habe ich drei Monate in Spaniens Hauptstadt Madrid verbracht. Dort war ich, neben dem Schreiben einer Projektarbeit, an der Einführung eines neuen SAP CRM Systems für unsere Standorte in Spanien, UK und Südafrika involviert. Geholfen haben mir dabei Vorlesungen wie Wirtschaftsinformatik und Datenbanken. Meine Freizeit habe ich mit der spanischen Küche, dem Nachtleben sowie den vielen Sehenswürdigkeiten und in Museen verbracht, die die Stadt zu bieten hat. Insgesamt war es eine tolle Erfahrung.'
+		
+        
+        '<h2 id="secondHeading">Luca, 20</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'In Madrid habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort mit einem internationalen Team die Implementation einer Track-and-Trace-Lösung gestartet. Ich habe viel Neues gelernt und hatte sehr viel Spaß.'
+		
+        
+         '<h2 id="secondHeading">Hector, 26</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'In Madrid habe ich die Möglichkeit bekommen, ein SOC (Security Operations Center) näher kennenzulernen und die täglichen Aktivitäten zu unterstützen. Dazu zählten die Erstellung von Log-Parsing-Regeln mit Regex und die Klassifizierung von Events und Sicherheitslücken anhand von SIEM und Threat Intelligence Software. Spannend fand ich vor allem, wie anders die spanische Arbeitsweise ist, obwohl das Land physisch nicht allzu weit entfernt ist. '
 		'</p>' +
         '</div>' +
         '</div>';
@@ -343,17 +363,30 @@ function initMap() {
     });
 
     /* End Marker 10 */
-					 /* Initialize Marker11 (Beijing) */
+    
+ /* Initialize Marker11 (Peking) */
     var contentString11 = '<div id="content">' +
-		'<h1 id="firstHeading">&ndash; Beijing &ndash;</h1>' +
+		'<h1 id="firstHeading">&ndash; Peking &ndash;</h1>' +
 		'<h2 id="secondHeading">Fabian, 20</h2>' +
         '<div id="bodyContent">' +
         '<p>' +
 		'Ich war zwei Monate für einen großen amerikanischen IT-Konzern im Bereich Customer Experience in China tätig. Neben den fachlichen Herausforderungen, wie den starken Restriktionen für ausländische Unternehmen in China, lagen die größten Schwierigkeiten für mich im interkulturellen Umfeld. Die Arbeitsmentalität und Kommunikationsbereitschaft weicht sehr stark von deutscher Pünktlichkeit und Ordnung ab. Aber nach den ersten Kommunikationsschwierigkeiten sind mir viele Kollegen und neue Bekannte sehr freundlich und höflich begegnet und ich hatte eine tolle Zeit in einer der größten Metropolen der Welt.' +
+       
         '<h2 id="secondHeading">Tobias, 22</h2>' +
         '<div id="bodyContent">' +
         '<p>' +
         'Im Zuge eines Outsourcing-Projektes für einen Kunden bin ich nach Beijing gereist. Vor Ort habe ich eine Bestandsaufnahme der SAP- & IT-Prozesse gemacht und evaluiert, welche Aufgaben ein zukünftiger Service Provider zu bewältigen hat, sowie diese in einem Anforderungskatalog erfasst. Mit Hilfe von Request for Proposals, aufgebaut anhand des Anforderungskataloges, holte ich mehrere Service-Angebote für unseren Kunden ein und übergab diese dem General Manager China. Die Selbstständigkeit und Eigenverantwortung in meinem Projekt haben mich, insbesondere in der Bewältigung von Herausforderungen, aber auch in meiner Organisation und Planung, besser gemacht. Hilfreich waren für mich hier die an der DHBW erlernten Kenntnisse im Projektmanagement sowie dem Fachwissen aus IT und Wirtschaftsinformatik. Abseits des geschäftlichen Alltags nutzte ich die Wochenenden, um mit Freunden diverse Städte und Sehenswürdigkeiten zu besichtigen.' +
+      
+      	'<h2 id="secondHeading">Felix, 21</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'Im Winter 2019 hatte ich die Möglichkeit in Peking zu arbeiten. Die Arbeitskultur und das Leben in China waren ein völlig neues Erlebnis für mich. In einem Land in dem ich nicht verstanden werde und nur mit Hilfe des Internets und Kontexts einige Dinge verstehe war jeder Tag ein Abenteuer. Zu meinen Aufgaben gehörte vor allem die Unterstützung des Senior Managements. ' +
+       
+       	'<h2 id="secondHeading">Michelle, 21</h2>' +
+        '<div id="bodyContent">' +
+        '<p>' +
+        'Eine andere kulturelle Arbeitsweise auf der Executive Ebene und das Leben in einer Megacity. In diesen Bereichen konnte ich  zahlreiche Erfahrungen während meiner Zeit in Peking sammeln. Es war eine einzigartige Zeit! ' +
+       
         '</p>' +
         '</div>' +
         '</div>';
@@ -369,7 +402,7 @@ function initMap() {
         },
         map: map,
 		icon: iconOctopus1,
-        title: 'Beijing'
+        title: 'Peking'
     });
 
     marker11.addListener('click', function() {
@@ -380,6 +413,7 @@ function initMap() {
     });
 
     /* End Marker 11 */
+    
 	/* Initialize Marker12 (Krakau) */
     var contentString12 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Krakau &ndash;</h1>' +
@@ -413,6 +447,7 @@ function initMap() {
     });
 
     /* End Marker 12 */
+    
 		/* Initialize Marker13 (Linz) */
     var contentString13 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Linz &ndash;</h1>' +
@@ -446,6 +481,7 @@ function initMap() {
     });
 
     /* End Marker 13 */
+    
 	/* Initialize Marker14 (Boston) */
     var contentString14 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Boston &ndash;</h1>' +
@@ -479,6 +515,7 @@ function initMap() {
     });
 
     /* End Marker 14 */
+    
 		/* Initialize Marker15 (Brasov) */
     var contentString15 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Brasov &ndash;</h1>' +
@@ -512,6 +549,7 @@ function initMap() {
     });
 
     /* End Marker 15 */
+    
 		/* Initialize Marker16 (New York) */
     var contentString16 = '<div id="content">' +
 		'<h1 id="firstHeading">&ndash; New York &ndash;</h1>' +
@@ -524,7 +562,7 @@ function initMap() {
 		'<div id="bodyContent">' +
         '<p>' +
         'In meinem vierten Praxiseinsatz hatte ich die Chance, für zweieinhalb Monate im Bereich Corporate Citizenship in New York zu arbeiten. Ich war verantwortlich, ein Bewerbungsverfahren für ein internes Leadership Development Programm, bei dem Mitarbeiter auf wohltätigen Projekten auf der ganzen Welt eingesetzt werden, zu entwickeln. Dabei waren vor allem meine BWL- und Projektmanagement-Kenntnisse aus der Uni hilfreich. Für mich war es ein echtes Highlight, für einen längeren Zeitraum in einer Metropole wie New York zu leben. Ich habe sehr viel gesehen und kenne mich besser aus, als jeder Urlaub es hätte ermöglichen können.' +
-               '</p>' +
+        '</p>' +
         '</div>' +
         '</div>';
 
@@ -551,6 +589,7 @@ function initMap() {
     });
 
     /* End Marker 16 */
+    
 		/* Initialize Marker17 (Dubai) */
     var contentString17 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Dubai &ndash;</h1>' +
@@ -573,7 +612,7 @@ function initMap() {
         },
         map: map,
 		icon: iconOctopus1,
-        title: 'New York'
+        title: 'Dubai'
     });
 
     marker17.addListener('click', function() {
@@ -618,9 +657,223 @@ function initMap() {
     });
 
     /* End Marker 18 */
+    
+    /* Initialize Marker19 (Breslau) */
+    var contentString19 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Breslau &ndash;</h1>' +
+		'<h2 id="secondHeading">Anne, 24</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'Ich habe meinen Auslandsaufenthalt in der wunderschönen polnischen Stadt Breslau verbracht. Dort habe ich zusammen mit dem Quality Control Team an der Optimierung und Automatisierung von täglichen Reportingaufgaben mit Hilfe von Process Mining Software und BI Tools gearbeitet. Der Auslandsaufenthalt war eine tolle Zeit um die Arbeits- und Lebenskultur in einem anderen Land kennenzulernen und herauszufinden, wie man sich in einer anderen Kultur verhält und dort effektiv arbeitet. ' +
+		'</p>' +
+        '</div>' +
+        '</div>';
 
+    var infowindow19 = new google.maps.InfoWindow({
+        content: contentString19
+    });
+
+    var marker19 = new google.maps.Marker({
+        position: {
+            lat: 51.107883,
+            lng: 17.038538
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Breslau'
+    });
+
+    marker19.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow19.open(map, marker19);
+    });
+
+    /* End Marker 19 */
+
+	/* Initialize Marker20 (San Jose) */
+    var contentString20 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; San Jose &ndash;</h1>' +
+		'<h2 id="secondHeading">Anika, 21 & Barbara, 25</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In San Jose haben wir unseren 5. Praxiseinsatz im Global Chief Data Office eines weltweit führenden IT Konzerns verbracht. Wir haben uns die meiste Zeit mit der Softwareentwicklung im Frontend und Backend befasst. Großraumbüros gab es dort nicht wirklich, weshalb jeder von uns einen Großteil der Zeit alleine gearbeitet hat und es viele Online-Meetings gab. Es war dennoch eine tolle Erfahrung!' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+        
+        '<h2 id="secondHeading"></h2>' +
+        '<div id="bodyContent">' +
+        '<p> ' +
+		'' +
+        '</p>' +
+        '</div>' +
+        '</div>';
+        '</div>' +
+        '</div>';
+
+    var infowindow20 = new google.maps.InfoWindow({
+        content: contentString20
+    });
+
+    var marker20 = new google.maps.Marker({
+        position: {
+            lat: 37.3382082,
+            lng: -121.8863286
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'San Jose'
+    });
+
+    marker20.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow20.open(map, marker20);
+    });
+
+    /* End Marker 20 */
+    
+    /* Initialize Marker21 (Sydney) */
+    var contentString21 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Sydney &ndash;</h1>' +
+		'<h2 id="secondHeading">Elisa, 21</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In Sydney habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort dem lokalen CO/FI Team dabei geholfen eine neue Software zur Kosten- und Salesplanung zu implementieren. Zu meinen Aufgaben hat sowohl die Datenbereinigung und Validierung, als auch das Enduser- und Administratortraining gezählt. Des Weiteren habe ich auch einige Reportingtemplates gebaut. ' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow21 = new google.maps.InfoWindow({
+        content: contentString21
+    });
+
+    var marker21 = new google.maps.Marker({
+        position: {
+            lat: -33.72976093425797,
+            lng: 151.1350952509518
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Sydney'
+    });
+
+    marker21.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow21.open(map, marker21);
+    });
+
+    /* End Marker 21 */
+    
+     /* Initialize Marker22 (Mumbai) */
+    var contentString22 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Mumbai &ndash;</h1>' +
+		'<h2 id="secondHeading">Alice, 21</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'Während meines Auslandspraxiseinsatzes hatte ich die Möglichkeit, in Mumbai, genauer gesagt in Navi Mumbai, zu arbeiten. Meine Jobrolle könnte man als Junior IT Consultant beschreiben. Ich habe ein internes Knowledge Management Tool mit JavaScript weiterentwickelt, einen Kundentermin vorbereitet und daran teilgenommen und hatte diverse Tätigkeiten im Bereich Sales Support. Die Arbeitskultur war sehr anders, aber ich wurde freundlich im Team aufgenommen und durfte die indische Kultur kennen lernen.' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow22 = new google.maps.InfoWindow({
+        content: contentString22
+    });
+
+    var marker22 = new google.maps.Marker({
+        position: {
+            lat: 19.0759837,
+            lng: 72.8776559
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Mumbai'
+    });
+
+    marker22.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow22.open(map, marker22);
+    });
+
+    /* End Marker 22 */
+    
+     /* Initialize Marker23 (Basel) */
+    var contentString23 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Basel &ndash;</h1>' +
+		'<h2 id="secondHeading">Niklas, 22</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In Basel habe ich die Möglichkeit bekommen, in einem Softwareunternehmen in der Versicherungsbranche zu arbeiten. Dort habe ich Einblicke in die Branche und in Anforderungsmanagement bekommen. Außerdem durfte ich bei einem agilem Frontend Projekt mitarbeiten.' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow23 = new google.maps.InfoWindow({
+        content: contentString23
+    });
+
+    var marker23 = new google.maps.Marker({
+        position: {
+            lat: 47.559601, 
+            lng: 7.588576
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Basel'
+    });
+
+    marker23.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow23.open(map, marker23);
+    });
+
+    /* End Marker 23 */
+
+     /* Initialize Marker24 (Gijon) */
+    var contentString24 = '<div id="content">' +
+        '<h1 id="firstHeading">&ndash; Gijon &ndash;</h1>' +
+		'<h2 id="secondHeading">Annett, 22</h2>' +
+		'<div id="bodyContent">' +
+        '<p>' +
+        'In der Nähe von Gijon arbeitete ich in der neuen Gesellschaft meiner Firma, die erst im gleichen Jahr gekauft wurde. Dort wurde ich hauptsächlich im Marketing eingesetzt und beschäftigte mich mit einer Konkurrentenanalyse des spanischen Marktes.' +
+		'</p>' +
+        '</div>' +
+        '</div>';
+
+    var infowindow24 = new google.maps.InfoWindow({
+        content: contentString24
+    });
+
+    var marker24 = new google.maps.Marker({
+        position: {
+            lat: 43.5322015, 
+            lng: -5.6611195
+        },
+        map: map,
+		icon: iconOctopus1,
+        title: 'Gijon'
+    });
+
+    marker24.addListener('click', function() {
+      for (var i=0; i<array1.length; i++){
+        array1[i].close();
+      }
+        infowindow24.open(map, marker24);
+    });
+
+    /* End Marker 24 */
+    
 	/* Array with all infowindows */
-    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18];
+    var array1 = [infowindow2, infowindow3, infowindow4, infowindow5, infowindow6, infowindow7, infowindow8, infowindow9, infowindow10, infowindow11, infowindow12, infowindow13, infowindow14, infowindow15, infowindow16, infowindow17, infowindow18, infowindow19, infowindow20, infowindow21, infowindow22, infowindow23, infowindow24 ];
 
     /* End Infobox (Summer School) */
 
