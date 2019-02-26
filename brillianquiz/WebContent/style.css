@@ -84,35 +84,11 @@ p {
 	margin-bottom: 2em;
 }
 
-.outer {
-	position: relative;	
-}
-
-.inner {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.fish {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	top: 200px;
-	left: 300px;
-	opacity: 0.3;
-	background-image: url(img/animated/it.gif);
-	background-size: contain;	
-	//background-color: red;
-	z-index: -10;
-}
-
 @media (min-width: 600px) {
 	p {
 		font-size: 1.25rem;
 	}
 	.img{max-width: 40%;}
-	.outer{height: 700px;}
 }
 
 @media(min-width: 800px; {
@@ -121,5 +97,4 @@ p {
 		line-height: 1.5;
 	}
 	.img{max-width: 50%;}
-	.outer{height: 700px;}
 }
