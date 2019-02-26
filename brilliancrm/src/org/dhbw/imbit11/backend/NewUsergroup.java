@@ -68,25 +68,27 @@ import org.apache.shiro.SecurityUtils;
 		//see /login.jsp for these form fields
 		String groupname = request.getParameter("groupname");
 		
+		class ContainsBlankException extends Exception{}
 		try {
-			
-			//get the user (aka subject) associated with this request.
-			
-			String subjectPrincipal = SecurityUtils.getSubject().getPrincipal().toString();
-
-			//System.out.println("Der derzeitige Dozent ist " + subjectPrincipal);
-			
-			UserRealm userRealm = new UserRealm();
-			userRealm.createNewGroup(groupname, subjectPrincipal);
-			request.setAttribute("success", "The new User Group was created!");
-		}
-		
-		catch (Exception ex) {
-			
+			if(!(groupname.contains(" "))){
+				//get the user (aka subject) associated with this request.
+				
+				String subjectPrincipal = SecurityUtils.getSubject().getPrincipal().toString();
+	
+				//System.out.println("Der derzeitige Dozent ist " + subjectPrincipal);
+				
+				UserRealm userRealm = new UserRealm();
+				userRealm.createNewGroup(groupname, subjectPrincipal);
+				request.setAttribute("success", "The new User Group was created!");
+			} else {
+				throw new ContainsBlankException();
+			}
+		}catch(ContainsBlankException e){
+			e.printStackTrace();
+			request.setAttribute("error", "NOT SUCCESSFUL - blanks not allowed!");
+		}catch (Exception ex) {
 			ex.printStackTrace();
-			
 			request.setAttribute("error", "NOT SUCCESSFUL - cause not known!");
-			
 		}
 		
 		
