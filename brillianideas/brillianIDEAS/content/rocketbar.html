@@ -31,21 +31,21 @@
 	</div>
 	<div class="icm">
 		<a
+			id="icmLink"
 			target="_blank"
 			href="/brillianICM"><img
 			src="../img/brillianicm.png"
 			class="icon"
-			alt="brillianICM"
-			onclick="javascript:event.target.port=8080"></a>
+			alt="brillianICM"></a>
 	</div>
 	<div class="crm">
 		<a
+			id="crmLink"
 			target="_blank"
 			href="/brillianCRM"><img
 			src="../img/brilliancrm.png"
 			class="icon"
-			alt="brillianCRM"
-			onclick="javascript:event.target.port=8080"></a>
+			alt="brillianCRM"></a>
 	</div>
 	<div class="wiki">
 		<a
@@ -87,5 +87,10 @@
 		console.log("Toggled rocketbar.");
 		document.getElementById("rocketbar").classList.toggle("open");
 	}
+	function loadRocketbarLinks(){
+		document.getElementById("icmLink").port = "8080";
+		document.getElementById("crmLink").port = "8080";
+	}
+	document.onload = loadRocketbarLinks();
 </script>
 
