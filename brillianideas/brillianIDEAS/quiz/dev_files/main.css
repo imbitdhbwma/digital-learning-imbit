@@ -85,6 +85,7 @@ a:visited {
 	padding-left: 1%;
 	width: 75%;
 	text-shadow: 1px 1px black;
+	hyphens: auto;
 }
 
 #content {
