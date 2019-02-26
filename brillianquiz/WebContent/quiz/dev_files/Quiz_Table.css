@@ -1,0 +1,29 @@
+.dropTable{
+    width: 200px;
+    min-height: 50px;
+    /*border: 1px solid #aaaaaa;*/
+    float: left;
+
+    background: #591220;
+    border: solid #991B33;
+    border-radius: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	float: right;
+}
+
+th {
+	background-color: #991B33;
+
+}
+
+td {
+	text-align: left;
+}
+
+table, th, td {
+	/* border: 3px solid black; */
+	
+}
