@@ -141,50 +141,12 @@
     });
     </script>
 
-    <!--launchbar-->
-<div id="launchbar" class="launchbar">
-
-    <div id="rocketbar" class="rocketbar">
-        <!-- see comments in rocketbar.css -->
-        <div class="wiki">
-            <a target="_blank" href="http://wiki.brillianideas.com"><img src="img/wiki.png" class="icon" alt="Cloud Wiki"></a>
-        </div>
-        <div class="icm">
-            <a target="_blank" href="http://brillianICM.com"><img src="img/brillianicm.png" class="icon" alt="brillianICM"></a>
-        </div>
-        <div class="crm">
-            <a target="_blank" href="http://brillianCRM.com"><img src="img/brilliancrm.png" class="icon" alt="brillianCRM"></a>
-        </div>
-        <div class="imbit">
-            <img id="tentacle_img_small_launchbar" class="img" src="img/launchbar_tentakel_u10.png" onclick="showRocketbar()">
-          <!--  <img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage" onclick="openTab('./#imbit');">-->
-            <a target="_self" href="http://www.brillianideas.com/#imbit"><img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage"></a>
-        </div>
-        <div class="digitallearning">
-            <img src="img/digitalesLernen.png" class="icon" alt="digitales Lernen" onclick="window.open('http://brillianideas.com/#digitalLearning', '_self');">
-        </div>
-        <div class="interactive">
-            <img src="img/quiz.png" class="icon" alt="Quizzes" onmouseover="this.src='img/quiz_alt.png';" onmouseout="this.src='img/quiz.png';" onclick="window.open('content/octopus.html','_self')">
-        </div>
-        <div class="video">
-            <img src="img/newContent.png" class="icon" alt="New Content" onclick="window.open('LernvideosBWL.html','_self')">
-        </div>
-        <div class="impressum">
-            <img src="img/impressum.png" class="icon" alt="Impressum" onclick="window.open('content/impressum.html','_self')">
-        </div>
-    </div>
+    <!--launchbar--> <footer></footer>
+        <script>
+                document.onload = $("footer").load("./content/rocketbarIndex.html");
+            </script>
 </div>
     </body>
 </html>
 
-<script type="text/javascript">
-
-    /** Diese Funktion ist dafür zuständig, die Rocketbar durch klick auf den kleinen Tentakel in der linken unteren Ecke der Seite 
-    sichtbar zu machen. **/
-    function showRocketbar() {
-        console.log("1");
-        // document.getElementById("rocketbar").setAttribute("style", "transform: translateY(10%);");
-        document.getElementById("rocketbar").classList.toggle("open");
-    }
-</script>
 
