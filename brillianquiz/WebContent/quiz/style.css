@@ -1,23 +1,23 @@
 body {
   /* Location of the image */
   background-image: url(img/bg.jpg);
-  
+
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Image doesn't repeat */
   background-repeat: no-repeat;
-  
-  /* Makes the image fixed in the viewport so that it doesn't move when 
+
+  /* Makes the image fixed in the viewport so that it doesn't move when
      the content height is greater than the image height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based on its container's size */
   background-size: cover;
-  
+
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
-  
+
   /* SHORTHAND CSS NOTATION
    * background: url(background-photo.jpg) center center cover no-repeat fixed;
    */
@@ -31,10 +31,10 @@ body {
     background-image: url(img/bg.jpg);
   }
 	}
-	
+
 img {
 	max-width: 100%;
-	max-heigth: 100%;
+	max-height: 100%;
 }
 
 .container {
@@ -47,14 +47,14 @@ img {
 	background-image: url("img/background/bubble01.png");
 	background-size: 70%;
 	background-repeat: no-repeat;
-	background-position: top;	
+	background-position: top;
 }
 
 .loginkopf {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	heigth: 100%;
+	/*heigth: 100%;*/
 	width: 100px;
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .outer {
-	position: relative;	
+	position: relative;
 }
 
 .inner {
@@ -102,8 +102,8 @@ p {
 	left: 300px;
 	opacity: 0.3;
 	background-image: url(img/animated/it.gif);
-	background-size: contain;	
-	//background-color: red;
+	background-size: contain;
+	/*background-color: red;*/
 	z-index: -10;
 }
 
@@ -115,7 +115,7 @@ p {
 	.outer{height: 700px;}
 }
 
-@media(min-width: 800px; {
+@media(min-width: 800px;) {
 	p {
 		font-size: 1.5rem;
 		line-height: 1.5;
