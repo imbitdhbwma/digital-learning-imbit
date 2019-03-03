@@ -342,6 +342,9 @@ function createOD(frage, antworten, richtig) {
 
 	var answersDiv = document.createElement("div");
 	answersDiv.id = "antwortenOD";
+	var answersDiv2 = document.createElement("div");
+	answersDiv2.id = "antwortenOD2";
+	answersDiv.appendChild(answersDiv2);
 	questiondiv.appendChild(answersDiv);
 
 	// Erstelle alle Antworten als draggable <p>
@@ -355,7 +358,7 @@ function createOD(frage, antworten, richtig) {
 		var pText = document.createTextNode(antworten[i]);
 		p.appendChild(pText);
 
-		answersDiv.appendChild(p);
+		answersDiv2.appendChild(p);
 	}
 
 	var boxenDiv = document.createElement("div");
