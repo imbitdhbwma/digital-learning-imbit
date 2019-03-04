@@ -128,7 +128,6 @@ a:visited {
 }
 
 #content {
-	/*   border: solid 4px green;*/
 	margin-left: 6%;
 	margin-right: 5%;
 	margin-top: 1%;
@@ -137,26 +136,12 @@ a:visited {
 #submit {
 	position: relative;
 }
-#next_button_div {
-	position: absolute;
-	right: 100px;
-	top: 60px;
-}
 
-#back_button_div {
-	position: absolute;
-	right: 250px;
-	top: 60px;
-}
-
-#supergeil {
-	font-size: 3.5em;
-	text-shadow: 1px 1px 1px white;
-}
-
-#outro {
+#resultText {
 	font-size: 1em;
-	text-shadow: 1px 1px 1px white;
+	padding-left: 3%;
+	margin-right: 5%;
+	margin-top: 1%;
 }
 
 .button {

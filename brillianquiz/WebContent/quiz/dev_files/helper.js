@@ -596,6 +596,13 @@ function evaluate() {
 
 function createScoreText (){
 	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
+	var wellDone = anzahlFragen * 0.7;
+	console.log(wellDone);
+	if(score>wellDone){
+		document.getElementById('resultText').innerHTML = "Das ist echt klasse. Du hast den Stoff aus " + value +" verstanden. Weiter so!";
+	} else {
+		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst";
+	}
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
