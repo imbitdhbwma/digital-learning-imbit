@@ -29,7 +29,22 @@ h1 {
 	position: fixed;
 }
 
+ol {
+	list-style:none; 
+	counter-reset: li;
+}
 
+p.question:before {
+	content: counter(li); 
+	color: #991B33;
+	display: inline-block; width: 1em;
+	margin-left: -1.5em;
+    margin-right: 0.5em; text-align: right; direction: rtl
+}
+
+li {
+	counter-increment: li;
+}
 
 a {
 	color: white;
