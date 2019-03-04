@@ -25,15 +25,15 @@
 <!-- <h1>h1</h1> Inhalt -->
 <div class="outer">
 <div class="inner" align="center">
-<a href="../../../brillianideas/brillianIDEAS/content/QuizzesWI.html" style="text-decoration:none;">
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesWI.jsp" style="text-decoration:none;">
 <img class="animated" src="img/animated/wi.gif" alt="WI">
 <!-- <p class="title"> Wirtschaftsinformatik </p> -->
 </a>
-<a href="../../../brillianideas/brillianIDEAS/content/QuizzesBWL.html" style="text-decoration:none;">
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesBWL.jsp" style="text-decoration:none;">
 <img class="animated" src="img/animated/bwl.gif" alt="BWL">
 <!-- <p class="title"> BWL </p> -->
 </a>
-<a href="../../../brillianideas/brillianIDEAS/content/QuizzesIT.html" style="text-decoration:none;">
+<a href="../../../brillianideas/brillianIDEAS/content/QuizzesIT.jsp" style="text-decoration:none;">
 <img class="animated" src="img/animated/it.gif" alt="IT">
 <!-- <p class="title"> IT </p> -->
 </a>

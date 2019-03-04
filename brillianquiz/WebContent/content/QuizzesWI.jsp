@@ -48,7 +48,7 @@
 
 		<div class="container tooltiphover">
 				
-			<a href="../quiz/quiz.html?subject=UX">
+			<a href="../quiz/quiz.jsp?subject=UX">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-01.png"></span>
 
@@ -62,7 +62,7 @@
 		<div class="container tooltiphover">
 		
 		
-			<a href="../quiz/quiz.html?subject=Systemanalyse">
+			<a href="../quiz/quiz.jsp?subject=Systemanalyse">
 			
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/wi/wi-02.png"></span>
 
@@ -76,7 +76,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.html?subject=Wahrnehmungspsychologie">
+			<a href="../quiz/quiz.jsp?subject=Wahrnehmungspsychologie">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-03.png"></span>
 
@@ -93,7 +93,7 @@
 		<div class="container tooltiphover">
 		
 		
-			<a href="../quiz/quiz.html?subject=Wirtschaftsinformatik">
+			<a href="../quiz/quiz.jsp?subject=Wirtschaftsinformatik">
 			
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/wi/wi-04.png"></span>
 
@@ -107,7 +107,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.html?subject=ITServiceManagement">
+			<a href="../quiz/quiz.jsp?subject=ITServiceManagement">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-05.png"></span>
 
@@ -119,7 +119,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.html?subject=BusinessProcessManagement">
+			<a href="../quiz/quiz.jsp?subject=BusinessProcessManagement">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-06.png"></span>
 

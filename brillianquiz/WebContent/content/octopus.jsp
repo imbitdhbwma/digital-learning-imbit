@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <%@ page import="org.dhbw.imbit11.ApplicationConstants"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text.jsp; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE.jsp>
+.jsp>
 	<head>
 		<meta charset="UTF-8">
 		<title>brillianIDEAS</title>
@@ -59,7 +59,7 @@
 				</div>
 
 				<div class="tooltip">
-					<a href="QuizzesIT.html"> <img
+					<a href="QuizzesIT.jsp"> <img
 						class="octo_arm_links"
 						src="../img/tentakel_ltr.png"
 						alt="" /> <span class="tooltiptext_l">Hilf die IT
@@ -68,7 +68,7 @@
 				</div>
 
 				<div class="tooltip">
-					<a href="QuizzesBWL.html"> 
+					<a href="QuizzesBWL.jsp"> 
 							<img class="octo_arm_rechts_unten"  src="../img/tentakel_rtl.png" alt=""/> 
 						</a>
 						<span class="tooltiptext">Hilf das Unternehmen
@@ -77,7 +77,7 @@
 				</div>
 
 				<div class="tooltip">
-					<a href="QuizzesWI.html"> <img
+					<a href="QuizzesWI.jsp"> <img
 						class="background_image"
 						id="octo_arm_rechts_oben"
 						src="../img/tentakelarm_u11.png"
@@ -92,4 +92,4 @@
 			document.onload = $("footer").load("rocketbar.html");
 		</script>
 	</body>
-</html>
+<.jsp>
