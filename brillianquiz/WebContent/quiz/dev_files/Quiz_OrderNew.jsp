@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -98,82 +101,58 @@
 		</button>
 	</div>
 
-	<!-- Drag and Drop New -->
-
-	<div class="header">
-		<p class="question">Ordnen Sie die folgenden Punkte den jeweiligen
-			Boxen zu.</p>
-
-	</div>
-	
+	<!-- Order New -->
 	<div
-		id="antworten"
-		class="draganddrop">
-		<p
-			class="drag"
-			id="drag1"
-			draggable="true"
-			ondragstart="drag(event)">Skriptsprache</p>
-		<p
-			class="drag"
-			id="drag2"
-			draggable="true"
-			ondragstart="drag(event)">von Webserver Instanziiert und
-			durchgeführt</p>
-		<p
-			class="drag"
-			id="drag3"
-			draggable="true"
-			ondragstart="drag(event)">serverseitig</p>
-		<p
-			class="drag"
-			id="drag4"
-			draggable="true"
-			ondragstart="drag(event)">vom client geladen und durchgeführtvom
-			client geladen und durchgeführt</p>
-		<p
-			class="drag"
-			id="drag5"
-			draggable="true"
-			ondragstart="drag(event)">clientseitig</p>
-		<p
-			class="drag"
-			id="drag6"
-			draggable="true"
-			ondragstart="drag(event)">hat nichts zu tun mit java</p>
-		<p
-			class="drag"
-			id="drag7"
-			draggable="true"
-			ondragstart="drag(event)">kann fast gesamte JAVA-API benutzen</p>
-
-	</div>
-
-	<div
-		id="boxen"
-		class="draganddrop">
-		<div
-			class="dropbox"
-			id="drop1"
-			ondrop="drop(event)"
-			ondragover="allowDrop(event)">
-			<p class="titel">Titel</p>
+		class="questionclass"
+		id="question5"
+		data-type="od"
+		style="">
+		<div class="header">
+			<p class="question">Frage zur Reihenfolge</p>
 		</div>
 		<div
-			class="dropbox"
-			id="drop2"
-			ondrop="drop(event)"
-			ondragover="allowDrop(event)">
-			<p class="titel">Titel</p>
+			id="antworten"
+			class="draganddrop">
+			<p
+				id="question5_answer0"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test1</p>
+			<p
+				id="question5_answer1"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test2</p>
+			<p
+				id="question5_answer2"
+				class="drag"
+				draggable="true"
+				ondragstart="drag(event)">Test3</p>
 		</div>
 		<div
-			class="dropbox"
-			id="drop3"
-			ondrop="drop(event)"
-			ondragover="allowDrop(event)">
-			<p class="titel">Titel</p>
+			id="boxen"
+			class="draganddrop">
+			<div
+				id="question5_box0"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">1</p>
+			</div>
+			<div
+				id="question5_box1"
+				class="dropOrder"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">2</p>
+			</div>
+			<div
+				id="question5_box2"
+				class="dropOrder"
+				ondrop="drop(event)"
+				ondragover="allowDrop(event)">
+				<p class="box_textOrder">3</p>
+			</div>
 		</div>
-
 	</div>
 
 
