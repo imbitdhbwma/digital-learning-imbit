@@ -26,15 +26,15 @@
 <!-- <h1>h1</h1> Inhalt -->
 <div class="outer">
 <div class="inner" align="center">
-<a href="/content/QuizzesWI.jsp style="text-decoration:none;">
+<a href="/brillianQUIZ/content/QuizzesWI.jsp style="text-decoration:none;">
 <img class="animated" src="img/animated/wi.gif" alt="WI">
 <!-- <p class="title"> Wirtschaftsinformatik </p> -->
 </a>
-<a href="/content/QuizzesBWL.jsp style="text-decoration:none;">
+<a href="/brillianQUIZ/content/QuizzesBWL.jsp style="text-decoration:none;">
 <img class="animated" src="img/animated/bwl.gif" alt="BWL">
 <!-- <p class="title"> BWL </p> -->
 </a>
-<a href="/content/QuizzesIT.jsp style="text-decoration:none;">
+<a href="/brillianQUIZ/content/QuizzesIT.jsp style="text-decoration:none;">
 <img class="animated" src="img/animated/it.gif" alt="IT">
 <!-- <p class="title"> IT </p> -->
 </a>
