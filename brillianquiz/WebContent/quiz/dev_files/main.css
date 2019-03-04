@@ -29,6 +29,7 @@ h1 {
 	position: fixed;
 }
 
+/*Stylen der ol Nummern*/
 ol {
 	list-style:none; 
 	counter-reset: li;
@@ -39,7 +40,10 @@ p.question:before {
 	color: #991B33;
 	display: inline-block; width: 1em;
 	margin-left: -1.5em;
-    margin-right: 0.5em; text-align: right; direction: rtl
+	margin-right: 1%; 
+	text-align: right; 
+	direction: rtl;
+	padding: 1%;
 }
 
 li {

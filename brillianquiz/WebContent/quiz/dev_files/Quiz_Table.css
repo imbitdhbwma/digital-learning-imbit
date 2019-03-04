@@ -3,9 +3,7 @@
     min-height: 50px;
     /*border: 1px solid #aaaaaa;*/
     float: left;
-
-    background: #591220;
-    border: solid #991B33;
+    background: white;
     border-radius: 10px;
 }
 
@@ -15,15 +13,13 @@ table {
 }
 
 th {
-	background-color: #991B33;
+    
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: dotted;
 
 }
 
 td {
 	text-align: left;
-}
-
-table, th, td {
-	/* border: 3px solid black; */
-	
 }
