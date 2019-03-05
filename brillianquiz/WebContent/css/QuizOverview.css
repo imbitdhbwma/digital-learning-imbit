@@ -5,7 +5,7 @@ html {	box-sizing: border-box;
 
 body {
 	/* Location of the image */
-	background-image: url(../../../brillianquiz/WebContent/quiz/img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 	
 	/* Image is centered vertically and horizontally at all times */
 	background-position: center center;
@@ -64,7 +64,7 @@ body {
 }
 
 .fisch {
-	background-image: url("../../../brillianquiz/WebContent/quiz/img/background/bubble01.png");
+	background-image: url("../img/background/bubble01.png");
 	background-size: 71%;
 	background-repeat: no-repeat;
 	background-position: top;
