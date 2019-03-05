@@ -30,7 +30,7 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 ### Maven 
 * you need Maven to build the project in the command line
 * download the ZIP file for Maven http://apache.mirror.digionline.de/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip and extract the folder to your desired location, e.g. C:/Dev
-* Include the Maven/bin directory into your path (e.g. C:\Dev\Maven-3.5.2\bin)
+* Include the Maven/bin directory into your path (e.g. C:\Dev\Maven-3.6.0\bin)
 * Restart laptop
 * check "mvn -v"
 * how to "build" Eclipse projects: open cmd, go to the folder, where the project is located (e.g. C:\Users\username\git\digital-learning-imbit\brilliancrm) and type "mvn clean install" (clean is not always necessary, it reloads all Maven dependencies a.s.o.)
@@ -53,7 +53,7 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 ```
 
 ### Eclipse IDE for Java EE developers
-* same bit version as your Java, so 64bit
+* same bit version as your Java, so 64bit (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip)
 * install the Eclipse Web Developer Tools
 * add your Tomcat server to your Eclipse environment (e.g. in Window-->Preferences-->Server-->Runtime Environments), if it is not present: install Eclipse Java EE Developer Tools, you also need: Eclipse Java Web Developer Tools
 * check whether you can "Run As" --> "Run on Server" (when right clicking on brilliancrm or brillianicm projects in Eclipse)
