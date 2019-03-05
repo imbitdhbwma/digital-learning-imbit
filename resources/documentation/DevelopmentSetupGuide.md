@@ -38,7 +38,7 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 ### MySQL database ###
 * download the installer (google: Download MySQL Installer): (x86, 32-bit), MSI Installer, 18MB
 * Follow the installation steps, install "server only", attention: remember your password!
-* Create tables...: Go to the GitHub Repo to resources and save and use the CreateDBbrillianxxx.sql files by using the source command in MySQL, e.g. by: source C:/Dev/CreateCBbrillianCRM.sql
+* Create tables...: Install XAMPP (see below) and start apache and mysql and copy paste the sql statements from the files to execute the sql statements. Files are located under \resources\database-files 
 
 ### Tomcat
 * Go to Apache Tomcat download section, e.g. download the 9.0.4 Windows 64bit ZIP
@@ -131,4 +131,3 @@ Deployment here simply means: copy the folder from your git folder to the folder
 * Copy to the htdocs folder of Apache (in XAMPP: C:/xampp/htdocs), 
 * start Apache 
 * open localhost/brillianIDEAS in browser
-
