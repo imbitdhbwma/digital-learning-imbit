@@ -58,6 +58,11 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 * add your Tomcat server to your Eclipse environment (e.g. in Window-->Preferences-->Server-->Runtime Environments), if it is not present: install Eclipse Java EE Developer Tools, you also need: Eclipse Java Web Developer Tools
 * check whether you can "Run As" --> "Run on Server" (when right clicking on brilliancrm or brillianicm projects in Eclipse)
 
+
+--------------------------
+!!! EVERYTHING FROM HERE IS NOT NEEDED
+--------------------------
+
 ### XAMPP or single installations of Apache HTTP Server and PHP
 * e.g. versions Apache 2.2 and PHP7
 * Edit your php.ini file (find it in PHP folder, eg. C:\xampp\php)
