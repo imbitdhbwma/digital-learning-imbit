@@ -31,6 +31,7 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 * you need Maven to build the project in the command line
 * download the ZIP file for Maven http://apache.mirror.digionline.de/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip and extract the folder to your desired location, e.g. C:/Dev
 * Include the Maven/bin directory into your path (e.g. C:\Dev\Maven-3.5.2\bin)
+* Restart laptop
 * check "mvn -v"
 * how to "build" Eclipse projects: open cmd, go to the folder, where the project is located (e.g. C:\Users\username\git\digital-learning-imbit\brilliancrm) and type "mvn clean install" (clean is not always necessary, it reloads all Maven dependencies a.s.o.)
 * Maven is also included in Eclipse Java EE, to build here: right click on project and go to "Maven" --> "Update project...". This creates the folder target (if not present) and within it a .war file
