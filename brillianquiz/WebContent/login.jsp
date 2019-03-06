@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <%@ page import="org.dhbw.imbit11.ApplicationConstants"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -81,14 +80,14 @@
 </body>
 <script>
 	DivObject = function() {
-		<var imgs = ['img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
+		var imgs = ['img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
 		<!--var zrandom = Math.floor((Math.random() * -100) - 10);-->
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
+		this.div.style.background-image = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
 		<!--this.div.style.zIndex = zrandom;-->
 	}
 </script>

@@ -1,7 +1,8 @@
+/*
 html {	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
-}
+}*/
 
 body {
 	/* Location of the image */
@@ -28,11 +29,12 @@ body {
 	 */
   }
 
-
+/*
 #title a {
     text-decoration: none;
     color: var(--text);
 }
+*/
 
 .upper{
 	text-transform: uppercase;
@@ -89,7 +91,7 @@ body {
 	visibility: hidden;
 	 top: 40%;
 	 left: 30%;
-	 font-family: Caveat Brush;
+	 font-family: "Caveat Brush";
 	 font-size: 2em;
 	 color: white;
 	 position: absolute;
@@ -113,7 +115,7 @@ body {
 	text-align: justify;
 	font-family: "Caveat Brush";
 	color: white;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	hyphens: auto;
 	
 	line-height: 0.9em;
@@ -122,7 +124,7 @@ body {
 }
 
 .Untertitel {
-	width: 150%;
+	width: 130%;
 	align-items: center;
 	text-align: center;
 	font-family: "Caveat Brush";
@@ -155,7 +157,7 @@ body {
     left: 23vw;
     width: 30vw;
     text-align: center;
-    font-family: Caveat Brush;
+    font-family: "Caveat Brush";
     font-size: 3vw;
     color:black;
     position: absolute;

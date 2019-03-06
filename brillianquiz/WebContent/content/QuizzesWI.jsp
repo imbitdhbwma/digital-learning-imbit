@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <%@ page import="org.dhbw.imbit11.ApplicationConstants"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -133,15 +132,6 @@
 		
 	</div> 
 	
-	
-	
-
-      
-	<img class="octo_arm_rechts_unten"  src="../img/tentakel_rtl.png" alt=""/>
-
-	
-	<img class="octo_arm_links_unten"  src="../img/tentakel_ltr.png" alt=""/>
-
 	
 
 <!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
