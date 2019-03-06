@@ -38,7 +38,7 @@ ol {
 
 p.question:before {
 	content: counter(li); 
-	color: #991B33;
+	color: white;
 	display: inline-block; width: 1em;
 	margin-left: -1.5em;
 	margin-right: 1%; 
@@ -172,4 +172,14 @@ a:visited {
 	float: left;
 	list-style-type: none;
 	margin-right: 30px;
+}
+
+/*Define toogle colors for evaluate purpose */
+
+.correct{
+	color:green;
+}
+
+.false {
+	color:red;
 }
