@@ -610,7 +610,7 @@ function createScoreText (){
 //Change color of numering depending on input
 
 function changeColor (){
-	var element = document.getElementById("title");
+	var element = document.getElementsByClassName("p.question:before");
 	element.classList.toggle("correct");
 }
 
