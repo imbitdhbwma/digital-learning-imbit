@@ -592,6 +592,7 @@ function evaluate() {
 		}
 
 	} createScoreText();
+	changeColor();
 }
 
 // Genereate text after evaluating depending on the score
