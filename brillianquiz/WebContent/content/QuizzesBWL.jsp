@@ -62,7 +62,7 @@
 			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
 			</a>
 		</div> 
-		<div class="container tooltiphover">
+	<div class="container tooltiphover">
 				<a href="../quiz/quiz.jsp?subject=Portermodell">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-03.png"></span>
 			
@@ -70,11 +70,63 @@
 		
 				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
 				</a>
-			</div> 
+	</div> 
+	
+	<div class="container tooltiphover">
+		<a href="../quiz/quiz.jsp?subject=BWL">
+		
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-04.png"></span>
+			
+		<p class="Untertitel">BWL</p>
+
+		<p class="IntroText luecke">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
+		
+		</a>
+	</div>
+	
+	<div class="container tooltiphover">
+			<a href="../quiz/quiz.jsp?subject=Statistik">
+			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-05.png"></span>
+			
+			<p class="Untertitel">Sta&shy;tis&shy;tik</p>
+			
+			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			</a>
+		</div> 
+		
+	<div class="container tooltiphover">
+				<a href="../quiz/quiz.jsp?subject=Portermodell">
+				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-06.png"></span>
+			
+				<p class="Untertitel">Mo&shy;del&shy;le nach&nbsp;Por&shy;ter</p>
+		
+				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				</a>
+	</div>
 
 	<div class="container tooltiphover">
+			<a href="../quiz/quiz.jsp?subject=Statistik">
+			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-07.png"></span>
+			
+			<p class="Untertitel">Sta&shy;tis&shy;tik</p>
+			
+			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			</a>
+		</div> 
+		
+	<div class="container tooltiphover">
+				<a href="../quiz/quiz.jsp?subject=Portermodell">
+				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-08.png"></span>
+			
+				<p class="Untertitel">Mo&shy;del&shy;le nach&nbsp;Por&shy;ter</p>
+		
+				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				</a>
+	</div>
+	
+	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=Bilanzierung">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-04.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-09.png"></span>
 			
 		<p class="Untertitel">Bi&shy;lan&shy;zie&shy;rung</p>
 
@@ -87,7 +139,7 @@
 	
 	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=ITServiceManagement">
-        <span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-05.png"></span>
+        <span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-10.png"></span>
 			
 		<p class="Untertitel">IT-Service Management</p>
 
@@ -98,7 +150,7 @@
 	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=Finanzierung">
 		
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-06.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-11.png"></span>
 			
 		<p class="Untertitel">Fi&shy;nan&shy;zie&shy;rung</p>
 		
@@ -108,7 +160,7 @@
 	
 	 <div class="container tooltiphover">
 			<a href="../quiz/quiz.jsp?subject=VWL">
-			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-07.png"></span>
+			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
 			<p class="Untertitel">VWL</p>
 			
@@ -118,7 +170,7 @@
 	
 	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=Controlling">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-08.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
 		<p class="Untertitel">Con&shy;trol&shy;ling</p>
 
@@ -128,7 +180,7 @@
 	
 	   <div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Kosten- und Leistungsrechnung">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-09.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
 		<p class="Untertitel">KLR</p>
 			
@@ -141,7 +193,7 @@
 	 
     <div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Investition">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-10.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
 		<p class="Untertitel">In&shy;ves&shy;ti&shy;tion</p>
 			
@@ -152,7 +204,7 @@
 	
 	<div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Marketing">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-11.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
 		<p class="Untertitel">Mar&shy;ke&shy;ting</p>
 		
