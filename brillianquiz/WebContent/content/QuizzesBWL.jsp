@@ -151,7 +151,7 @@
 			
 			<p class="Untertitel">VWL Makroökonomie</p>
 			
-			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die volks&shy;wirt&shy;schaft&shy;lich&shy;en Zu&shy;sam&shy;men&shy;hänge zu ver&shy;steh&shy;en!</p>
+			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die Konzepte der Makroökonomie zu ver&shy;steh&shy;en!</p>
 			</a>
 		</div>  
 	<div class="container tooltiphover">
@@ -160,7 +160,7 @@
 			
 			<p class="Untertitel">VWL Mikroökonomie</p>
 			
-			<p class="IntroText"></p>
+			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die Konzepte der Mikroökonomie zu ver&shy;steh&shy;en!</p>
 			</a>
 		</div>  	
 	
