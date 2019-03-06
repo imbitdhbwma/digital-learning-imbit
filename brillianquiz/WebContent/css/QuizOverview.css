@@ -28,6 +28,13 @@ body {
 	 * background: url(background-photo.jpg) center center cover no-repeat fixed;
 	 */
   }
+  
+/* For mobile devices */
+@media only screen and (max-width: 1000px) {
+  .IntroText {
+  	display:none;
+  }
+}
 
 /*
 #title a {
