@@ -1,6 +1,7 @@
 [
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "SC",
    "id": 1001,
    "completed": false,
@@ -23,7 +24,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "DD",
    "id": 1002,
    "completed": false,
@@ -52,7 +54,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "MC",
    "id": 1003,
    "completed": false,
@@ -74,7 +77,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "DD",
    "id": 1004,
    "completed": false,
@@ -93,7 +97,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "MC",
    "id": 1005,
    "completed": false,
@@ -113,7 +118,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "SC",
    "id": 1006,
    "completed": false,
@@ -135,7 +141,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "OD",
    "id": 1007,
    "completed": false,
@@ -155,7 +162,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "MC",
    "id": 1008,
    "completed": false,
@@ -175,7 +183,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "OD",
    "id": 1009,
    "completed": false,
@@ -199,7 +208,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "MC",
    "id": 1010,
    "completed": false,
@@ -219,7 +229,8 @@
    "title": []
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "TQ",
    "id": 1011,
    "completed": false,
@@ -248,7 +259,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "DD",
    "id": 1012,
    "completed": false,
@@ -267,7 +279,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "TQ",
    "id": 1013,
    "completed": false,
@@ -290,7 +303,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "TQ",
    "id": 1014,
    "completed": false,
@@ -313,7 +327,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "TQ",
    "id": 1015,
    "completed": false,
@@ -336,7 +351,8 @@
    ]
 },
  {
-   "subject": "Betriebssysteme",
+   "subject": "betriebssysteme",
+   "header": "Betriebssysteme",
    "questionType": "TL",
    "id": 1016,
    "completed": false,
@@ -379,7 +395,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "MC",
    "id": 1017,
    "completed": false,
@@ -405,7 +422,8 @@
    "title": []
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "DD",
    "id": 1018,
    "completed": false,
@@ -440,7 +458,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "MC",
    "id": 1019,
    "completed": false,
@@ -468,7 +487,8 @@
    "title": []
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "SC",
    "id": 1020,
    "completed": false,
@@ -488,7 +508,8 @@
    "title": []
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "DD",
    "id": 1021,
    "completed": false,
@@ -515,7 +536,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "SC",
    "id": 1022,
    "completed": false,
@@ -539,7 +561,8 @@
    "title": []
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "DD",
    "id": 1023,
    "completed": false,
@@ -573,7 +596,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "MC",
    "id": 1024,
    "completed": false,
@@ -595,7 +619,8 @@
    "title": []
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "DD",
    "id": 1025,
    "completed": false,
@@ -623,7 +648,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "TQ",
    "id": 1026,
    "completed": false,
@@ -655,7 +681,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "TQ",
    "id": 1027,
    "completed": false,
@@ -687,7 +714,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "TQ",
    "id": 1028,
    "completed": false,
@@ -713,7 +741,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "TQ",
    "id": 1029,
    "completed": false,
@@ -739,7 +768,8 @@
    ]
 },
  {
-   "subject": "Bilanzierung",
+   "subject": "bilanzierung",
+   "header": "Bilanzierung",
    "questionType": "TL",
    "id": 1030,
    "completed": false,
@@ -781,7 +811,8 @@
    ]
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "DD",
    "id": 1031,
    "completed": false,
@@ -823,7 +854,8 @@
    ]
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "DD",
    "id": 1032,
    "completed": false,
@@ -861,7 +893,8 @@
    ]
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "SC",
    "id": 1033,
    "completed": false,
@@ -879,7 +912,8 @@
    "title": []
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "SC",
    "id": 1034,
    "completed": false,
@@ -899,7 +933,8 @@
    "title": []
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "SC",
    "id": 1035,
    "completed": false,
@@ -919,7 +954,8 @@
    "title": []
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "SC",
    "id": 1036,
    "completed": false,
@@ -939,7 +975,8 @@
    "title": []
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "MC",
    "id": 1037,
    "completed": false,
@@ -957,7 +994,8 @@
    "title": []
 },
  {
-   "subject": "BWLAllgemein",
+   "subject": "BWL",
+   "header": "BWL",
    "questionType": "MC",
    "id": 1038,
    "completed": false,
@@ -985,7 +1023,8 @@
    "title": []
 },
  {
-   "subject": "BWLBusinessModelCanvas",
+   "subject": "businessModelCanvas",
+   "header": "Business Model Canvas",
    "questionType": "SC",
    "id": 1039,
    "completed": false,
@@ -1001,7 +1040,8 @@
    "title": []
 },
  {
-   "subject": "BWLBusinessModelCanvas",
+   "subject": "businessModelCanvas",
+   "header": "Business Model Canvas",
    "questionType": "SC",
    "id": 1040,
    "completed": false,
@@ -1017,7 +1057,8 @@
    "title": []
 },
  {
-   "subject": "BWLBusinessModelCanvas",
+   "subject": "businessModelCanvas",
+   "header": "Business Model Canvas",
    "questionType": "SC",
    "id": 1041,
    "completed": false,
@@ -1033,7 +1074,8 @@
    "title": []
 },
  {
-   "subject": "BWLBusinessModelCanvas",
+   "subject": "businessModelCanvas",
+   "header": "Business Model Canvas",
    "questionType": "SC",
    "id": 1042,
    "completed": false,
@@ -1049,7 +1091,8 @@
    "title": []
 },
  {
-   "subject": "BWLBusinessModelCanvas",
+   "subject": "businessModelCanvas",
+   "header": "Business Model Canvas",
    "questionType": "SC",
    "id": 1043,
    "completed": false,
@@ -1065,7 +1108,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1044,
    "completed": false,
@@ -1081,7 +1125,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1045,
    "completed": false,
@@ -1097,7 +1142,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1046,
    "completed": false,
@@ -1113,7 +1159,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1047,
    "completed": false,
@@ -1129,7 +1176,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1048,
    "completed": false,
@@ -1145,7 +1193,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1049,
    "completed": false,
@@ -1161,7 +1210,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1050,
    "completed": false,
@@ -1177,7 +1227,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1051,
    "completed": false,
@@ -1193,7 +1244,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1052,
    "completed": false,
@@ -1209,7 +1261,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1053,
    "completed": false,
@@ -1225,7 +1278,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1054,
    "completed": false,
@@ -1241,7 +1295,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1055,
    "completed": false,
@@ -1257,7 +1312,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1056,
    "completed": false,
@@ -1273,7 +1329,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1057,
    "completed": false,
@@ -1289,7 +1346,8 @@
    "title": []
 },
  {
-   "subject": "BWLÖkonomischesPrinzip",
+   "subject": "oekonomischesPrinzip",
+   "header": "Ökonomisches Prinzip",
    "questionType": "SC",
    "id": 1058,
    "completed": false,
@@ -1305,7 +1363,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "MC",
    "id": 1059,
    "completed": false,
@@ -1327,7 +1386,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1060,
    "completed": false,
@@ -1355,7 +1415,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1061,
    "completed": false,
@@ -1388,7 +1449,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "SC",
    "id": 1062,
    "completed": false,
@@ -1406,7 +1468,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "MC",
    "id": 1063,
    "completed": false,
@@ -1424,7 +1487,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "MC",
    "id": 1064,
    "completed": false,
@@ -1454,7 +1518,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1065,
    "completed": false,
@@ -1482,7 +1547,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1066,
    "completed": false,
@@ -1510,7 +1576,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "MC",
    "id": 1067,
    "completed": false,
@@ -1530,7 +1597,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1068,
    "completed": false,
@@ -1553,7 +1621,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1069,
    "completed": false,
@@ -1585,7 +1654,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "MC",
    "id": 1070,
    "completed": false,
@@ -1605,7 +1675,8 @@
    "title": []
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "DD",
    "id": 1071,
    "completed": false,
@@ -1633,7 +1704,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "TQ",
    "id": 1072,
    "completed": false,
@@ -1659,7 +1731,8 @@
    ]
 },
  {
-   "subject": "BWLPorter",
+   "subject": "porterModell",
+   "header": "Porter Modell",
    "questionType": "TL",
    "id": 1073,
    "completed": false,
@@ -1702,7 +1775,8 @@
    ]
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "DD",
    "id": 1074,
    "completed": false,
@@ -1733,7 +1807,8 @@
    ]
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "MC",
    "id": 1075,
    "completed": false,
@@ -1753,7 +1828,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1076,
    "completed": false,
@@ -1775,7 +1851,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1077,
    "completed": false,
@@ -1791,7 +1868,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1078,
    "completed": false,
@@ -1807,7 +1885,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1079,
    "completed": false,
@@ -1823,7 +1902,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1080,
    "completed": false,
@@ -1839,7 +1919,8 @@
    "title": []
 },
  {
-   "subject": "BWLShareholderStakeholder",
+   "subject": "shareholderStakeholder",
+   "header": "Shareholder Stakeholder",
    "questionType": "SC",
    "id": 1081,
    "completed": false,
@@ -1855,7 +1936,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "DD",
    "id": 1082,
    "completed": false,
@@ -1891,7 +1973,8 @@
    ]
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "DD",
    "id": 1083,
    "completed": false,
@@ -1923,7 +2006,8 @@
    ]
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1084,
    "completed": false,
@@ -1945,7 +2029,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1085,
    "completed": false,
@@ -1967,7 +2052,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1086,
    "completed": false,
@@ -1983,7 +2069,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1087,
    "completed": false,
@@ -1999,7 +2086,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1088,
    "completed": false,
@@ -2015,7 +2103,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1089,
    "completed": false,
@@ -2031,7 +2120,8 @@
    "title": []
 },
  {
-   "subject": "BWLStGallerModell",
+   "subject": "stGallerModell",
+   "header": "St.Galler Modell",
    "questionType": "SC",
    "id": 1090,
    "completed": false,
@@ -2047,7 +2137,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "DD",
    "id": 1091,
    "completed": false,
@@ -2079,7 +2170,8 @@
    ]
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1092,
    "completed": false,
@@ -2101,7 +2193,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1093,
    "completed": false,
@@ -2123,7 +2216,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1094,
    "completed": false,
@@ -2145,7 +2239,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1095,
    "completed": false,
@@ -2167,7 +2262,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1096,
    "completed": false,
@@ -2183,7 +2279,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1097,
    "completed": false,
@@ -2199,7 +2296,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1098,
    "completed": false,
@@ -2215,7 +2313,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1099,
    "completed": false,
@@ -2231,7 +2330,8 @@
    "title": []
 },
  {
-   "subject": "BWLWertkette",
+   "subject": "wertkette",
+   "header": "Wertschöpfungskette",
    "questionType": "SC",
    "id": 1100,
    "completed": false,
@@ -2247,7 +2347,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "DD",
    "id": 1101,
    "completed": false,
@@ -2276,7 +2377,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "DD",
    "id": 1102,
    "completed": false,
@@ -2308,7 +2410,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "DD",
    "id": 1103,
    "completed": false,
@@ -2341,7 +2444,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1104,
    "completed": false,
@@ -2359,7 +2463,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1105,
    "completed": false,
@@ -2377,7 +2482,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1106,
    "completed": false,
@@ -2395,7 +2501,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1107,
    "completed": false,
@@ -2411,7 +2518,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "MC",
    "id": 1108,
    "completed": false,
@@ -2439,7 +2547,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1109,
    "completed": false,
@@ -2457,7 +2566,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1110,
    "completed": false,
@@ -2475,7 +2585,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "SC",
    "id": 1111,
    "completed": false,
@@ -2493,7 +2604,8 @@
    "title": []
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "TQ",
    "id": 1112,
    "completed": false,
@@ -2519,7 +2631,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "TQ",
    "id": 1113,
    "completed": false,
@@ -2542,7 +2655,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "TQ",
    "id": 1114,
    "completed": false,
@@ -2570,7 +2684,8 @@
    ]
 },
  {
-   "subject": "CommunicationSystems",
+   "subject": "kommunikationssysteme",
+   "header": "Kommunikationssysteme",
    "questionType": "TL",
    "id": 1115,
    "completed": false,
@@ -2613,7 +2728,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "SC",
    "id": 1116,
    "completed": false,
@@ -2635,7 +2751,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "MC",
    "id": 1117,
    "completed": false,
@@ -2661,7 +2778,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "DD",
    "id": 1118,
    "completed": false,
@@ -2683,7 +2801,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "DD",
    "id": 1119,
    "completed": false,
@@ -2714,7 +2833,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "DD",
    "id": 1120,
    "completed": false,
@@ -2741,7 +2861,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "MC",
    "id": 1121,
    "completed": false,
@@ -2767,7 +2888,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "DD",
    "id": 1122,
    "completed": false,
@@ -2792,7 +2914,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "MC",
    "id": 1123,
    "completed": false,
@@ -2816,7 +2939,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "DD",
    "id": 1124,
    "completed": false,
@@ -2838,7 +2962,8 @@
    ]
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "SC",
    "id": 1125,
    "completed": false,
@@ -2858,7 +2983,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "SC",
    "id": 1126,
    "completed": false,
@@ -2874,7 +3000,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "SC",
    "id": 1127,
    "completed": false,
@@ -2894,7 +3021,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "MC",
    "id": 1128,
    "completed": false,
@@ -2918,7 +3046,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "SC",
    "id": 1129,
    "completed": false,
@@ -2938,7 +3067,8 @@
    "title": []
 },
  {
-   "subject": "Controlling",
+   "subject": "controlling",
+   "header": "Controlling",
    "questionType": "TL",
    "id": 1130,
    "completed": false,
@@ -2981,7 +3111,8 @@
    ]
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1131,
    "completed": false,
@@ -2997,7 +3128,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1132,
    "completed": false,
@@ -3022,7 +3154,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1133,
    "completed": false,
@@ -3038,7 +3171,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1134,
    "completed": false,
@@ -3054,7 +3188,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1135,
    "completed": false,
@@ -3070,7 +3205,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1136,
    "completed": false,
@@ -3086,7 +3222,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1137,
    "completed": false,
@@ -3106,7 +3243,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1138,
    "completed": false,
@@ -3124,7 +3262,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1139,
    "completed": false,
@@ -3152,7 +3291,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1140,
    "completed": false,
@@ -3171,7 +3311,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "DD",
    "id": 1141,
    "completed": false,
@@ -3198,7 +3339,8 @@
    ]
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1142,
    "completed": false,
@@ -3214,7 +3356,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1143,
    "completed": false,
@@ -3230,7 +3373,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1144,
    "completed": false,
@@ -3246,7 +3390,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1145,
    "completed": false,
@@ -3262,7 +3407,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1146,
    "completed": false,
@@ -3278,7 +3424,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "OD",
    "id": 1147,
    "completed": false,
@@ -3301,7 +3448,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1148,
    "completed": false,
@@ -3319,7 +3467,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1149,
    "completed": false,
@@ -3338,7 +3487,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1150,
    "completed": false,
@@ -3358,7 +3508,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1151,
    "completed": false,
@@ -3374,7 +3525,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1152,
    "completed": false,
@@ -3394,7 +3546,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "MC",
    "id": 1153,
    "completed": false,
@@ -3418,7 +3571,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1154,
    "completed": false,
@@ -3434,7 +3588,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1155,
    "completed": false,
@@ -3450,7 +3605,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1156,
    "completed": false,
@@ -3466,7 +3622,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "SC",
    "id": 1157,
    "completed": false,
@@ -3482,7 +3639,8 @@
    "title": []
 },
  {
-   "subject": "Datenbanken",
+   "subject": "datenbanken",
+   "header": "Datenbanken",
    "questionType": "TL",
    "id": 1158,
    "completed": false,
@@ -3545,7 +3703,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "DD",
    "id": 1159,
    "completed": false,
@@ -3576,7 +3735,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "DD",
    "id": 1160,
    "completed": false,
@@ -3611,7 +3771,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "DD",
    "id": 1161,
    "completed": false,
@@ -3646,7 +3807,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "MC",
    "id": 1162,
    "completed": false,
@@ -3666,7 +3828,8 @@
    "title": []
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "SC",
    "id": 1163,
    "completed": false,
@@ -3686,7 +3849,8 @@
    "title": []
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1164,
    "completed": false,
@@ -3712,7 +3876,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1165,
    "completed": false,
@@ -3738,7 +3903,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1166,
    "completed": false,
@@ -3764,7 +3930,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1167,
    "completed": false,
@@ -3787,7 +3954,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1168,
    "completed": false,
@@ -3813,7 +3981,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1169,
    "completed": false,
@@ -3839,7 +4008,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1170,
    "completed": false,
@@ -3865,7 +4035,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1171,
    "completed": false,
@@ -3891,7 +4062,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TQ",
    "id": 1172,
    "completed": false,
@@ -3917,7 +4089,8 @@
    ]
 },
  {
-   "subject": "Finanzierung",
+   "subject": "finanzierung",
+   "header": "Finanzierung",
    "questionType": "TL",
    "id": 1173,
    "completed": false,
@@ -3960,7 +4133,8 @@
    ]
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "MC",
    "id": 1174,
    "completed": false,
@@ -3984,7 +4158,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1175,
    "completed": false,
@@ -4000,7 +4175,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "DD",
    "id": 1176,
    "completed": false,
@@ -4026,7 +4202,8 @@
    ]
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "MC",
    "id": 1177,
    "completed": false,
@@ -4046,7 +4223,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1178,
    "completed": false,
@@ -4062,7 +4240,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1179,
    "completed": false,
@@ -4078,7 +4257,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1180,
    "completed": false,
@@ -4094,7 +4274,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1181,
    "completed": false,
@@ -4110,7 +4291,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "DD",
    "id": 1182,
    "completed": false,
@@ -4139,7 +4321,8 @@
    ]
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "TQ",
    "id": 1183,
    "completed": false,
@@ -4160,7 +4343,8 @@
    ]
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1184,
    "completed": false,
@@ -4180,7 +4364,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1185,
    "completed": false,
@@ -4196,7 +4381,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "MC",
    "id": 1186,
    "completed": false,
@@ -4216,7 +4402,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "SC",
    "id": 1187,
    "completed": false,
@@ -4232,7 +4419,8 @@
    "title": []
 },
  {
-   "subject": "Geschäftsprozessmanagement",
+   "subject": "geschaeftsprozessmanagement",
+   "header": "Geschäftsprozessmanagement",
    "questionType": "TL",
    "id": 1188,
    "completed": false,
@@ -4275,7 +4463,8 @@
    ]
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "MC",
    "id": 1189,
    "completed": false,
@@ -4299,7 +4488,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1190,
    "completed": false,
@@ -4316,7 +4506,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1191,
    "completed": false,
@@ -4336,7 +4527,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "DD",
    "id": 1192,
    "completed": false,
@@ -4360,7 +4552,8 @@
    ]
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1193,
    "completed": false,
@@ -4380,7 +4573,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "MC",
    "id": 1194,
    "completed": false,
@@ -4400,7 +4594,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1195,
    "completed": false,
@@ -4416,7 +4611,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "MC",
    "id": 1196,
    "completed": false,
@@ -4436,7 +4632,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1197,
    "completed": false,
@@ -4456,7 +4653,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1198,
    "completed": false,
@@ -4472,7 +4670,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1199,
    "completed": false,
@@ -4488,7 +4687,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "SC",
    "id": 1200,
    "completed": false,
@@ -4508,7 +4708,8 @@
    "title": []
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "DD",
    "id": 1201,
    "completed": false,
@@ -4539,7 +4740,8 @@
    ]
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "TQ",
    "id": 1202,
    "completed": false,
@@ -4568,7 +4770,8 @@
    ]
 },
  {
-   "subject": "Investition",
+   "subject": "investition",
+   "header": "Investition",
    "questionType": "TL",
    "id": 1203,
    "completed": false,
@@ -4612,6 +4815,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1204,
    "completed": false,
@@ -4632,6 +4836,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1205,
    "completed": false,
@@ -4650,6 +4855,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "MC",
    "id": 1206,
    "completed": false,
@@ -4682,6 +4888,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1207,
    "completed": false,
@@ -4702,6 +4909,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1208,
    "completed": false,
@@ -4722,6 +4930,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1209,
    "completed": false,
@@ -4740,6 +4949,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1210,
    "completed": false,
@@ -4758,6 +4968,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "MC",
    "id": 1211,
    "completed": false,
@@ -4786,6 +4997,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "DD",
    "id": 1212,
    "completed": false,
@@ -4815,6 +5027,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "MC",
    "id": 1213,
    "completed": false,
@@ -4839,6 +5052,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1214,
    "completed": false,
@@ -4859,6 +5073,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "SC",
    "id": 1215,
    "completed": false,
@@ -4877,6 +5092,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "TQ",
    "id": 1216,
    "completed": false,
@@ -4900,6 +5116,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "TQ",
    "id": 1217,
    "completed": false,
@@ -4920,6 +5137,7 @@
 },
  {
    "subject": "ITIntro",
+   "header": "IT Intro",
    "questionType": "TL",
    "id": 1218,
    "completed": false,
@@ -4962,7 +5180,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "MC",
    "id": 1219,
    "completed": false,
@@ -4982,7 +5201,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "MC",
    "id": 1220,
    "completed": false,
@@ -5002,7 +5222,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "SC",
    "id": 1221,
    "completed": false,
@@ -5018,7 +5239,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "SC",
    "id": 1222,
    "completed": false,
@@ -5034,7 +5256,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "SC",
    "id": 1223,
    "completed": false,
@@ -5054,7 +5277,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "SC",
    "id": 1224,
    "completed": false,
@@ -5074,7 +5298,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "SC",
    "id": 1225,
    "completed": false,
@@ -5094,7 +5319,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "DD",
    "id": 1226,
    "completed": false,
@@ -5117,7 +5343,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "DD",
    "id": 1227,
    "completed": false,
@@ -5154,7 +5381,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "DD",
    "id": 1228,
    "completed": false,
@@ -5176,7 +5404,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "DD",
    "id": 1229,
    "completed": false,
@@ -5208,7 +5437,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TQ",
    "id": 1230,
    "completed": false,
@@ -5234,7 +5464,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TQ",
    "id": 1231,
    "completed": false,
@@ -5260,7 +5491,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "OD",
    "id": 1232,
    "completed": false,
@@ -5280,7 +5512,8 @@
    "title": []
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TL",
    "id": 1233,
    "completed": false,
@@ -5323,7 +5556,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TQ",
    "id": 1234,
    "completed": false,
@@ -5346,7 +5580,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TQ",
    "id": 1235,
    "completed": false,
@@ -5369,7 +5604,8 @@
    ]
 },
  {
-   "subject": "ITServiceManagement",
+   "subject": "ITManagement",
+   "header": "IT Management",
    "questionType": "TL",
    "id": 1236,
    "completed": false,
@@ -5412,7 +5648,8 @@
    ]
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "MC",
    "id": 1237,
    "completed": false,
@@ -5436,7 +5673,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1238,
    "completed": false,
@@ -5452,7 +5690,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "DD",
    "id": 1239,
    "completed": false,
@@ -5489,7 +5728,8 @@
    ]
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "MC",
    "id": 1240,
    "completed": false,
@@ -5513,7 +5753,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1241,
    "completed": false,
@@ -5529,7 +5770,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1242,
    "completed": false,
@@ -5545,7 +5787,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1243,
    "completed": false,
@@ -5561,7 +5804,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1244,
    "completed": false,
@@ -5577,7 +5821,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "DD",
    "id": 1245,
    "completed": false,
@@ -5610,7 +5855,8 @@
    ]
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1246,
    "completed": false,
@@ -5630,7 +5876,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1247,
    "completed": false,
@@ -5646,7 +5893,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "MC",
    "id": 1248,
    "completed": false,
@@ -5670,7 +5918,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "SC",
    "id": 1249,
    "completed": false,
@@ -5686,7 +5935,8 @@
    "title": []
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "TQ",
    "id": 1250,
    "completed": false,
@@ -5706,7 +5956,8 @@
    ]
 },
  {
-   "subject": "Kostenleistungsrechnung",
+   "subject": "kostenleistungsrechnung",
+   "header": "Kosten- und Leistungsrechnung",
    "questionType": "TL",
    "id": 1251,
    "completed": false,
@@ -5749,7 +6000,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "MC",
    "id": 1252,
    "completed": false,
@@ -5769,7 +6021,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "MC",
    "id": 1253,
    "completed": false,
@@ -5791,7 +6044,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1254,
    "completed": false,
@@ -5811,7 +6065,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1255,
    "completed": false,
@@ -5831,7 +6086,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1256,
    "completed": false,
@@ -5851,7 +6107,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1257,
    "completed": false,
@@ -5871,7 +6128,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1258,
    "completed": false,
@@ -5891,7 +6149,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "SC",
    "id": 1259,
    "completed": false,
@@ -5907,7 +6166,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "DD",
    "id": 1260,
    "completed": false,
@@ -5929,7 +6189,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "DD",
    "id": 1261,
    "completed": false,
@@ -5960,7 +6221,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "DD",
    "id": 1262,
    "completed": false,
@@ -5982,7 +6244,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "DD",
    "id": 1263,
    "completed": false,
@@ -6004,7 +6267,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "TQ",
    "id": 1264,
    "completed": false,
@@ -6033,7 +6297,8 @@
    ]
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "OD",
    "id": 1265,
    "completed": false,
@@ -6051,7 +6316,8 @@
    "title": []
 },
  {
-   "subject": "Statistik",
+   "subject": "statistik",
+   "header": "Statistik",
    "questionType": "TL",
    "id": 1266,
    "completed": false,
@@ -6094,7 +6360,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "MC",
    "id": 1267,
    "completed": false,
@@ -6114,7 +6381,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "MC",
    "id": 1268,
    "completed": false,
@@ -6132,7 +6400,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "SC",
    "id": 1269,
    "completed": false,
@@ -6152,7 +6421,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "SC",
    "id": 1270,
    "completed": false,
@@ -6172,7 +6442,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "DD",
    "id": 1271,
    "completed": false,
@@ -6199,7 +6470,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "MC",
    "id": 1272,
    "completed": false,
@@ -6221,7 +6493,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "SC",
    "id": 1273,
    "completed": false,
@@ -6241,7 +6514,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "SC",
    "id": 1274,
    "completed": false,
@@ -6259,7 +6533,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "SC",
    "id": 1275,
    "completed": false,
@@ -6279,7 +6554,8 @@
    "title": []
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "TQ",
    "id": 1276,
    "completed": false,
@@ -6302,7 +6578,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "TQ",
    "id": 1277,
    "completed": false,
@@ -6325,7 +6602,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "TQ",
    "id": 1278,
    "completed": false,
@@ -6348,7 +6626,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "TQ",
    "id": 1279,
    "completed": false,
@@ -6371,7 +6650,8 @@
    ]
 },
  {
-   "subject": "SupplyChainManagement",
+   "subject": "supplyChainManagement",
+   "header": "Supply Chain Management",
    "questionType": "TL",
    "id": 1280,
    "completed": false,
@@ -6414,7 +6694,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "DD",
    "id": 1281,
    "completed": false,
@@ -6443,7 +6724,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "TQ",
    "id": 1282,
    "completed": false,
@@ -6473,7 +6755,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "OD",
    "id": 1283,
    "completed": false,
@@ -6497,7 +6780,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1284,
    "completed": false,
@@ -6519,7 +6803,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "DD",
    "id": 1285,
    "completed": false,
@@ -6547,7 +6832,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1286,
    "completed": false,
@@ -6569,7 +6855,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "DD",
    "id": 1287,
    "completed": false,
@@ -6597,7 +6884,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1288,
    "completed": false,
@@ -6619,7 +6907,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "DD",
    "id": 1289,
    "completed": false,
@@ -6646,7 +6935,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1290,
    "completed": false,
@@ -6664,7 +6954,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "DD",
    "id": 1291,
    "completed": false,
@@ -6686,7 +6977,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1292,
    "completed": false,
@@ -6710,7 +7002,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "TQ",
    "id": 1293,
    "completed": false,
@@ -6736,7 +7029,8 @@
    ]
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "MC",
    "id": 1294,
    "completed": false,
@@ -6754,7 +7048,8 @@
    "title": []
 },
  {
-   "subject": "Systemanalyse",
+   "subject": "systemanalyse",
+   "header": "Systemanalyse",
    "questionType": "TL",
    "id": 1295,
    "completed": false,
@@ -6797,7 +7092,8 @@
    ]
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1296,
    "completed": false,
@@ -6817,7 +7113,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "MC",
    "id": 1297,
    "completed": false,
@@ -6837,7 +7134,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "DD",
    "id": 1298,
    "completed": false,
@@ -6864,7 +7162,8 @@
    ]
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "MC",
    "id": 1299,
    "completed": false,
@@ -6884,7 +7183,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1300,
    "completed": false,
@@ -6902,7 +7202,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1301,
    "completed": false,
@@ -6920,7 +7221,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "MC",
    "id": 1302,
    "completed": false,
@@ -6940,7 +7242,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "OD",
    "id": 1303,
    "completed": false,
@@ -6962,7 +7265,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "DD",
    "id": 1304,
    "completed": false,
@@ -6990,7 +7294,8 @@
    ]
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "MC",
    "id": 1305,
    "completed": false,
@@ -7018,7 +7323,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "DD",
    "id": 1306,
    "completed": false,
@@ -7043,7 +7349,8 @@
    ]
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1307,
    "completed": false,
@@ -7061,7 +7368,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1308,
    "completed": false,
@@ -7079,7 +7387,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "SC",
    "id": 1309,
    "completed": false,
@@ -7099,7 +7408,8 @@
    "title": []
 },
  {
-   "subject": "UserExperience",
+   "subject": "userExperience",
+   "header": "User Experience",
    "questionType": "TL",
    "id": 1310,
    "completed": false,
@@ -7142,7 +7452,8 @@
    ]
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1311,
    "completed": false,
@@ -7160,7 +7471,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1312,
    "completed": false,
@@ -7176,7 +7488,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "MC",
    "id": 1313,
    "completed": false,
@@ -7196,7 +7509,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1314,
    "completed": false,
@@ -7212,7 +7526,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "DD",
    "id": 1315,
    "completed": false,
@@ -7242,7 +7557,8 @@
    ]
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1316,
    "completed": false,
@@ -7262,7 +7578,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1317,
    "completed": false,
@@ -7278,7 +7595,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1318,
    "completed": false,
@@ -7294,7 +7612,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "DD",
    "id": 1319,
    "completed": false,
@@ -7316,7 +7635,8 @@
    ]
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1320,
    "completed": false,
@@ -7332,7 +7652,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "SC",
    "id": 1321,
    "completed": false,
@@ -7348,7 +7669,8 @@
    "title": []
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "TQ",
    "id": 1322,
    "completed": false,
@@ -7374,7 +7696,8 @@
    ]
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "TQ",
    "id": 1323,
    "completed": false,
@@ -7396,7 +7719,8 @@
    ]
 },
  {
-   "subject": "VerteilteSysteme",
+   "subject": "verteilteSysteme",
+   "header": "Verteilte Systeme",
    "questionType": "TL",
    "id": 1324,
    "completed": false,
@@ -7439,7 +7763,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1325,
    "completed": false,
@@ -7461,7 +7786,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "DD",
    "id": 1326,
    "completed": false,
@@ -7483,7 +7809,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1327,
    "completed": false,
@@ -7505,7 +7832,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "SC",
    "id": 1328,
    "completed": false,
@@ -7523,7 +7851,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "SC",
    "id": 1329,
    "completed": false,
@@ -7541,7 +7870,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "DD",
    "id": 1330,
    "completed": false,
@@ -7566,7 +7896,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1331,
    "completed": false,
@@ -7588,7 +7919,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1332,
    "completed": false,
@@ -7610,7 +7942,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1333,
    "completed": false,
@@ -7632,7 +7965,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "MC",
    "id": 1334,
    "completed": false,
@@ -7652,7 +7986,8 @@
    "title": []
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "TQ",
    "id": 1335,
    "completed": false,
@@ -7672,7 +8007,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "TQ",
    "id": 1336,
    "completed": false,
@@ -7698,7 +8034,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "TQ",
    "id": 1337,
    "completed": false,
@@ -7724,7 +8061,8 @@
    ]
 },
  {
-   "subject": "VWLMakroökonomie",
+   "subject": "VWLMakrooekonomie",
+   "header": "VWL Makroökonomie",
    "questionType": "TL",
    "id": 1338,
    "completed": false,
@@ -7767,7 +8105,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "SC",
    "id": 1339,
    "completed": false,
@@ -7785,7 +8124,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "MC",
    "id": 1340,
    "completed": false,
@@ -7806,7 +8146,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "SC",
    "id": 1341,
    "completed": false,
@@ -7824,7 +8165,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "MC",
    "id": 1342,
    "completed": false,
@@ -7844,7 +8186,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "MC",
    "id": 1343,
    "completed": false,
@@ -7866,7 +8209,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "SC",
    "id": 1344,
    "completed": false,
@@ -7884,7 +8228,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "SC",
    "id": 1345,
    "completed": false,
@@ -7902,7 +8247,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "DD",
    "id": 1346,
    "completed": false,
@@ -7927,7 +8273,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "SC",
    "id": 1347,
    "completed": false,
@@ -7945,7 +8292,8 @@
    "title": []
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "DD",
    "id": 1348,
    "completed": false,
@@ -7970,7 +8318,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "TQ",
    "id": 1349,
    "completed": false,
@@ -7996,7 +8345,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "TQ",
    "id": 1350,
    "completed": false,
@@ -8022,7 +8372,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "TQ",
    "id": 1351,
    "completed": false,
@@ -8042,7 +8393,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "TQ",
    "id": 1352,
    "completed": false,
@@ -8068,7 +8420,8 @@
    ]
 },
  {
-   "subject": "VWLMikroökonomie",
+   "subject": "VWLMikrooekonomie",
+   "header": "VWL Mikroökonomie",
    "questionType": "TL",
    "id": 1353,
    "completed": false,
@@ -8111,7 +8464,8 @@
    ]
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "MC",
    "id": 1354,
    "completed": false,
@@ -8135,7 +8489,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1355,
    "completed": false,
@@ -8153,7 +8508,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1356,
    "completed": false,
@@ -8173,7 +8529,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1357,
    "completed": false,
@@ -8191,7 +8548,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1358,
    "completed": false,
@@ -8211,7 +8569,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "MC",
    "id": 1359,
    "completed": false,
@@ -8233,7 +8592,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1360,
    "completed": false,
@@ -8251,7 +8611,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1361,
    "completed": false,
@@ -8269,7 +8630,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "DD",
    "id": 1362,
    "completed": false,
@@ -8302,7 +8664,8 @@
    ]
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "OD",
    "id": 1363,
    "completed": false,
@@ -8324,7 +8687,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1364,
    "completed": false,
@@ -8346,7 +8710,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "SC",
    "id": 1365,
    "completed": false,
@@ -8364,19 +8729,20 @@
       0
    ],
    "title": [],
-   "FIELD56": "Referentielle Integrität",
-   "FIELD57": "Isolation",
-   "FIELD58": "Datenbank",
-   "FIELD59": "Tabelle",
-   "FIELD60": "Entität",
-   "FIELD61": "Primärschlüssel",
-   "FIELD62": "Künstlicher Schlüssel",
-   "FIELD63": "Fremdschlüssel",
-   "FIELD64": "Dauerhaftigkeit",
-   "FIELD65": "Normalform"
+   "FIELD57": "Referentielle Integrität",
+   "FIELD58": "Isolation",
+   "FIELD59": "Datenbank",
+   "FIELD60": "Tabelle",
+   "FIELD61": "Entität",
+   "FIELD62": "Primärschlüssel",
+   "FIELD63": "Künstlicher Schlüssel",
+   "FIELD64": "Fremdschlüssel",
+   "FIELD65": "Dauerhaftigkeit",
+   "FIELD66": "Normalform"
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "MC",
    "id": 1366,
    "completed": false,
@@ -8394,7 +8760,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "OD",
    "id": 1367,
    "completed": false,
@@ -8418,7 +8785,8 @@
    "title": []
 },
  {
-   "subject": "Wahrnehmungspsychologie",
+   "subject": "wahrnehmungspsychologie",
+   "header": "Wahrnehmungspsychologie",
    "questionType": "TL",
    "id": 1368,
    "completed": false,
@@ -8461,7 +8829,8 @@
    ]
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1369,
    "completed": false,
@@ -8479,7 +8848,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1370,
    "completed": false,
@@ -8495,7 +8865,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1371,
    "completed": false,
@@ -8513,7 +8884,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1372,
    "completed": false,
@@ -8533,7 +8905,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "MC",
    "id": 1373,
    "completed": false,
@@ -8542,7 +8915,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1374,
    "completed": false,
@@ -8562,7 +8936,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1375,
    "completed": false,
@@ -8582,7 +8957,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1376,
    "completed": false,
@@ -8602,7 +8978,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1377,
    "completed": false,
@@ -8622,7 +8999,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1378,
    "completed": false,
@@ -8642,7 +9020,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1379,
    "completed": false,
@@ -8662,7 +9041,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1380,
    "completed": false,
@@ -8678,7 +9058,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1381,
    "completed": false,
@@ -8698,7 +9079,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "SC",
    "id": 1382,
    "completed": false,
@@ -8716,7 +9098,8 @@
    "title": []
 },
  {
-   "subject": "Webprogrammierung",
+   "subject": "webprogrammierung",
+   "header": "Webprogrammierung",
    "questionType": "TL",
    "id": 1383,
    "completed": false,
@@ -8759,7 +9142,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1384,
    "completed": false,
@@ -8782,7 +9166,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "SC",
    "id": 1385,
    "completed": false,
@@ -8800,7 +9185,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1386,
    "completed": false,
@@ -8828,7 +9214,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "MC",
    "id": 1387,
    "completed": false,
@@ -8850,7 +9237,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1388,
    "completed": false,
@@ -8875,7 +9263,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "MC",
    "id": 1389,
    "completed": false,
@@ -8895,7 +9284,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1390,
    "completed": false,
@@ -8922,7 +9312,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1391,
    "completed": false,
@@ -8949,7 +9340,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1392,
    "completed": false,
@@ -8977,7 +9369,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "MC",
    "id": 1393,
    "completed": false,
@@ -8999,7 +9392,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "MC",
    "id": 1394,
    "completed": false,
@@ -9023,7 +9417,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "DD",
    "id": 1395,
    "completed": false,
@@ -9054,7 +9449,8 @@
    ]
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "MC",
    "id": 1396,
    "completed": false,
@@ -9074,7 +9470,8 @@
    "title": []
 },
  {
-   "subject": "Wirtschaftsinformatik",
+   "subject": "wirtschaftsinformatik",
+   "header": "Wirtschaftsinformatik",
    "questionType": "TL",
    "id": 1397,
    "completed": false,
