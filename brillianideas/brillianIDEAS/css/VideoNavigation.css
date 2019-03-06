@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    overflow: bottom;
     background-color: #990133; /*ToDo: sollte als var gesetzt werden*/
     color: white;
     font-family: Caveat Brush;
