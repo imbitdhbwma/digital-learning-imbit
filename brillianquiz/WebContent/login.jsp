@@ -78,7 +78,7 @@ $(document).ready(function(){
             Hallo!
         </h2>
         <p>
-            Melde dich an, um deinen Fortschritt zu speichern.
+           Willst du deinen Fortschritt speichern?
         </p>
         <p>
             <input type="text" value="" name="name" class="form-control" placeholder="Email" />
