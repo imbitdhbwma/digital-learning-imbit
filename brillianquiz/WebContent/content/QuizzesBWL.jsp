@@ -125,7 +125,7 @@
 	</div>
 	
 	<div class="container tooltiphover">
-		<a href="../quiz/quiz.jsp?subject=Bilanzierung">
+		<a href="../quiz/quiz.jsp?subject=bilanzierung">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-09.png"></span>
 			
 		<p class="Untertitel">Bi&shy;lan&shy;zie&shy;rung</p>

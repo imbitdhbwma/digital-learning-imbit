@@ -113,10 +113,10 @@
 		
 	
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Betriebssysteme">
+			<a href="../quiz/quiz.jsp?subject=betriebssysteme">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-06.png"></span>
 			
-			<p class="Untertitel">Operation Systems</p>
+			<p class="Untertitel">Betriebssysteme</p>
 			
 			<p class="IntroText">Die IMBIT-&shy;Kra&shy;ke hat Sys&shy;tem 32 ge&shy;löscht! Hilf ihr he&shy;raus&shy;zu&shy;fin&shy;den wie ein Be&shy;triebs&shy;sys&shy;tem funk&shy;ti&shy;o&shy;niert um Win&shy;dows neu zu in&shy;stal&shy;lie&shy;ren.<p>
 		 
