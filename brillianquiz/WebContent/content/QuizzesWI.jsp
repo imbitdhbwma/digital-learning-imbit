@@ -119,11 +119,11 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=BusinessProcessManagement">
+			<a href="../quiz/quiz.jsp?subject=Geschäftsprozessmanagement">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-06.png"></span>
 
-			<p class="Untertitel">Business Process Management</p>
+			<p class="Untertitel">Ge&shy;schäfts&shy;pro&shy;zess&shy;ma&shy;na&shy;ge&shy;ment</p>
 
 			<p class="IntroText">Die IMBIT-&#8203;Kra&shy;ke ist mit ei&shy;ni&shy;gen Pro&shy;zes&shy;sen nicht zu&shy;frie&shy;den. Hilfst du ihr sie zu ana&shy;ly&shy;sie&shy;ren? </p>
 			</a>
