@@ -1,7 +1,8 @@
+/*
 html {	box-sizing: border-box;
 	font-family: 'Tinos';
 	color: var(--text);
-}
+}*/
 
 body {
 	/* Location of the image */
@@ -28,11 +29,12 @@ body {
 	 */
   }
 
-
+/*
 #title a {
     text-decoration: none;
     color: var(--text);
 }
+*/
 
 .upper{
 	text-transform: uppercase;
@@ -89,7 +91,7 @@ body {
 	visibility: hidden;
 	 top: 40%;
 	 left: 30%;
-	 font-family: Caveat Brush;
+	 font-family: "Caveat Brush";
 	 font-size: 2em;
 	 color: white;
 	 position: absolute;
@@ -155,7 +157,7 @@ body {
     left: 23vw;
     width: 30vw;
     text-align: center;
-    font-family: Caveat Brush;
+    font-family: "Caveat Brush";
     font-size: 3vw;
     color:black;
     position: absolute;
