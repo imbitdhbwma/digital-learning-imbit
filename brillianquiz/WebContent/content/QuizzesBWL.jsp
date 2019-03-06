@@ -133,19 +133,7 @@
 		
 		</a>
 	</div>
-	
-	
-	
-	<div class="container tooltiphover">
-		<a href="../quiz/quiz.jsp?subject=ITServiceManagement">
-        <span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-10.png"></span>
-			
-		<p class="Untertitel">IT&shy;-Ser&shy;vice Man&shy;age&shy;ment</p>
-
-		<p class="IntroText">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;tige IT-Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-Kra&shy;ke ITIL ein&shy;füh&shy;ren.</p>
-		</a>
-	</div>
-	
+		
 	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=finanzierung">
 		
@@ -168,7 +156,7 @@
 		</div>  
 	<div class="container tooltiphover">
 			<a href="../quiz/quiz.jsp?subject=VWLMikrooekonomie">
-			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-10.png"></span>
 			
 			<p class="Untertitel">VWL Mikroökonomie</p>
 			
