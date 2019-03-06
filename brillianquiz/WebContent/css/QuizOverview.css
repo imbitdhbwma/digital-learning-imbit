@@ -108,12 +108,12 @@ body {
 
 .IntroText {
 	/*display: none;*/
-	width: 150%;
+	width: 160%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
 	color: white;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	hyphens: auto;
 	
 	line-height: 0.9em;
@@ -122,7 +122,7 @@ body {
 }
 
 .Untertitel {
-	width: 140%;
+	width: 130%;
 	align-items: center;
 	text-align: center;
 	font-family: "Caveat Brush";
