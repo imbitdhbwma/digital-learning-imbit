@@ -59,7 +59,7 @@
 			
 			<p class="Untertitel">Busi&shy;ness Mo&shy;del Can&shy;vas</p>
 			
-			<p class="IntroText"></p>
+			<p class="IntroText">Er&shy;ler&shy;ne stra&shy;te&shy;gi&shy;sche Ma&shy;nage&shy;ment&shy;me&shy;tho&shy;den neu&shy;er Ge&shy;schäfts&shy;mo&shy;del&shy;le mit Hil&shy;fe der Busi&shy;ness Mo&shy;del Can&shy;vas.</p>
 			</a>
 		</div> 
 	<div class="container tooltiphover">
@@ -68,7 +68,7 @@
 			
 				<p class="Untertitel">Ö&shy;ko&shy;no&shy;misch&shy;es Prin&shy;zip</p>
 		
-				<p class="IntroText"></p>
+				<p class="IntroText">Er&shy;kun&shy;de das Ver&shy;hält&shy;nis zwi&shy;schen Er&shy;geb&shy;nis und Auf&shy;wand und hilf der IMBIT-Kra&shy;ke das Ö&shy;ko&shy;no&shy;mi&shy;sche Prin&shy;zip zu ver&shy;ste&shy;hen.</p>
 				</a>
 	</div> 
 	
@@ -90,7 +90,7 @@
 			
 			<p class="Untertitel">Share&shy;hol&shy;der Stake&shy;hol&shy;der</p>
 			
-			<p class="IntroText"></p>
+			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke Stake&shy;hol&shy;der  und Share&shy;hol&shy;der von&shy;ein&shy;an&shy;der zu un&shy;ter&shy;schei&shy;den.</p>
 			</a>
 		</div> 
 		
@@ -100,7 +100,7 @@
 			
 				<p class="Untertitel">St. Gal&shy;ler Mo&shy;dell</p>
 		
-				<p class="IntroText"></p>
+				<p class="IntroText">Das St. Gal&shy;ler Ma&shy;nage&shy;ment-Mo&shy;dell zeigt al&shy;le Ein&shy;flüs&shy;se auf ein Un&shy;ter&shy;neh&shy;men auf.</p>
 				</a>
 	</div>
 
@@ -110,7 +110,7 @@
 			
 			<p class="Untertitel">Wer&shy;te&shy;ket&shy;te</p>
 			
-			<p class="IntroText"></p>
+			<p class="IntroText">Er&shy;kun&shy;de die Stu&shy;fen der Pro&shy;duk&shy;tion und der Wert&shy;schöp&shy;fung mit der IMBIT-Kra&shy;ke.</p>
 			</a>
 		</div> 
 		
