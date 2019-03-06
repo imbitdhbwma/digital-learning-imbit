@@ -76,7 +76,7 @@
 			<a href="../quiz/quiz.jsp?subject=Datenbanken">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-03.png"></span>
 			
-			<p class="Untertitel">Datenbanken</p>
+			<p class="Untertitel">Da&shy;ten&shy;bank&shy;en</p>
 
 			<p class="IntroText">Das Un&shy;ter&shy;neh&shy;men der IMBIT-&shy;Kra&shy;ke braucht auch eine Da&shy;ten&shy;bank. Weißt du ge&shy;nug, um Da&shy;ten&shy;bank&shy;spe&shy;zia&shy;list zu wer&shy;den?!?<p>
 			</a>
