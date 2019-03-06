@@ -81,15 +81,15 @@
 </body>
 <script>
 	DivObject = function() {
-		<!--var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];
-		<!--var zrandom = Math.floor((Math.random() * -100) - 10);
+		<!--var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];-->
+		<!--var zrandom = Math.floor((Math.random() * -100) - 10);-->
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
-		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
-	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		<!--this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
-		<!--this.div.style.zIndex = zrandom;
+		<!--this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;-->
+	    <!--this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;-->
+		<!--this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';-->
+		<!--this.div.style.zIndex = zrandom;-->
 	}
 </script>
 </html>
