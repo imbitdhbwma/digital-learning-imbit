@@ -56,13 +56,14 @@
 			alt="Cloud Wiki"></a>
 	</div>
 	<div class="interactive">
-		<img
-			src="../img/quiz.png"
+		<a
+			id="quizLink"
+			href="/brillianQUIZ"><img
+			src="./img/quiz.png"
 			class="icon"
 			alt="Quizzes"
-			onmouseover="this.src='../img/quiz_alt.png';"
-			onmouseout="this.src='../img/quiz.png';"
-			onclick="window.open('../content/octopus.html','_self')">
+			onmouseover="this.src='./img/quiz_alt.png';"
+			onmouseout="this.src='./img/quiz.png';"></a>
 	</div>
 	<div class="video">
 		<img
@@ -90,6 +91,7 @@
 	function loadRocketbarLinks(){
 		document.getElementById("icmLink").port = "8080";
 		document.getElementById("crmLink").port = "8080";
+		document.getElementById("quizLink").port = "8080";
 	}
 	document.onload = loadRocketbarLinks();
 </script>
