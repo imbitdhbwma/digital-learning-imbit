@@ -170,7 +170,7 @@
 	
 	<div class="container tooltiphover">
 		<a href="../quiz/quiz.jsp?subject=Controlling">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-13.png"></span>
 			
 		<p class="Untertitel">Con&shy;trol&shy;ling</p>
 
@@ -180,7 +180,7 @@
 	
 	   <div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Kosten- und Leistungsrechnung">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-14.png"></span>
 			
 		<p class="Untertitel">KLR</p>
 			
@@ -193,7 +193,7 @@
 	 
     <div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Investition">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-15.png"></span>
 			
 		<p class="Untertitel">In&shy;ves&shy;ti&shy;tion</p>
 			
@@ -204,7 +204,7 @@
 	
 	<div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=Marketing">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-16.png"></span>
 			
 		<p class="Untertitel">Mar&shy;ke&shy;ting</p>
 		
@@ -214,7 +214,7 @@
 	
 	<div class="container tooltiphover">
         <a href="../quiz/quiz.jsp?subject=SupplyChainManagement">
-		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-17.png"></span>
 			
 		<p class="Untertitel">Sup&shy;ply&nbsp;Chain Management</p>
 
