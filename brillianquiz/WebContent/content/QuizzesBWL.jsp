@@ -53,7 +53,7 @@
 	</div>
 	
 	<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Statistik">
+			<a href="../quiz/quiz.jsp?subject=businessModelCanvas">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-02.png"></span>
 			
 			<p class="Untertitel">Busi&shy;ness Mo&shy;del Can&shy;vas</p>
@@ -62,7 +62,7 @@
 			</a>
 		</div> 
 	<div class="container tooltiphover">
-				<a href="../quiz/quiz.jsp?subject=Portermodell">
+				<a href="../quiz/quiz.jsp?subject=oekonomischesPrinzip">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-03.png"></span>
 			
 				<p class="Untertitel">Ö&shy;ko&shy;no&shy;misch&shy;es Prin&shy;zip</p>
@@ -72,7 +72,7 @@
 	</div> 
 	
 	<div class="container tooltiphover">
-		<a href="../quiz/quiz.jsp?subject=BWL">
+		<a href="../quiz/quiz.jsp?subject=porterModell">
 		
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-04.png"></span>
 			
@@ -84,7 +84,7 @@
 	</div>
 	
 	<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Statistik">
+			<a href="../quiz/quiz.jsp?subject=shareholderStakeholder">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-05.png"></span>
 			
 			<p class="Untertitel">Share&shy;hol&shy;der Stake&shy;hol&shy;der</p>
@@ -94,7 +94,7 @@
 		</div> 
 		
 	<div class="container tooltiphover">
-				<a href="../quiz/quiz.jsp?subject=Portermodell">
+				<a href="../quiz/quiz.jsp?subject=stGallerModell">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-06.png"></span>
 			
 				<p class="Untertitel">St. Gal&shy;ler Mo&shy;dell</p>
@@ -104,17 +104,17 @@
 	</div>
 
 	<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Statistik">
+			<a href="../quiz/quiz.jsp?subject=wertkette">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-07.png"></span>
 			
-			<p class="Untertitel">Wer&shy;te&shy;ket&shy;te</p>
+			<p class="Untertitel">Wer&shy;t&shy;schöp&shy;fungs&shy;ket&shy;te</p>
 			
 			<p class="IntroText">Er&shy;kun&shy;de die Stu&shy;fen der Pro&shy;duk&shy;tion und der Wert&shy;schöp&shy;fung mit der IMBIT-Kra&shy;ke.</p>
 			</a>
 		</div> 
 		
 	<div class="container tooltiphover">
-				<a href="../quiz/quiz.jsp?subject=Portermodell">
+				<a href="../quiz/quiz.jsp?subject=statistik">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-08.png"></span>
 			
 				<p class="Untertitel">Sta&shy;tis&shy;tik</p>
@@ -147,7 +147,7 @@
 	</div>
 	
 	<div class="container tooltiphover">
-		<a href="../quiz/quiz.jsp?subject=Finanzierung">
+		<a href="../quiz/quiz.jsp?subject=finanzierung">
 		
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-11.png"></span>
 			
@@ -158,17 +158,26 @@
 	 </div>
 	
 	 <div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=VWL">
+			<a href="../quiz/quiz.jsp?subject=VWLMakrooekonomie">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
 			
-			<p class="Untertitel">VWL</p>
+			<p class="Untertitel">VWL Makroökonomie</p>
 			
 			<p class="IntroText">Hilf der IMBIT-Kra&shy;ke die volks&shy;wirt&shy;schaft&shy;lich&shy;en Zu&shy;sam&shy;men&shy;hänge zu ver&shy;steh&shy;en!</p>
+			</a>
+		</div>  
+	<div class="container tooltiphover">
+			<a href="../quiz/quiz.jsp?subject=VWLMikrooekonomie">
+			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-12.png"></span>
+			
+			<p class="Untertitel">VWL Mikroökonomie</p>
+			
+			<p class="IntroText"></p>
 			</a>
 		</div>  	
 	
 	<div class="container tooltiphover">
-		<a href="../quiz/quiz.jsp?subject=Controlling">
+		<a href="../quiz/quiz.jsp?subject=controlling">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-13.png"></span>
 			
 		<p class="Untertitel">Con&shy;trol&shy;ling</p>
@@ -178,10 +187,10 @@
 	</div>
 	
 	   <div class="container tooltiphover">
-        <a href="../quiz/quiz.jsp?subject=Kosten- und Leistungsrechnung">
+        <a href="../quiz/quiz.jsp?subject=kostenleistungsrechnung">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-14.png"></span>
 			
-		<p class="Untertitel">KLR</p>
+		<p class="Untertitel">Kosten- und Leistungsrechnung</p>
 			
 		<p class="IntroText">Kos&shy;ten? Wel&shy;che Kos&shy;ten? Die IMBIT-Kra&shy;ke braucht ganz dring&shy;end dei&shy;ne Hil&shy;fe, um ih&shy;re Kos&shy;ten zu i&shy;den&shy;ti&shy;fi&shy;zie&shy;ren!</p>
 		</a>
@@ -191,7 +200,7 @@
 	
 	 
     <div class="container tooltiphover">
-        <a href="../quiz/quiz.jsp?subject=Investition">
+        <a href="../quiz/quiz.jsp?subject=investition">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-15.png"></span>
 			
 		<p class="Untertitel">In&shy;ves&shy;ti&shy;tion</p>
@@ -212,7 +221,7 @@
 	</div> 
 	
 	<div class="container tooltiphover">
-        <a href="../quiz/quiz.jsp?subject=SupplyChainManagement">
+        <a href="../quiz/quiz.jsp?subject=supplyChainManagement">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-17.png"></span>
 			
 		<p class="Untertitel">Sup&shy;ply&nbsp;Chain Management</p>

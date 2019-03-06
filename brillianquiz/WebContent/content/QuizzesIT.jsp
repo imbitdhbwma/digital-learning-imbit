@@ -47,7 +47,7 @@
 
 		<div class="container tooltiphover">
 	
-			<a href="../quiz/quiz.jsp?subject=VerteilteSysteme">
+			<a href="../quiz/quiz.jsp?subject=verteilteSysteme">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-01.png"></span>
 			
 			<p class="Untertitel">Verteilte&nbsp;Systeme</p>
@@ -58,7 +58,7 @@
 	
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=IT Intro">
+			<a href="../quiz/quiz.jsp?subject=ITIntro">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-02.png"></span>
 			
 			<p class="Untertitel">IT In&shy;tro</p>
@@ -72,7 +72,7 @@
 	
 		<div class="container tooltiphover">
 	
-			<a href="../quiz/quiz.jsp?subject=Datenbanken">
+			<a href="../quiz/quiz.jsp?subject=datenbanken">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-03.png"></span>
 			
 			<p class="Untertitel">Da&shy;ten&shy;bank&shy;en</p>
@@ -84,7 +84,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Webprogrammierung">
+			<a href="../quiz/quiz.jsp?subject=webprogrammierung">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-04.png"></span>
 			
 			<p class="Untertitel">Web&shy;pro&shy;gram&shy;mie&shy;rung</p>
@@ -99,7 +99,7 @@
 	
 	
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Kommunikationssysteme">
+			<a href="../quiz/quiz.jsp?subject=kommunikationssysteme">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-05.png"></span>
 			
 			<p class="Untertitel">Kom&shy;mu&shy;ni&shy;ka&shy;tions&nbsp;sys&shy;teme</p>
