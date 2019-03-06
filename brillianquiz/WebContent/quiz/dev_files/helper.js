@@ -583,7 +583,7 @@ function evaluate() {
 				if (antworttext !== feldtext) {
 					gibMirPunkte = false;
 				}
-
+				changeColor();
 			}
 			if (gibMirPunkte) {
 				score++;
@@ -592,7 +592,7 @@ function evaluate() {
 		}
 
 	} createScoreText();
-	changeColor();
+	
 }
 
 // Genereate text after evaluating depending on the score
@@ -610,12 +610,13 @@ function createScoreText (){
 //Change color of numering depending on input
 
 function changeColor (){
-	if(gibMirPunkte==true){
-		console.log("changeColor läuft");
-		var element = document.getElementsByClassName(".question:before");
+	console.log("changeColor außen läuft");
+	if(gibMirPunkte===true){
+		console.log("changeColor innen läuft");
+		var element = document.getElementById("title");
 		element.classList.toggle("correct");
 	} else if (gibMirPunkte === false){
-		var element = document.getElementsByClassName(".question:before");
+		var element = document.getElementById("title");
 		element.classList.toggle("false");
 	}	
 }
