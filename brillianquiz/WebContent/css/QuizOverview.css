@@ -112,8 +112,9 @@ body {
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
-	color: #991b33;
+	color: white;
 	font-size: 0.9em;
+	hyphens: auto;
 	
 	line-height: 0.9em;
 	
@@ -125,7 +126,8 @@ body {
 	align-items: center;
 	text-align: center;
 	font-family: "Caveat Brush";
-	color: #991b33;
+	color: white;
+	hyphens:auto;
 	font-size: 1.2em;
 	
 	line-height: 0.9em;
