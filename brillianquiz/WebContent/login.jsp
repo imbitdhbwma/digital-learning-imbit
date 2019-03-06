@@ -22,6 +22,7 @@
 		height: 200px;
 		opacity: 0.3;
 		background-size: contain;
+		backgroundImage: url(img/QuizMeerestiere/bwl-01.png);
 		z-index: -10;
 }
 </style>
@@ -73,7 +74,7 @@
             <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
         </p>
         <p class="mb-0 text-right">
-            <input data-fancybox-close type="button" class="btn btn-primary" value="Anmelden" />
+            <input data-fancybox-close type="submit" class="btn btn-primary" value="Anmelden" />
         </p>
 		<a href='resetpw.jsp'>Passwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
@@ -82,15 +83,15 @@
 </body>
 <script>
 	DivObject = function() {
-		var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];
-		var zrandom = Math.floor((Math.random() * -100) - 10);
+		<!--var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];
+		<!--var zrandom = Math.floor((Math.random() * -100) - 10);
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
-		this.div.style.zIndex = zrandom;
+		<!--this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
+		<!--this.div.style.zIndex = zrandom;
 	}
 </script>
 </html>
