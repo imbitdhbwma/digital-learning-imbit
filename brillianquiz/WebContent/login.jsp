@@ -14,20 +14,6 @@
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css" />
 <script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
-
-<style type="text/css">	
-.fish {
-		position: absolute;
-		width: 200px;
-		height: 200px;
-		opacity: 0.3;
-		background-size: contain;
-		backgroundImage: url(img/QuizMeerestiere/bwl-01.png);
-		z-index: -10;
-}
-</style>
-
-
 </head>
 
 <body>

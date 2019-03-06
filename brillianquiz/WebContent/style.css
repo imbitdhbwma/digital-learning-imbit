@@ -37,6 +37,16 @@ img {
 	max-height: 100%;
 }
 
+.fish {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		opacity: 0.3;
+		background-size: contain;
+		background-image: url(img/QuizMeerestiere/bwl-01.png);
+		z-index: -10;
+}
+
 .container {
 	margin: 0 auto;
 	width: 95%;
