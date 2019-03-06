@@ -18,18 +18,13 @@
 			<style>
 				html {
 					 overflow-x: hidden;}
-			</style>
-			<div id="video_pattern"></div>
-			
-				
-			
+			</style>	
 		
 		</head>
 		
 
 <body>
-	<div></div>
-	</div><img class="octo_kopf" src="../img/Tintenfisch_Kopf_HOME_gedreht_ex.png" alt=""></div>
+	<div><img class="octo_kopf" src="../img/Tintenfisch_Kopf_HOME_gedreht_ex.png" alt=""></div>
 	<div class="Aufforderung">
 			Hilf mir das Un&shy;ter&shy;neh&shy;men zu füh&shy;ren!
 	</div>
