@@ -82,9 +82,7 @@ ueberschrift {
 	margin: 17vw;
 }
 
-
-
-.dnSlide-main {
+.dnSlide-main, .dnSlide-main2 {
   display: justify-content;
   position: relative;
   top: -3vh;
@@ -97,10 +95,10 @@ ueberschrift {
   margin-right: auto;
   -webkit-tap-highlight-color: transparent;
 }
-.dnSlide-main.done {
+.dnSlide-main.done, .dnSlide-main2.done {
   visibility: visible;
 }
-.dnSlide-main.dn-response {
+.dnSlide-main.dn-response, .dnSlide-main2.dn2-response {
   width: 100%;
 }
 .dnSlide-main.dn-response .dnSlide-list {
@@ -111,16 +109,24 @@ ueberschrift {
   margin-bottom: 35px;
   padding-left: 0px;
 }
-.dnSlide-main a, .dnSlide-main img {
+.dnSlide-main2.dn2-response .dnSlide2-list {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 0px;
+}
+.dnSlide-main a, .dnSlide-main img, .dnSlide-main2 a, .dnSlide-main2 img {
   display: block;
   border: 0px;
 }
-.dnSlide-main .dnSlide-list {
+.dnSlide-main .dnSlide-list, .dnSlide-main2 .dnSlide2-list {
   width: 800px;
   height: 234px;
   list-style: none;
 }
-.dnSlide-main .dnSlide-btn {
+.dnSlide-main .dnSlide-btn, .dnSlide-main2 .dnSlide2-btn {
   color: black;
   height: 234px;
   width: 100px;
@@ -134,24 +140,24 @@ ueberschrift {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.dnSlide-main .dnSlide-btn:hover {
+.dnSlide-main .dnSlide-btn:hover, .dnSlide-main2 .dnSlide2-btn:hover {
   opacity: 0.0;
   transition: opacity 0.3s;
 }
-.dnSlide-main.dnSlide-hide {
+.dnSlide-main.dnSlide-hide, .dnSlide-main2.dnSlide2-hide {
   display: none;
 }
-.dnSlide-main .dnSlide-item {
+.dnSlide-main .dnSlide-item, .dnSlide-main2 .dnSlide2-item {
   position: absolute;
   top: 0px;
   left: 0px;
 }
-.dnSlide-main .dnSlide-left-btn {
+.dnSlide-main .dnSlide-left-btn, .dnSlide-main2 .dnSlide2-left-btn {
   background-image: url("../images/left.svg");
   background-size: 35%;
   left: 0;
 }
-.dnSlide-main .dnSlide-right-btn {
+.dnSlide-main .dnSlide-right-btn, .dnSlide-main2 .dnSlide2-right-btn {
   background-image: url("../images/right.svg");
   background-size: 35%;
   right: 0;
@@ -159,16 +165,16 @@ ueberschrift {
 }
 
 @media \0screen\,screen\9 {
-  .dnSlide-main {
+  .dnSlide-main, .dnSlide-main2 {
     margin-top: 35px;
     margin-bottom: 35px;
   }
 
-  .dnSlide-main .dnSlide-right-btn {
+  .dnSlide-main .dnSlide-right-btn, .dnSlide-main2 .dnSlide2-right-btn {
     background-image: url("../images/right.png");
   }
 
-  .dnSlide-main .dnSlide-left-btn {
+  .dnSlide-main .dnSlide-left-btn, .dnSlide-main2 .dnSlide2-left-btn {
     background-image: url("../images/left.png");
   }
 }

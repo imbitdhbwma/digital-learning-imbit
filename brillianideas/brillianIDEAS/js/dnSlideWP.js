@@ -24,7 +24,7 @@
 
     'use strict';
     /* Defind Plugin */
-    var _PLUGIN_    = 'dnSlide';
+    var _PLUGIN_    = 'dnSlide2';
     var _VERSION_   = '1.0.0';
 
     if ( $[ _PLUGIN_ ] && $[ _PLUGIN_ ].version > _VERSION_ )
@@ -65,21 +65,21 @@
             this.settingDOM();  
             this.isIE7 = /MSIE 6.0|MSIE 7.0/gi.test(window.navigator.userAgent);
 
-            this.dnSlideMain = this.container.find('.dnSlide-main');
-            this.dnSlideItems = this.container.find('ul.dnSlide-list');
-            this.dnSlideLi = this.container.find('.dnSlide-item');
-            this.firstItem   = this.container.find('ul.dnSlide-list > li:first-child');
-            this.dnSlideItemsLength = this.container.find('ul.dnSlide-list>li').length;
-            this.dnSlideFirstItem = this.container.find('ul.dnSlide-list>li:first-child');
-            this.dnSlideLastItem = this.container.find('ul.dnSlide-list>li:last-child');
+            this.dnSlideMain = this.container.find('.dnSlide-main2');
+            this.dnSlideItems = this.container.find('ul.dnSlide2-list');
+            this.dnSlideLi = this.container.find('.dnSlide2-item');
+            this.firstItem   = this.container.find('ul.dnSlide2-list > li:first-child');
+            this.dnSlideItemsLength = this.container.find('ul.dnSlide2-list>li').length;
+            this.dnSlideFirstItem = this.container.find('ul.dnSlide2-list>li:first-child');
+            this.dnSlideLastItem = this.container.find('ul.dnSlide2-list>li:last-child');
             if(this.options.isOddShow) this.isEvenPicNum();
-            if(this.options.response) this.container.addClass('dn-response');
+            if(this.options.response) this.container.addClass('dn2-response');
         
-            this.prevBtn = this.container.find('.dnSlide-left-btn');
-            this.nextBtn = this.container.find('.dnSlide-right-btn');
+            this.prevBtn = this.container.find('.dnSlide2-left-btn');
+            this.nextBtn = this.container.find('.dnSlide2-right-btn');
 
-            this.prevBtn =  this.container.find('div.dnSlide-left-btn');
-            this.nextBtn =  this.container.find('div.dnSlide-right-btn');
+            this.prevBtn =  this.container.find('div.dnSlide2-left-btn');
+            this.nextBtn =  this.container.find('div.dnSlide2-right-btn');
             this.rotateFlag = true;
 
             //DEFAULT SETTING START
@@ -144,41 +144,33 @@
 			this.dnSlideItems.off().on('click', function(event) {
                 event.stopPropagation();
 				
-				
-				
-				if(_this_.VideoID%5==0){
-					window.location = "http://www.brillianideas.com/content/OekonomischesPrinzipVideo.html";   //		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+				if(_this_.VideoID%9==0){
+					window.location = "http://www.google.de";   //		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				if(_this_.VideoID%5==1){
+				if(_this_.VideoID%9==1){
 					window.location = "http://www.brillianideas.com/content/StakeholderVsShareholderVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				if(_this_.VideoID%5==2){
+				if(_this_.VideoID%9==2){
 					window.location = "http://www.brillianideas.com/content/WkmVideo.html";			//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				if(_this_.VideoID%5==3){
+				if(_this_.VideoID%9==3){
 					window.location = "http://www.brillianideas.com/content/StGallerManagementModellVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				if(_this_.VideoID%5==4){
+				if(_this_.VideoID%9==4){
 					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+				if(_this_.VideoID%9==5){
+					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+                }
+                if(_this_.VideoID%9==6){
+					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+                }
+                if(_this_.VideoID%9==7){
+					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+                }
+                if(_this_.VideoID%9==8){
+					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
+				}				
             });*/
 			
 			
@@ -213,28 +205,28 @@
         },
         hide : function(callback)
         {
-            this.container.addClass('dnSlide-hide');
+            this.container.addClass('dnSlide2-hide');
             if( callback && typeof callback === "function" ) callback();
         },
         show : function(callback)
         {
-            this.container.removeClass('dnSlide-hide');
+            this.container.removeClass('dnSlide2-hide');
             if( callback && typeof callback === "function" ) callback();
         },    
         settingDOM : function (){
             var _this_  = this ,
-                btnHTML = (this.options.switching === "normal") ? "<div class='dnSlide-btn dnSlide-left-btn'></div><div class='dnSlide-btn dnSlide-right-btn'></div>" : null ;
+                btnHTML = (this.options.switching === "normal") ? "<div class='dnSlide2-btn dnSlide2-left-btn'></div><div class='dnSlide2-btn dnSlide2-right-btn'></div>" : null ;
 
             this.defalutHtml = this.container.html();
 
             this.resourceSrcArr = this.container.find('img').map(function(i,e){return e.src;});
-            var ulDOM = this.container.html('<ul class="dnSlide-list"></ul>').find('.dnSlide-list');
+            var ulDOM = this.container.html('<ul class="dnSlide2-list"></ul>').find('.dnSlide2-list');
 
             jQuery.each(this.resourceSrcArr , function(i,e){
-                ulDOM.append('<li class="dnSlide-item"><a href="javascript:void(0)"><img class="slide-img" src="'+_this_.resourceSrcArr[i]+'" width="100%"></a></li>');
+                ulDOM.append('<li class="dnSlide2-item"><a href="javascript:void(0)"><img class="slide-img" src="'+_this_.resourceSrcArr[i]+'" width="100%"></a></li>');
             });
 
-            ulDOM.parents('.dnSlide-main').append(btnHTML);
+            ulDOM.parents('.dnSlide-main2').append(btnHTML);
         },
         WndwResize : function(){
             var _this_ = this ,
@@ -304,7 +296,7 @@
             var self_ = this ,
                 response  = this.options.response ,
                 level = Math.floor(this.dnSlideItemsLength/2) ,
-                items = this.container.find('.dnSlide-list > li').slice(1),
+                items = this.container.find('.dnSlide2-list > li').slice(1),
                 leftItems = items.slice( 0 , items.length/2 ),
                 rightItems = items.slice( items.length/2 ),
                 optionImgLeft = (this.container.width() - this.firstItem.width())/2 ,
@@ -467,9 +459,9 @@
         isEvenPicNum:function(){
             if(this.dnSlideItemsLength%2 === 0){
                 this.dnSlideItems.append(this.dnSlideFirstItem.clone());
-                this.dnSlideItemsLength = this.dnSlide.find('ul.dnSlide-list>li').length;
-                this.dnSlideFirstItem = this.dnSlide.find('ul.dnSlide-list>li:first-child');
-                this.dnSlideLastItem = this.dnSlide.find('ul.dnSlide-list>li:last-child');
+                this.dnSlideItemsLength = this.dnSlide.find('ul.dnSlide2-list>li').length;
+                this.dnSlideFirstItem = this.dnSlide.find('ul.dnSlide2-list>li:first-child');
+                this.dnSlideLastItem = this.dnSlide.find('ul.dnSlide2-list>li:last-child');
             }
         },   
         _api_: function()
