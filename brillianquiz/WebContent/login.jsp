@@ -18,6 +18,7 @@
 <body>
 
 <div class="container">
+<p style="color: red; text-align: left;">${error}</p>
 </div>
 
 <a href="#" onclick="new DivObject()">Fish</a>
@@ -57,7 +58,7 @@
 </div>
          
 
-    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:660px;">
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
         <h2 class="mb-3">
             Hallo!
         </h2>
@@ -77,6 +78,8 @@
 		<a href="Registration?g=000">Konto erstellen</a>
     </form>
 
+
+
 </body>
 <script>
 	DivObject = function() {
@@ -87,7 +90,7 @@
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		this.div.style.background-image = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
+		this.div.style.background-image = 'url(' + imgs[Math.floor(Math.random() * imgs.length)] + ')';
 		<!--this.div.style.zIndex = zrandom;-->
 	}
 </script>

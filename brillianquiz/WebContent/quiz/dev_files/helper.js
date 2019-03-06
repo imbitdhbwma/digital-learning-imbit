@@ -592,8 +592,10 @@ function evaluate() {
 		}
 
 	} createScoreText();
+	changeColor();
 }
 
+// Genereate text after evaluating depending on the score
 function createScoreText (){
 	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
 	var wellDone = anzahlFragen * 0.7;
@@ -603,6 +605,13 @@ function createScoreText (){
 	} else {
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst";
 	}
+}
+
+//Change color of numering depending on input
+
+function changeColor (){
+	var element = document.getElementsByClassName("p.question:before");
+	element.classList.toggle("correct");
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
