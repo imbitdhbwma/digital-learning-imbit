@@ -76,7 +76,7 @@
 			<a href="../quiz/quiz.jsp?subject=Datenbanken">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-03.png"></span>
 			
-			<p class="Untertitel">Datenbanken</p>
+			<p class="Untertitel">Da&shy;ten&shy;bank&shy;en</p>
 
 			<p class="IntroText">Das Un&shy;ter&shy;neh&shy;men der IMBIT-&shy;Kra&shy;ke braucht auch eine Da&shy;ten&shy;bank. Weißt du ge&shy;nug, um Da&shy;ten&shy;bank&shy;spe&shy;zia&shy;list zu wer&shy;den?!?<p>
 			</a>
@@ -100,10 +100,10 @@
 	
 	
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=Kommunikationssystem">
+			<a href="../quiz/quiz.jsp?subject=Kommunikationssysteme">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-05.png"></span>
 			
-			<p class="Untertitel">Com&shy;muni&shy;ca&shy;tion&nbsp;Sys&shy;tems</p>
+			<p class="Untertitel">Kom&shy;mu&shy;ni&shy;ka&shy;tions&nbsp;sys&shy;teme</p>
 
 			<p class="IntroText">Die IMBIT-&shy;Kra&shy;ke möchte he&shy;raus&shy;fin&shy;den, wie das In&shy;ter&shy;net funk&shy;ti&shy;o&shy;nie&shy;rt. Hilf ihr!<p>
 			</a>
