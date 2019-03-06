@@ -87,7 +87,7 @@
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
+		this.div.style.background-image = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
 		<!--this.div.style.zIndex = zrandom;-->
 	}
 </script>
