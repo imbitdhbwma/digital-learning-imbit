@@ -28,6 +28,13 @@ body {
 	 * background: url(background-photo.jpg) center center cover no-repeat fixed;
 	 */
   }
+  
+/* For mobile devices */
+@media only screen and (max-width: 1000px) {
+  .IntroText {
+  	display:none;
+  }
+}
 
 /*
 #title a {
@@ -110,7 +117,7 @@ body {
 
 .IntroText {
 	/*display: none;*/
-	width: 160%;
+	width: 150%;
 	align-items: center;
 	text-align: justify;
 	font-family: "Caveat Brush";
