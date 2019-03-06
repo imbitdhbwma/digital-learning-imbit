@@ -81,14 +81,14 @@
 </body>
 <script>
 	DivObject = function() {
-		<!--var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];-->
+		<var imgs = ['img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
 		<!--var zrandom = Math.floor((Math.random() * -100) - 10);-->
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
-		<!--this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';-->
+		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
 		<!--this.div.style.zIndex = zrandom;-->
 	}
 </script>
