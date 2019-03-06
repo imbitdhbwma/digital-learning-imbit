@@ -14,6 +14,19 @@
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css" />
 <script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
+
+<style type="text/css">	
+.fish {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		opacity: 0.3;
+		background-size: contain;
+		z-index: -10;
+}
+</style>
+
+
 </head>
 
 <body>
@@ -69,9 +82,15 @@
 </body>
 <script>
 	DivObject = function() {
+		var imgs = ['img/animated/it.gif', 'img/animated/wi.gif', 'img/animated/bwl.gif'];
+		var zrandom = Math.floor((Math.random() * -100) - 10);
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
+		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
+	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
+		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * images.length)] + ')';
+		this.div.style.zIndex = zrandom;
 	}
 </script>
 </html>
