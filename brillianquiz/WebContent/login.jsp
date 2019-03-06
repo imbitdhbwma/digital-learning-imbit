@@ -40,18 +40,30 @@
 <!-- <h1>h1</h1> Inhalt -->
 <div class="outer">
 <div class="inner" align="center">
-<a href="/brillianQUIZ/content/QuizzesWI.jsp" style="text-decoration:none;">
-<img class="animated" src="img/animated/wi.gif" alt="WI">
-<!-- <p class="title"> Wirtschaftsinformatik </p> -->
-</a>
-<a href="/brillianQUIZ/content/QuizzesBWL.jsp" style="text-decoration:none;">
-<img class="animated" src="img/animated/bwl.gif" alt="BWL">
-<!-- <p class="title"> BWL </p> -->
-</a>
-<a href="/brillianQUIZ/content/QuizzesIT.jsp" style="text-decoration:none;">
-<img class="animated" src="img/animated/it.gif" alt="IT">
-<!-- <p class="title"> IT </p> -->
-</a>
+<figure>
+	<a href="/brillianQUIZ/content/QuizzesWI.jsp" style="text-decoration:none;">
+	<img class="animated" src="img/animated/wi.gif" alt="WI">
+	<figcaption>WI</figcaption>
+	<!-- <p class="title"> Wirtschaftsinformatik </p> -->
+	</a>
+</figure>
+
+<figure>
+	<a href="/brillianQUIZ/content/QuizzesBWL.jsp" style="text-decoration:none;">
+	<img class="animated" src="img/animated/bwl.gif" alt="BWL">
+	<!-- <p class="title"> BWL </p> -->
+	<figcaption>BWL</figcaption>
+	</a>
+</figure>
+
+<figure>
+	<a href="/brillianQUIZ/content/QuizzesIT.jsp" style="text-decoration:none;">
+	<img class="animated" src="img/animated/it.gif" alt="IT">
+	<!-- <p class="title"> IT </p> -->
+	<figcaption>IT</figcaption>
+	</a>
+</figure>
+
 </div>
 </div>
 
