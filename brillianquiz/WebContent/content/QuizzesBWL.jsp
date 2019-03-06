@@ -236,4 +236,5 @@ document.onload = $("#footer").load("rocketbar.html");
 
 
 </script>
+</body>
 </html>
