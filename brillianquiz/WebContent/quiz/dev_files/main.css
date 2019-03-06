@@ -2,8 +2,9 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: Caveat Brush;
-	color:  #991b33;
+	color:  white;
 	margin: 0px;
+	hyphens: auto;
 
 	/* Location of the image */
 	background-image: url(../../quiz/img/bg.jpg);
