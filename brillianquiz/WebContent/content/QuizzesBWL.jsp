@@ -127,7 +127,7 @@
 	</div>
 	
 	   <div class="container tooltiphover">
-        <a href="../quiz/quiz.jsp?subject=KLR">
+        <a href="../quiz/quiz.jsp?subject=Kosten- und Leistungsrechnung">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-09.png"></span>
 			
 		<p class="Untertitel">KLR</p>

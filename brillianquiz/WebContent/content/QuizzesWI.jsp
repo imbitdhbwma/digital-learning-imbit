@@ -107,11 +107,11 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=ITServiceManagement">
+			<a href="../quiz/quiz.jsp?subject=IT Management">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-05.png"></span>
 
-			<p class="Untertitel">IT-Service Management</p>
+			<p class="Untertitel">IT Ma&shy;na&shy;ge&shy;ment</p>
 		
 			<p class="IntroText">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;ti&shy;ge IT-&#8203;Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-&#8203;Kra&shy;ke ITIL ein&shy;füh&shy;ren. </p>
 			</a>

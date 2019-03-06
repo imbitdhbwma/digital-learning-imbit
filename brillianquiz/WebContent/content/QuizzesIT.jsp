@@ -59,10 +59,10 @@
 	
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=ITIntro">
+			<a href="../quiz/quiz.jsp?subject=IT Intro">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-02.png"></span>
 			
-			<p class="Untertitel">IT&nbsp;Intro</p>
+			<p class="Untertitel">IT In&shy;tro</p>
 			
 			<p class="IntroText">Die IMBIT-&shy;Kra&shy;ke kann ge&shy;ra&shy;de so ih&shy;ren Com&shy;pu&shy;ter an&shy;schal&shy;ten. Sie muss wohl noch et&shy;was mehr ler&shy;nen!<p>
 		
