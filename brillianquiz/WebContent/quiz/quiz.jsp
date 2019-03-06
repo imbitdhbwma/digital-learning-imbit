@@ -126,7 +126,7 @@
 						var answers = f.answers;
 						var correct = f.correct;
 						var title = f.title;
-
+						var header = f.header;
 						
 						// console.log(answers); Test ob Variable ausgelesen wird
 
@@ -135,7 +135,8 @@
 						// Anzeige der Fragen sortiert nach questionType
 						if(subject===value) {
 							//Erzeugt Überschrift
-							document.getElementById('title').innerHTML = "Quiz "+ value;
+							document.getElementById('title').innerHTML = "Quiz "+ header;
+							console.log(header);
 
 							switch (questionType){
 								case "MC": 
