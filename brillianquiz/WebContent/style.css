@@ -34,7 +34,7 @@ body {
 	
 img {
 	max-width: 100%;
-	max-heigth: 100%;
+	max-height: 100%;
 }
 
 .container {
@@ -54,7 +54,7 @@ img {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	heigth: 100%;
+	/*heigth: 100%;*/
 	width: 100px;
 }
 
@@ -84,17 +84,41 @@ p {
 	margin-bottom: 2em;
 }
 
+.outer {
+	position: relative;
+}
+
+.inner {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
 @media (min-width: 600px) {
 	p {
 		font-size: 1.25rem;
 	}
 	.img{max-width: 40%;}
+	.outer{height: 700px;}
 }
 
-@media(min-width: 800px; {
+@media(min-width: 800px) {
 	p {
 		font-size: 1.5rem;
 		line-height: 1.5;
 	}
 	.img{max-width: 50%;}
+	.outer{height: 700px;}
+}
+figcaption {
+  width: 30%;
+	text-align: center;
+	font-family: 'Caveat Brush';
+	color: #991b33;
+	font-size: 2.0rem;
+	line-height: 1.6rem;
+}
+figure {
+max-width: 300px;
 }
