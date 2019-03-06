@@ -57,7 +57,7 @@
 			<a href="../quiz/quiz.jsp?subject=Statistik">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-02.png"></span>
 			
-			<p class="Untertitel">Business Model Canvas</p>
+			<p class="Untertitel">Busi&shy;ness Mo&shy;del Can&shy;vas</p>
 			
 			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
 			</a>
@@ -66,7 +66,7 @@
 				<a href="../quiz/quiz.jsp?subject=Portermodell">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-03.png"></span>
 			
-				<p class="Untertitel">Ökonomisches Prinzip</p>
+				<p class="Untertitel">Ö&shy;ko&shy;no&shy;misch&shy;es Prin&shy;zip</p>
 		
 				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
 				</a>
@@ -77,7 +77,7 @@
 		
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-04.png"></span>
 			
-		<p class="Untertitel">Porter Modell</p>
+		<p class="Untertitel">Por&shy;ter Mo&shy;dell</p>
 
 		<p class="IntroText luecke">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
 		
@@ -88,7 +88,7 @@
 			<a href="../quiz/quiz.jsp?subject=Statistik">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-05.png"></span>
 			
-			<p class="Untertitel">Shareholder Stakeholder</p>
+			<p class="Untertitel">Share&shy;hol&shy;der Stake&shy;hol&shy;der</p>
 			
 			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
 			</a>
@@ -98,7 +98,7 @@
 				<a href="../quiz/quiz.jsp?subject=Portermodell">
 				<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-06.png"></span>
 			
-				<p class="Untertitel">St. Galler Modell</p>
+				<p class="Untertitel">St. Gal&shy;ler Mo&shy;dell</p>
 		
 				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
 				</a>
@@ -108,7 +108,7 @@
 			<a href="../quiz/quiz.jsp?subject=Statistik">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-07.png"></span>
 			
-			<p class="Untertitel">Wertekette</p>
+			<p class="Untertitel">Wer&shy;te&shy;ket&shy;te</p>
 			
 			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
 			</a>
@@ -141,7 +141,7 @@
 		<a href="../quiz/quiz.jsp?subject=ITServiceManagement">
         <span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-10.png"></span>
 			
-		<p class="Untertitel">IT-Service Management</p>
+		<p class="Untertitel">IT&shy;-Ser&shy;vice Man&shy;age&shy;ment</p>
 
 		<p class="IntroText luecke">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;tige IT-Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-Kra&shy;ke ITIL ein&shy;füh&shy;ren.</p>
 		</a>
