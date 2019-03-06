@@ -18,6 +18,7 @@
 <body>
 
 <div class="container">
+<p style="color: red; text-align: left;">${error}</p>
 </div>
 
 <a href="#" onclick="new DivObject()">Fish</a>
@@ -76,6 +77,8 @@
 		<a href='resetpw.jsp'>Passwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
     </form>
+
+
 
 </body>
 <script>
