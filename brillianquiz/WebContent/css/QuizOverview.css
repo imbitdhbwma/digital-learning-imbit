@@ -107,7 +107,7 @@ body {
 
 
 .IntroText {
-	display: none;
+	/*display: none;*/
 	width: 160%;
 	align-items: center;
 	text-align: justify;

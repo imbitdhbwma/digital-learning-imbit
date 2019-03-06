@@ -48,7 +48,7 @@
 			
 		<p class="Untertitel">BWL</p>
 
-		<p class="IntroText luecke">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
+		<p class="IntroText">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
 		
 		</a>
 	</div>
@@ -59,7 +59,7 @@
 			
 			<p class="Untertitel">Busi&shy;ness Mo&shy;del Can&shy;vas</p>
 			
-			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			<p class="IntroText"></p>
 			</a>
 		</div> 
 	<div class="container tooltiphover">
@@ -68,7 +68,7 @@
 			
 				<p class="Untertitel">Ö&shy;ko&shy;no&shy;misch&shy;es Prin&shy;zip</p>
 		
-				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				<p class="IntroText"></p>
 				</a>
 	</div> 
 	
@@ -79,7 +79,7 @@
 			
 		<p class="Untertitel">Por&shy;ter Mo&shy;dell</p>
 
-		<p class="IntroText luecke">Um ih&shy;re Fir&shy;ma zu füh&shy;ren, muss die IMBIT-Kra&shy;ke erst ein&shy;mal die Grund&shy;la&shy;gen der BWL ver&shy;ste&shy;hen.</p>
+		<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
 		
 		</a>
 	</div>
@@ -90,7 +90,7 @@
 			
 			<p class="Untertitel">Share&shy;hol&shy;der Stake&shy;hol&shy;der</p>
 			
-			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			<p class="IntroText"></p>
 			</a>
 		</div> 
 		
@@ -100,7 +100,7 @@
 			
 				<p class="Untertitel">St. Gal&shy;ler Mo&shy;dell</p>
 		
-				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				<p class="IntroText"></p>
 				</a>
 	</div>
 
@@ -110,7 +110,7 @@
 			
 			<p class="Untertitel">Wer&shy;te&shy;ket&shy;te</p>
 			
-			<p class="IntroText luecke">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
+			<p class="IntroText"></p>
 			</a>
 		</div> 
 		
@@ -120,7 +120,7 @@
 			
 				<p class="Untertitel">Sta&shy;tis&shy;tik</p>
 		
-				<p class="IntroText">Hilf der IMBIT-Kra&shy;ke auf der Su&shy;che nach Mi&shy;cha&shy;el Por&shy;ters BWL-Mo&shy;del&shy;len!</p>
+				<p class="IntroText">Zum Glück hat die IMBIT-Kra&shy;ke in Sta&shy;tis&shy;tik gut auf&shy;ge&shy;passt und kann jetzt aus&shy;rech&shy;nen, mit wel&shy;cher Wahr&shy;schein&shy;lich&shy;keit ihr IT-Un&shy;ter&shy;neh&shy;men ein Er&shy;folg wird!</p>
 				</a>
 	</div>
 	
@@ -143,7 +143,7 @@
 			
 		<p class="Untertitel">IT&shy;-Ser&shy;vice Man&shy;age&shy;ment</p>
 
-		<p class="IntroText luecke">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;tige IT-Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-Kra&shy;ke ITIL ein&shy;füh&shy;ren.</p>
+		<p class="IntroText">Um ih&shy;ren Kun&shy;den kon&shy;trol&shy;lier&shy;te und hoch&shy;wer&shy;tige IT-Ser&shy;vi&shy;ces bie&shy;ten zu kön&shy;nen, möch&shy;te die IMBIT-Kra&shy;ke ITIL ein&shy;füh&shy;ren.</p>
 		</a>
 	</div>
 	
@@ -174,7 +174,7 @@
 			
 		<p class="Untertitel">Con&shy;trol&shy;ling</p>
 
-		<p class="IntroText luecke">Lei&shy;der hat die IMBIT-Kra&shy;ke kei&shy;ne Ah&shy;nung, wie man ein Un&shy;ter&shy;neh&shy;men führt. Hilf ihr beim Ma&shy;nage&shy;ment!</p>
+		<p class="IntroText">Lei&shy;der hat die IMBIT-Kra&shy;ke kei&shy;ne Ah&shy;nung, wie man ein Un&shy;ter&shy;neh&shy;men führt. Hilf ihr beim Ma&shy;nage&shy;ment!</p>
 		</a>
 	</div>
 	
@@ -197,7 +197,7 @@
 			
 		<p class="Untertitel">In&shy;ves&shy;ti&shy;tion</p>
 			
-		<p class="IntroText lueckegros">Die IMBIT-Kra&shy;ke ist mit den ver&shy;schie&shy;den&shy;en In&shy;ves&shy;ti&shy;tions&shy;rech&shy;nung&shy;en ü&shy;ber&shy;for&shy;dert. Kannst du ihr ein&shy;en Crash&shy;kurs zu In&shy;ves&shy;ti&shy;tion ge&shy;ben?</p>
+		<p class="IntroText">Die IMBIT-Kra&shy;ke ist mit den ver&shy;schie&shy;den&shy;en In&shy;ves&shy;ti&shy;tions&shy;rech&shy;nung&shy;en ü&shy;ber&shy;for&shy;dert. Kannst du ihr ein&shy;en Crash&shy;kurs zu In&shy;ves&shy;ti&shy;tion ge&shy;ben?</p>
 		</a>
 	</div> 
 	
@@ -218,7 +218,7 @@
 			
 		<p class="Untertitel">Sup&shy;ply&nbsp;Chain Management</p>
 
-		<p class="IntroText lueckegros">Nun möch&shy;te die IMBIT-Kra&shy;ke ak&shy;tiv ei&shy;ne Lie&shy;fer&shy;ket&shy;te mit ih&shy;ren Kun&shy;den und Lie&shy;fe&shy;ran&shy;ten auf&shy;bau&shy;en. Un&shy;ter&shy;stüt&shy;ze sie!</p>
+		<p class="IntroText">Nun möch&shy;te die IMBIT-Kra&shy;ke ak&shy;tiv ei&shy;ne Lie&shy;fer&shy;ket&shy;te mit ih&shy;ren Kun&shy;den und Lie&shy;fe&shy;ran&shy;ten auf&shy;bau&shy;en. Un&shy;ter&shy;stüt&shy;ze sie!</p>
 		</a>
 	</div> 
 	
