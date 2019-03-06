@@ -610,8 +610,13 @@ function createScoreText (){
 //Change color of numering depending on input
 
 function changeColor (){
-	var element = document.getElementsByClassName("p.question:before");
-	element.classList.toggle("correct");
+	if(gibMirPunkte==true){
+		var element = document.getElementsByClassName(".question:before");
+		element.classList.toggle("correct");
+	} else if (gibMirPunkte === false){
+		var element = document.getElementsByClassName(".question:before");
+		element.classList.toggle("false");
+	}	
 }
 
 // When clicking the "next"-button, the "question number" is counted upwards.
