@@ -58,7 +58,7 @@
 </div>
          
 
-    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:660px;">
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
         <h2 class="mb-3">
             Hallo!
         </h2>
