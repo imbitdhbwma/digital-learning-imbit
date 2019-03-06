@@ -611,6 +611,7 @@ function createScoreText (){
 
 function changeColor (){
 	if(gibMirPunkte==true){
+		console.log("changeColor läuft");
 		var element = document.getElementsByClassName(".question:before");
 		element.classList.toggle("correct");
 	} else if (gibMirPunkte === false){
