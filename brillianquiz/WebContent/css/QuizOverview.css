@@ -34,6 +34,11 @@ body {
   .IntroText {
   	display:none;
   }
+  .fisch {
+	background-size: 86%;
+	max-width: 96%;
+	max-height: 96%;
+}
 }
 
 /*
