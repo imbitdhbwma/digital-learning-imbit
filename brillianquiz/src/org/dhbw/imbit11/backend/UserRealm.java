@@ -1247,7 +1247,7 @@ public class UserRealm extends JdbcRealm {
 		String userid = getUserByEmail(userEmail);
 		setUserProgress(userid, 0, 0, 0, "l000e000");
 		resetUserCountry(userid);
-		setQuizUserProgress(userid, '{}');
+		//setQuizUserProgress(userid, "{}");
 	}
 	/* end */
 
