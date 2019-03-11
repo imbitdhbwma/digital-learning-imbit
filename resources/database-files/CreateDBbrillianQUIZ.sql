@@ -44,7 +44,8 @@ CREATE TABLE IF NOT EXISTS user (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=19 ;
 
 -- 'user_progress' Table 
-CREATE TABLE IF NOT EXISTS user_progress (
+DROP TABLE IF EXISTS `user_progress`;
+CREATE TABLE user_progress (
   USER_ID int(11) NOT NULL,
   COST int(11) NOT NULL,
   QUALITY int(11) NOT NULL,
@@ -57,6 +58,16 @@ CREATE TABLE IF NOT EXISTS user_progress (
   L5 boolean NOT NULL,
   L6 boolean NOT NULL,
   L7 boolean NOT NULL,
+  PRIMARY KEY (USER_ID),
+  KEY USER_ID (USER_ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- 'quiz_user_progress' Table 
+DROP TABLE IF EXISTS `quiz_user_progress`;
+CREATE TABLE quiz_user_progress (
+  USER_ID int(11) NOT NULL,
+  TIME timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PROGRESS LONGTEXT NOT NULL,
   PRIMARY KEY (USER_ID),
   KEY USER_ID (USER_ID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -96,6 +107,11 @@ INSERT INTO user (USER_ID, EMAIL, FIRST_NAME, LAST_NAME, PASSWORD, ROLE, `GROUP`
 INSERT INTO user_progress (USER_ID, COST, QUALITY, TIME, PATH, L1, L2, L3, L4, L5, L6, L7) VALUES
 (18, 0, 0, 0, 'l000e000', false, false, false, false, false, false, false);
 
+
+-- 'quiz_user_progress' content
+INSERT INTO quiz_user_progress (USER_ID, PROGRESS) VALUES
+(18, '{}');
+
 -- 'settings' content
 INSERT INTO settings (ID, AUDIO, VIDEO, TTS, SUBTITLES) VALUES
 (1, true, true, true, true);
@@ -114,6 +130,9 @@ ALTER TABLE user
 ALTER TABLE user_progress
   ADD CONSTRAINT user_progress_ibfk_1 FOREIGN KEY (USER_ID) REFERENCES user (USER_ID) ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- for table 'quiz_user_progress'
+ALTER TABLE quiz_user_progress
+  ADD CONSTRAINT quiz_user_progress_ibfk_1 FOREIGN KEY (USER_ID) REFERENCES user (USER_ID) ON DELETE CASCADE ON UPDATE CASCADE;
   
 -- <<Create Users>>
 CREATE USER brillianquiz@localhost identified by 'quiz@IMBIT'; -- //TODO remove password

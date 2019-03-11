@@ -46,6 +46,10 @@ public class UserRealm extends JdbcRealm {
 	protected String newgroupQuery = "INSERT INTO `group`(`group_name`, `professor_id`, `org`, `description`, `url`) VALUES (?,(SELECT `user_id` FROM `user` WHERE `email` = ?),?,?,?)";
 	protected String newUserQuery = "INSERT INTO `user`(`email`, `last_name`, `first_name`, `password`, `role`, `group`,`gender`) VALUES (?,?,?,?,?,?,?)";
 	protected String newProgressQuery = "INSERT INTO `user_progress` VALUES (?,0,0,0,'l000e000', FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE)";
+	/* QUIZ Progress */
+	protected String newQuizProgressQuery = "INSERT INTO `	quiz_user_progress` VALUES (?,'{}')";
+	protected String setQuizProgressQuery = "UPDATE `auiz_user_progress` SET `progress`=? WHERE `user_id` = ?";
+	protected String getQuizProgressQuery = "SELECT `last_name`, `first_name`, `gender`, `progress` FROM `quiz_user_progress`, `user` WHERE `aquiz_user_progress`.`user_id`= `user`.`user_id` AND `auiz_user_progress`.`user_id`=?";
 
 	protected String deleteUserQuery = "DELETE FROM `user` WHERE `email`=?";
 	protected String deleteGroupQuery = "DELETE FROM `group` WHERE `group_id`=?";
@@ -735,6 +739,24 @@ public class UserRealm extends JdbcRealm {
 		}
 	}
 
+	/* quiz user progress */
+	public void setQuizUserProgress(String userid, String progress) throws SQLException {
+		// TODO rename with correct parameter name according to database scheme #402
+		Connection conn = dataSource.getConnection();
+		PreparedStatement ps = null;
+		try {
+			ps = conn.prepareStatement(setProgressQuery);
+			ps.setString(1, progress);
+			ps.setString(2, userid);
+			ps.executeUpdate();
+			// System.out.println("executed the following statement on DB: " +
+			// setProgressQuery);
+		} finally {
+			JdbcUtils.closeStatement(ps);
+			conn.close();
+		}
+	}
+	
 	/*
 	 * Philipp K. 3.3.16 New function to set the User progress without KPIs
 	 */
@@ -1146,6 +1168,32 @@ public class UserRealm extends JdbcRealm {
 		return progress;
 	}
 
+
+/* quiz user progress */
+	public ArrayList<Object> getQuizUserProgress(String userId) throws SQLException {
+		Connection conn = dataSource.getConnection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		ArrayList<Object> progress = new ArrayList<Object>();
+		try {
+			ps = conn.prepareStatement(getProgressQuery);
+			ps.setString(1, userId);
+			rs = ps.executeQuery();
+
+			while (rs.next()) {
+
+				progress.add(rs.getString(1));
+				progress.add(rs.getString(2));
+			}
+			// System.out.println("executed the following statement on DB: " +
+			// getProgressQuery);
+		} finally {
+			JdbcUtils.closeStatement(ps);
+			conn.close();
+		}
+		return progress;
+	}
+
 	/**
 	 * Reads the countries that have been visisted form the database and returns an
 	 * {@link ArrayList<String>} with the codes of the contries that have been
@@ -1199,7 +1247,7 @@ public class UserRealm extends JdbcRealm {
 		String userid = getUserByEmail(userEmail);
 		setUserProgress(userid, 0, 0, 0, "l000e000");
 		resetUserCountry(userid);
-
+		setQuizUserProgress(userid, '{}');
 	}
 	/* end */
 
@@ -1232,4 +1280,6 @@ public class UserRealm extends JdbcRealm {
 			return false;
 		}
 	}
+	/* quiz user progress */
+	/* ... TODO ... */
 }
