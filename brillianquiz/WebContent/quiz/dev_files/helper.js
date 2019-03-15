@@ -583,14 +583,12 @@ function evaluate() {
 				if (antworttext !== feldtext) {
 					gibMirPunkte = false;
 				}
-				changeColor();
 			}
 			if (gibMirPunkte) {
 				score++;
 			}
-
 		}
-
+		changeColor();
 	} createScoreText();
 	
 }
