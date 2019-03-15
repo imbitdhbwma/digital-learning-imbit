@@ -209,7 +209,7 @@
 					});
 					//Variable anzahlFragen verfügbar console.log(anzahlFragen);
 					document.getElementById("submit").addEventListener('click', evaluate);
-					document.getElementById("submit").addEventListener('touchstart', evaluate);
+					document.getElementById("submit").addEventListener('touchend', evaluate);
 						//console.log("Clicked!");
 				});
 			});
