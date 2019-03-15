@@ -180,7 +180,7 @@
 								});
 								break;
 	
-								case "TQ": 
+								/* case "TQ": 
 								$(document).ready(function() {
 									createTQ(
 										question,
@@ -189,7 +189,7 @@
 										correct
 									);
 								});
-								break;
+								break; */
 	
 								case "OD": 
 								$(document).ready(function() {
@@ -209,6 +209,7 @@
 					});
 					//Variable anzahlFragen verfügbar console.log(anzahlFragen);
 					document.getElementById("submit").addEventListener('click', evaluate);
+					document.getElementById("submit").addEventListener('touchstart', evaluate);
 						//console.log("Clicked!");
 				});
 			});
