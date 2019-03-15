@@ -11,6 +11,8 @@ var richtigArray = [];
  *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
  * @returns ein <div> tag mit der Frage
  */
+gibMirPunkte = true;
+
 function allowDrop(ev) {
 	ev.preventDefault();
 }
