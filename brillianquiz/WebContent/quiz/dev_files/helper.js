@@ -11,6 +11,48 @@ var richtigArray = [];
  *            Lösung als Array aus Strings. Für jede Antwortmöglichkeit ein Eintrag 0 oder 1 wobei 1 für richtig und 0 für falsch steht
  * @returns ein <div> tag mit der Frage
  */
+function allowDrop(ev) {
+	ev.preventDefault();
+}
+
+function drag(ev) {
+	ev.dataTransfer.setData("text", ev.target.id);
+}
+
+// Dropmethode für Übersetzungsfragen, lässt genau eine Antwort pro Feld zu.
+function dropTL(ev, el) {
+	ev.preventDefault();
+
+	if (el.childNodes.length === 0) {
+		// data ist die ID des Elements, das verschoben wird
+		var data = ev.dataTransfer.getData("text");
+
+		el.appendChild(document.getElementById(data));
+	}
+}
+
+// Dropmethode für Reihenfolgen, lässt genau eine Antwort pro Feld zu, berücksichtigt dabei dass immer bereits ein Text (die Zahl) im Feld vorhanden ist
+function dropOD(ev, el) {
+	ev.preventDefault();
+
+	if (el.childNodes.length === 1) {
+		// data ist die ID des Elements, das verschoben wird
+		var data = ev.dataTransfer.getData("text");
+
+		el.appendChild(document.getElementById(data));
+	}
+}
+
+// Dropmethode für Drag&Drop, lässt beliebig viele Antworten pro Feld zu.
+function dropDD(ev, el) {
+	ev.preventDefault();
+
+	// data ist die ID des Elements, das verschoben wird
+	var data = ev.dataTransfer.getData("text");
+
+	el.appendChild(document.getElementById(data));
+}
+
 function createMC(frage, antworten, richtig) {
 
 	richtigArray.push(richtig);
@@ -658,44 +700,3 @@ function showTheQuestion(count) {
 	}
 }
 
-function allowDrop(ev) {
-	ev.preventDefault();
-}
-
-function drag(ev) {
-	ev.dataTransfer.setData("text", ev.target.id);
-}
-
-// Dropmethode für Übersetzungsfragen, lässt genau eine Antwort pro Feld zu.
-function dropTL(ev, el) {
-	ev.preventDefault();
-
-	if (el.childNodes.length === 0) {
-		// data ist die ID des Elements, das verschoben wird
-		var data = ev.dataTransfer.getData("text");
-
-		el.appendChild(document.getElementById(data));
-	}
-}
-
-// Dropmethode für Reihenfolgen, lässt genau eine Antwort pro Feld zu, berücksichtigt dabei dass immer bereits ein Text (die Zahl) im Feld vorhanden ist
-function dropOD(ev, el) {
-	ev.preventDefault();
-
-	if (el.childNodes.length === 1) {
-		// data ist die ID des Elements, das verschoben wird
-		var data = ev.dataTransfer.getData("text");
-
-		el.appendChild(document.getElementById(data));
-	}
-}
-
-// Dropmethode für Drag&Drop, lässt beliebig viele Antworten pro Feld zu.
-function dropDD(ev, el) {
-	ev.preventDefault();
-
-	// data ist die ID des Elements, das verschoben wird
-	var data = ev.dataTransfer.getData("text");
-
-	el.appendChild(document.getElementById(data));
-}
