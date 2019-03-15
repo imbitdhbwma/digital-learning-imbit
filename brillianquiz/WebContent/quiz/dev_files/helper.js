@@ -612,7 +612,7 @@ function evaluate() {
 			// finde alle <p> Kinder der Frage
 			var antworten = $("#question" + i).find("p").toArray();
 
-			var gibMirPunkte = true;
+			gibMirPunkte = true;
 			// durchlaufe alle Antworten. Die ersten beiden Einträge werden übersprungen, da sie keine Antworten sind.
 			for (var j = 2; j < antworten.length; j++) {
 				var antworttext = antworten[j].textContent;
