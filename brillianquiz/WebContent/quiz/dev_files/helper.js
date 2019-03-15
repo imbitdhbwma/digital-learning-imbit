@@ -645,7 +645,7 @@ function createScoreText (){
 	if(score>wellDone){
 		document.getElementById('resultText').innerHTML = "Das ist echt klasse. Du hast den Stoff aus " + value +" verstanden. Weiter so!";
 	} else {
-		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst";
+		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
 }
 
