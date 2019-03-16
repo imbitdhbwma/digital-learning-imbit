@@ -87,7 +87,7 @@ $(document).ready(function(){
             <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
         </p>
         <p class="mb-0 text-right">
-            <input data-fancybox-close type="submit" class="btn btn-primary" value="Anmelden" />
+            <input type="submit" class="btn btn-primary" value="Anmelden" />
         </p>
 		<a href='resetpw.jsp'>Passwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
