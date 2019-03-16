@@ -38,8 +38,8 @@ img {
 }
 @font-face {
     font-family: "Caveat Brush";
-    src: url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff2') format('woff2'),
-		 url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff') format('woff');
+    src: url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		   url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff') format('woff');
 }
 .fish {
 		position: absolute;
@@ -114,7 +114,8 @@ p {
 	.img{max-width: 50%;}
 }
 figcaption {
-  width: 30%;
+	width: 30%;
+	font-family: 'Caveat Brush';
 	text-align: center;
 	color: white;
 	font-size: 2.0rem;
