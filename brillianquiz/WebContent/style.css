@@ -58,7 +58,7 @@ img {
 	background-image: url("img/background/bubble01.png");
 	background-size: 70%;
 	background-repeat: no-repeat;
-	background-position: top;	
+	background-position: top;
 }
 
 .loginkopf {
@@ -95,23 +95,11 @@ p {
 	margin-bottom: 2em;
 }
 
-.outer {
-	position: relative;
-}
-
-.inner {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-
 @media (min-width: 600px) {
 	p {
 		font-size: 1.25rem;
 	}
 	.img{max-width: 40%;}
-	.outer{height: 700px;}
 }
 
 @media(min-width: 800px) {
@@ -120,7 +108,6 @@ p {
 		line-height: 1.5;
 	}
 	.img{max-width: 50%;}
-	.outer{height: 700px;}
 }
 figcaption {
   width: 30%;
@@ -129,7 +116,11 @@ figcaption {
 	color: white;
 	font-size: 2.0rem;
 	line-height: 1.6rem;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 figure {
 max-width: 300px;
+	margin-left: auto ;
+	margin-right: auto ;
 }

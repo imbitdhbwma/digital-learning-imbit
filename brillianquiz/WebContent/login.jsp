@@ -10,6 +10,7 @@
 <meta name="viewport" content="width = device-width, initial-scale = 1">
 <title><%=ApplicationConstants.PAGETITLE_LOGIN%></title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="fonts.css">
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css" />
 <script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
@@ -38,9 +39,9 @@ $(document).ready(function(){
 
 <a href="#" onclick="new DivObject()">Fish</a>
 
-<!-- <h1>h1</h1> Inhalt -->
+<!-- <h1>h1</h1> Inhalt 
 <div class="outer">
-<div class="inner" align="center">
+<div class="inner" align="center">-->
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesWI.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/wi.gif" alt="WI">
@@ -65,8 +66,8 @@ $(document).ready(function(){
 	</a>
 </figure>
 
-</div>
-</div>
+<!--</div>
+</div>-->
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
