@@ -36,7 +36,11 @@ img {
 	max-width: 100%;
 	max-height: 100%;
 }
-
+@font-face {
+    font-family: "Caveat Brush";
+    src: url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff2') format('woff2'),
+		 url('fonts/caveat-brush-v3-latin/caveat-brush-v3-latin-regular.woff') format('woff');
+}
 .fish {
 		position: absolute;
 		width: 200px;
@@ -112,7 +116,6 @@ p {
 figcaption {
   width: 30%;
 	text-align: center;
-	font-family: 'Caveat Brush';
 	color: white;
 	font-size: 2.0rem;
 	line-height: 1.6rem;
