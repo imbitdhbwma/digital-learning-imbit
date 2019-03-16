@@ -10,7 +10,6 @@
 <meta name="viewport" content="width = device-width, initial-scale = 1">
 <title><%=ApplicationConstants.PAGETITLE_LOGIN%></title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="fonts.css">
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css" />
 <script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
