@@ -28,7 +28,7 @@ body {
   body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-    background-image: url(img/bg.jpg);
+    background-image: url('img/bg.jpg');
   }
 	}
 	
@@ -47,7 +47,7 @@ img {
 		height: 200px;
 		opacity: 0.3;
 		background-size: contain;
-		background-image: url(img/QuizMeerestiere/bwl/bwl-02.png);
+		background-image: url('img/QuizMeerestiere/bwl/bwl-02.png');
 		background-repeat: no-repeat;
 		z-index: -10;
 }
