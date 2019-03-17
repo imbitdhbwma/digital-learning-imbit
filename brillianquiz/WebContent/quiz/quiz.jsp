@@ -40,8 +40,8 @@
 	type="text/css"
 	href="dev_files/Quiz_Order.css" />
 
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="../js/jquery/jquery-3.3.1.min.js"></script>
 <script
 	type="text/javascript"
 	src="dev_files/helper.js"></script>

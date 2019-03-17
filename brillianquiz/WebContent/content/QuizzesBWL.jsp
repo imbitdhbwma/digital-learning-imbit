@@ -13,7 +13,8 @@
 			<link rel="stylesheet" type="text/css" href="../css/quiz.css" />
 			<link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
 			<script language="javascript" type="text/javascript" src="../js/quiz.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+			<script src="../js/jquery/jquery-3.3.1.min.js"></script>
 		
 			<style>
 				html {
