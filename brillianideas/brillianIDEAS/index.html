@@ -38,9 +38,8 @@
 
         <audio src=audio/whale.mp3 id="my_audio" loop="loop"></audio>
         <script type="text/javascript">
-           
-            document.getElementById("start_bg_rtl").onclick = function(){
-                getElementById("my_audio").play();
+            window.onload=function(){
+                document.getElementById("my_audio").play();
             }
         </script>
 
