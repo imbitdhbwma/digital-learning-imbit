@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="../css/ipad.css" />
 		<link rel="stylesheet" href="../css/fonts.css" />
 		<link rel="stylesheet" type="text/css" href="../css/digitallearning.css">
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 		<script src="../js/jquery/jquery-3.3.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/QuizOverview.css">
 
