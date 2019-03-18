@@ -119,9 +119,7 @@
 				else{
 					_this_.VideoID--;
 				}
-				
-				
-				
+								
                 var afterClickPrevBtn = _this_.options.afterClickPrevBtnFn;
                 if(_this_.rotateFlag){
                     _this_.rotateFlag = false;
@@ -144,49 +142,26 @@
 			this.dnSlideItems.off().on('click', function(event) {
                 event.stopPropagation();
 				
-				if(_this_.VideoID%9==0){
+				if(_this_.VideoID%5==0){
 					window.location = "http://www.google.de";   //		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				if(_this_.VideoID%9==1){
+				if(_this_.VideoID%5==1){
 					window.location = "http://www.brillianideas.com/content/StakeholderVsShareholderVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				if(_this_.VideoID%9==2){
+				if(_this_.VideoID%5==2){
 					window.location = "http://www.brillianideas.com/content/WkmVideo.html";			//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				if(_this_.VideoID%9==3){
+				if(_this_.VideoID%5==3){
 					window.location = "http://www.brillianideas.com/content/StGallerManagementModellVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				if(_this_.VideoID%9==4){
-					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
-				}
-				if(_this_.VideoID%9==5){
-					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
-                }
-                if(_this_.VideoID%9==6){
-					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
-                }
-                if(_this_.VideoID%9==7){
-					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
-                }
-                if(_this_.VideoID%9==8){
-					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
-				}				
+				if(_this_.VideoID%5==4){
+					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!			
             });*/
-			
-			
-			
-			
-			
-			
 			
 
             $(window).resize(function(){
                 _this_.WndwResize();
             });
-			
-			
-			
-			
 			
             // EVENTS END
 

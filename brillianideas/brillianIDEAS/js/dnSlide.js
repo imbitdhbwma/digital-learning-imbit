@@ -140,7 +140,7 @@
                 if( typeof afterClickNextBtn === "function" && afterClickNextBtn ) afterClickNextBtn();
             });
 			
-			/*
+			
 			this.dnSlideItems.off().on('click', function(event) {
                 event.stopPropagation();
 				
@@ -150,51 +150,28 @@
 					window.location = "http://www.brillianideas.com/content/OekonomischesPrinzipVideo.html";   //		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
 				
-				
 				if(_this_.VideoID%5==1){
 					window.location = "http://www.brillianideas.com/content/StakeholderVsShareholderVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
 				
 				if(_this_.VideoID%5==2){
 					window.location = "http://www.brillianideas.com/content/WkmVideo.html";			//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
 				
-				
 				if(_this_.VideoID%5==3){
 					window.location = "http://www.brillianideas.com/content/StGallerManagementModellVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
 				
-				
 				if(_this_.VideoID%5==4){
 					window.location = "http://www.brillianideas.com/content/BusinessModelCanvasVideo.html";		//		TODO HIER MUSSEN NOCH DIE DATEIPFADE ANGEPASST WERDEN!!!
 				}
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-            });*/
-			
-			
-			
-			
-			
-			
-			
-
-            $(window).resize(function(){
-                _this_.WndwResize();
+		
             });
 			
-			
-			
-			
+		
+            $(window).resize(function(){
+                _this_.WndwResize();I
+            });
 			
             // EVENTS END
 
