@@ -1,6 +1,3 @@
-<%@ page import="org.dhbw.imbit11.ApplicationConstants"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml"  style="width:100%; margin:0; padding:0 ">-->
@@ -27,12 +24,22 @@ $(document).ready(function(){
 		/*this.div.style.zIndex = zrandom;*/
 	}
 	//firefox compatibility warning
+	console.log('firefox')
+
 	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
 		document.getElementById('firefoxwarning').innerHTML = 'ACHTUNG: Die Quizze werden momentan nur in Chrome und Safari unterstützt.'
 	}
 	//user progress
-	import localProgress from '../localStorageProgress.js';
-	var userProgress = localProgress.initLocalProgress()
+	function initLocalProgress(){
+		if (getLocalProgress() === null) {
+			setLocalProgress(0)
+			return 0
+		}else{
+			return getLocalProgress()
+		}
+	}
+
+	var userProgress = initLocalProgress()
 	console.log('Completed: ' +  userProgress + 'Quizes')
 	for(let i = 0; i < userProgress; i++){
 		new DivObject()
@@ -89,9 +96,10 @@ $(document).ready(function(){
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
             <input type="submit" class="btn btn-primary" value="Anmelden" />
-
+<div class="loginlinks">
 		<a href='resetpw.jsp'>Kennwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
+</div>
 		</p>
     </form>
 

@@ -641,9 +641,27 @@ function evaluate() {
 
 //local storage user progress
 var isFishCreated = false;
-import localProgress from '../localStorageProgress.js';
+function initLocalProgress(){
+	if (getLocalProgress() === null) {
+		setLocalProgress(0)
+		return 0
+	}else{
+		return getLocalProgress()
+	}
+  }
 
-var userProgress = localProgress.initLocalProgress()
+var userProgress = initLocalProgress()
+
+//write progess to local stoage
+function setLocalProgress(userProgress) {
+	localStorage.setItem('userProgress', userProgress)
+}
+
+
+//load progress from local Storage
+function getLocalProgress() {
+	return parseInt(localStorage.getItem('userProgress'))
+}
 
 // Genereate text after evaluating
 function createScoreText (){
@@ -656,13 +674,14 @@ function createScoreText (){
 	} else {
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
+	document.getElementById('back').innerHTML = '<button class="button" onclick="goBack()">Neues Quiz</button>';
 	console.log('hi')
 	if(!isFishCreated){
 		//add one step to user Progress
 		userProgress = userProgress++
 		//save
 		localProgress.setLocalProgress(userProgress)
-		console.log(userProgress);
+		console.log('[helper] User Progress: ' + userProgress);
 		isFishCreated = true
 	}
 }
