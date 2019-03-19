@@ -29,7 +29,7 @@ $(document).ready(function(){
 	console.log('firefox')
 
 	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
-		document.getElementById('firefoxwarning').innerHTML = 'ACHTUNG: Die Quizze werden momentan nur in Chrome und Safari unterstützt.'
+		document.getElementById('firefoxwarning').innerHTML = 'HINWEIS: Die Quizze laufen momentan nicht perfekt in Firefox. Vielleicht doch lieber Safari oder Chrome benutzen.'
 	}
 	//user progress
 	function initLocalProgress(){
@@ -79,8 +79,8 @@ function dropLocalProgess() {
 <h1>brillianQUIZ</h1>
 
 <div class="container">
-	<h3 id="firefoxwarning" style="color:red"></h3>
-<p style="color: red; text-align: left;">${error}</p>
+	<h3 id="firefoxwarning"></h3>
+<p style="text-align: left;">${error}</p>
 </div>
 <!--
 <a href="#" onclick="new DivObject()">Fische im Hintergrund anzeigen</a>
