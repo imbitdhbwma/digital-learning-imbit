@@ -497,9 +497,8 @@ function evaluate() {
 	// läuft durch alle Fragen
 	for (var i = 1; i <= anzahlFragen; i++) {
 		var question = document.getElementById("question" + i);
-
-		console.log("Test:" + question.getAttribute("data-type"))
-
+		
+		if(question && typeof question !== undefined && (typeof question !== null )){
 		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser Teil durchlaufen.
 		if (question.getAttribute("data-type").localeCompare("mc") === 0
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
@@ -638,6 +637,8 @@ function evaluate() {
 		}
 	} createScoreText();
 	
+		}
+
 }
 
 
