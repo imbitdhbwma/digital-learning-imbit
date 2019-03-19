@@ -498,6 +498,8 @@ function evaluate() {
 	for (var i = 1; i <= anzahlFragen; i++) {
 		var question = document.getElementById("question" + i);
 
+		console.log("Test:" + question.getAttribute("data-type"))
+
 		// Falls die Frage eine Einfach- oder Mehrfachauswahl ist wird dieser Teil durchlaufen.
 		if (question.getAttribute("data-type").localeCompare("mc") === 0
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
