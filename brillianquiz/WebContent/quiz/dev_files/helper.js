@@ -679,7 +679,7 @@ function createScoreText (){
 	console.log('hi')
 	if(!isFishCreated){
 		//add one step to user Progress
-		userProgress = userProgress+1;
+		userProgress++;
 		//save
 		setLocalProgress(userProgress)
 		console.log('[helper] User Progress: ' + userProgress);
