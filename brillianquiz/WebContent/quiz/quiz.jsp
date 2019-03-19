@@ -158,7 +158,7 @@
 								});
 								break;
 								
-								case "TL": 
+								/*case "TL": 
 								$(document).ready(function() {
 									createTL(
 										question,
@@ -168,7 +168,7 @@
 									);
 								});
 								break;
-								
+								*/
 	
 								/* case "TQ": 
 								$(document).ready(function() {
@@ -203,8 +203,6 @@
 						//console.log("Clicked!");
 				});
 			});
-		})	
-		
 		</script>
 
 
