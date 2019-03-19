@@ -199,7 +199,7 @@
 	
 	
 	<div class="container tooltiphover">
-        <a href="../quiz/quiz.jsp?subject=Marketing" target="_blank">
+        <a href="../quiz/quiz.jsp?subject=marketing" target="_blank">
 		<span class="" ><img class="fisch" src="../img/QuizMeerestiere/bwl/bwl-16.png"></span>
 			
 		<p class="Untertitel">Mar&shy;ke&shy;ting</p>
