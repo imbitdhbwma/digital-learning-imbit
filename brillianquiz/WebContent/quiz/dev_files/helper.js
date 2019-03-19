@@ -501,7 +501,7 @@ function evaluate() {
 				|| question.getAttribute("data-type").localeCompare("sc") === 0) {
 			var childrenInput = $("#question" + i).find("input").toArray();
 			var richtig = richtigArray.shift();
-			console.log(richtig);
+			//console.log(richtig);
 
 			var gibMirPunkte = true;
 			// Durchläuft alle Kinder (=Antwortmöglichkeiten), prüft ob sie geklickt wurden und vergleicht dies mit dem erwarteten Ergebnis aus der Lösung
@@ -515,7 +515,7 @@ function evaluate() {
 				}
 				if (gibMirPunkte) {
 					score++;
-					console.log("Score: " + score);
+					//console.log("Score: " + score);
 				}
 			}
 		}
@@ -542,7 +542,7 @@ function evaluate() {
 
 			if (gibMirPunkte) {
 				score++;
-				console.log("Score: " + score); 
+				//console.log("Score: " + score); 
 			}
 
 			// set the variable question to be the DOM representation of the element again (instead of jQuery)
@@ -632,16 +632,16 @@ function evaluate() {
 				score++;
 			}
 		}
-		changeColor();
 	} createScoreText();
 	
 }
 
-// Genereate text after evaluating depending on the score
+// Genereate text after evaluating
 function createScoreText (){
 	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
+	//Determine threshold when quiz is considered as passed or if student have to retry; In correspondence with sponsor it is set that 70% is sufficient to pass
 	var wellDone = anzahlFragen * 0.7;
-	console.log(wellDone);
+	// Depending on the score result text is adjusted
 	if(score>wellDone){
 		document.getElementById('resultText').innerHTML = "Das ist echt klasse. Du hast den Stoff aus " + value +" verstanden. Weiter so!";
 	} else {
@@ -649,9 +649,10 @@ function createScoreText (){
 	}
 }
 
-//Change color of numering depending on input
+//Change color of numering depending on input to give feedback if the question has been answered correct or not
 
-function changeColor (){
+/*function changeColor (){
+	
 	console.log("changeColor außen läuft");
 	if(gibMirPunkte===true){
 		console.log("changeColor innen läuft");
@@ -660,45 +661,7 @@ function changeColor (){
 	} else if (gibMirPunkte === false){
 		var element = document.getElementById("title");
 		element.classList.toggle("false");
-	}	
-}
-
-// When clicking the "next"-button, the "question number" is counted upwards.
-// All the questions are hidden except the next question
-function nextButtonClick() {
-	count++;
-	showTheQuestion(count);
-}
-
-// When clicking the "back"-button, the question number is counted downwards.
-// All the questions are hidden except the previous question
-function backButtonClick() {
-	count--;
-	showTheQuestion(count);
-}
-
-// This function shows the question on the screen that the user has to answer next
-function showTheQuestion(count) {
-
-	// Hides all the questions. The show() function of the questions has to be called again to make them visible
-	$(".questionclass").hide();
-
-	$('#question' + count).show();
-
-	if (count === 1) {
-		$('#back_button_div').hide();
-	} else if (count <= anzahlFragen) {
-		$('#back_button_div').show();
-		$('#next_button_div').show();
-	} else {
-		evaluate();
-		$('#next_button_div').hide();
-		$('#back_button_div').hide();
-		$('#gz').show();
-
-		$('#supergeil').html(
-				"Gratuliere! Du hast " + score + " von " + maxScore
-						+ " Punkten!");
 	}
-}
+}*/
+
 

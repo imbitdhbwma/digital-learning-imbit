@@ -102,6 +102,17 @@ public class Event extends HttpServlet {
 				}
 				break;
 			}
+			case "loadQuizGame": {
+				UserRealm userRealm = new UserRealm();
+				try {
+					list = userRealm.getQuizUserProgress(userid);
+					data = list.toString();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				break;
+			}
 			/*
 			 * Philipp K.
 			 * 5.3.16
