@@ -661,10 +661,7 @@ function setLocalProgress(userProgress) {
 //load progress from local Storage
 function getLocalProgress() {
 	return parseInt(localStorage.getItem('userProgress'))
-  }
-
-initLocalProgress()
-
+}
 
 // Genereate text after evaluating
 function createScoreText (){
