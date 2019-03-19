@@ -66,10 +66,6 @@ JS as there is no or not sufficient CSS only solution. */
   text-align: center;
 }
 
-.wiki{
-  grid-area: wiki;
-  text-align: center;
-}
 
 .interactive{
   grid-area: interactive;
