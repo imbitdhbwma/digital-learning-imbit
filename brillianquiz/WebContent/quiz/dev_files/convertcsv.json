@@ -9517,6 +9517,8 @@
    "subject": "marketing",
    "header": "Marketing",
    "questionType": "DD",
+   "id": 1398,
+   "completed": false,
    "question": "Ordne die Begriffe jeweils dem passenden P des Marketing-Mixes zu.",
    "answers": [
       "Qualität",
@@ -9546,7 +9548,11 @@
    ]
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "MC",
+   "id": 1399,
+   "completed": false,
    "question": "Sind die folgenden Aussagen wahr?",
    "answers": [
       "Die Promotion beinhaltet die Gesamtheit aus Gütern und Dienstleistungen, die ein Unternehmen auf dem Zielmarkt anbietet.",
@@ -9563,7 +9569,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "OD",
+   "id": 1400,
+   "completed": false,
    "question": "Stelle den Kaufprozess zeitlich geordnet dar.",
    "answers": [
       "Informationssuche",
@@ -9582,7 +9592,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "DD",
+   "id": 1401,
+   "completed": false,
    "question": "Ordne der Beschreibung die entsprechende Phase des Kaufprozesses nach Kotler zu.",
    "answers": [
       "Der Prozess beginnt mit der Wahrnehmung eines Bedarfs, d h. der Verbraucher erkennt einen Mangel oder ein Bedürfnis und stellt Unterschied zwischen seiner aktuellen und einer gewünschten Situation fest.",
@@ -9607,7 +9621,11 @@
    ]
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "MC",
+   "id": 1402,
+   "completed": false,
    "question": "Welche strategischen Analysemethoden benutzt das Marketing?",
    "answers": [
       "SWOT-Analyse",
@@ -9624,7 +9642,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "DD",
+   "id": 1403,
+   "completed": false,
    "question": "Ordne zu!",
    "answers": [
       "Chancen",
@@ -9644,7 +9666,11 @@
    ]
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "MC",
+   "id": 1404,
+   "completed": false,
    "question": "Sind die folgenden Aussagen wahr?",
    "answers": [
       "Die Gesamtheit der Produktlinien und Geschäftsfelder eines Unternehmens wird auch als dessen Geschäftsportfolio bezeichnet.",
@@ -9663,7 +9689,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "MC",
+   "id": 1405,
+   "completed": false,
    "question": "Aus welchen Elementen besteht die Portfolio-Analyse?",
    "answers": [
       "Cash Cows",
@@ -9683,7 +9713,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "TQ",
+   "id": 1406,
+   "completed": false,
    "question": "Fülle den untenstehenden Lückentext mit den passenden Begriffen aus.",
    "answers": [
       "sind geschäftliche Aktivitäten oder Produkte mit hohen Wachstumsraten, bei denen das Unternehmen einen hohen Marktanteil hat.",
@@ -9705,7 +9739,11 @@
    ]
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "OD",
+   "id": 1407,
+   "completed": false,
    "question": "Stelle den Produktlebenzyklus dar!",
    "answers": [
       "Wachstumsphase",
@@ -9724,7 +9762,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "TQ",
+   "id": 1408,
+   "completed": false,
    "question": "Fülle den untenstehenden Lückentext mit den passenden Begriffen aus.",
    "answers": [
       "Während der ",
@@ -9746,7 +9788,11 @@
    ]
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "SC",
+   "id": 1409,
+   "completed": false,
    "question": "Wenn sich aufgrund von Preisschwankungen die Nachfrage nach bestimmten Gütern stark ändert und der Preis einer Ware beispielsweise gesenkt wird , steigt der Absatz dieses Produktes. Wird der Preis erhöht, dann kaufen Verbraucher weniger von dieser Ware. In diesem Fall spricht man von einer...?",
    "answers": [
       "Elastischen Nachfrage",
@@ -9759,7 +9805,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "SC",
+   "id": 1410,
+   "completed": false,
    "question": "Der Preis für einen Mantel einer neuen Marke steigt von 12€ auf 14€. Dies führt dazu, dass die monatlich nachgefragte Menge von 24.000 Stück auf 19.000 Stück sinkt. Wie hoch ist die Preiselastizität der Nachfrage?",
    "answers": [
       "1,25",
@@ -9774,7 +9824,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "SC",
+   "id": 1411,
+   "completed": false,
    "question": "Man nimmt an die Preiselastizität einer Nachfrage beträgt 1,25. Was lässt sich draus schließen? Ist die Nachfrage elastisch oder unelastisch?",
    "answers": [
       "elastisch ",
@@ -9787,7 +9841,11 @@
    "title": []
 },
  {
+   "subject": "marketing",
+   "header": "Marketing",
    "questionType": "TL",
+   "id": 1412,
+   "completed": false,
    "question": "Ordne den Begriffen jeweils ihre passende Übersetzung zu.",
    "answers": [
       "unique selling point ",
