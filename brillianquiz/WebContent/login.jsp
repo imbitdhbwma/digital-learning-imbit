@@ -81,7 +81,7 @@ $(document).ready(function(){
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="name" class="form-control" placeholder="Email" />
+            <input type="text" value="" name="username" class="form-control" placeholder="Email" />
         </p>
         <p>
             <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
