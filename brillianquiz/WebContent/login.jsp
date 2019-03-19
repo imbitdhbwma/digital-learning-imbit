@@ -26,6 +26,10 @@ $(document).ready(function(){
 		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * imgs.length)] + ')';
 		<!--this.div.style.zIndex = zrandom;-->
 	}
+	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+		console.log('ok')
+		document.getElementById('firefoxwarning').innerHTML = 'ACHTUNG: Die Quizze werden momentan nur in Chrome und Safari unterstützt.'
+	}
 })
 </script>
 </head>
@@ -33,6 +37,7 @@ $(document).ready(function(){
 <body>
 
 <div class="container">
+	<h3 id="firefoxwarning" style="color:red"> </h3>
 <p style="color: red; text-align: left;">${error}</p>
 </div>
 
