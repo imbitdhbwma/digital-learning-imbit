@@ -44,24 +44,19 @@ $(document).ready(function(){
 	<h3 id="firefoxwarning" style="color:red"> </h3>
 <p style="color: red; text-align: left;">${error}</p>
 </div>
-
-<a href="#" onclick="new DivObject()">Fish</a>
-
-<!-- <h1>h1</h1> Inhalt 
-<div class="outer">
-<div class="inner" align="center">-->
+<!--
+<a href="#" onclick="new DivObject()">Fische im Hintergrund anzeigen</a>
+-->
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesWI.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/wi.gif" alt="WI">
 	<figcaption>WI</figcaption>
-	<!-- <p class="title"> Wirtschaftsinformatik </p> -->
 	</a>
 </figure>
 
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesBWL.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/bwl.gif" alt="BWL">
-	<!-- <p class="title"> BWL </p> -->
 	<figcaption>BWL</figcaption>
 	</a>
 </figure>
@@ -69,13 +64,10 @@ $(document).ready(function(){
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesIT.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/it.gif" alt="IT">
-	<!-- <p class="title"> IT </p> -->
 	<figcaption>IT</figcaption>
 	</a>
 </figure>
 
-<!--</div>
-</div>-->
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
@@ -83,23 +75,19 @@ $(document).ready(function(){
          
 
     <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
-        <h2 class="mb-3">
-            Hallo!
-        </h2>
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="username" class="form-control" placeholder="Email" />
-        </p>
-        <p>
-            <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
-        </p>
-        <p class="mb-0 text-right">
+            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" />
+
+            <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
+
             <input type="submit" class="btn btn-primary" value="Anmelden" />
-        </p>
-		<a href='resetpw.jsp'>Passwort vergessen?</a>
+
+		<a href='resetpw.jsp'>Kennwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
+		</p>
     </form>
 
 

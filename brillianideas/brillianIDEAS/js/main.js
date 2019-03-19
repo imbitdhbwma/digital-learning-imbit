@@ -6,8 +6,12 @@
 $ = jQuery;
 
 var $display;
-var $currentPosition = window.location.length > 1 ?
+var $currentPosition = []
+
+$(document).ready(function(){
+    $currentPosition = window.location.hash.length > 1 ?
     window.location.hash.substr(1).split('.') : [];
+})
 
 var $setup = true;
 
@@ -94,14 +98,9 @@ $.fn.center = function () {
  * should use URL to open/ close next/last (DOM) element
  */
 var walkToPath = function walkToPath(){
-    $newPosition = window.location.length > 1 ?
+    $newPosition = window.location.hash.length > 1 ?
         window.location.hash.substr(1).split('.') : [];
-    if ($currentPosition.length > $newPosition.length){
-        //go in
-    } else {
-        // go out
-    	// should enable back and forth browser functions
-    }
+        console.log($newPosition);
 };
 
 /**

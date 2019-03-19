@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="../css/octopus.css">	
 		<link rel="shortcut container" href="../img/favcontainer.ico" type="image/ico" />
 		<link rel="stylesheet" type="text/css" href="../css/quiz.css" />
-		<link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/fonts.css" />
 		<script language="javascript" type="text/javascript" src="../js/quiz.js"></script>
 		<script src="../js/jquery/jquery-3.3.1.min.js"></script>
 	
@@ -47,7 +47,7 @@
 
 		<div class="container tooltiphover">
 				
-			<a href="../quiz/quiz.jsp?subject=userExperience">
+			<a href="../quiz/quiz.jsp?subject=userExperience" target="_blank">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-01.png"></span>
 
@@ -61,7 +61,7 @@
 		<div class="container tooltiphover">
 		
 		
-			<a href="../quiz/quiz.jsp?subject=systemanalyse">
+			<a href="../quiz/quiz.jsp?subject=systemanalyse" target="_blank">
 			
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/wi/wi-02.png"></span>
 
@@ -75,7 +75,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=wahrnehmungspsychologie">
+			<a href="../quiz/quiz.jsp?subject=wahrnehmungspsychologie" target="_blank">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-03.png"></span>
 
@@ -92,7 +92,7 @@
 		<div class="container tooltiphover">
 		
 		
-			<a href="../quiz/quiz.jsp?subject=wirtschaftsinformatik">
+			<a href="../quiz/quiz.jsp?subject=wirtschaftsinformatik" target="_blank">
 			
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/wi/wi-04.png"></span>
 
@@ -106,7 +106,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=ITManagement">
+			<a href="../quiz/quiz.jsp?subject=ITManagement" target="_blank">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-05.png"></span>
 
@@ -118,7 +118,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=geschaeftsprozessmanagement">
+			<a href="../quiz/quiz.jsp?subject=geschaeftsprozessmanagement" target="_blank">
 			
 			<span><img class="fisch" src="../img/QuizMeerestiere/wi/wi-06.png"></span>
 
@@ -138,7 +138,7 @@
 <footer></footer>
 <script>
 
-document.onload = $("footer").load("../brillianideas/brillianIDEAS/content/rocketbar.html");
+document.onload = $("footer").load("rocketbarQuiz.html");
 
 
 </script>
