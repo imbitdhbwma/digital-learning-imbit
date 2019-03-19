@@ -55,23 +55,22 @@ $(document).ready(function(){
 	}
 
 	var userProgress = initLocalProgress()
-	console.log('Completed: ' +  userProgress + ' Quizes')
+
 	//Add fishes
 	for(let i = 0; i < userProgress; i++){
-		console.log('Created '+ i + ' fishes');
 		new DivObject()
 	}
-	//delete local progress
-	function dropLocalProgess() {
-		localStorage.removeItem('userProgress')
-	}
 	//reset button 
-	$(document).ready(function() { 
-		if(userProgress > 0){
-			document.getElementById('reset'). innerHTML = '<button onclick="dropLocalProgess()">Fortschritt löschen</button>'
-		}
-	});
+	 if(userProgress > 0){
+			document.getElementById("reset").innerHTML = '<button id="removeProgress" onclick="dropLocalProgess();">Fortschritt löschen</button>'
+	 }
 })
+//delete local progress
+function dropLocalProgess() {
+		userProgress = 0;
+		localStorage.removeItem('userProgress')
+		location.reload();
+}
 </script>
 </head>
 
@@ -80,8 +79,7 @@ $(document).ready(function(){
 <h1>brillianQUIZ</h1>
 
 <div class="container">
-	<p id="reset"></p>
-	<h3 id="firefoxwarning" style="color:red"> </h3>
+	<h3 id="firefoxwarning" style="color:red"></h3>
 <p style="color: red; text-align: left;">${error}</p>
 </div>
 <!--
@@ -108,6 +106,7 @@ $(document).ready(function(){
 	</a>
 </figure>
 
+<p id="reset"></p>
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
