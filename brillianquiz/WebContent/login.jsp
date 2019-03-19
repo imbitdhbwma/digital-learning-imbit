@@ -33,7 +33,9 @@ $(document).ready(function(){
 	}
 	//user progress
 	function initLocalProgress(){
-		if (getLocalProgress() === null) {
+		console.log(Number.isInteger(getLocalProgress()));
+		
+		if (!Number.isInteger(getLocalProgress())) {
 			setLocalProgress(0)
 			return 0
 		}else{
@@ -41,9 +43,22 @@ $(document).ready(function(){
 		}
 	}
 
+	//write progess to local stoage
+	function setLocalProgress(userProgress) {
+		localStorage.setItem('userProgress', userProgress)
+	}
+
+	//load progress from local Storage
+	function getLocalProgress() {
+		console.log(typeof parseInt(localStorage.getItem('userProgress')));
+		
+		return parseInt(localStorage.getItem('userProgress'))
+	}
+
 	var userProgress = initLocalProgress()
-	console.log('Completed: ' +  userProgress + 'Quizes')
+	console.log('Completed: ' +  userProgress + ' Quizes')
 	for(let i = 0; i < userProgress; i++){
+		console.log('Created '+ i + ' fishes');
 		new DivObject()
 	}
 })
