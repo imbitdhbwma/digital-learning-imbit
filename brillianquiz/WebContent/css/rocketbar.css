@@ -19,7 +19,7 @@ JS as there is no or not sufficient CSS only solution. */
 
 /* grid definition */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows:auto;
   grid-template-areas: "imbit digitallearning icm crm wiki interactive video impressum"; /* Hier wird die Reihenfolge der Links in der Rocketbar festgelegt */
   /* grid-column-gap: 2vw; */
