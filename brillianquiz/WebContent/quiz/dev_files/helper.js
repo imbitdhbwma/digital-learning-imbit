@@ -662,7 +662,7 @@ function createScoreText (){
 		userProgress = userProgress++
 		//save
 		localProgress.setLocalProgress(userProgress)
-		console.log(userProgress);
+		console.log('[helper] User Progress: ' + userProgress);
 		isFishCreated = true
 	}
 }
