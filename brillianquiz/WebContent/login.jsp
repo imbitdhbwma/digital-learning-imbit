@@ -33,7 +33,10 @@ $(document).ready(function(){
 	//user progress
 	import localProgress from '../localStorageProgress.js';
 	var userProgress = localProgress.initLocalProgress()
-	
+	console.log('Completed: ' +  userProgress + 'Quizes')
+	for(let i = 0; i < userProgress; i++){
+		new DivObject()
+	}
 })
 </script>
 </head>
