@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 <body>
 
-<h1>Quiz</h1>
+<h1>brillianQUIZ</h1>
 
 <div class="container">
 	<h3 id="firefoxwarning" style="color:red"> </h3>
