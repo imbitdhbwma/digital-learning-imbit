@@ -36,6 +36,8 @@ $(document).ready(function(){
 
 <body>
 
+<h1>Quiz</h1>
+
 <div class="container">
 	<h3 id="firefoxwarning" style="color:red"> </h3>
 <p style="color: red; text-align: left;">${error}</p>
