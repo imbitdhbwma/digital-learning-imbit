@@ -77,7 +77,8 @@ img {
 h1 {
 	color: white;
 	font-family: "Caveat Brush";
-	font-size: 3,5rem;
+	text-align: center;
+	font-size: 4rem;
 	line-height: 1.15;
 	font-weight: 700;
 	margin-top: 0;
