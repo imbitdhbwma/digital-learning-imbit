@@ -47,7 +47,7 @@
 
 		<div class="container tooltiphover">
 	
-			<a href="../quiz/quiz.jsp?subject=verteilteSysteme">
+			<a href="../quiz/quiz.jsp?subject=verteilteSysteme" target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-01.png"></span>
 			
 			<p class="Untertitel">Verteilte&nbsp;Systeme</p>
@@ -58,7 +58,7 @@
 	
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=ITIntro">
+			<a href="../quiz/quiz.jsp?subject=ITIntro" target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-02.png"></span>
 			
 			<p class="Untertitel">IT In&shy;tro</p>
@@ -72,7 +72,7 @@
 	
 		<div class="container tooltiphover">
 	
-			<a href="../quiz/quiz.jsp?subject=datenbanken">
+			<a href="../quiz/quiz.jsp?subject=datenbanken" target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-03.png"></span>
 			
 			<p class="Untertitel">Da&shy;ten&shy;bank&shy;en</p>
@@ -84,7 +84,7 @@
 		
 		
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=webprogrammierung">
+			<a href="../quiz/quiz.jsp?subject=webprogrammierung" target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-04.png"></span>
 			
 			<p class="Untertitel">Web&shy;pro&shy;gram&shy;mie&shy;rung</p>
@@ -99,7 +99,7 @@
 	
 	
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=kommunikationssysteme">
+			<a href="../quiz/quiz.jsp?subject=kommunikationssysteme" target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-05.png"></span>
 			
 			<p class="Untertitel">Kom&shy;mu&shy;ni&shy;ka&shy;tions&nbsp;sys&shy;teme</p>
@@ -112,7 +112,7 @@
 		
 	
 		<div class="container tooltiphover">
-			<a href="../quiz/quiz.jsp?subject=betriebssysteme">
+			<a href="../quiz/quiz.jsp?subject=betriebssysteme"target="_blank">
 			<span class="" ><img class="fisch" src="../img/QuizMeerestiere/it/it-06.png"></span>
 			
 			<p class="Untertitel">Betriebssysteme</p>
