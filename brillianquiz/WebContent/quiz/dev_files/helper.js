@@ -641,9 +641,30 @@ function evaluate() {
 
 //local storage user progress
 var isFishCreated = false;
-import localProgress from '../localStorageProgress.js';
+function initLocalProgress(){
+	if (getLocalProgress() === null) {
+		setLocalProgress(0)
+		return 0
+	}else{
+		return getLocalProgress()
+	}
+  }
 
-var userProgress = localProgress.initLocalProgress()
+var userProgress = initLocalProgress()
+
+//write progess to local stoage
+function setLocalProgress(userProgress) {
+	localStorage.setItem('userProgress', userProgress)
+}
+
+
+//load progress from local Storage
+function getLocalProgress() {
+	return parseInt(localStorage.getItem('userProgress'))
+  }
+
+initLocalProgress()
+
 
 // Genereate text after evaluating
 function createScoreText (){

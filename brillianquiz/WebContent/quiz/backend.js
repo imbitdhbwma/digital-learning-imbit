@@ -46,23 +46,23 @@ if (getLocalProgress() === null) {
 }*/
 
 //display for debugging
-export function displayUserProgress() {
+function displayUserProgress() {
   console.log(JSON.stringify(getLocalProgress()))
 }
 
 
 //write progess to local stoage
-export function setLocalProgress(userProgress) {
+function setLocalProgress(userProgress) {
   localStorage.setItem('userProgress', JSON.stringify(userProgress))
 }
 
 //load progress from local Storage
-export function getLocalProgress() {
+function getLocalProgress() {
   return JSON.parse(localStorage.getItem('userProgress'))
 }
 
 //delete local progress
-export function dropLocalProgess() {
+function dropLocalProgess() {
   localStorage.removeItem('userProgress')
 }
 
