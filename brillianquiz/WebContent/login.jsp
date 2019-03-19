@@ -15,7 +15,7 @@
 <script>
 $(document).ready(function(){
 	DivObject = function() {
-		var imgs = ['img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
+		var imgs = ['img/animated/bwl.gif','img/animated/it.gif','img/animated/wi.gif','img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
 		/*var zrandom = Math.floor((Math.random() * -100) - 10);*/
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
