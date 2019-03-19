@@ -43,6 +43,8 @@ $(document).ready(function(){
 
 <body>
 
+<h1>Quiz</h1>
+
 <div class="container">
 	<h3 id="firefoxwarning" style="color:red"> </h3>
 <p style="color: red; text-align: left;">${error}</p>
@@ -87,9 +89,10 @@ $(document).ready(function(){
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
             <input type="submit" class="btn btn-primary" value="Anmelden" />
-
+<div class="loginlinks">
 		<a href='resetpw.jsp'>Kennwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
+</div>
 		</p>
     </form>
 
