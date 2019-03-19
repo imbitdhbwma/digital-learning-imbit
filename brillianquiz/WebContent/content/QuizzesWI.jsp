@@ -138,7 +138,7 @@
 <footer></footer>
 <script>
 
-document.onload = $("footer").load("rocketbarQuiz.html");
+document.onload = $("footer").load("../brillianideas/brillianIDEAS/content/rocketbar.html");
 
 
 </script>
