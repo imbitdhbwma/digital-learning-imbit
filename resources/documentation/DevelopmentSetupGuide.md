@@ -29,8 +29,9 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
  
 ### Maven 
 * you need Maven to build the project in the command line
-* download the ZIP file for Maven and extract the folder to your desired location, e.g. C:/Dev
-* Include the Maven/bin directory into your path (e.g. C:\Dev\Maven-3.5.2\bin)
+* download the ZIP file for Maven http://apache.mirror.digionline.de/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip and extract the folder to your desired location, e.g. C:/Dev
+* Include the Maven/bin directory into your path (e.g. C:\Dev\Maven-3.6.0\bin)
+* Restart laptop
 * check "mvn -v"
 * how to "build" Eclipse projects: open cmd, go to the folder, where the project is located (e.g. C:\Users\username\git\digital-learning-imbit\brilliancrm) and type "mvn clean install" (clean is not always necessary, it reloads all Maven dependencies a.s.o.)
 * Maven is also included in Eclipse Java EE, to build here: right click on project and go to "Maven" --> "Update project...". This creates the folder target (if not present) and within it a .war file
@@ -38,7 +39,7 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 ### MySQL database ###
 * download the installer (google: Download MySQL Installer): (x86, 32-bit), MSI Installer, 18MB
 * Follow the installation steps, install "server only", attention: remember your password!
-* Create tables...: Go to the GitHub Repo to resources and save and use the CreateDBbrillianxxx.sql files by using the source command in MySQL, e.g. by: source C:/Dev/CreateCBbrillianCRM.sql
+* Create tables...: Install XAMPP (see below) and start apache and mysql and copy paste the sql statements from the files to execute the sql statements. Files are located under \resources\database-files 
 
 ### Tomcat
 * Go to Apache Tomcat download section, e.g. download the 9.0.4 Windows 64bit ZIP
@@ -52,10 +53,15 @@ Pay attention to the Java version: 32bit and 64bit! See "java -version" in comma
 ```
 
 ### Eclipse IDE for Java EE developers
-* same bit version as your Java, so 64bit
+* same bit version as your Java, so 64bit (https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip)
 * install the Eclipse Web Developer Tools
 * add your Tomcat server to your Eclipse environment (e.g. in Window-->Preferences-->Server-->Runtime Environments), if it is not present: install Eclipse Java EE Developer Tools, you also need: Eclipse Java Web Developer Tools
 * check whether you can "Run As" --> "Run on Server" (when right clicking on brilliancrm or brillianicm projects in Eclipse)
+
+
+--------------------------
+!!! EVERYTHING FROM HERE IS NOT NEEDED
+--------------------------
 
 ### XAMPP or single installations of Apache HTTP Server and PHP
 * e.g. versions Apache 2.2 and PHP7
@@ -131,4 +137,3 @@ Deployment here simply means: copy the folder from your git folder to the folder
 * Copy to the htdocs folder of Apache (in XAMPP: C:/xampp/htdocs), 
 * start Apache 
 * open localhost/brillianIDEAS in browser
-

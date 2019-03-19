@@ -15,7 +15,7 @@
 		<option href="l400e000">USA</option>
 		<option href="l800e000">Turkey</option>
 		<option href="l900e000">Australia</option>
-		
+		<bgimg>WelcomePage.png</bgimg>
 	</event>
 
 
@@ -46,87 +46,82 @@
 	</event>
 	<event level="0" element="3" id="l700e011" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_0.JPG</bgimg>
+		<bgimg>BA_training_9_0.png</bgimg>
 		<nextevent href="l700e016"/>
 	</event>
 	<event level="0" element="4" id="l700e016" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_02.JPG</bgimg>
+		<bgimg>BA_training_9_02.png</bgimg>
 		<nextevent href="l700e021"/>
 	</event>	
 	<event level="0" element="5" id="l700e021" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_03.JPG</bgimg>
+		<bgimg>BA_training_9_03.png</bgimg>
 		<nextevent href="l700e026"/>
 	</event>	
 	<event level="0" element="6" id="l700e026" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_04.JPG</bgimg>
+		<bgimg>BA_training_9_04.png</bgimg>
 		<nextevent href="l700e031"/>
 	</event>	
 	<event level="0" element="7" id="l700e031" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_05.JPG</bgimg>
+		<bgimg>BA_training_9_05.png</bgimg>
 		<nextevent href="l700e036"/>
 	</event>
 	<event level="0" element="8" id="l700e036" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_06.JPG</bgimg>
+		<bgimg>BA_training_9_06.png</bgimg>
 		<nextevent href="l700e041"/>
 	</event>
 	<event level="0" element="9" id="l700e041" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_07.JPG</bgimg>
+		<bgimg>BA_training_9_07.png</bgimg>
 		<nextevent href="l700e046"/>
 	</event>
 	<event level="0" element="10" id="l700e046" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_08.JPG</bgimg>
+		<bgimg>BA_training_9_08.png</bgimg>
 		<nextevent href="l700e051"/>
 	</event>	
 	<event level="0" element="11" id="l700e051" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_09.JPG</bgimg>
+		<bgimg>BA_training_9_09.png</bgimg>
 		<nextevent href="l700e056"/>
 	</event>	
 	<event level="0" element="12" id="l700e056" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_10.JPG</bgimg>
+		<bgimg>BA_training_9_10.png</bgimg>
 		<nextevent href="l700e061"/>
 	</event>	
 	<event level="0" element="13" id="l700e061" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_11.JPG</bgimg>
+		<bgimg>BA_training_9_11.png</bgimg>
 		<nextevent href="l700e066"/>
 	</event>
 	<event level="0" element="14" id="l700e066" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_12.JPG</bgimg>
+		<bgimg>BA_training_9_12.png</bgimg>
 		<nextevent href="l700e071"/>
 	</event>
 	<event level="0" element="15" id="l700e071" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_13.JPG</bgimg>
+		<bgimg>BA_training_9_13.png</bgimg>
 		<nextevent href="l700e076"/>
 	</event>
 	<event level="0" element="16" id="l700e076" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_14.JPG</bgimg>
+		<bgimg>BA_training_9_14.png</bgimg>
 		<nextevent href="l700e081"/>
 	</event>
 	<event level="0" element="17" id="l700e081" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_15.JPG</bgimg>
+		<bgimg>BA_training_9_15.png</bgimg>
 		<nextevent href="l700e086"/>
 	</event>
 	<event level="0" element="18" id="l700e086" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_16.JPG</bgimg>
-		<nextevent href="l700e091"/>
-	</event>
-	<event level="0" element="19" id="l700e091" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
-		<content/>
-		<bgimg>BA_training_9_17.JPG</bgimg>
+		<bgimg>BA_training_9_16.png</bgimg>
 		<nextevent href="l700e096"/>
 	</event>
 	<event level="worldmap" element="20" id="l700e096" eventtype="25" imcost="+5" imqual="0" imtime="+5" loc="4">
@@ -1203,88 +1198,83 @@
 	
 	<event level="0" element="3" id="l700e010" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_0.JPG</bgimg>
+		<bgimg>BA_training_9_0.png</bgimg>
 		<nextevent href="l700e015"/>
 	</event>
 	<event level="0" element="4" id="l700e015" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_02.JPG</bgimg>
+		<bgimg>BA_training_9_02.png</bgimg>
 		<nextevent href="l700e020"/>
 	</event>	
 	<event level="0" element="5" id="l700e020" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_03.JPG</bgimg>
+		<bgimg>BA_training_9_03.png</bgimg>
 		<nextevent href="l700e025"/>
 	</event>	
 	<event level="0" element="6" id="l700e025" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_04.JPG</bgimg>
+		<bgimg>BA_training_9_04.png</bgimg>
 		<nextevent href="l700e030"/>
 	</event>	
 	<event level="0" element="7" id="l700e030" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_05.JPG</bgimg>
+		<bgimg>BA_training_9_05.png</bgimg>
 		<nextevent href="l700e035"/>
 	</event>
 	<event level="0" element="8" id="l700e035" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_06.JPG</bgimg>
+		<bgimg>BA_training_9_06.png</bgimg>
 		<nextevent href="l700e040"/>
 	</event>
 
 	<event level="0" element="9" id="l700e040" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_07.JPG</bgimg>
+		<bgimg>BA_training_9_07.png</bgimg>
 		<nextevent href="l700e045"/>
 	</event>
 	<event level="0" element="10" id="l700e045" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_08.JPG</bgimg>
+		<bgimg>BA_training_9_08.png</bgimg>
 		<nextevent href="l700e050"/>
 	</event>	
 	<event level="0" element="11" id="l700e050" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_09.JPG</bgimg>
+		<bgimg>BA_training_9_09.png</bgimg>
 		<nextevent href="l700e055"/>
 	</event>	
 	<event level="0" element="12" id="l700e055" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_10.JPG</bgimg>
+		<bgimg>BA_training_9_10.png</bgimg>
 		<nextevent href="l700e060"/>
 	</event>	
 	<event level="0" element="13" id="l700e060" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_11.JPG</bgimg>
+		<bgimg>BA_training_9_11.png</bgimg>
 		<nextevent href="l700e065"/>
 	</event>
 	<event level="0" element="14" id="l700e065" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_12.JPG</bgimg>
+		<bgimg>BA_training_9_12.png</bgimg>
 		<nextevent href="l700e070"/>
 	</event>
 	<event level="0" element="15" id="l700e070" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_13.JPG</bgimg>
+		<bgimg>BA_training_9_13.png</bgimg>
 		<nextevent href="l700e075"/>
 	</event>
 	<event level="0" element="16" id="l700e075" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_14.JPG</bgimg>
+		<bgimg>BA_training_9_14.png</bgimg>
 		<nextevent href="l700e080"/>
 	</event>
 	<event level="0" element="17" id="l700e080" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_15.JPG</bgimg>
+		<bgimg>BA_training_9_15.png</bgimg>
 		<nextevent href="l700e085"/>
 	</event>
 	<event level="0" element="18" id="l700e085" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_16.JPG</bgimg>
-		<nextevent href="l700e090"/>
-	</event>
-	<event level="0" element="19" id="l700e090" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
-		<content/>
-		<bgimg>BA_training_9_17.JPG</bgimg>
+		<bgimg>BA_training_9_16.png</bgimg>
 		<nextevent href="l700e095"/>
 	</event>
 	<event level="worldmap" element="20" id="l700e095" eventtype="25" imcost="+5" imqual="0" imtime="+5" loc="4">
