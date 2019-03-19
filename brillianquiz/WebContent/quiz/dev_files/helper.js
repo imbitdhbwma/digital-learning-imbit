@@ -641,25 +641,26 @@ function evaluate() {
 
 //local storage user progress
 var isFishCreated = false;
-function initLocalProgress(){
-	if (getLocalProgress() === null) {
+var userProgress = initLocalProgress()
+
+//user progress
+function initLocalProgress() {
+	if (!Number.isInteger(getLocalProgress())) {
 		setLocalProgress(0)
 		return 0
-	}else{
+	} else {
 		return getLocalProgress()
 	}
-  }
-
-var userProgress = initLocalProgress()
+}
 
 //write progess to local stoage
 function setLocalProgress(userProgress) {
 	localStorage.setItem('userProgress', userProgress)
 }
 
-
 //load progress from local Storage
 function getLocalProgress() {
+	console.log(typeof parseInt(localStorage.getItem('userProgress')));
 	return parseInt(localStorage.getItem('userProgress'))
 }
 
@@ -680,7 +681,7 @@ function createScoreText (){
 		//add one step to user Progress
 		userProgress = userProgress++
 		//save
-		localProgress.setLocalProgress(userProgress)
+		setLocalProgress(userProgress)
 		console.log('[helper] User Progress: ' + userProgress);
 		isFishCreated = true
 	}
