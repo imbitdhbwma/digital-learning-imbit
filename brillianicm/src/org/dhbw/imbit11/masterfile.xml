@@ -15,7 +15,7 @@
 		<option href="l400e000">USA</option>
 		<option href="l800e000">Turkey</option>
 		<option href="l900e000">Australia</option>
-		
+		<bgimg>WelcomePage.png</bgimg>
 	</event>
 
 
