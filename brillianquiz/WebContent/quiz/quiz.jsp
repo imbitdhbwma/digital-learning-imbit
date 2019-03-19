@@ -87,11 +87,6 @@
 			src="../img/tentakel_rtl.png">
     </div>
 	<script>
-function goBack() {
-  window.history.back();
-}
-</script>
-	<script>
 			
 		//get Parameter aus der URL, um entsprechendes Fach aus dem Json zufiltern 
 		function getParameter(key) {

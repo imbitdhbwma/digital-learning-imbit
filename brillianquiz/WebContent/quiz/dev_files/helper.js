@@ -675,7 +675,7 @@ function createScoreText (){
 	} else {
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
-	document.getElementById('back').innerHTML = '<button class="button" onclick="goBack()">Neues Quiz</button>';
+	document.getElementById('back').innerHTML = '<button class="button" onclick="window.location.href=\'../../\'">Neues Quiz</button>';
 	console.log('hi')
 	if(!isFishCreated){
 		//add one step to user Progress
