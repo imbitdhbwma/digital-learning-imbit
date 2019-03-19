@@ -71,23 +71,19 @@ $(document).ready(function(){
          
 
     <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
-        <h2 class="mb-3">
-            Hallo!
-        </h2>
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="username" class="form-control" placeholder="Email" />
-        </p>
-        <p>
-            <input type="password" value="" name="password" class="form-control" placeholder="Paswort" />
-        </p>
-        <p class="mb-0 text-right">
+            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" />
+
+            <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
+
             <input type="submit" class="btn btn-primary" value="Anmelden" />
-        </p>
-		<a href='resetpw.jsp'>Passwort vergessen?</a>
+
+		<a href='resetpw.jsp'>Kennwort vergessen?</a>
 		<a href="Registration?g=000">Konto erstellen</a>
+		</p>
     </form>
 
 
