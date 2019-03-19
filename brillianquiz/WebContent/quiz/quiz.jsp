@@ -70,6 +70,7 @@
 		
 		<div>
 			<p id="resultText"> </p>
+			<p id="back"></p>
 	</div>
 	</div>
 
