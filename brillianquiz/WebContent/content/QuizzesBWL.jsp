@@ -223,13 +223,11 @@
 	
  </div>
 
-<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
-<footer></footer>
-<script>
 
-document.onload = $("#footer").load("rocketbarQuiz.html");
-
-
-</script>
+	<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
+	<footer></footer>
+	<script>
+		document.onload = $("footer").load("rocketbarQuiz.html");
+	</script>
 </body>
 </html>
