@@ -13,15 +13,14 @@
 		
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-		 <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
         <script src="js/rocketbar.js"></script>
         <link rel="stylesheet" href="css/rocketbar.css" />
-	
-	
-    </head>
-    <link rel="stylesheet" type="text/css" href="css/VideoNavigation.css">
+        <link rel="stylesheet" type="text/css" href="css/VideoNavigation.css">
+        
+    
     <style>
     html{
         font-size: 20px;
@@ -69,34 +68,66 @@
         color: #FFFFFF;
     }
     </style>
+    </head>
     <body>
 	
 	<center>
-	<h1 class="ueberschrift titel"> Lernvideos BWL </h1>
+	    <h1 class="ueberschrift titel"> Lernvideos BWL </h1>
 	</center>
 	
 	<img class="sterntentakel" src="img/armStern.png">
 	
     <div class='dnSlide-main'>
-        
-	</div>
+    </div>
 	
     <div class='dnSlide-main'>
-        
-		<img id="op" src="img/VideoNav/OPrahmen.png" width="100%">
+        <a id="op" target="_blank" href="/brillianICM">
+        <img src="img/VideoNav/OPrahmen.png" width="100%"></a>
 		<img id="stakeshare" src="img/VideoNav/StakeShareholder_Rahmen.png" width="100%">
 		<img id="wkm" src="img/VideoNav/WKMrahmen.png" width="100%">
 		<img src="img/VideoNav/STGManModRahmen.png" width="100%">
-		<img src="img/VideoNav/BMCrahmen.png" width="100%" onclick="alert('rob3BMC');">	
+		<img src="img/VideoNav/BMCrahmen.png" width="100%">	
 		
     </div>
-	
-	<!-- Zurück zum Hauptmenü
-	<a class="backtoMenu" href="index - Kopie.html"> Zurück zum Hauptmenü </a>
+    
+    <center>
+        <h1 class="ueberschrift titel"> Whitepaper Digitalisierung </h1>
+    </center>
+
+    <center>
+        <a href="docs/whitepaper/Vorwort.pdf"><img id="WP0" src="img/whitepaper/Picture0.png" width="80%">
+		<a href="docs/whitepaper/Essay1.pdf"><img id="WP1" src="img/whitepaper/Picture1.png" width="40%">
+		<a href="docs/whitepaper/Essay2.pdf"><img id="WP2" src="img/whitepaper/Picture2.png" width="40%">
+		<a href="docs/whitepaper/Essay3.pdf"><img id="WP3" src="img/whitepaper/Picture3.png" width="40%">
+        <a href="docs/whitepaper/Essay4.pdf"><img id="WP4" src="img/whitepaper/Picture4.png" width="40%">
+        <a href="docs/whitepaper/Essay5.pdf"><img id="WP5" src="img/whitepaper/Picture5.png" width="40%">
+		<a href="docs/whitepaper/Essay6.pdf"><img id="WP6" src="img/whitepaper/Picture6.png" width="40%">
+        <a href="docs/whitepaper/Essay7.pdf"><img id="WP7" src="img/whitepaper/Picture7.png" width="40%">	
+     </center>
+<!--
+    <div class='dnSlide-main'>
+    </div>
+
+    <div class='dnSlide-main'>
+        <img id="WP-1" src="img/whitepaper/Picture-1.png" width="100%">
+        <img id="WP0" src="img/whitepaper/Picture0.png" width="100%">
+		<img id="WP1" src="img/whitepaper/Picture1.png" width="100%">
+		<img id="WP2" src="img/whitepaper/Picture2.png" width="100%">
+		<img id="WP3" src="img/whitepaper/Picture3.png" width="100%">
+        <img id="WP4" src="img/whitepaper/Picture4.png" width="100%">
+        <img id="WP5" src="img/whitepaper/Picture5.png" width="100%">
+		<img id="WP6" src="img/whitepaper/Picture6.png" width="100%">
+		<img id="WP7" src="img/whitepaper/Picture7.png" width="100%">	
+		
+    </div>
 	-->
-
-
+	<!-- Zurück zum Hauptmenü
+        <a class="backtoMenu" href="index - Kopie.html"> Zurück zum Hauptmenü </a>
+	-->
+    
+    
     <script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+    <!-- <script src="js/dnSlideWP.js"></script> -->
     <script src="js/dnSlide.js"></script>
     <script src="js/expandJS.js"></script>
     <script>
@@ -114,16 +145,34 @@
                     setting.switching     = "custom" ;
                     setting.precentWidth  = "25%" ;
                     var api = $(el).dnSlide(setting).data( "dnSlide" ); 
-                    $(".hide").on("click",function(){
-                        api.hide(function(){
-                            alert('HIDEEN！！！');
-                        });
-                    });
-                    $(".show").on("click",function(){
-                        api.show(function(){
-                            alert('SHOW！！！');
-                        });
-                    });
+                    break;
+                case 1:
+                    setting.autoPlay  =  true ;
+                    $(el).dnSlide(setting); 
+                    break;
+                case 2:
+                    setting.verticalAlign = "bottom" ;
+                    $(el).dnSlide(setting); 
+                    break;
+                default:
+                    $(el).dnSlide(setting); 
+                    break;
+            }
+        });
+    });
+    jQuery(document).ready(function($) {
+
+        $(".dnSlide-main2").each(function(index, el) {
+            var setting = {
+                "response" : true ,
+                afterClickBtnFn :function(i){ console.log(i); }
+            };
+            switch (index) {
+                case 0:
+                    setting.verticalAlign = "top" ;
+                    setting.switching     = "custom" ;
+                    setting.precentWidth  = "25%" ;
+                    var api = $(el).dnSlide(setting).data( "dnSlide" ); 
                     break;
                 case 1:
                     setting.autoPlay  =  true ;
@@ -141,50 +190,10 @@
     });
     </script>
 
-    <!--launchbar-->
-<div id="launchbar" class="launchbar">
+        <footer></footer>
+        <script>
+            document.onload = $("footer").load("./content/rocketbarIndex.html");
+        </script>
 
-    <div id="rocketbar" class="rocketbar">
-        <!-- see comments in rocketbar.css -->
-        <div class="wiki">
-            <a target="_blank" href="http://wiki.brillianideas.com"><img src="img/wiki.png" class="icon" alt="Cloud Wiki"></a>
-        </div>
-        <div class="icm">
-            <a target="_blank" href="http://brillianICM.com"><img src="img/brillianicm.png" class="icon" alt="brillianICM"></a>
-        </div>
-        <div class="crm">
-            <a target="_blank" href="http://brillianCRM.com"><img src="img/brilliancrm.png" class="icon" alt="brillianCRM"></a>
-        </div>
-        <div class="imbit">
-            <img id="tentacle_img_small_launchbar" class="img" src="img/launchbar_tentakel_u10.png" onclick="showRocketbar()">
-          <!--  <img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage" onclick="openTab('./#imbit');">-->
-            <a target="_self" href="http://www.brillianideas.com/#imbit"><img src="img/IMBIT.png" class="icon" alt="IMBIT Homepage"></a>
-        </div>
-        <div class="digitallearning">
-            <img src="img/digitalesLernen.png" class="icon" alt="digitales Lernen" onclick="window.open('http://brillianideas.com/#digitalLearning', '_self');">
-        </div>
-        <div class="interactive">
-            <img src="img/quiz.png" class="icon" alt="Quizzes" onmouseover="this.src='img/quiz_alt.png';" onmouseout="this.src='img/quiz.png';" onclick="window.open('content/octopus.html','_self')">
-        </div>
-        <div class="video">
-            <img src="img/newContent.png" class="icon" alt="New Content" onclick="window.open('LernvideosBWL.html','_self')">
-        </div>
-        <div class="impressum">
-            <img src="img/impressum.png" class="icon" alt="Impressum" onclick="window.open('content/impressum.html','_self')">
-        </div>
-    </div>
-</div>
     </body>
 </html>
-
-<script type="text/javascript">
-
-    /** Diese Funktion ist dafür zuständig, die Rocketbar durch klick auf den kleinen Tentakel in der linken unteren Ecke der Seite 
-    sichtbar zu machen. **/
-    function showRocketbar() {
-        console.log("1");
-        // document.getElementById("rocketbar").setAttribute("style", "transform: translateY(10%);");
-        document.getElementById("rocketbar").classList.toggle("open");
-    }
-</script>
-
