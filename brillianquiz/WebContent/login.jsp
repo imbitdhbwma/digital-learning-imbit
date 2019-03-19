@@ -1,3 +1,5 @@
+<%@ page import="org.dhbw.imbit11.ApplicationConstants"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <!-- <html xmlns="http://www.w3.org/1999/xhtml"  style="width:100%; margin:0; padding:0 ">-->
@@ -49,17 +51,26 @@ $(document).ready(function(){
 	//load progress from local Storage
 	function getLocalProgress() {
 		console.log(typeof parseInt(localStorage.getItem('userProgress')));
-		
 		return parseInt(localStorage.getItem('userProgress'))
 	}
 
 	var userProgress = initLocalProgress()
-	console.log('Completed: ' +  userProgress + ' Quizes')
+
+	//Add fishes
 	for(let i = 0; i < userProgress; i++){
-		console.log('Created '+ i + ' fishes');
 		new DivObject()
 	}
+	//reset button 
+	 if(userProgress > 0){
+			document.getElementById("reset").innerHTML = '<button id="removeProgress" onclick="dropLocalProgess();">Fortschritt löschen</button>'
+	 }
 })
+//delete local progress
+function dropLocalProgess() {
+		userProgress = 0;
+		localStorage.removeItem('userProgress')
+		location.reload();
+}
 </script>
 </head>
 
@@ -68,7 +79,7 @@ $(document).ready(function(){
 <h1>brillianQUIZ</h1>
 
 <div class="container">
-	<h3 id="firefoxwarning" style="color:red"> </h3>
+	<h3 id="firefoxwarning" style="color:red"></h3>
 <p style="color: red; text-align: left;">${error}</p>
 </div>
 <!--
@@ -95,6 +106,7 @@ $(document).ready(function(){
 	</a>
 </figure>
 
+<p id="reset"></p>
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>

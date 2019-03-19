@@ -44,11 +44,7 @@
 <script
 	type="text/javascript"
 	src="dev_files/helper.js"></script>
-	<script>
-function goBack() {
-  window.history.back();
-}
-</script>
+	
 <link
 	rel="stylesheet"
 	type="text/css"
@@ -90,7 +86,6 @@ function goBack() {
 			id="tentakel_r"
 			src="../img/tentakel_rtl.png">
     </div>
-	
 	<script>
 			
 		//get Parameter aus der URL, um entsprechendes Fach aus dem Json zufiltern 
@@ -174,7 +169,7 @@ function goBack() {
 								});
 								break;
 								
-								case "TL": 
+								/*case "TL": 
 								$(document).ready(function() {
 									createTL(
 										question,
@@ -184,6 +179,7 @@ function goBack() {
 									);
 								});
 								break;
+								*/
 	
 								/* case "TQ": 
 								$(document).ready(function() {
