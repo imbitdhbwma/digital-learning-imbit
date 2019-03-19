@@ -17,19 +17,23 @@
 $(document).ready(function(){
 	DivObject = function() {
 		var imgs = ['img/QuizMeerestiere/bwl/bwl-01.png', 'img/QuizMeerestiere/wi/wi-01.png', 'img/QuizMeerestiere/it/it-01.png'];
-		<!--var zrandom = Math.floor((Math.random() * -100) - 10);-->
+		/*var zrandom = Math.floor((Math.random() * -100) - 10);*/
 		this.div = document.createElement("div");
 		document.body.appendChild(this.div);
 		this.div.className = "fish";
 		this.div.style.top = parseInt( 100 * Math.random() ) + "%" ;
 	    this.div.style.left = parseInt( 100 * Math.random() ) + "%" ;
 		this.div.style.backgroundImage = 'url(' + imgs[Math.floor(Math.random() * imgs.length)] + ')';
-		<!--this.div.style.zIndex = zrandom;-->
+		/*this.div.style.zIndex = zrandom;*/
 	}
+	//firefox compatibility warning
 	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
-		console.log('ok')
 		document.getElementById('firefoxwarning').innerHTML = 'ACHTUNG: Die Quizze werden momentan nur in Chrome und Safari unterstützt.'
 	}
+	//user progress
+	import localProgress from '../localStorageProgress.js';
+	var userProgress = localProgress.initLocalProgress()
+	
 })
 </script>
 </head>

@@ -13,6 +13,8 @@ var richtigArray = [];
  */
 gibMirPunkte = true;
 
+
+
 function allowDrop(ev) {
 	ev.preventDefault();
 }
@@ -636,6 +638,13 @@ function evaluate() {
 	
 }
 
+
+//local storage user progress
+var isFishCreated = false;
+import localProgress from '../localStorageProgress.js';
+
+var userProgress = localProgress.initLocalProgress()
+
 // Genereate text after evaluating
 function createScoreText (){
 	document.getElementById('result').innerHTML = "Du hast " + score +" von "+ anzahlFragen + " Punkten erreicht";
@@ -647,6 +656,18 @@ function createScoreText (){
 	} else {
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
+
+
+}
+
+console.log('hi')
+if(!isFishCreated){
+	//add one step to user Progress
+	userProgress = userProgress++
+	//save
+	localProgress.setLocalProgress(userProgress)
+	console.log(userProgress);
+	
 }
 
 //Change color of numering depending on input to give feedback if the question has been answered correct or not
