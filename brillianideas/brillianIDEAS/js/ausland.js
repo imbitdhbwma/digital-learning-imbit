@@ -729,7 +729,7 @@ function initMap() {
     /* Initialize Marker21 (Sydney) */
     var contentString21 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Sydney &ndash;</h1>' +
-		'<h2 id="secondHeading">Elisah, 21</h2>' +
+		'<h2 id="secondHeading">Elisa, 21</h2>' +
 		'<div id="bodyContent">' +
         '<p>' +
         'In Sydney habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort dem lokalen CO/FI Team dabei geholfen eine neue Software zur Kosten- und Salesplanung zu implementieren. Zu meinen Aufgaben hat sowohl die Datenbereinigung und Validierung, als auch das Enduser- und Administratortraining gezählt. Des Weiteren habe ich auch einige Reportingtemplates gebaut. ' +
