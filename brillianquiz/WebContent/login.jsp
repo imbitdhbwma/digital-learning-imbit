@@ -40,24 +40,19 @@ $(document).ready(function(){
 	<h3 id="firefoxwarning" style="color:red"> </h3>
 <p style="color: red; text-align: left;">${error}</p>
 </div>
-
-<a href="#" onclick="new DivObject()">Fish</a>
-
-<!-- <h1>h1</h1> Inhalt 
-<div class="outer">
-<div class="inner" align="center">-->
+<!--
+<a href="#" onclick="new DivObject()">Fische im Hintergrund anzeigen</a>
+-->
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesWI.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/wi.gif" alt="WI">
 	<figcaption>WI</figcaption>
-	<!-- <p class="title"> Wirtschaftsinformatik </p> -->
 	</a>
 </figure>
 
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesBWL.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/bwl.gif" alt="BWL">
-	<!-- <p class="title"> BWL </p> -->
 	<figcaption>BWL</figcaption>
 	</a>
 </figure>
@@ -65,13 +60,10 @@ $(document).ready(function(){
 <figure>
 	<a href="/brillianQUIZ/content/QuizzesIT.jsp" style="text-decoration:none;">
 	<img class="animated" src="img/animated/it.gif" alt="IT">
-	<!-- <p class="title"> IT </p> -->
 	<figcaption>IT</figcaption>
 	</a>
 </figure>
 
-<!--</div>
-</div>-->
 
 <div class="loginkopf">
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
