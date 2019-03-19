@@ -129,7 +129,7 @@
 	<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
 	<footer></footer>
 	<script>
-		document.onload = $("footer").load("../brillianideas/brillianIDEAS/content/rocketbar.htm");
+		document.onload = $("footer").load("rocketbarQuiz.html");
 	</script>
 </body>
 </html>
