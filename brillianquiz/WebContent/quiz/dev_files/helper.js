@@ -656,19 +656,18 @@ function createScoreText (){
 	} else {
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
-
-
+	console.log('hi')
+	if(!isFishCreated){
+		//add one step to user Progress
+		userProgress = userProgress++
+		//save
+		localProgress.setLocalProgress(userProgress)
+		console.log(userProgress);
+		isFishCreated = true
+	}
 }
 
-console.log('hi')
-if(!isFishCreated){
-	//add one step to user Progress
-	userProgress = userProgress++
-	//save
-	localProgress.setLocalProgress(userProgress)
-	console.log(userProgress);
-	
-}
+
 
 //Change color of numering depending on input to give feedback if the question has been answered correct or not
 
