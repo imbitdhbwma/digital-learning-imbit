@@ -11,7 +11,7 @@
 			<link rel="stylesheet" href="../css/octopus.css">	
 			<link rel="shortcut container" href="../img/favcontainer.ico" type="image/ico" />
 			<link rel="stylesheet" type="text/css" href="../css/quiz.css" />
-			<link href="https://fonts.googleapis.com/css?family=Caveat|Caveat+Brush|Tinos" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="../css/fonts.css" />
 			<script language="javascript" type="text/javascript" src="../js/quiz.js"></script>
 			<script src="../js/jquery/jquery-3.3.1.min.js"></script>
 		
