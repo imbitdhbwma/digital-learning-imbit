@@ -134,7 +134,7 @@
 						if(subject===value) {
 							//Erzeugt Überschrift
 							document.getElementById('title').innerHTML = "Quiz "+ header;
-							console.log(header);
+							//console.log(header);
 
 							switch (questionType){
 								case "MC": 
@@ -202,7 +202,7 @@
 							}	
 
 							anzahlFragen++;
-							console.log(anzahlFragen);
+							//console.log(anzahlFragen);
 							var maxScore = anzahlFragen;
 						}
 					});
