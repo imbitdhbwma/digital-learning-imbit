@@ -209,13 +209,13 @@ function initMap() {
 		'<h2 id="secondHeading">Kevin, 22</h2>' +
         '<div id="bodyContent">' +
         '<p>' +
-        'Im Zuge meines Studiums habe ich drei Monate in Spaniens Hauptstadt Madrid verbracht. Dort war ich, neben dem Schreiben einer Projektarbeit, an der Einführung eines neuen SAP CRM Systems für unsere Standorte in Spanien, UK und Südafrika involviert. Geholfen haben mir dabei Vorlesungen wie Wirtschaftsinformatik und Datenbanken. Meine Freizeit habe ich mit der spanischen Küche, dem Nachtleben sowie den vielen Sehenswürdigkeiten und in Museen verbracht, die die Stadt zu bieten hat. Insgesamt war es eine tolle Erfahrung.'
+        'Im Zuge meines Studiums habe ich drei Monate in Spaniens Hauptstadt Madrid verbracht. Dort war ich, neben dem Schreiben einer Projektarbeit, an der Einführung eines neuen SAP CRM Systems für unsere Standorte in Spanien, UK und Südafrika involviert. Geholfen haben mir dabei Vorlesungen wie Wirtschaftsinformatik und Datenbanken. Meine Freizeit habe ich mit der spanischen Küche, dem Nachtleben sowie den vielen Sehenswürdigkeiten und in Museen verbracht, die die Stadt zu bieten hat. Insgesamt war es eine tolle Erfahrung.' +
 		
         
         '<h2 id="secondHeading">Luca, 20</h2>' +
         '<div id="bodyContent">' +
         '<p>' +
-        'In Madrid habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort mit einem internationalen Team die Implementation einer Track-and-Trace-Lösung gestartet. Ich habe viel Neues gelernt und hatte sehr viel Spaß.'
+        'In Madrid habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort mit einem internationalen Team die Implementation einer Track-and-Trace-Lösung gestartet. Ich habe viel Neues gelernt und hatte sehr viel Spaß.' +
 		
         
          '<h2 id="secondHeading">Hector, 26</h2>' +
@@ -702,16 +702,6 @@ function initMap() {
 		'</p>' +
         '</div>' +
         '</div>';
-        
-        '<h2 id="secondHeading"></h2>' +
-        '<div id="bodyContent">' +
-        '<p> ' +
-		'' +
-        '</p>' +
-        '</div>' +
-        '</div>';
-        '</div>' +
-        '</div>';
 
     var infowindow20 = new google.maps.InfoWindow({
         content: contentString20
@@ -739,7 +729,7 @@ function initMap() {
     /* Initialize Marker21 (Sydney) */
     var contentString21 = '<div id="content">' +
         '<h1 id="firstHeading">&ndash; Sydney &ndash;</h1>' +
-		'<h2 id="secondHeading">Elisa, 21</h2>' +
+		'<h2 id="secondHeading">Elisah, 21</h2>' +
 		'<div id="bodyContent">' +
         '<p>' +
         'In Sydney habe ich meinen 5. Praxiseinsatz verbracht. Ich habe dort dem lokalen CO/FI Team dabei geholfen eine neue Software zur Kosten- und Salesplanung zu implementieren. Zu meinen Aufgaben hat sowohl die Datenbereinigung und Validierung, als auch das Enduser- und Administratortraining gezählt. Des Weiteren habe ich auch einige Reportingtemplates gebaut. ' +
