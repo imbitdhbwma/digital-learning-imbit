@@ -174,7 +174,7 @@ function goBack() {
 								});
 								break;
 								
-								case "TL": 
+								/*case "TL": 
 								$(document).ready(function() {
 									createTL(
 										question,
@@ -184,6 +184,7 @@ function goBack() {
 									);
 								});
 								break;
+								*/
 	
 								/* case "TQ": 
 								$(document).ready(function() {
