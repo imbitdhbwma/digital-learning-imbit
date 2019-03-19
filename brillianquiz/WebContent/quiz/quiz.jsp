@@ -44,6 +44,11 @@
 <script
 	type="text/javascript"
 	src="dev_files/helper.js"></script>
+	<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 <link
 	rel="stylesheet"
 	type="text/css"
