@@ -132,6 +132,12 @@ function dropLocalProgess() {
 
 
 
-</body>
+<!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
+<footer></footer>
+<script>
 
+document.onload = $("footer").load("./content/rocketbarQuiz.html");
+
+
+</script>
 </html>
