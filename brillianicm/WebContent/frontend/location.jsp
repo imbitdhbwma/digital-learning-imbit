@@ -26,7 +26,7 @@
 
 	<!-- eventtyp 2: Start Page -->
 	<div class="pictureContainer"
-		style="background-color: #d5edf3; width: 100%; height: 100%;"
+		style=" background: #d5edf3 url('../images/WelcomePage.png');width: 100%; height: 100%;"
 		data-options="fit:true,border:false">
 		<div class="bgimg"
 			style="width: 60% !important; float: right !important;"></div>

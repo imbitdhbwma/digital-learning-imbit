@@ -1,0 +1,55 @@
+/* CSS for both boxes around answers and drop boxes */
+.orderQuiz {
+	font-size: 30px;
+	border: blue solid 2px;
+}
+/* Draggable answers */
+.dragOD {
+	margin: 5px 0px 5px 0px;
+	padding: 0px 15px 0px 15px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#antwortenOD {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	padding-bottom: 11%;
+}
+
+/* drop box*/
+#boxenOD {
+	display: block;
+	position: absolute;
+	right: 4.5%;
+	min-height: 5%;
+	max-width: 54%;
+	width: 59%;
+	min-width: 20%;
+}
+
+.dropboxOD {
+	display: block;
+	float: right;
+	margin: 0px 10px 5px 10px;
+	padding: 0px 0px 35px 0px;
+	border: 5px solid white;
+	min-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	max-width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	min-height: 75px;
+	color: white;
+	background-color: #591220;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.titelOD {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	width: 300px; /*box breite anpassen, müssen übereinstimmen*/
+	background-color: black;
+}
