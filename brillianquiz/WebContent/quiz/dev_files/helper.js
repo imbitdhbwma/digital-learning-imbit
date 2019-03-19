@@ -648,7 +648,7 @@ function createScoreText (){
 		document.getElementById('resultText').innerHTML = "Scheint als ob du mit dem Stoff nicht vertraut bist. Vertiefe dein Wissen indem du dich weiter mit dem IMBIT-Curriculum beschäftigst.";
 	}
 }
-
+document.getElementById('back').innerHTML = '<button class="button" onclick="goBack()">Neues Quiz</button>';
 //Change color of numering depending on input to give feedback if the question has been answered correct or not
 
 /*function changeColor (){
