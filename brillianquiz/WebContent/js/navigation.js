@@ -36,9 +36,31 @@ $(window).on('load', function(){
 		return false;
 	});
 
+	$('.footerLinkSinglePage').on('click', function(e){
+		e.preventDefault();
+		var target = $(e.delegateTarget);
+		console.log(target);
+		
+		if (!target.is('.current')){
+			var current = jQuery('.current');
+
+			// if (!(target.parent().hasClass('home')) && mystickybar.$stickybar != undefined)
+			// 	mystickybar.showhide("hide");
+			current.toggleClass('current');
+			target.parent().toggleClass('current');
+
+			jQuery.ajax({
+				url: target.attr('href')
+			}).done(function(data){
+				jQuery('#content').empty().append(data);
+			})
+		}
+		return false;
+	});
+
 	$('.dotstyle-fillup li a').on('click', function(e){
 		e.preventDefault();
-		var target = $(e.target);
+		var target = $(e.target);		
 		if (!target.is('.current')){
 			var current = jQuery('.current');
 

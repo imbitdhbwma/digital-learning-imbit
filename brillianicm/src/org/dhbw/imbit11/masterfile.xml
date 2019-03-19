@@ -15,7 +15,7 @@
 		<option href="l400e000">USA</option>
 		<option href="l800e000">Turkey</option>
 		<option href="l900e000">Australia</option>
-		
+		<bgimg>WelcomePage.png</bgimg>
 	</event>
 
 
@@ -1203,89 +1203,84 @@
 	
 	<event level="0" element="3" id="l700e010" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_0.JPG</bgimg>
+		<bgimg>BA_training_9_0.PNG</bgimg>
 		<nextevent href="l700e015"/>
 	</event>
 	<event level="0" element="4" id="l700e015" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_02.JPG</bgimg>
+		<bgimg>BA_training_9_02.PNG</bgimg>
 		<nextevent href="l700e020"/>
 	</event>	
 	<event level="0" element="5" id="l700e020" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_03.JPG</bgimg>
+		<bgimg>BA_training_9_03.PNG</bgimg>
 		<nextevent href="l700e025"/>
 	</event>	
 	<event level="0" element="6" id="l700e025" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_04.JPG</bgimg>
+		<bgimg>BA_training_9_04.PNG</bgimg>
 		<nextevent href="l700e030"/>
 	</event>	
 	<event level="0" element="7" id="l700e030" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_05.JPG</bgimg>
+		<bgimg>BA_training_9_05.PNG</bgimg>
 		<nextevent href="l700e035"/>
 	</event>
 	<event level="0" element="8" id="l700e035" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_06.JPG</bgimg>
+		<bgimg>BA_training_9_06.PNG</bgimg>
 		<nextevent href="l700e040"/>
 	</event>
 
 	<event level="0" element="9" id="l700e040" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_07.JPG</bgimg>
+		<bgimg>BA_training_9_07.PNG</bgimg>
 		<nextevent href="l700e045"/>
 	</event>
 	<event level="0" element="10" id="l700e045" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_08.JPG</bgimg>
+		<bgimg>BA_training_9_08.PNG</bgimg>
 		<nextevent href="l700e050"/>
 	</event>	
 	<event level="0" element="11" id="l700e050" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_09.JPG</bgimg>
+		<bgimg>BA_training_9_09.PNG</bgimg>
 		<nextevent href="l700e055"/>
 	</event>	
 	<event level="0" element="12" id="l700e055" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_10.JPG</bgimg>
+		<bgimg>BA_training_9_10.PNG</bgimg>
 		<nextevent href="l700e060"/>
 	</event>	
 	<event level="0" element="13" id="l700e060" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_11.JPG</bgimg>
+		<bgimg>BA_training_9_11.PNG</bgimg>
 		<nextevent href="l700e065"/>
 	</event>
 	<event level="0" element="14" id="l700e065" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_12.JPG</bgimg>
+		<bgimg>BA_training_9_12.PNG</bgimg>
 		<nextevent href="l700e070"/>
 	</event>
 	<event level="0" element="15" id="l700e070" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_13.JPG</bgimg>
+		<bgimg>BA_training_9_13.PNG</bgimg>
 		<nextevent href="l700e075"/>
 	</event>
 	<event level="0" element="16" id="l700e075" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_14.JPG</bgimg>
+		<bgimg>BA_training_9_14.PNG</bgimg>
 		<nextevent href="l700e080"/>
 	</event>
 	<event level="0" element="17" id="l700e080" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_15.JPG</bgimg>
+		<bgimg>BA_training_9_15.PNG</bgimg>
 		<nextevent href="l700e085"/>
 	</event>
 	<event level="0" element="18" id="l700e085" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
 		<content/>
-		<bgimg>BA_training_9_16.JPG</bgimg>
+		<bgimg>BA_training_9_16.PNG</bgimg>
 		<nextevent href="l700e090"/>
-	</event>
-	<event level="0" element="19" id="l700e090" eventtype="24" imcost="0" imqual="0" imtime="0" loc="4">
-		<content/>
-		<bgimg>BA_training_9_17.JPG</bgimg>
-		<nextevent href="l700e095"/>
 	</event>
 	<event level="worldmap" element="20" id="l700e095" eventtype="25" imcost="+5" imqual="0" imtime="+5" loc="4">
 		  <title>WorldMap</title>
@@ -7795,14 +7790,14 @@ In China it is highly important to show respect to your guest. With inviting you
 	<!-- Intro Video Man -->
 	<event level ="1" id="l602e000" eventtype ="3" imcost="0" imqual="0" imtime="0" loc="4">
 		<content>Welcome to India! Enjoy the experience. (Please wait a second, a video will start soon.)</content>
-		<bgvid>Intro.MP4</bgvid>
+		<bgvid>Intro.mp4</bgvid>
 		<option href="l603e000">Start</option>
 	</event>
 
 	<!-- Intro Video Woman -->
 	<event level ="1" id="l602e100" eventtype ="3" imcost="0" imqual="0" imtime="0" loc="4">
 		<content>Welcome to India! Enjoy the experience. (Please wait a second, a video will start soon.)</content>
-		<bgvid>Intro.MP4</bgvid>
+		<bgvid>Intro.mp4</bgvid>
 		<option href="l603e100">Start</option>
 	</event>
 	
@@ -7930,7 +7925,7 @@ In China it is highly important to show respect to your guest. With inviting you
 
 	<event level ="1" id="l610e010" eventtype ="3" imcost="0" imqual="0" imtime="0" loc="4">
 		<content>Cows in the middle of the road! (Please wait a second, a video will start soon.)</content>
-		<bgvid>Kuehe.MP4</bgvid>
+		<bgvid>Kuehe.mp4</bgvid>
 		<option href="l610e001">Next</option>
 	</event>
 
@@ -7993,7 +7988,7 @@ In China it is highly important to show respect to your guest. With inviting you
 
 	<event level ="1" id="l610e110" eventtype ="3" imcost="0" imqual="0" imtime="0" loc="4">
 		<content>Cows in the middle of the road! (Please wait a second, a video will start soon.)</content>
-		<bgvid>Kuehe.MP4</bgvid>
+		<bgvid>Kuehe.mp4</bgvid>
 		<option href="l610e101">Next</option>
 	</event>
 
@@ -9162,7 +9157,7 @@ In China it is highly important to show respect to your guest. With inviting you
 			To negotiate the commodity prices for the upcoming fiscal year with our New Delhi based supplier, Bharat travels to India's capital the next day. (Please wait a second, a video will start soon.)
 		</content>
 		<option href="l651e000">Next</option>
-		<bgvid>Flug.MP4</bgvid>
+		<bgvid>Flug.mp4</bgvid>
 	</event>
 
 		<event level="1" element="0" id="l651e000" eventtype="23" imcost="0" imqual="0" imtime="0" loc="4">
@@ -9225,7 +9220,7 @@ In China it is highly important to show respect to your guest. With inviting you
 			To negotiate the commodity prices for the upcoming fiscal year with our New Delhi based supplier, Bharat travels to India's capital the next day. (Please wait a second, a video will start soon.)
 		</content>
 		<option href="l651e100">Next</option>
-		<bgvid>Flug.MP4</bgvid>
+		<bgvid>Flug.mp4</bgvid>
 	</event>
 
 
@@ -10086,7 +10081,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<content>
 			The next day you fly back to Germany. Your time in India was very interesting and instructive! (Please wait a second, a video will start soon.)
 		</content>
-		<bgvid>Schluss.MP4</bgvid>
+		<bgvid>Schluss.mp4</bgvid>
 		<option href="l690e001">Next</option>
 	</event>
 
@@ -10143,7 +10138,7 @@ In China it is highly important to show respect to your guest. With inviting you
 		<content>
 			The next day you fly back to Germany. Your time in India was very interesting and instructive! (Please wait a second, a video will start soon.)
 		</content>
-		<bgvid>Schluss.MP4</bgvid>
+		<bgvid>Schluss.mp4</bgvid>
 		<option href="l690e101">Next</option>
 	</event>
 
