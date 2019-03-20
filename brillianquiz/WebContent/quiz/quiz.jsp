@@ -75,17 +75,6 @@
 	</div>
 	</div>
 
-
-	<div id="tl">
-		<img
-			id="tentakel_l"
-			src="../img/tentakel_ltr.png">
-	</div>
-	<div id="tr">
-		<img
-			id="tentakel_r"
-			src="../img/tentakel_rtl.png">
-    </div>
 	<script>
 			
 		//get Parameter aus der URL, um entsprechendes Fach aus dem Json zufiltern 
@@ -169,7 +158,7 @@
 								});
 								break;
 								
-								/*case "TL": 
+								case "TL": 
 								$(document).ready(function() {
 									createTL(
 										question,
@@ -179,7 +168,7 @@
 									);
 								});
 								break;
-								*/
+								
 	
 								/* case "TQ": 
 								$(document).ready(function() {
