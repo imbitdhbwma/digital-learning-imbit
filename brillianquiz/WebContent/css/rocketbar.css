@@ -3,25 +3,25 @@ navigation logic in the small tentacle images.
 With 99% probability this logic has to be done With
 JS as there is no or not sufficient CSS only solution. */
 
-.rocketbar{
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5); /* was grey */
-/* 	opacity: 0.5;
+.rocketbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* was grey */
+  /* 	opacity: 0.5;
 	filter: alpha(opacity=50); /* For IE8 and earlier */
-	position: fixed;
-	bottom: 0;
-	left: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   margin: 0;
-	max-height: 0;
+  max-height: 0;
 
-	transition: all 1.5s;
+  transition: all 1.5s;
   z-index: 2;
 
-/* grid definition */
+  /* grid definition */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows:auto;
-  grid-template-areas: "imbit digitallearning icm crm interactive video impressum"; /* Hier wird die Reihenfolge der Links in der Rocketbar festgelegt */
+  grid-template-rows: auto;
+  grid-template-areas: 'imbit digitallearning icm crm interactive video impressum'; /* Hier wird die Reihenfolge der Links in der Rocketbar festgelegt */
   /* grid-column-gap: 2vw; */
 }
 
@@ -30,15 +30,16 @@ JS as there is no or not sufficient CSS only solution. */
 }
 
 /* tentacle on top of rocketbar */
-#tentacle_img_small_launchbar{
+#tentacle_img_small_launchbar {
   position: absolute;
-  top:-47px;
+  top: -47px;
   left: 5vw;
-	cursor: pointer;
+  cursor: pointer;
+  max-height: 50px;
 }
 
 /* grid classes */
-.icon{
+.icon {
   max-height: 16vh;
   max-width: 80%;
   padding-top: 10%;
@@ -46,42 +47,42 @@ JS as there is no or not sufficient CSS only solution. */
   cursor: pointer;
 }
 
-.imbit{
+.imbit {
   grid-area: imbit;
   text-align: center;
 }
 
-.digitallearning{
+.digitallearning {
   grid-area: digitallearning;
   text-align: center;
 }
 
-.icm{
+.icm {
   grid-area: icm;
   text-align: center;
 }
 
-.crm{
+.crm {
   grid-area: crm;
   text-align: center;
 }
 
-.wiki{
+.wiki {
   grid-area: wiki;
   text-align: center;
 }
 
-.interactive{
+.interactive {
   grid-area: interactive;
   text-align: center;
 }
 
-.video{
+.video {
   grid-area: video;
   text-align: center;
 }
 
-.impressum{
+.impressum {
   grid-area: impressum;
   text-align: center;
 }
