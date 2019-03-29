@@ -1,87 +1,81 @@
 <!-- Autor: Felix Reinhardt, Elisa Heinstadt WIMBIT 16C 2018-->
 
-
-   
-	<link rel="stylesheet" type="text/css" href="./css/rocketbar.css">
-	<script src="./js/rocketbar.js"></script>
-    <script src="./js/navigation.js"></script>	
-
+<link rel="stylesheet" type="text/css" href="../css/rocketbar.css" />
+<script src="../js/rocketbar.js"></script>
+<script src="../js/navigation.js"></script>
 
 <div id="rocketbar" class="rocketbar">
-	<!-- Rocketbar Code, wird in footer geladen -->
-	<div class="imbit">
-		<img
-			id="tentacle_img_small_launchbar"
-			class="img"
-			src="./img/launchbar_tentakel_u10.png"
-			onclick="showRocketbar()"> <img
-			src="./img/IMBIT.png"
-			class="icon"
-			alt="IMBIT Homepage"
-			onclick="window.open('/index.html#curriculum', '_self');">
-	</div>
-	<div class="digitallearning">
-		<img
-			src="./img/digitalesLernen.png"
-			class="icon"
-			alt="digitales Lernen"
-			onclick="window.open('/index.html#digitalLearning', '_self');">
-	</div>
-	<div class="icm">
-		<a
-			id="icmLink"
-			target="_blank"
-			href="/brillianICM"><img
-			src="./img/brillianicm.png"
-			class="icon"
-			alt="brillianICM"></a>
-	</div>
-	<div class="crm">
-		<a
-			id="crmLink"
-			target="_blank"
-			href="/brillianCRM"><img
-			src="./img/brilliancrm.png"
-			class="icon"
-			alt="brillianCRM"></a>
-	</div>
+  <!-- Rocketbar Code, wird in footer geladen -->
+  <div class="imbit">
+    <img
+      id="tentacle_img_small_launchbar"
+      class="img"
+      src="../img/launchbar_tentakel_u10.png"
+      onclick="showRocketbar()"
+    />
+    <a id="curriculumLink" href="/index.html#curriculum">
+      <img src="../img/IMBIT.png" class="icon" alt="IMBIT Homepage" />
+    </a>
+  </div>
+  <div class="digitallearning">
+    <a id="digitalLearningLink" href="/index.html#digitalLearning">
+      <img
+        src="../img/digitalesLernen.png"
+        class="icon"
+        alt="digitales Lernen"
+      />
+    </a>
+  </div>
+  <div class="icm">
+    <a id="icmLink" target="_blank" href="/brillianICM"
+      ><img src="../img/brillianicm.png" class="icon" alt="brillianICM"
+    /></a>
+  </div>
+  <div class="crm">
+    <a id="crmLink" target="_blank" href="/brillianCRM"
+      ><img src="../img/brilliancrm.png" class="icon" alt="brillianCRM"
+    /></a>
+  </div>
 
-	<div class="interactive">
-		<a
-				id="quizLink"
-				href="/brillianQUIZ"><img
-				src="./img/quiz.png"
-				class="icon"
-				alt="Quizzes"
-				onmouseover="this.src='../img/quiz_alt.png';"
-				onmouseout="this.src='../img/quiz.png'"></a>
-		</div>
-	<div class="video">
-		<img
-			src="./img/newContent.png"
-			class="icon"
-			alt="New Content"
-			onclick="window.open('/LernvideosBWL.html','_self')">
-	</div>
-	<div class="impressum">
-		<img
-			src="./img/impressum.png"
-			class="icon"
-			alt="Impressum"
-			onclick="window.open('/content/impressum.html','_self')">
-	</div>
-
+  <div class="interactive">
+    <a id="quizLink" href="/brillianQUIZ"
+      ><img
+        src="../img/quiz.png"
+        class="icon"
+        alt="Quizzes"
+        onmouseover="this.src='../img/quiz_alt.png';"
+        onmouseout="this.src='../img/quiz.png'"
+    /></a>
+  </div>
+  <div class="video">
+    <img
+      src="../img/newContent.png"
+      class="icon"
+      alt="New Content"
+      onclick="window.open('/LernvideosBWL.html','_self')"
+    />
+  </div>
+  <div class="impressum">
+    <img
+      src="../img/impressum.png"
+      class="icon"
+      alt="Impressum"
+      onclick="window.open('/content/impressum.html','_self')"
+    />
+  </div>
 </div>
 
 <script type="text/javascript">
-	function showRocketbar() {
-		console.log("Toggled rocketbar.");
-		document.getElementById("rocketbar").classList.toggle("open");
-	}
-	function loadRocketbarLinks() {
-		document.getElementById("icmLink").port = "8080";
-		document.getElementById("crmLink").port = "8080";
-		document.getElementById("quizLink").port = "8080";
-	}
-	document.onload = loadRocketbarLinks();
+  function showRocketbar() {
+    console.log('Toggled rocketbar.')
+    document.getElementById('rocketbar').classList.toggle('open')
+  }
+  function loadRocketbarLinks() {
+    document.getElementById('digitalLearningLink').port = '80'
+    document.getElementById('curriculumLink').port = '80'
+    document.getElementById('icmLink').port = '8080'
+    document.getElementById('crmLink').port = '8080'
+    document.getElementById('quizLink').port = '8080'
+  }
+  document.onload = loadRocketbarLinks()
 </script>
