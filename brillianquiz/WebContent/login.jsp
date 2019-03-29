@@ -136,7 +136,7 @@ function dropLocalProgess() {
 <footer></footer>
 <script>
 
-document.onload = $("footer").load("./content/rocketbarQuiz.html");
+document.onload = $("footer").load("./content/rocketbarQuizLogin.html");
 
 
 </script>
