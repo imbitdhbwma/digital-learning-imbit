@@ -153,12 +153,10 @@ ueberschrift {
   left: 0px;
 }
 .dnSlide-main .dnSlide-left-btn, .dnSlide-main2 .dnSlide2-left-btn {
-  background-image: url("../images/left.svg");
   background-size: 35%;
   left: 0;
 }
 .dnSlide-main .dnSlide-right-btn, .dnSlide-main2 .dnSlide2-right-btn {
-  background-image: url("../images/right.svg");
   background-size: 35%;
   right: 0;
   left: auto;
