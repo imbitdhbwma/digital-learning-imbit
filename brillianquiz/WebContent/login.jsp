@@ -112,8 +112,13 @@ function dropLocalProgess() {
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
          
+<<<<<<< HEAD
 <div id="login">
     <!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;"> -->
+=======
+
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
+>>>>>>> parent of 08eadfe2... Update login.jsp
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
@@ -137,8 +142,13 @@ function offline() {
 		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
+<<<<<<< HEAD
     <!-- </form> -->
 </div>
+=======
+    </form>
+
+>>>>>>> parent of 08eadfe2... Update login.jsp
 
 
 <!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
