@@ -112,7 +112,7 @@ function dropLocalProgess() {
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
          
-
+<div id="login">
     <!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;"> -->
         <p>
            Willst du deinen Fortschritt speichern?
@@ -138,7 +138,7 @@ function offline() {
 </div>
 		</p>
     <!-- </form> -->
-
+</div>
 
 
 <!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
