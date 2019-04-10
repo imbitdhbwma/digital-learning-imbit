@@ -127,7 +127,7 @@ function dropLocalProgess() {
 
 <script>
 function offline() {
-  alert("Diese Funktion ist momentan noch nicht Verfügbar.");
+  alert("Diese Funktion ist momentan noch nicht verfügbar.");
 }
 </script>
 <div class="loginlinks">
