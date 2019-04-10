@@ -118,7 +118,7 @@ function dropLocalProgess() {
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" /> <br>
+            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" />
 
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
