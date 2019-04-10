@@ -112,23 +112,12 @@ function dropLocalProgess() {
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
          
-<<<<<<< HEAD
-<<<<<<< HEAD
-<div id="login">
-    <!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;"> -->
-=======
-
-    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
->>>>>>> parent of 08eadfe2... Update login.jsp
-=======
-
-    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
->>>>>>> parent of 08eadfe2... Update login.jsp
+<form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" />
+            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" /> <br>
 
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
@@ -137,7 +126,7 @@ function dropLocalProgess() {
 
 <script>
 function offline() {
-  alert("Diese Funktion ist momentan noch nicht Verfügbar.");
+  alert("Diese Funktion ist momentan noch nicht verfügbar.");
 }
 </script>
 <div class="loginlinks">
@@ -147,16 +136,8 @@ function offline() {
 		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <!-- </form> -->
-</div>
-=======
-=======
->>>>>>> parent of 08eadfe2... Update login.jsp
-    </form>
 
->>>>>>> parent of 08eadfe2... Update login.jsp
 
 
 <!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
