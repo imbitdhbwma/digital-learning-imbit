@@ -80,7 +80,7 @@ function dropLocalProgess() {
 
 <div class="container">
 	<h3 id="firefoxwarning"></h3>
-<p style="text-align: left;">${error}</p>
+<!-- <p style="text-align: left;">${error}</p> -->
 </div>
 <!--
 <a href="#" onclick="new DivObject()">Fische im Hintergrund anzeigen</a>
@@ -112,23 +112,31 @@ function dropLocalProgess() {
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
          
-
-    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
+<form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
         <p>
-            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" />
+            <input type="text" value="" name="username" class="form-control" placeholder="E-Mail" /> <br>
 
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
-            <input type="submit" class="btn btn-primary" value="Anmelden" />
+            <!-- <input type="submit" class="btn btn-primary" value="Anmelden" /> -->
+			<button onclick="offline()">Anmelden</button>
+
+<script>
+function offline() {
+  alert("Diese Funktion ist momentan noch nicht verfügbar.");
+}
+</script>
 <div class="loginlinks">
-		<a href='resetpw.jsp'>Kennwort vergessen?</a>
-		<a href="Registration?g=000">Konto erstellen</a>
+		<!-- <a href='resetpw.jsp'>Kennwort vergessen?</a>
+		<a href="Registration?g=000">Konto erstellen</a>-->
+		<a onclick="offline()" href="#">Kennwort vergessen?</a>
+		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
-    </form>
+    <!-- </form> -->
 
 
 
