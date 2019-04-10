@@ -80,7 +80,7 @@ function dropLocalProgess() {
 
 <div class="container">
 	<h3 id="firefoxwarning"></h3>
-<p style="text-align: left;">${error}</p>
+<!-- <p style="text-align: left;">${error}</p> -->
 </div>
 <!--
 <a href="#" onclick="new DivObject()">Fische im Hintergrund anzeigen</a>
