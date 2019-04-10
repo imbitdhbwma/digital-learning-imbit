@@ -113,8 +113,13 @@ function dropLocalProgess() {
 </div>
          
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div id="login">
     <!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;"> -->
+=======
+
+    <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
+>>>>>>> parent of 08eadfe2... Update login.jsp
 =======
 
     <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
@@ -143,9 +148,12 @@ function offline() {
 </div>
 		</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- </form> -->
 </div>
 =======
+=======
+>>>>>>> parent of 08eadfe2... Update login.jsp
     </form>
 
 >>>>>>> parent of 08eadfe2... Update login.jsp
