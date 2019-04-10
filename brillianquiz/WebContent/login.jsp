@@ -122,10 +122,19 @@ function dropLocalProgess() {
 
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
-            <input type="submit" class="btn btn-primary" value="Anmelden" />
+            <!-- <input type="submit" class="btn btn-primary" value="Anmelden" /> -->
+			<button onclick="offline()">Anmelden</button>
+
+<script>
+function offline() {
+  alert("Diese Funktion ist momentan noch nicht Verfügbar.");
+}
+</script>
 <div class="loginlinks">
-		<a href='resetpw.jsp'>Kennwort vergessen?</a>
-		<a href="Registration?g=000">Konto erstellen</a>
+		<!-- <a href='resetpw.jsp'>Kennwort vergessen?</a>
+		<a href="Registration?g=000">Konto erstellen</a>-->
+		<a onclick="offline()" href="#">Kennwort vergessen?</a>
+		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
     </form>
