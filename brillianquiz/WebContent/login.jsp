@@ -112,7 +112,9 @@ function dropLocalProgess() {
 <a data-fancybox="login" data-src="#login" href="javascript:;"><img src="img/background/kopf01.png" alt="Login"> </a>
 </div>
          
-<form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;">
+<!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;" -->
+<form id="login" onsubmit="offline()" style="display: none;width:100%;max-width:400px;">
+
         <p>
            Willst du deinen Fortschritt speichern?
         </p>
@@ -121,8 +123,7 @@ function dropLocalProgess() {
 
             <input type="password" value="" name="password" class="form-control" placeholder="Kennwort" />
 
-            <!-- <input type="submit" class="btn btn-primary" value="Anmelden" /> -->
-			<button onclick="offline()">Anmelden</button>
+            <input type="submit" class="btn btn-primary" value="Anmelden" />
 
 <script>
 function offline() {
@@ -136,7 +137,7 @@ function offline() {
 		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
-    <!-- </form> -->
+ </form>
 
 
 
