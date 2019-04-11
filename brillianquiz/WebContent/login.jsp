@@ -136,7 +136,7 @@ function offline() {
 		<a onclick="offline()" href="#">Konto erstellen</a>
 </div>
 		</p>
-    <!-- </form> -->
+ </form>
 
 
 
