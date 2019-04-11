@@ -142,11 +142,11 @@ function offline() {
 
 
 <!--Rocketbar + kleiner Krakenarm aus rocketbar.html geladen-->
-<footer></footer>
 <script>
 
 document.onload = $("footer").load("./content/rocketbarQuizLogin.html");
 
 
 </script>
+</body>
 </html>
