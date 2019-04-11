@@ -113,7 +113,7 @@ function dropLocalProgess() {
 </div>
          
 <!-- <form id="login" action="LoginUser" method="post" style="display: none;width:100%;max-width:400px;" -->
-<form id="login" onsubmit="offline()" style="display: none;width:100%;max-width:400px;">
+<form id="login" onsubmit="offline()" method="post" style="display: none;width:100%;max-width:400px;">
 
         <p>
            Willst du deinen Fortschritt speichern?
