@@ -444,7 +444,7 @@
 					<li>
 				<p>
 					<a target="_blank" href="LernvideosBWL.html"><img class= "iconGroesse" src="../img/quiz_inv.png" alt="Quiz"></a>
-					<a target="_blank" id="quizLink1" href="/brillianQUIZ/quiz/quiz.jsp?subject=wirtschaftsinformatik">WI Quiz</a>&mdash; Probier das WI Quiz!
+					<a target="_blank" id="quizLinkEins" href="/brillianQUIZ/quiz/quiz.jsp?subject=wirtschaftsinformatik">WI Quiz</a>&mdash; Probier das WI Quiz!
 				</p>
 
 			</li>
@@ -4196,7 +4196,8 @@
     }
 
 	function loadLinks(){
-		document.getElementById("quizLink1").port = "8080";
+		console.log("Hallo von loadLinks");
+		document.getElementById("quizLinkEins").port = "8080";
 		document.getElementById("quizLink2").port = "8080";
 		document.getElementById("quizLink3").port = "8080";
 		document.getElementById("quizLink4").port = "8080";
@@ -4221,11 +4222,9 @@
 		document.getElementById("quizLink23").port = "8080";
 		document.getElementById("quizLink24").port = "8080";
 		document.getElementById("quizLink25").port = "8080";
-		document.getElementById("quizLink26").port = "8080";
 
 	}
+	console.log("Hallo von vor Methodenaufruf");
 	document.onload = loadLinks();
-
-
 
 </script>
