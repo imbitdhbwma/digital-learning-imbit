@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<head>
+<style>
+body {
+	background-image: url("/img/bg.jpg");
+	color: #ffffff;
+}
+table {
+	text-align: left;
+	width:100%
+}
+img.displayed {
+	max-width:100%;
+	height:auto;
+	margin-left: auto;	
+}
+td.title {
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 3vw
+}
+</style>
+<script style="javascript">
+	function changePort() {
+		document.getElementById('modify-me').src = window.location.protocol + "//" + window.location.hostname + "/img/red.png";
+		document.body.style.backgroundImage = "url("+ window.location.protocol + "//" + window.location.hostname + "/img/bg.jpg" + ")"
+	}
+</script>
+</head>
+<body  onload="changePort()">
+<table>
+<tr>
+<td class=travolta><img class=displayed src="" alt="eine kleine Krake" id="modify-me"></td>
+<td class=title><b>Error 404:</b></br>Page not found</br><a href="javascript:history.back()">Hier geht's zurück</a></td>
+</tr></table>
+</body>
+</html>
