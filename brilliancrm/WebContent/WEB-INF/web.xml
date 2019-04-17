@@ -139,9 +139,8 @@
 		</user-data-constraint>
 	</security-constraint>
 	-->
-<error-page>
-	<error-code>
-		<location>/404page.html</location>
-	</error-code>
-</error-page>
+	<error-page>
+        <error-code>404</error-code>
+        <location>/404page.html</location>
+    </error-page>
 </web-app>
